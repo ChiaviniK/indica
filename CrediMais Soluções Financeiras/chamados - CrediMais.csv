@@ -1,0 +1,801 @@
+chamado_id,cliente_id,data_abertura,categoria,tempo_resposta_min,resolvido
+1,233,2025-06-29,Financeiro,78,Sim
+2,110,2025-01-22,Financeiro,109,Sim
+3,165,2025-04-11,Técnico,27,Não
+4,194,2024-12-11,Técnico,34,Sim
+5,7,2024-09-19,Dúvidas Gerais,115,Sim
+6,432,2025-07-18,Técnico,62,Sim
+7,139,2025-06-15,Dúvidas Gerais,99,Sim
+8,459,2024-08-26,Dúvidas Gerais,56,Sim
+9,343,2025-07-24,Financeiro,60,Sim
+10,287,2025-05-01,Dúvidas Gerais,14,Sim
+11,428,2025-02-24,Financeiro,23,Sim
+12,301,2025-07-24,Dúvidas Gerais,23,Sim
+13,456,2025-05-03,Dúvidas Gerais,112,Sim
+14,56,2024-12-08,Dúvidas Gerais,91,Sim
+15,160,2024-12-23,Técnico,63,Sim
+16,496,2024-11-10,Técnico,48,Não
+17,149,2024-11-23,Financeiro,109,Sim
+18,287,2025-03-17,Dúvidas Gerais,63,Sim
+19,257,2024-08-19,Financeiro,100,Sim
+20,461,2025-05-28,Financeiro,88,Sim
+21,139,2024-12-22,Dúvidas Gerais,8,Sim
+22,349,2024-12-29,Técnico,101,Sim
+23,324,2025-02-02,Técnico,116,Sim
+24,292,2024-09-24,Financeiro,69,Sim
+25,335,2025-07-06,Técnico,17,Sim
+26,187,2024-11-19,Dúvidas Gerais,71,Sim
+27,323,2025-03-05,Dúvidas Gerais,16,Sim
+28,184,2025-01-26,Técnico,97,Sim
+29,307,2025-07-18,Técnico,59,Sim
+30,413,2025-06-24,Financeiro,65,Sim
+31,469,2025-02-22,Técnico,99,Sim
+32,386,2025-01-14,Financeiro,45,Sim
+33,262,2025-05-23,Dúvidas Gerais,40,Sim
+34,415,2025-04-27,Dúvidas Gerais,6,Sim
+35,310,2025-02-14,Dúvidas Gerais,26,Sim
+36,344,2025-02-03,Técnico,26,Sim
+37,424,2025-07-22,Técnico,45,Sim
+38,145,2024-12-03,Técnico,99,Sim
+39,261,2024-11-13,Financeiro,113,Não
+40,2,2024-09-15,Financeiro,18,Não
+41,314,2025-01-03,Financeiro,97,Não
+42,12,2024-12-02,Dúvidas Gerais,39,Sim
+43,261,2025-06-28,Financeiro,54,Sim
+44,362,2025-03-18,Técnico,13,Sim
+45,444,2025-07-15,Técnico,115,Não
+46,169,2024-09-11,Dúvidas Gerais,100,Sim
+47,148,2025-07-29,Técnico,63,Sim
+48,200,2025-03-11,Técnico,60,Sim
+49,385,2024-07-30,Técnico,95,Sim
+50,312,2024-10-10,Financeiro,14,Sim
+51,70,2024-11-02,Financeiro,29,Sim
+52,312,2025-04-29,Técnico,117,Sim
+53,54,2025-06-03,Técnico,49,Não
+54,395,2024-09-24,Técnico,101,Sim
+55,259,2024-12-27,Técnico,15,Sim
+56,351,2025-02-19,Financeiro,105,Sim
+57,28,2025-06-18,Dúvidas Gerais,13,Sim
+58,367,2025-04-30,Técnico,11,Sim
+59,363,2024-12-22,Financeiro,75,Sim
+60,120,2025-02-24,Técnico,38,Sim
+61,133,2024-10-01,Dúvidas Gerais,87,Sim
+62,380,2025-04-08,Financeiro,24,Sim
+63,90,2025-03-16,Financeiro,118,Sim
+64,16,2025-02-13,Dúvidas Gerais,110,Sim
+65,287,2025-05-30,Dúvidas Gerais,93,Sim
+66,284,2025-02-19,Financeiro,9,Sim
+67,391,2025-06-17,Dúvidas Gerais,116,Sim
+68,230,2024-11-26,Técnico,97,Sim
+69,137,2025-07-29,Dúvidas Gerais,59,Sim
+70,295,2025-07-28,Dúvidas Gerais,95,Sim
+71,227,2024-09-02,Financeiro,93,Sim
+72,427,2025-06-16,Dúvidas Gerais,105,Sim
+73,27,2024-08-03,Financeiro,19,Sim
+74,332,2024-12-21,Técnico,52,Sim
+75,117,2024-11-20,Dúvidas Gerais,8,Sim
+76,89,2025-01-17,Dúvidas Gerais,82,Sim
+77,107,2025-05-06,Financeiro,117,Não
+78,221,2024-10-09,Financeiro,85,Sim
+79,223,2024-12-03,Dúvidas Gerais,25,Sim
+80,122,2024-09-26,Financeiro,84,Não
+81,382,2024-08-02,Dúvidas Gerais,94,Sim
+82,354,2024-12-03,Técnico,13,Sim
+83,33,2024-12-04,Dúvidas Gerais,70,Não
+84,91,2024-08-01,Técnico,111,Não
+85,184,2024-10-26,Técnico,83,Sim
+86,376,2025-07-05,Financeiro,39,Sim
+87,258,2024-08-03,Financeiro,92,Sim
+88,398,2024-12-01,Financeiro,116,Sim
+89,13,2024-09-22,Financeiro,55,Sim
+90,24,2025-03-23,Dúvidas Gerais,106,Sim
+91,325,2024-10-12,Técnico,82,Não
+92,34,2025-03-28,Dúvidas Gerais,105,Sim
+93,247,2025-07-09,Técnico,41,Sim
+94,343,2025-02-01,Técnico,10,Sim
+95,19,2024-12-27,Técnico,86,Sim
+96,30,2025-05-24,Dúvidas Gerais,90,Sim
+97,49,2025-05-05,Financeiro,86,Sim
+98,427,2025-04-26,Dúvidas Gerais,55,Sim
+99,400,2025-02-07,Técnico,70,Sim
+100,180,2025-01-02,Dúvidas Gerais,100,Sim
+101,370,2025-03-24,Técnico,21,Sim
+102,372,2025-02-28,Financeiro,69,Sim
+103,488,2025-02-27,Financeiro,13,Sim
+104,226,2025-03-24,Dúvidas Gerais,17,Sim
+105,433,2025-02-08,Financeiro,104,Sim
+106,395,2025-05-15,Técnico,105,Sim
+107,78,2024-10-08,Técnico,62,Não
+108,496,2024-11-21,Financeiro,34,Sim
+109,431,2025-04-08,Financeiro,35,Sim
+110,207,2025-04-20,Financeiro,27,Sim
+111,35,2024-12-22,Dúvidas Gerais,67,Sim
+112,250,2025-06-28,Dúvidas Gerais,118,Sim
+113,71,2024-08-23,Técnico,32,Sim
+114,413,2024-10-25,Dúvidas Gerais,63,Sim
+115,364,2025-04-25,Dúvidas Gerais,14,Sim
+116,310,2024-09-22,Técnico,93,Sim
+117,470,2025-04-22,Técnico,104,Sim
+118,279,2024-12-09,Financeiro,94,Sim
+119,152,2024-08-03,Financeiro,30,Sim
+120,227,2025-04-06,Dúvidas Gerais,113,Sim
+121,243,2025-04-07,Técnico,81,Sim
+122,10,2025-05-04,Dúvidas Gerais,21,Sim
+123,317,2024-12-09,Dúvidas Gerais,44,Sim
+124,392,2024-11-27,Técnico,72,Sim
+125,48,2025-04-18,Técnico,27,Sim
+126,112,2025-07-20,Técnico,39,Sim
+127,204,2024-09-09,Técnico,79,Não
+128,477,2025-02-16,Dúvidas Gerais,80,Sim
+129,382,2024-12-24,Dúvidas Gerais,13,Sim
+130,157,2024-11-01,Dúvidas Gerais,83,Sim
+131,343,2025-01-28,Técnico,49,Sim
+132,26,2024-12-03,Financeiro,41,Sim
+133,421,2025-06-17,Dúvidas Gerais,73,Não
+134,480,2024-08-12,Financeiro,23,Sim
+135,308,2025-03-24,Financeiro,79,Sim
+136,166,2024-09-24,Financeiro,77,Sim
+137,249,2025-05-09,Técnico,103,Sim
+138,262,2024-08-15,Técnico,118,Sim
+139,264,2024-11-17,Dúvidas Gerais,31,Sim
+140,17,2025-03-18,Dúvidas Gerais,17,Sim
+141,76,2024-10-24,Técnico,61,Sim
+142,446,2024-11-22,Técnico,64,Sim
+143,470,2024-12-27,Financeiro,16,Sim
+144,254,2025-04-12,Técnico,13,Sim
+145,206,2025-07-07,Técnico,110,Não
+146,34,2024-08-31,Técnico,96,Sim
+147,147,2024-12-05,Técnico,81,Sim
+148,326,2025-03-18,Financeiro,88,Não
+149,338,2025-04-18,Dúvidas Gerais,81,Sim
+150,228,2025-07-22,Financeiro,31,Sim
+151,118,2025-01-23,Técnico,94,Sim
+152,165,2025-05-26,Técnico,67,Sim
+153,38,2025-03-16,Dúvidas Gerais,97,Sim
+154,399,2025-06-26,Dúvidas Gerais,33,Sim
+155,358,2024-09-15,Dúvidas Gerais,26,Não
+156,296,2025-06-28,Financeiro,77,Sim
+157,137,2024-12-05,Dúvidas Gerais,92,Sim
+158,309,2025-04-24,Técnico,110,Sim
+159,246,2025-06-16,Técnico,23,Sim
+160,198,2025-01-28,Técnico,42,Sim
+161,374,2024-08-03,Financeiro,99,Sim
+162,66,2025-05-23,Dúvidas Gerais,43,Sim
+163,80,2024-11-23,Dúvidas Gerais,19,Sim
+164,52,2024-08-26,Dúvidas Gerais,58,Sim
+165,129,2025-04-09,Dúvidas Gerais,36,Não
+166,414,2024-11-20,Técnico,119,Sim
+167,380,2024-12-11,Financeiro,114,Não
+168,368,2025-06-05,Dúvidas Gerais,116,Sim
+169,481,2025-06-01,Técnico,50,Sim
+170,1,2025-01-23,Técnico,65,Sim
+171,167,2025-03-19,Financeiro,97,Não
+172,16,2025-04-29,Dúvidas Gerais,56,Sim
+173,145,2025-03-24,Financeiro,38,Sim
+174,112,2025-04-22,Dúvidas Gerais,77,Sim
+175,368,2025-04-07,Financeiro,39,Sim
+176,102,2025-06-16,Dúvidas Gerais,74,Sim
+177,82,2024-09-01,Dúvidas Gerais,41,Sim
+178,406,2024-10-29,Financeiro,82,Sim
+179,470,2025-01-15,Dúvidas Gerais,65,Sim
+180,99,2025-01-18,Financeiro,115,Sim
+181,159,2024-12-27,Financeiro,118,Sim
+182,40,2024-09-22,Dúvidas Gerais,53,Sim
+183,155,2025-05-10,Dúvidas Gerais,13,Sim
+184,36,2025-07-16,Financeiro,23,Sim
+185,381,2025-05-25,Técnico,91,Sim
+186,247,2025-07-23,Financeiro,109,Não
+187,4,2025-02-25,Técnico,32,Sim
+188,497,2025-07-29,Técnico,84,Sim
+189,374,2024-11-20,Financeiro,30,Sim
+190,453,2025-01-22,Financeiro,42,Sim
+191,281,2024-10-14,Financeiro,44,Sim
+192,351,2024-11-14,Técnico,29,Sim
+193,334,2025-07-23,Financeiro,103,Não
+194,414,2025-05-08,Financeiro,73,Sim
+195,431,2025-05-10,Dúvidas Gerais,75,Sim
+196,249,2025-02-09,Dúvidas Gerais,27,Sim
+197,12,2025-03-28,Dúvidas Gerais,93,Sim
+198,283,2024-09-27,Financeiro,69,Sim
+199,429,2025-05-13,Financeiro,26,Não
+200,216,2025-06-02,Financeiro,68,Sim
+201,319,2024-12-25,Técnico,72,Sim
+202,311,2025-03-30,Técnico,62,Sim
+203,414,2025-06-07,Dúvidas Gerais,32,Sim
+204,82,2025-07-17,Técnico,116,Sim
+205,14,2025-03-26,Técnico,82,Sim
+206,56,2025-04-25,Técnico,101,Sim
+207,403,2025-06-11,Dúvidas Gerais,72,Sim
+208,342,2025-01-29,Dúvidas Gerais,110,Sim
+209,282,2025-02-05,Técnico,79,Sim
+210,199,2024-08-29,Financeiro,107,Sim
+211,348,2024-08-31,Dúvidas Gerais,100,Sim
+212,166,2024-11-15,Técnico,8,Sim
+213,453,2024-08-12,Financeiro,5,Sim
+214,292,2025-04-05,Financeiro,30,Não
+215,146,2024-12-04,Dúvidas Gerais,37,Não
+216,441,2024-10-11,Financeiro,85,Não
+217,78,2024-12-03,Dúvidas Gerais,31,Sim
+218,112,2025-05-21,Técnico,46,Sim
+219,23,2025-05-17,Dúvidas Gerais,73,Não
+220,375,2024-09-04,Financeiro,75,Sim
+221,116,2025-05-27,Dúvidas Gerais,68,Sim
+222,142,2025-04-26,Dúvidas Gerais,29,Não
+223,480,2024-12-19,Técnico,76,Sim
+224,197,2025-01-18,Financeiro,102,Sim
+225,278,2025-04-11,Dúvidas Gerais,109,Sim
+226,28,2024-11-20,Técnico,8,Sim
+227,299,2025-03-20,Técnico,16,Sim
+228,76,2024-09-04,Técnico,62,Sim
+229,18,2025-06-07,Técnico,99,Sim
+230,100,2025-07-19,Técnico,15,Sim
+231,479,2025-06-04,Dúvidas Gerais,105,Sim
+232,461,2024-08-31,Dúvidas Gerais,112,Sim
+233,468,2024-10-16,Financeiro,63,Sim
+234,124,2025-01-18,Dúvidas Gerais,40,Sim
+235,365,2025-04-03,Financeiro,113,Sim
+236,292,2025-05-12,Financeiro,26,Sim
+237,125,2024-11-22,Financeiro,69,Sim
+238,7,2024-09-10,Dúvidas Gerais,54,Sim
+239,23,2024-10-14,Técnico,8,Sim
+240,162,2025-03-03,Financeiro,104,Sim
+241,117,2025-05-06,Técnico,76,Sim
+242,370,2025-04-30,Financeiro,93,Não
+243,352,2024-09-27,Dúvidas Gerais,96,Não
+244,21,2025-01-06,Financeiro,56,Sim
+245,252,2025-05-06,Dúvidas Gerais,106,Sim
+246,326,2025-01-31,Técnico,104,Sim
+247,464,2025-05-16,Dúvidas Gerais,104,Sim
+248,483,2024-11-23,Técnico,47,Sim
+249,431,2024-10-15,Dúvidas Gerais,109,Sim
+250,309,2025-06-30,Financeiro,50,Sim
+251,84,2024-11-30,Financeiro,8,Sim
+252,362,2025-06-29,Dúvidas Gerais,17,Sim
+253,41,2025-06-26,Técnico,42,Sim
+254,203,2024-08-25,Técnico,49,Sim
+255,416,2025-05-12,Técnico,29,Sim
+256,128,2024-12-22,Dúvidas Gerais,71,Não
+257,142,2025-05-16,Dúvidas Gerais,59,Sim
+258,344,2024-11-21,Dúvidas Gerais,100,Sim
+259,492,2024-10-09,Dúvidas Gerais,43,Não
+260,103,2024-12-22,Técnico,69,Não
+261,107,2024-10-02,Técnico,79,Sim
+262,479,2025-06-27,Dúvidas Gerais,6,Sim
+263,17,2024-11-14,Dúvidas Gerais,73,Sim
+264,25,2024-12-24,Técnico,90,Sim
+265,64,2025-03-06,Técnico,66,Não
+266,457,2025-05-13,Financeiro,50,Sim
+267,342,2024-09-30,Dúvidas Gerais,81,Sim
+268,375,2024-08-04,Financeiro,116,Sim
+269,237,2024-10-31,Técnico,91,Sim
+270,176,2024-11-20,Técnico,115,Sim
+271,291,2024-12-29,Dúvidas Gerais,35,Sim
+272,293,2024-08-01,Financeiro,103,Sim
+273,311,2025-07-19,Técnico,106,Sim
+274,401,2025-03-25,Financeiro,109,Sim
+275,156,2025-01-25,Financeiro,39,Sim
+276,385,2024-08-23,Financeiro,49,Sim
+277,53,2024-12-29,Financeiro,81,Sim
+278,73,2025-06-28,Financeiro,58,Sim
+279,183,2025-03-02,Dúvidas Gerais,75,Sim
+280,369,2025-06-16,Dúvidas Gerais,73,Sim
+281,189,2024-08-30,Financeiro,33,Sim
+282,13,2024-08-25,Dúvidas Gerais,76,Não
+283,47,2024-12-11,Técnico,12,Sim
+284,448,2025-02-13,Financeiro,58,Sim
+285,160,2025-03-14,Dúvidas Gerais,11,Sim
+286,284,2025-03-19,Dúvidas Gerais,87,Sim
+287,53,2025-01-19,Técnico,107,Não
+288,287,2025-01-05,Técnico,27,Sim
+289,8,2024-09-18,Técnico,104,Sim
+290,72,2024-12-10,Técnico,110,Sim
+291,380,2024-08-25,Financeiro,36,Sim
+292,98,2024-11-02,Dúvidas Gerais,66,Sim
+293,87,2024-11-27,Dúvidas Gerais,49,Sim
+294,330,2024-09-12,Técnico,72,Sim
+295,101,2024-12-09,Dúvidas Gerais,34,Sim
+296,496,2024-12-26,Dúvidas Gerais,119,Sim
+297,281,2025-06-01,Dúvidas Gerais,110,Sim
+298,371,2025-04-17,Técnico,43,Sim
+299,289,2024-10-24,Dúvidas Gerais,9,Sim
+300,237,2024-09-22,Dúvidas Gerais,71,Sim
+301,196,2025-05-20,Dúvidas Gerais,26,Sim
+302,391,2025-07-06,Financeiro,32,Sim
+303,97,2024-11-21,Financeiro,26,Sim
+304,450,2025-05-20,Dúvidas Gerais,90,Sim
+305,368,2024-10-01,Dúvidas Gerais,102,Não
+306,430,2024-08-23,Dúvidas Gerais,33,Sim
+307,96,2025-05-27,Dúvidas Gerais,47,Sim
+308,261,2024-09-14,Dúvidas Gerais,46,Não
+309,121,2025-06-28,Dúvidas Gerais,64,Não
+310,366,2024-08-17,Financeiro,81,Sim
+311,273,2025-03-31,Técnico,75,Sim
+312,332,2024-08-10,Dúvidas Gerais,78,Sim
+313,52,2024-12-30,Dúvidas Gerais,96,Sim
+314,396,2025-05-16,Dúvidas Gerais,72,Sim
+315,318,2024-11-27,Técnico,63,Sim
+316,163,2024-11-05,Dúvidas Gerais,100,Sim
+317,190,2025-01-20,Dúvidas Gerais,90,Sim
+318,277,2024-11-30,Técnico,88,Sim
+319,85,2025-06-21,Dúvidas Gerais,116,Sim
+320,194,2025-07-28,Técnico,88,Não
+321,181,2024-12-13,Técnico,10,Sim
+322,21,2024-08-19,Dúvidas Gerais,77,Sim
+323,399,2025-06-06,Financeiro,32,Não
+324,203,2025-07-20,Financeiro,81,Não
+325,202,2024-12-10,Dúvidas Gerais,35,Sim
+326,466,2025-06-15,Técnico,43,Não
+327,151,2025-03-24,Técnico,54,Sim
+328,384,2024-12-11,Técnico,82,Sim
+329,159,2024-08-24,Dúvidas Gerais,90,Sim
+330,310,2025-06-19,Financeiro,41,Sim
+331,439,2025-04-26,Técnico,113,Sim
+332,26,2025-06-21,Técnico,92,Sim
+333,309,2025-05-27,Dúvidas Gerais,76,Sim
+334,66,2024-09-05,Financeiro,19,Sim
+335,423,2024-12-24,Financeiro,55,Sim
+336,263,2025-01-18,Dúvidas Gerais,109,Sim
+337,472,2025-06-03,Financeiro,74,Sim
+338,167,2024-08-28,Dúvidas Gerais,27,Sim
+339,288,2025-03-10,Técnico,29,Sim
+340,154,2024-08-26,Dúvidas Gerais,99,Sim
+341,343,2024-09-04,Técnico,50,Sim
+342,206,2025-05-11,Dúvidas Gerais,97,Sim
+343,413,2024-09-12,Técnico,27,Sim
+344,153,2025-04-16,Técnico,14,Não
+345,184,2025-04-27,Dúvidas Gerais,77,Sim
+346,159,2024-12-16,Técnico,117,Sim
+347,194,2024-11-10,Financeiro,81,Sim
+348,2,2025-05-01,Dúvidas Gerais,36,Sim
+349,215,2025-03-13,Financeiro,117,Não
+350,175,2024-08-02,Técnico,55,Sim
+351,75,2025-01-02,Técnico,113,Sim
+352,285,2025-06-22,Técnico,45,Sim
+353,127,2025-07-04,Dúvidas Gerais,69,Sim
+354,490,2024-11-12,Técnico,69,Sim
+355,483,2025-05-15,Financeiro,105,Sim
+356,49,2025-01-06,Financeiro,44,Não
+357,457,2025-06-12,Dúvidas Gerais,22,Sim
+358,32,2025-05-03,Financeiro,40,Sim
+359,158,2025-04-05,Dúvidas Gerais,35,Sim
+360,15,2024-10-09,Dúvidas Gerais,58,Sim
+361,318,2024-11-25,Técnico,67,Sim
+362,334,2025-07-10,Financeiro,5,Sim
+363,243,2025-01-13,Financeiro,115,Sim
+364,17,2025-01-14,Financeiro,56,Sim
+365,22,2025-05-14,Técnico,104,Sim
+366,244,2025-01-11,Dúvidas Gerais,61,Sim
+367,414,2025-02-11,Financeiro,13,Sim
+368,81,2025-07-16,Financeiro,90,Sim
+369,144,2025-04-15,Financeiro,96,Sim
+370,436,2024-10-08,Financeiro,94,Sim
+371,8,2025-04-03,Técnico,78,Sim
+372,448,2025-07-28,Dúvidas Gerais,60,Sim
+373,167,2024-08-18,Financeiro,51,Sim
+374,287,2025-02-26,Financeiro,7,Sim
+375,268,2025-04-30,Dúvidas Gerais,6,Sim
+376,289,2024-09-26,Técnico,58,Não
+377,186,2024-11-01,Técnico,41,Sim
+378,12,2025-05-17,Técnico,60,Sim
+379,281,2024-09-10,Técnico,35,Sim
+380,422,2025-03-10,Financeiro,101,Sim
+381,304,2024-10-02,Dúvidas Gerais,100,Sim
+382,466,2025-04-15,Dúvidas Gerais,111,Sim
+383,83,2024-12-28,Dúvidas Gerais,16,Sim
+384,55,2025-06-09,Técnico,62,Sim
+385,131,2025-06-26,Técnico,71,Sim
+386,125,2024-12-25,Dúvidas Gerais,116,Sim
+387,483,2025-02-24,Financeiro,30,Sim
+388,325,2024-12-27,Técnico,82,Sim
+389,419,2024-11-21,Financeiro,16,Sim
+390,51,2025-07-07,Dúvidas Gerais,94,Sim
+391,27,2024-08-25,Técnico,20,Sim
+392,165,2025-04-12,Financeiro,57,Sim
+393,494,2025-06-30,Técnico,76,Sim
+394,469,2024-07-30,Dúvidas Gerais,53,Sim
+395,400,2025-02-09,Dúvidas Gerais,53,Sim
+396,476,2025-03-05,Dúvidas Gerais,96,Sim
+397,281,2025-07-19,Financeiro,11,Sim
+398,33,2024-11-09,Técnico,19,Sim
+399,62,2025-06-21,Técnico,109,Sim
+400,145,2024-10-31,Técnico,40,Sim
+401,171,2024-10-08,Dúvidas Gerais,76,Sim
+402,286,2025-06-10,Financeiro,78,Não
+403,297,2024-09-04,Dúvidas Gerais,19,Não
+404,117,2025-01-18,Dúvidas Gerais,66,Sim
+405,4,2024-11-05,Financeiro,22,Não
+406,66,2025-01-14,Dúvidas Gerais,50,Sim
+407,60,2025-07-05,Dúvidas Gerais,105,Não
+408,393,2024-12-12,Técnico,109,Sim
+409,287,2025-04-30,Financeiro,113,Sim
+410,345,2024-12-21,Financeiro,65,Sim
+411,229,2025-03-02,Técnico,119,Sim
+412,100,2025-03-18,Financeiro,47,Sim
+413,119,2025-03-17,Técnico,48,Sim
+414,69,2025-04-03,Dúvidas Gerais,103,Não
+415,152,2025-03-09,Financeiro,70,Sim
+416,280,2024-11-03,Financeiro,59,Sim
+417,221,2025-02-16,Dúvidas Gerais,90,Sim
+418,498,2025-01-21,Dúvidas Gerais,83,Sim
+419,429,2025-04-20,Financeiro,105,Sim
+420,223,2024-10-11,Financeiro,43,Sim
+421,165,2025-06-18,Financeiro,104,Sim
+422,442,2024-08-11,Técnico,9,Sim
+423,211,2025-05-28,Financeiro,61,Sim
+424,279,2025-01-13,Financeiro,116,Sim
+425,419,2025-01-07,Dúvidas Gerais,19,Sim
+426,63,2024-10-27,Dúvidas Gerais,95,Sim
+427,374,2024-11-24,Técnico,20,Não
+428,370,2025-05-16,Dúvidas Gerais,61,Não
+429,262,2024-09-02,Financeiro,104,Sim
+430,6,2024-09-25,Financeiro,106,Sim
+431,248,2025-05-04,Técnico,86,Sim
+432,229,2025-07-09,Dúvidas Gerais,103,Sim
+433,286,2025-03-27,Dúvidas Gerais,29,Sim
+434,257,2024-10-16,Dúvidas Gerais,26,Sim
+435,63,2025-02-24,Técnico,35,Sim
+436,392,2025-04-15,Dúvidas Gerais,105,Sim
+437,28,2024-09-07,Dúvidas Gerais,38,Sim
+438,345,2024-10-18,Dúvidas Gerais,91,Sim
+439,417,2025-03-16,Financeiro,20,Sim
+440,53,2024-09-19,Técnico,74,Sim
+441,252,2024-12-22,Financeiro,63,Sim
+442,38,2024-10-18,Técnico,19,Sim
+443,308,2025-05-05,Dúvidas Gerais,86,Não
+444,334,2025-03-19,Financeiro,106,Sim
+445,139,2024-12-15,Dúvidas Gerais,17,Não
+446,386,2024-10-26,Dúvidas Gerais,28,Sim
+447,53,2025-01-13,Técnico,17,Não
+448,94,2025-06-27,Dúvidas Gerais,69,Sim
+449,94,2025-04-27,Financeiro,116,Sim
+450,452,2024-09-12,Técnico,40,Sim
+451,461,2025-01-06,Técnico,53,Sim
+452,263,2025-07-10,Financeiro,86,Sim
+453,486,2025-07-21,Dúvidas Gerais,52,Sim
+454,323,2025-06-12,Dúvidas Gerais,101,Sim
+455,137,2024-12-09,Dúvidas Gerais,106,Sim
+456,462,2025-01-04,Dúvidas Gerais,47,Sim
+457,372,2024-11-19,Dúvidas Gerais,10,Sim
+458,447,2025-07-16,Técnico,85,Sim
+459,256,2024-10-25,Técnico,72,Sim
+460,395,2025-07-20,Financeiro,18,Sim
+461,37,2025-06-19,Dúvidas Gerais,34,Sim
+462,142,2024-09-02,Dúvidas Gerais,114,Não
+463,147,2025-06-22,Dúvidas Gerais,88,Sim
+464,8,2025-03-19,Financeiro,12,Sim
+465,251,2024-08-13,Dúvidas Gerais,58,Sim
+466,135,2025-04-01,Técnico,70,Sim
+467,59,2025-06-12,Dúvidas Gerais,105,Sim
+468,123,2025-01-15,Financeiro,8,Sim
+469,447,2025-02-05,Técnico,78,Sim
+470,263,2025-04-08,Técnico,88,Não
+471,120,2024-11-28,Técnico,64,Sim
+472,439,2025-01-21,Dúvidas Gerais,57,Sim
+473,259,2025-06-15,Financeiro,103,Sim
+474,323,2025-05-12,Financeiro,116,Sim
+475,18,2024-08-30,Dúvidas Gerais,78,Sim
+476,301,2024-09-16,Financeiro,96,Sim
+477,353,2024-09-25,Técnico,19,Sim
+478,485,2024-09-09,Técnico,104,Sim
+479,92,2025-05-11,Financeiro,5,Sim
+480,164,2025-02-14,Financeiro,26,Sim
+481,144,2025-07-18,Dúvidas Gerais,95,Não
+482,335,2025-05-06,Dúvidas Gerais,97,Não
+483,413,2025-06-07,Dúvidas Gerais,19,Sim
+484,315,2025-01-01,Dúvidas Gerais,78,Sim
+485,402,2024-08-15,Dúvidas Gerais,88,Sim
+486,433,2025-04-30,Dúvidas Gerais,26,Sim
+487,238,2025-06-18,Técnico,54,Sim
+488,174,2024-10-15,Financeiro,52,Sim
+489,83,2025-02-20,Dúvidas Gerais,77,Sim
+490,157,2024-11-01,Técnico,55,Não
+491,454,2024-11-11,Financeiro,100,Sim
+492,109,2025-03-11,Financeiro,21,Sim
+493,178,2025-06-14,Financeiro,110,Sim
+494,250,2025-02-10,Dúvidas Gerais,87,Não
+495,495,2025-05-20,Dúvidas Gerais,108,Sim
+496,253,2024-10-14,Dúvidas Gerais,95,Não
+497,55,2025-02-04,Financeiro,55,Sim
+498,155,2025-04-15,Financeiro,41,Sim
+499,391,2025-01-07,Técnico,102,Sim
+500,91,2024-08-14,Técnico,115,Sim
+501,339,2024-09-11,Técnico,53,Sim
+502,126,2025-05-06,Técnico,63,Sim
+503,337,2024-08-09,Financeiro,14,Não
+504,169,2024-11-26,Dúvidas Gerais,34,Sim
+505,139,2024-12-22,Dúvidas Gerais,89,Sim
+506,5,2024-11-27,Dúvidas Gerais,25,Sim
+507,66,2025-06-10,Dúvidas Gerais,38,Sim
+508,111,2024-11-21,Técnico,77,Sim
+509,184,2025-02-16,Financeiro,102,Sim
+510,268,2024-10-27,Dúvidas Gerais,54,Sim
+511,170,2024-12-21,Financeiro,80,Sim
+512,362,2025-04-05,Técnico,51,Sim
+513,244,2024-08-27,Técnico,89,Sim
+514,331,2024-12-28,Dúvidas Gerais,88,Sim
+515,138,2025-01-15,Dúvidas Gerais,10,Sim
+516,28,2025-03-27,Técnico,54,Não
+517,7,2025-02-23,Técnico,113,Sim
+518,398,2024-12-31,Financeiro,104,Não
+519,333,2024-08-25,Técnico,67,Sim
+520,453,2025-03-29,Financeiro,16,Sim
+521,317,2025-01-30,Técnico,45,Sim
+522,51,2025-01-14,Financeiro,35,Sim
+523,426,2024-10-09,Técnico,6,Sim
+524,136,2025-01-29,Técnico,20,Não
+525,178,2025-06-28,Financeiro,5,Sim
+526,129,2025-05-24,Financeiro,8,Sim
+527,197,2024-11-06,Dúvidas Gerais,51,Sim
+528,267,2025-02-26,Dúvidas Gerais,69,Sim
+529,500,2025-03-05,Técnico,56,Sim
+530,107,2024-08-20,Técnico,51,Não
+531,48,2024-08-11,Financeiro,103,Sim
+532,138,2025-07-13,Técnico,81,Não
+533,399,2025-04-22,Dúvidas Gerais,54,Sim
+534,103,2024-09-18,Financeiro,49,Sim
+535,47,2025-01-02,Técnico,46,Sim
+536,477,2024-11-10,Financeiro,99,Sim
+537,153,2025-04-21,Dúvidas Gerais,88,Sim
+538,368,2024-12-05,Dúvidas Gerais,60,Sim
+539,6,2025-06-24,Dúvidas Gerais,75,Não
+540,11,2025-03-25,Técnico,61,Sim
+541,17,2025-01-05,Técnico,108,Não
+542,143,2025-05-05,Técnico,37,Sim
+543,272,2025-02-18,Técnico,32,Sim
+544,312,2025-05-10,Técnico,118,Sim
+545,66,2025-05-05,Técnico,48,Sim
+546,420,2025-03-26,Dúvidas Gerais,118,Sim
+547,339,2025-01-27,Dúvidas Gerais,60,Sim
+548,422,2025-07-05,Técnico,48,Sim
+549,498,2025-07-08,Dúvidas Gerais,88,Sim
+550,469,2025-07-19,Financeiro,100,Sim
+551,331,2024-11-16,Técnico,77,Sim
+552,256,2025-03-27,Financeiro,38,Sim
+553,489,2025-01-08,Técnico,18,Sim
+554,127,2024-08-21,Técnico,72,Sim
+555,131,2025-06-19,Dúvidas Gerais,33,Não
+556,482,2025-03-11,Financeiro,83,Sim
+557,18,2025-02-05,Dúvidas Gerais,21,Sim
+558,207,2024-09-01,Técnico,87,Sim
+559,89,2025-05-12,Financeiro,106,Sim
+560,438,2024-09-14,Técnico,13,Sim
+561,498,2024-11-11,Dúvidas Gerais,31,Sim
+562,243,2025-06-18,Técnico,53,Sim
+563,463,2025-06-26,Técnico,83,Sim
+564,350,2024-09-16,Dúvidas Gerais,41,Sim
+565,17,2025-03-30,Técnico,32,Sim
+566,466,2024-10-09,Financeiro,54,Não
+567,223,2024-08-22,Dúvidas Gerais,59,Sim
+568,370,2024-12-24,Técnico,8,Sim
+569,363,2025-01-02,Dúvidas Gerais,89,Sim
+570,210,2024-12-08,Técnico,102,Sim
+571,99,2025-01-11,Dúvidas Gerais,23,Não
+572,13,2024-09-01,Dúvidas Gerais,41,Sim
+573,319,2024-12-26,Financeiro,8,Sim
+574,270,2025-05-07,Dúvidas Gerais,41,Sim
+575,187,2025-03-08,Financeiro,55,Sim
+576,420,2025-03-11,Dúvidas Gerais,36,Sim
+577,274,2025-02-27,Dúvidas Gerais,49,Não
+578,133,2024-08-12,Técnico,116,Sim
+579,14,2025-06-15,Técnico,16,Sim
+580,281,2025-01-26,Técnico,45,Sim
+581,44,2025-01-21,Dúvidas Gerais,60,Sim
+582,377,2024-09-05,Dúvidas Gerais,84,Sim
+583,295,2024-10-22,Financeiro,18,Sim
+584,396,2024-12-06,Financeiro,58,Sim
+585,104,2024-10-17,Financeiro,67,Sim
+586,445,2025-04-06,Técnico,69,Sim
+587,62,2025-06-18,Técnico,62,Sim
+588,53,2024-09-16,Financeiro,100,Sim
+589,309,2025-02-07,Dúvidas Gerais,25,Sim
+590,412,2025-06-07,Técnico,8,Sim
+591,419,2025-07-08,Técnico,77,Sim
+592,118,2024-11-14,Financeiro,119,Não
+593,321,2025-02-11,Técnico,50,Não
+594,131,2025-05-19,Financeiro,90,Não
+595,299,2025-06-10,Técnico,16,Não
+596,306,2025-01-30,Dúvidas Gerais,34,Sim
+597,199,2025-07-21,Dúvidas Gerais,98,Não
+598,393,2024-09-05,Técnico,100,Não
+599,36,2024-11-28,Financeiro,64,Sim
+600,279,2025-02-27,Técnico,104,Sim
+601,216,2025-02-16,Financeiro,75,Sim
+602,74,2024-12-26,Técnico,85,Sim
+603,306,2024-10-07,Dúvidas Gerais,69,Sim
+604,55,2025-04-03,Dúvidas Gerais,18,Sim
+605,496,2024-11-06,Técnico,115,Sim
+606,381,2025-01-09,Técnico,48,Sim
+607,12,2025-03-04,Técnico,112,Sim
+608,83,2024-07-29,Dúvidas Gerais,106,Não
+609,32,2025-04-18,Dúvidas Gerais,30,Sim
+610,408,2024-09-09,Financeiro,95,Não
+611,86,2025-03-13,Técnico,113,Sim
+612,451,2025-05-14,Técnico,20,Sim
+613,232,2024-12-13,Dúvidas Gerais,114,Sim
+614,411,2025-01-13,Técnico,11,Sim
+615,445,2025-06-17,Financeiro,36,Sim
+616,275,2025-01-03,Técnico,93,Sim
+617,201,2025-01-16,Dúvidas Gerais,99,Sim
+618,51,2025-04-15,Técnico,20,Sim
+619,320,2024-12-02,Dúvidas Gerais,109,Sim
+620,256,2024-08-14,Financeiro,82,Sim
+621,241,2025-02-08,Financeiro,93,Sim
+622,205,2024-12-19,Técnico,66,Sim
+623,386,2024-11-14,Técnico,34,Sim
+624,420,2025-05-28,Dúvidas Gerais,75,Não
+625,477,2024-11-14,Financeiro,16,Sim
+626,384,2024-08-06,Financeiro,71,Não
+627,395,2025-07-09,Financeiro,95,Sim
+628,482,2024-11-14,Financeiro,50,Sim
+629,196,2025-04-27,Técnico,87,Sim
+630,452,2025-07-02,Técnico,47,Sim
+631,244,2025-01-09,Dúvidas Gerais,105,Sim
+632,320,2024-09-15,Financeiro,59,Sim
+633,1,2024-10-10,Técnico,49,Sim
+634,89,2024-10-01,Técnico,64,Sim
+635,282,2024-12-16,Financeiro,110,Não
+636,139,2025-01-19,Técnico,75,Sim
+637,87,2024-12-16,Dúvidas Gerais,117,Não
+638,2,2024-10-05,Dúvidas Gerais,84,Sim
+639,467,2024-08-16,Financeiro,36,Sim
+640,349,2025-05-24,Dúvidas Gerais,12,Sim
+641,168,2024-07-30,Técnico,117,Sim
+642,119,2025-07-08,Dúvidas Gerais,81,Não
+643,500,2025-01-12,Técnico,66,Sim
+644,388,2025-06-07,Financeiro,79,Sim
+645,80,2024-12-04,Financeiro,24,Não
+646,111,2025-05-17,Técnico,22,Sim
+647,165,2025-06-12,Técnico,105,Sim
+648,382,2024-08-21,Dúvidas Gerais,10,Sim
+649,445,2025-03-29,Técnico,88,Sim
+650,219,2024-11-16,Financeiro,100,Sim
+651,5,2024-09-04,Técnico,114,Sim
+652,399,2025-03-24,Dúvidas Gerais,112,Sim
+653,215,2025-04-12,Dúvidas Gerais,33,Sim
+654,497,2024-09-05,Técnico,8,Sim
+655,195,2025-05-24,Dúvidas Gerais,75,Não
+656,466,2025-07-18,Dúvidas Gerais,47,Sim
+657,491,2024-11-21,Financeiro,88,Sim
+658,282,2025-03-09,Técnico,38,Sim
+659,6,2024-12-01,Financeiro,104,Sim
+660,379,2024-09-13,Financeiro,75,Sim
+661,300,2025-06-30,Dúvidas Gerais,37,Sim
+662,58,2024-12-14,Financeiro,19,Sim
+663,337,2025-01-16,Técnico,100,Não
+664,302,2024-08-02,Técnico,90,Sim
+665,102,2024-10-08,Técnico,44,Sim
+666,426,2025-06-20,Financeiro,97,Sim
+667,48,2025-02-10,Técnico,93,Sim
+668,370,2025-04-16,Técnico,9,Sim
+669,411,2025-04-20,Financeiro,82,Sim
+670,276,2025-06-29,Financeiro,54,Sim
+671,454,2025-05-12,Financeiro,103,Sim
+672,371,2025-01-31,Financeiro,70,Não
+673,163,2025-02-27,Dúvidas Gerais,93,Sim
+674,332,2025-06-03,Financeiro,58,Sim
+675,432,2025-07-14,Financeiro,84,Sim
+676,451,2025-06-03,Técnico,50,Sim
+677,496,2024-09-28,Técnico,84,Sim
+678,196,2025-01-14,Financeiro,15,Sim
+679,377,2024-08-17,Financeiro,53,Sim
+680,436,2024-09-17,Financeiro,103,Sim
+681,365,2025-03-14,Técnico,27,Sim
+682,324,2025-02-02,Técnico,59,Sim
+683,132,2025-05-29,Financeiro,9,Sim
+684,423,2024-09-05,Técnico,68,Não
+685,405,2024-10-29,Técnico,39,Sim
+686,492,2024-08-21,Financeiro,97,Sim
+687,66,2025-06-01,Técnico,115,Não
+688,400,2024-10-11,Financeiro,73,Sim
+689,391,2024-11-09,Dúvidas Gerais,58,Sim
+690,83,2025-03-27,Dúvidas Gerais,7,Sim
+691,491,2024-12-21,Dúvidas Gerais,10,Sim
+692,481,2024-10-14,Técnico,91,Não
+693,265,2025-07-20,Dúvidas Gerais,114,Sim
+694,229,2024-11-20,Técnico,60,Não
+695,273,2025-03-26,Financeiro,6,Sim
+696,219,2024-12-18,Dúvidas Gerais,86,Não
+697,225,2024-12-10,Técnico,98,Sim
+698,113,2025-03-07,Dúvidas Gerais,42,Não
+699,140,2025-05-29,Técnico,60,Não
+700,185,2025-06-29,Técnico,9,Sim
+701,173,2024-09-05,Financeiro,50,Sim
+702,376,2025-07-04,Técnico,117,Sim
+703,11,2024-09-13,Técnico,15,Não
+704,397,2025-05-03,Dúvidas Gerais,69,Sim
+705,159,2025-02-14,Financeiro,14,Sim
+706,205,2025-04-19,Técnico,45,Não
+707,230,2025-03-18,Dúvidas Gerais,48,Sim
+708,26,2024-10-02,Financeiro,94,Sim
+709,319,2025-07-04,Técnico,37,Sim
+710,159,2024-08-29,Dúvidas Gerais,95,Sim
+711,278,2025-05-12,Financeiro,60,Sim
+712,390,2025-06-16,Financeiro,118,Sim
+713,148,2024-10-23,Financeiro,16,Sim
+714,469,2024-12-24,Financeiro,6,Sim
+715,266,2025-02-03,Técnico,5,Sim
+716,83,2025-02-13,Técnico,69,Sim
+717,419,2024-12-03,Financeiro,37,Sim
+718,26,2024-11-23,Financeiro,90,Sim
+719,71,2025-01-29,Técnico,80,Sim
+720,37,2025-04-17,Dúvidas Gerais,107,Sim
+721,392,2024-08-09,Financeiro,40,Sim
+722,133,2025-07-20,Técnico,25,Sim
+723,428,2024-08-14,Técnico,88,Sim
+724,484,2025-01-15,Dúvidas Gerais,40,Não
+725,126,2025-02-17,Técnico,30,Sim
+726,115,2024-10-05,Financeiro,51,Sim
+727,92,2024-12-10,Técnico,99,Sim
+728,242,2025-02-05,Financeiro,5,Não
+729,451,2025-03-30,Técnico,42,Sim
+730,487,2024-12-22,Financeiro,18,Não
+731,200,2024-11-27,Financeiro,94,Sim
+732,207,2025-04-13,Técnico,50,Sim
+733,117,2024-08-18,Financeiro,46,Sim
+734,219,2024-09-23,Técnico,11,Sim
+735,305,2024-11-22,Técnico,59,Sim
+736,243,2025-04-12,Técnico,60,Sim
+737,292,2025-07-20,Financeiro,80,Sim
+738,464,2025-01-05,Técnico,67,Sim
+739,282,2025-03-04,Dúvidas Gerais,28,Sim
+740,301,2025-05-30,Financeiro,87,Sim
+741,317,2024-08-04,Dúvidas Gerais,77,Sim
+742,172,2024-10-07,Dúvidas Gerais,103,Não
+743,388,2024-10-11,Dúvidas Gerais,8,Sim
+744,76,2024-08-23,Dúvidas Gerais,113,Sim
+745,209,2025-06-18,Técnico,46,Sim
+746,314,2025-05-04,Dúvidas Gerais,100,Sim
+747,105,2025-06-01,Financeiro,114,Sim
+748,492,2025-02-10,Dúvidas Gerais,74,Sim
+749,26,2025-07-10,Dúvidas Gerais,32,Sim
+750,351,2025-07-20,Dúvidas Gerais,96,Sim
+751,79,2025-06-16,Técnico,44,Sim
+752,500,2025-04-06,Dúvidas Gerais,55,Sim
+753,482,2024-10-30,Dúvidas Gerais,33,Sim
+754,128,2025-05-06,Dúvidas Gerais,46,Sim
+755,413,2025-04-27,Financeiro,73,Sim
+756,137,2025-03-03,Técnico,9,Sim
+757,334,2025-02-01,Técnico,105,Não
+758,36,2024-12-05,Técnico,45,Sim
+759,388,2025-03-28,Financeiro,65,Sim
+760,59,2025-01-21,Dúvidas Gerais,59,Sim
+761,230,2025-03-02,Financeiro,32,Sim
+762,421,2025-06-25,Técnico,45,Não
+763,124,2024-09-27,Técnico,115,Não
+764,88,2024-12-20,Técnico,13,Sim
+765,337,2024-10-13,Financeiro,33,Sim
+766,141,2025-04-16,Técnico,82,Sim
+767,404,2025-05-28,Dúvidas Gerais,42,Sim
+768,273,2025-01-06,Financeiro,66,Não
+769,51,2024-11-04,Dúvidas Gerais,58,Sim
+770,475,2024-11-23,Técnico,56,Sim
+771,55,2025-03-03,Técnico,108,Sim
+772,417,2024-09-16,Financeiro,38,Sim
+773,405,2025-01-19,Dúvidas Gerais,41,Não
+774,337,2024-11-22,Financeiro,53,Sim
+775,150,2024-12-03,Dúvidas Gerais,46,Sim
+776,153,2025-03-02,Técnico,18,Sim
+777,451,2024-09-23,Financeiro,86,Sim
+778,219,2024-10-13,Financeiro,37,Não
+779,219,2025-02-16,Dúvidas Gerais,102,Não
+780,366,2025-02-12,Técnico,96,Não
+781,396,2025-07-04,Técnico,104,Sim
+782,399,2025-03-15,Dúvidas Gerais,113,Sim
+783,486,2025-02-01,Dúvidas Gerais,116,Sim
+784,468,2024-11-29,Dúvidas Gerais,105,Sim
+785,342,2025-03-30,Dúvidas Gerais,91,Sim
+786,258,2024-08-27,Dúvidas Gerais,110,Sim
+787,388,2025-02-03,Técnico,21,Sim
+788,45,2025-02-27,Técnico,79,Sim
+789,269,2025-01-21,Financeiro,36,Sim
+790,311,2024-12-30,Técnico,105,Sim
+791,160,2025-04-06,Dúvidas Gerais,83,Não
+792,278,2024-12-27,Técnico,72,Sim
+793,345,2024-12-01,Técnico,43,Sim
+794,475,2025-03-25,Técnico,98,Não
+795,55,2024-09-12,Financeiro,14,Sim
+796,145,2024-11-13,Financeiro,91,Sim
+797,454,2025-01-27,Dúvidas Gerais,28,Sim
+798,235,2025-01-07,Dúvidas Gerais,104,Sim
+799,179,2025-03-11,Financeiro,62,Sim
+800,208,2025-02-01,Técnico,73,Não

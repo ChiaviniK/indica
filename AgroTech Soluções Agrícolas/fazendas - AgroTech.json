@@ -1,0 +1,162 @@
+[
+  {
+    "id_fazenda": 1,
+    "nome_fazenda": "Sá Santos - EI",
+    "estado": "SP",
+    "hectares": 1176,
+    "responsavel": "Nathan Barros",
+    "data_cadastro": "2023-05-15"
+  },
+  {
+    "id_fazenda": 2,
+    "nome_fazenda": "da Rocha e Filhos",
+    "estado": "SP",
+    "hectares": 910,
+    "responsavel": "Dr. João Pedro Casa Grande",
+    "data_cadastro": "2024-03-04"
+  },
+  {
+    "id_fazenda": 3,
+    "nome_fazenda": "Novaes",
+    "estado": "MT",
+    "hectares": 1344,
+    "responsavel": "Giovanna Dias",
+    "data_cadastro": "2025-07-18"
+  },
+  {
+    "id_fazenda": 4,
+    "nome_fazenda": "Moraes",
+    "estado": "MG",
+    "hectares": 1180,
+    "responsavel": "Dante Correia",
+    "data_cadastro": "2022-10-30"
+  },
+  {
+    "id_fazenda": 5,
+    "nome_fazenda": "Pereira e Filhos",
+    "estado": "MG",
+    "hectares": 1145,
+    "responsavel": "Letícia Pastor",
+    "data_cadastro": "2023-08-16"
+  },
+  {
+    "id_fazenda": 6,
+    "nome_fazenda": "Aragão Monteiro - ME",
+    "estado": "MG",
+    "hectares": 1094,
+    "responsavel": "Vinícius Andrade",
+    "data_cadastro": "2023-02-12"
+  },
+  {
+    "id_fazenda": 7,
+    "nome_fazenda": "Pacheco",
+    "estado": "SP",
+    "hectares": 171,
+    "responsavel": "Vitor Pacheco",
+    "data_cadastro": "2025-06-30"
+  },
+  {
+    "id_fazenda": 8,
+    "nome_fazenda": "Cardoso",
+    "estado": "RS",
+    "hectares": 516,
+    "responsavel": "Anna Liz Viana",
+    "data_cadastro": "2023-11-04"
+  },
+  {
+    "id_fazenda": 9,
+    "nome_fazenda": "Silva",
+    "estado": "SP",
+    "hectares": 1288,
+    "responsavel": "Manuela Moraes",
+    "data_cadastro": "2024-12-24"
+  },
+  {
+    "id_fazenda": 10,
+    "nome_fazenda": "Martins",
+    "estado": "RS",
+    "hectares": 380,
+    "responsavel": "Diogo Caldeira",
+    "data_cadastro": "2024-11-07"
+  },
+  {
+    "id_fazenda": 11,
+    "nome_fazenda": "Macedo",
+    "estado": "GO",
+    "hectares": 137,
+    "responsavel": "Luana Gomes",
+    "data_cadastro": "2022-11-29"
+  },
+  {
+    "id_fazenda": 12,
+    "nome_fazenda": "Pereira - EI",
+    "estado": "SP",
+    "hectares": 1446,
+    "responsavel": "Clara Pires",
+    "data_cadastro": "2024-11-19"
+  },
+  {
+    "id_fazenda": 13,
+    "nome_fazenda": "Macedo Marques - EI",
+    "estado": "SP",
+    "hectares": 1173,
+    "responsavel": "Dra. Maria Flor Gomes",
+    "data_cadastro": "2023-10-05"
+  },
+  {
+    "id_fazenda": 14,
+    "nome_fazenda": "Costa",
+    "estado": "SP",
+    "hectares": 921,
+    "responsavel": "Alice Mendonça",
+    "data_cadastro": "2024-10-28"
+  },
+  {
+    "id_fazenda": 15,
+    "nome_fazenda": "Fogaça",
+    "estado": "MG",
+    "hectares": 180,
+    "responsavel": "Dr. Isaac Azevedo",
+    "data_cadastro": "2023-10-25"
+  },
+  {
+    "id_fazenda": 16,
+    "nome_fazenda": "Barros",
+    "estado": "MG",
+    "hectares": 1382,
+    "responsavel": "Dr. Matheus Souza",
+    "data_cadastro": "2025-06-10"
+  },
+  {
+    "id_fazenda": 17,
+    "nome_fazenda": "Nogueira - ME",
+    "estado": "RS",
+    "hectares": 819,
+    "responsavel": "João Lucas Pacheco",
+    "data_cadastro": "2025-04-29"
+  },
+  {
+    "id_fazenda": 18,
+    "nome_fazenda": "Lima",
+    "estado": "RS",
+    "hectares": 393,
+    "responsavel": "Manuella Correia",
+    "data_cadastro": "2024-08-15"
+  },
+  {
+    "id_fazenda": 19,
+    "nome_fazenda": "da Rocha",
+    "estado": "SP",
+    "hectares": 1487,
+    "responsavel": "Luiz Henrique Alves",
+    "data_cadastro": "2022-09-29"
+  },
+  {
+    "id_fazenda": 20,
+    "nome_fazenda": "Almeida",
+    "estado": "RS",
+    "hectares": 855,
+    "responsavel": "Maria Vitória Lima",
+    "data_cadastro": "2023-04-17"
+  }
+]

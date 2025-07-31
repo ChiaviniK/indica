@@ -1,0 +1,6402 @@
+[
+  {
+    "chamado_id": 1,
+    "cliente_id": 233,
+    "data_abertura": "2025-06-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 78,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 2,
+    "cliente_id": 110,
+    "data_abertura": "2025-01-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 3,
+    "cliente_id": 165,
+    "data_abertura": "2025-04-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 27,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 4,
+    "cliente_id": 194,
+    "data_abertura": "2024-12-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 5,
+    "cliente_id": 7,
+    "data_abertura": "2024-09-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 115,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 6,
+    "cliente_id": 432,
+    "data_abertura": "2025-07-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 62,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 7,
+    "cliente_id": 139,
+    "data_abertura": "2025-06-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 8,
+    "cliente_id": 459,
+    "data_abertura": "2024-08-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 56,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 9,
+    "cliente_id": 343,
+    "data_abertura": "2025-07-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 10,
+    "cliente_id": 287,
+    "data_abertura": "2025-05-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 14,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 11,
+    "cliente_id": 428,
+    "data_abertura": "2025-02-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 23,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 12,
+    "cliente_id": 301,
+    "data_abertura": "2025-07-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 23,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 13,
+    "cliente_id": 456,
+    "data_abertura": "2025-05-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 112,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 14,
+    "cliente_id": 56,
+    "data_abertura": "2024-12-08",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 91,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 15,
+    "cliente_id": 160,
+    "data_abertura": "2024-12-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 16,
+    "cliente_id": 496,
+    "data_abertura": "2024-11-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 48,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 17,
+    "cliente_id": 149,
+    "data_abertura": "2024-11-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 18,
+    "cliente_id": 287,
+    "data_abertura": "2025-03-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 19,
+    "cliente_id": 257,
+    "data_abertura": "2024-08-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 20,
+    "cliente_id": 461,
+    "data_abertura": "2025-05-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 21,
+    "cliente_id": 139,
+    "data_abertura": "2024-12-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 22,
+    "cliente_id": 349,
+    "data_abertura": "2024-12-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 101,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 23,
+    "cliente_id": 324,
+    "data_abertura": "2025-02-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 24,
+    "cliente_id": 292,
+    "data_abertura": "2024-09-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 25,
+    "cliente_id": 335,
+    "data_abertura": "2025-07-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 17,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 26,
+    "cliente_id": 187,
+    "data_abertura": "2024-11-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 71,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 27,
+    "cliente_id": 323,
+    "data_abertura": "2025-03-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 28,
+    "cliente_id": 184,
+    "data_abertura": "2025-01-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 97,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 29,
+    "cliente_id": 307,
+    "data_abertura": "2025-07-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 30,
+    "cliente_id": 413,
+    "data_abertura": "2025-06-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 65,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 31,
+    "cliente_id": 469,
+    "data_abertura": "2025-02-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 32,
+    "cliente_id": 386,
+    "data_abertura": "2025-01-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 45,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 33,
+    "cliente_id": 262,
+    "data_abertura": "2025-05-23",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 40,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 34,
+    "cliente_id": 415,
+    "data_abertura": "2025-04-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 6,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 35,
+    "cliente_id": 310,
+    "data_abertura": "2025-02-14",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 36,
+    "cliente_id": 344,
+    "data_abertura": "2025-02-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 37,
+    "cliente_id": 424,
+    "data_abertura": "2025-07-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 38,
+    "cliente_id": 145,
+    "data_abertura": "2024-12-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 39,
+    "cliente_id": 261,
+    "data_abertura": "2024-11-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 113,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 40,
+    "cliente_id": 2,
+    "data_abertura": "2024-09-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 18,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 41,
+    "cliente_id": 314,
+    "data_abertura": "2025-01-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 97,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 42,
+    "cliente_id": 12,
+    "data_abertura": "2024-12-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 39,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 43,
+    "cliente_id": 261,
+    "data_abertura": "2025-06-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 44,
+    "cliente_id": 362,
+    "data_abertura": "2025-03-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 45,
+    "cliente_id": 444,
+    "data_abertura": "2025-07-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 115,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 46,
+    "cliente_id": 169,
+    "data_abertura": "2024-09-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 47,
+    "cliente_id": 148,
+    "data_abertura": "2025-07-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 48,
+    "cliente_id": 200,
+    "data_abertura": "2025-03-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 49,
+    "cliente_id": 385,
+    "data_abertura": "2024-07-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 95,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 50,
+    "cliente_id": 312,
+    "data_abertura": "2024-10-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 14,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 51,
+    "cliente_id": 70,
+    "data_abertura": "2024-11-02",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 29,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 52,
+    "cliente_id": 312,
+    "data_abertura": "2025-04-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 117,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 53,
+    "cliente_id": 54,
+    "data_abertura": "2025-06-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 49,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 54,
+    "cliente_id": 395,
+    "data_abertura": "2024-09-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 101,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 55,
+    "cliente_id": 259,
+    "data_abertura": "2024-12-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 15,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 56,
+    "cliente_id": 351,
+    "data_abertura": "2025-02-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 57,
+    "cliente_id": 28,
+    "data_abertura": "2025-06-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 58,
+    "cliente_id": 367,
+    "data_abertura": "2025-04-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 11,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 59,
+    "cliente_id": 363,
+    "data_abertura": "2024-12-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 60,
+    "cliente_id": 120,
+    "data_abertura": "2025-02-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 61,
+    "cliente_id": 133,
+    "data_abertura": "2024-10-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 87,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 62,
+    "cliente_id": 380,
+    "data_abertura": "2025-04-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 24,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 63,
+    "cliente_id": 90,
+    "data_abertura": "2025-03-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 64,
+    "cliente_id": 16,
+    "data_abertura": "2025-02-13",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 65,
+    "cliente_id": 287,
+    "data_abertura": "2025-05-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 66,
+    "cliente_id": 284,
+    "data_abertura": "2025-02-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 67,
+    "cliente_id": 391,
+    "data_abertura": "2025-06-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 68,
+    "cliente_id": 230,
+    "data_abertura": "2024-11-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 97,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 69,
+    "cliente_id": 137,
+    "data_abertura": "2025-07-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 70,
+    "cliente_id": 295,
+    "data_abertura": "2025-07-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 95,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 71,
+    "cliente_id": 227,
+    "data_abertura": "2024-09-02",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 72,
+    "cliente_id": 427,
+    "data_abertura": "2025-06-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 73,
+    "cliente_id": 27,
+    "data_abertura": "2024-08-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 74,
+    "cliente_id": 332,
+    "data_abertura": "2024-12-21",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 52,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 75,
+    "cliente_id": 117,
+    "data_abertura": "2024-11-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 76,
+    "cliente_id": 89,
+    "data_abertura": "2025-01-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 77,
+    "cliente_id": 107,
+    "data_abertura": "2025-05-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 117,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 78,
+    "cliente_id": 221,
+    "data_abertura": "2024-10-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 85,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 79,
+    "cliente_id": 223,
+    "data_abertura": "2024-12-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 25,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 80,
+    "cliente_id": 122,
+    "data_abertura": "2024-09-26",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 84,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 81,
+    "cliente_id": 382,
+    "data_abertura": "2024-08-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 82,
+    "cliente_id": 354,
+    "data_abertura": "2024-12-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 83,
+    "cliente_id": 33,
+    "data_abertura": "2024-12-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 70,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 84,
+    "cliente_id": 91,
+    "data_abertura": "2024-08-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 111,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 85,
+    "cliente_id": 184,
+    "data_abertura": "2024-10-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 83,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 86,
+    "cliente_id": 376,
+    "data_abertura": "2025-07-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 39,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 87,
+    "cliente_id": 258,
+    "data_abertura": "2024-08-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 92,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 88,
+    "cliente_id": 398,
+    "data_abertura": "2024-12-01",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 89,
+    "cliente_id": 13,
+    "data_abertura": "2024-09-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 90,
+    "cliente_id": 24,
+    "data_abertura": "2025-03-23",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 91,
+    "cliente_id": 325,
+    "data_abertura": "2024-10-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 82,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 92,
+    "cliente_id": 34,
+    "data_abertura": "2025-03-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 93,
+    "cliente_id": 247,
+    "data_abertura": "2025-07-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 94,
+    "cliente_id": 343,
+    "data_abertura": "2025-02-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 10,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 95,
+    "cliente_id": 19,
+    "data_abertura": "2024-12-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 86,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 96,
+    "cliente_id": 30,
+    "data_abertura": "2025-05-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 97,
+    "cliente_id": 49,
+    "data_abertura": "2025-05-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 86,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 98,
+    "cliente_id": 427,
+    "data_abertura": "2025-04-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 99,
+    "cliente_id": 400,
+    "data_abertura": "2025-02-07",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 70,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 100,
+    "cliente_id": 180,
+    "data_abertura": "2025-01-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 101,
+    "cliente_id": 370,
+    "data_abertura": "2025-03-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 21,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 102,
+    "cliente_id": 372,
+    "data_abertura": "2025-02-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 103,
+    "cliente_id": 488,
+    "data_abertura": "2025-02-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 104,
+    "cliente_id": 226,
+    "data_abertura": "2025-03-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 17,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 105,
+    "cliente_id": 433,
+    "data_abertura": "2025-02-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 106,
+    "cliente_id": 395,
+    "data_abertura": "2025-05-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 107,
+    "cliente_id": 78,
+    "data_abertura": "2024-10-08",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 62,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 108,
+    "cliente_id": 496,
+    "data_abertura": "2024-11-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 109,
+    "cliente_id": 431,
+    "data_abertura": "2025-04-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 110,
+    "cliente_id": 207,
+    "data_abertura": "2025-04-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 111,
+    "cliente_id": 35,
+    "data_abertura": "2024-12-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 67,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 112,
+    "cliente_id": 250,
+    "data_abertura": "2025-06-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 113,
+    "cliente_id": 71,
+    "data_abertura": "2024-08-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 114,
+    "cliente_id": 413,
+    "data_abertura": "2024-10-25",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 115,
+    "cliente_id": 364,
+    "data_abertura": "2025-04-25",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 14,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 116,
+    "cliente_id": 310,
+    "data_abertura": "2024-09-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 117,
+    "cliente_id": 470,
+    "data_abertura": "2025-04-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 118,
+    "cliente_id": 279,
+    "data_abertura": "2024-12-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 119,
+    "cliente_id": 152,
+    "data_abertura": "2024-08-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 30,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 120,
+    "cliente_id": 227,
+    "data_abertura": "2025-04-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 121,
+    "cliente_id": 243,
+    "data_abertura": "2025-04-07",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 122,
+    "cliente_id": 10,
+    "data_abertura": "2025-05-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 21,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 123,
+    "cliente_id": 317,
+    "data_abertura": "2024-12-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 44,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 124,
+    "cliente_id": 392,
+    "data_abertura": "2024-11-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 125,
+    "cliente_id": 48,
+    "data_abertura": "2025-04-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 126,
+    "cliente_id": 112,
+    "data_abertura": "2025-07-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 39,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 127,
+    "cliente_id": 204,
+    "data_abertura": "2024-09-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 79,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 128,
+    "cliente_id": 477,
+    "data_abertura": "2025-02-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 80,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 129,
+    "cliente_id": 382,
+    "data_abertura": "2024-12-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 130,
+    "cliente_id": 157,
+    "data_abertura": "2024-11-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 83,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 131,
+    "cliente_id": 343,
+    "data_abertura": "2025-01-28",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 49,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 132,
+    "cliente_id": 26,
+    "data_abertura": "2024-12-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 133,
+    "cliente_id": 421,
+    "data_abertura": "2025-06-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 73,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 134,
+    "cliente_id": 480,
+    "data_abertura": "2024-08-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 23,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 135,
+    "cliente_id": 308,
+    "data_abertura": "2025-03-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 79,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 136,
+    "cliente_id": 166,
+    "data_abertura": "2024-09-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 137,
+    "cliente_id": 249,
+    "data_abertura": "2025-05-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 138,
+    "cliente_id": 262,
+    "data_abertura": "2024-08-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 139,
+    "cliente_id": 264,
+    "data_abertura": "2024-11-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 31,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 140,
+    "cliente_id": 17,
+    "data_abertura": "2025-03-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 17,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 141,
+    "cliente_id": 76,
+    "data_abertura": "2024-10-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 61,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 142,
+    "cliente_id": 446,
+    "data_abertura": "2024-11-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 64,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 143,
+    "cliente_id": 470,
+    "data_abertura": "2024-12-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 144,
+    "cliente_id": 254,
+    "data_abertura": "2025-04-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 145,
+    "cliente_id": 206,
+    "data_abertura": "2025-07-07",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 110,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 146,
+    "cliente_id": 34,
+    "data_abertura": "2024-08-31",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 96,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 147,
+    "cliente_id": 147,
+    "data_abertura": "2024-12-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 148,
+    "cliente_id": 326,
+    "data_abertura": "2025-03-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 88,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 149,
+    "cliente_id": 338,
+    "data_abertura": "2025-04-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 150,
+    "cliente_id": 228,
+    "data_abertura": "2025-07-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 31,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 151,
+    "cliente_id": 118,
+    "data_abertura": "2025-01-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 152,
+    "cliente_id": 165,
+    "data_abertura": "2025-05-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 67,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 153,
+    "cliente_id": 38,
+    "data_abertura": "2025-03-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 97,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 154,
+    "cliente_id": 399,
+    "data_abertura": "2025-06-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 33,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 155,
+    "cliente_id": 358,
+    "data_abertura": "2024-09-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 26,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 156,
+    "cliente_id": 296,
+    "data_abertura": "2025-06-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 157,
+    "cliente_id": 137,
+    "data_abertura": "2024-12-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 92,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 158,
+    "cliente_id": 309,
+    "data_abertura": "2025-04-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 159,
+    "cliente_id": 246,
+    "data_abertura": "2025-06-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 23,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 160,
+    "cliente_id": 198,
+    "data_abertura": "2025-01-28",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 42,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 161,
+    "cliente_id": 374,
+    "data_abertura": "2024-08-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 162,
+    "cliente_id": 66,
+    "data_abertura": "2025-05-23",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 43,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 163,
+    "cliente_id": 80,
+    "data_abertura": "2024-11-23",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 164,
+    "cliente_id": 52,
+    "data_abertura": "2024-08-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 165,
+    "cliente_id": 129,
+    "data_abertura": "2025-04-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 36,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 166,
+    "cliente_id": 414,
+    "data_abertura": "2024-11-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 119,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 167,
+    "cliente_id": 380,
+    "data_abertura": "2024-12-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 114,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 168,
+    "cliente_id": 368,
+    "data_abertura": "2025-06-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 169,
+    "cliente_id": 481,
+    "data_abertura": "2025-06-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 170,
+    "cliente_id": 1,
+    "data_abertura": "2025-01-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 65,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 171,
+    "cliente_id": 167,
+    "data_abertura": "2025-03-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 97,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 172,
+    "cliente_id": 16,
+    "data_abertura": "2025-04-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 56,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 173,
+    "cliente_id": 145,
+    "data_abertura": "2025-03-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 174,
+    "cliente_id": 112,
+    "data_abertura": "2025-04-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 175,
+    "cliente_id": 368,
+    "data_abertura": "2025-04-07",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 39,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 176,
+    "cliente_id": 102,
+    "data_abertura": "2025-06-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 74,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 177,
+    "cliente_id": 82,
+    "data_abertura": "2024-09-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 178,
+    "cliente_id": 406,
+    "data_abertura": "2024-10-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 179,
+    "cliente_id": 470,
+    "data_abertura": "2025-01-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 65,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 180,
+    "cliente_id": 99,
+    "data_abertura": "2025-01-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 115,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 181,
+    "cliente_id": 159,
+    "data_abertura": "2024-12-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 182,
+    "cliente_id": 40,
+    "data_abertura": "2024-09-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 183,
+    "cliente_id": 155,
+    "data_abertura": "2025-05-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 184,
+    "cliente_id": 36,
+    "data_abertura": "2025-07-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 23,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 185,
+    "cliente_id": 381,
+    "data_abertura": "2025-05-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 91,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 186,
+    "cliente_id": 247,
+    "data_abertura": "2025-07-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 109,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 187,
+    "cliente_id": 4,
+    "data_abertura": "2025-02-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 188,
+    "cliente_id": 497,
+    "data_abertura": "2025-07-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 84,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 189,
+    "cliente_id": 374,
+    "data_abertura": "2024-11-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 30,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 190,
+    "cliente_id": 453,
+    "data_abertura": "2025-01-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 42,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 191,
+    "cliente_id": 281,
+    "data_abertura": "2024-10-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 44,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 192,
+    "cliente_id": 351,
+    "data_abertura": "2024-11-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 29,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 193,
+    "cliente_id": 334,
+    "data_abertura": "2025-07-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 103,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 194,
+    "cliente_id": 414,
+    "data_abertura": "2025-05-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 73,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 195,
+    "cliente_id": 431,
+    "data_abertura": "2025-05-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 196,
+    "cliente_id": 249,
+    "data_abertura": "2025-02-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 197,
+    "cliente_id": 12,
+    "data_abertura": "2025-03-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 198,
+    "cliente_id": 283,
+    "data_abertura": "2024-09-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 199,
+    "cliente_id": 429,
+    "data_abertura": "2025-05-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 26,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 200,
+    "cliente_id": 216,
+    "data_abertura": "2025-06-02",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 68,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 201,
+    "cliente_id": 319,
+    "data_abertura": "2024-12-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 202,
+    "cliente_id": 311,
+    "data_abertura": "2025-03-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 62,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 203,
+    "cliente_id": 414,
+    "data_abertura": "2025-06-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 204,
+    "cliente_id": 82,
+    "data_abertura": "2025-07-17",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 205,
+    "cliente_id": 14,
+    "data_abertura": "2025-03-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 206,
+    "cliente_id": 56,
+    "data_abertura": "2025-04-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 101,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 207,
+    "cliente_id": 403,
+    "data_abertura": "2025-06-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 208,
+    "cliente_id": 342,
+    "data_abertura": "2025-01-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 209,
+    "cliente_id": 282,
+    "data_abertura": "2025-02-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 79,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 210,
+    "cliente_id": 199,
+    "data_abertura": "2024-08-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 107,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 211,
+    "cliente_id": 348,
+    "data_abertura": "2024-08-31",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 212,
+    "cliente_id": 166,
+    "data_abertura": "2024-11-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 213,
+    "cliente_id": 453,
+    "data_abertura": "2024-08-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 5,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 214,
+    "cliente_id": 292,
+    "data_abertura": "2025-04-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 30,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 215,
+    "cliente_id": 146,
+    "data_abertura": "2024-12-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 37,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 216,
+    "cliente_id": 441,
+    "data_abertura": "2024-10-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 85,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 217,
+    "cliente_id": 78,
+    "data_abertura": "2024-12-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 31,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 218,
+    "cliente_id": 112,
+    "data_abertura": "2025-05-21",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 46,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 219,
+    "cliente_id": 23,
+    "data_abertura": "2025-05-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 73,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 220,
+    "cliente_id": 375,
+    "data_abertura": "2024-09-04",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 221,
+    "cliente_id": 116,
+    "data_abertura": "2025-05-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 68,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 222,
+    "cliente_id": 142,
+    "data_abertura": "2025-04-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 29,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 223,
+    "cliente_id": 480,
+    "data_abertura": "2024-12-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 76,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 224,
+    "cliente_id": 197,
+    "data_abertura": "2025-01-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 102,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 225,
+    "cliente_id": 278,
+    "data_abertura": "2025-04-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 226,
+    "cliente_id": 28,
+    "data_abertura": "2024-11-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 227,
+    "cliente_id": 299,
+    "data_abertura": "2025-03-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 228,
+    "cliente_id": 76,
+    "data_abertura": "2024-09-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 62,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 229,
+    "cliente_id": 18,
+    "data_abertura": "2025-06-07",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 230,
+    "cliente_id": 100,
+    "data_abertura": "2025-07-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 15,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 231,
+    "cliente_id": 479,
+    "data_abertura": "2025-06-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 232,
+    "cliente_id": 461,
+    "data_abertura": "2024-08-31",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 112,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 233,
+    "cliente_id": 468,
+    "data_abertura": "2024-10-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 234,
+    "cliente_id": 124,
+    "data_abertura": "2025-01-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 40,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 235,
+    "cliente_id": 365,
+    "data_abertura": "2025-04-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 236,
+    "cliente_id": 292,
+    "data_abertura": "2025-05-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 237,
+    "cliente_id": 125,
+    "data_abertura": "2024-11-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 238,
+    "cliente_id": 7,
+    "data_abertura": "2024-09-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 239,
+    "cliente_id": 23,
+    "data_abertura": "2024-10-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 240,
+    "cliente_id": 162,
+    "data_abertura": "2025-03-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 241,
+    "cliente_id": 117,
+    "data_abertura": "2025-05-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 76,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 242,
+    "cliente_id": 370,
+    "data_abertura": "2025-04-30",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 93,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 243,
+    "cliente_id": 352,
+    "data_abertura": "2024-09-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 96,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 244,
+    "cliente_id": 21,
+    "data_abertura": "2025-01-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 56,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 245,
+    "cliente_id": 252,
+    "data_abertura": "2025-05-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 246,
+    "cliente_id": 326,
+    "data_abertura": "2025-01-31",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 247,
+    "cliente_id": 464,
+    "data_abertura": "2025-05-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 248,
+    "cliente_id": 483,
+    "data_abertura": "2024-11-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 47,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 249,
+    "cliente_id": 431,
+    "data_abertura": "2024-10-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 250,
+    "cliente_id": 309,
+    "data_abertura": "2025-06-30",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 251,
+    "cliente_id": 84,
+    "data_abertura": "2024-11-30",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 252,
+    "cliente_id": 362,
+    "data_abertura": "2025-06-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 17,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 253,
+    "cliente_id": 41,
+    "data_abertura": "2025-06-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 42,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 254,
+    "cliente_id": 203,
+    "data_abertura": "2024-08-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 49,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 255,
+    "cliente_id": 416,
+    "data_abertura": "2025-05-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 29,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 256,
+    "cliente_id": 128,
+    "data_abertura": "2024-12-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 71,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 257,
+    "cliente_id": 142,
+    "data_abertura": "2025-05-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 258,
+    "cliente_id": 344,
+    "data_abertura": "2024-11-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 259,
+    "cliente_id": 492,
+    "data_abertura": "2024-10-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 43,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 260,
+    "cliente_id": 103,
+    "data_abertura": "2024-12-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 69,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 261,
+    "cliente_id": 107,
+    "data_abertura": "2024-10-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 79,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 262,
+    "cliente_id": 479,
+    "data_abertura": "2025-06-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 6,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 263,
+    "cliente_id": 17,
+    "data_abertura": "2024-11-14",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 73,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 264,
+    "cliente_id": 25,
+    "data_abertura": "2024-12-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 265,
+    "cliente_id": 64,
+    "data_abertura": "2025-03-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 66,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 266,
+    "cliente_id": 457,
+    "data_abertura": "2025-05-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 267,
+    "cliente_id": 342,
+    "data_abertura": "2024-09-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 268,
+    "cliente_id": 375,
+    "data_abertura": "2024-08-04",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 269,
+    "cliente_id": 237,
+    "data_abertura": "2024-10-31",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 91,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 270,
+    "cliente_id": 176,
+    "data_abertura": "2024-11-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 115,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 271,
+    "cliente_id": 291,
+    "data_abertura": "2024-12-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 272,
+    "cliente_id": 293,
+    "data_abertura": "2024-08-01",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 273,
+    "cliente_id": 311,
+    "data_abertura": "2025-07-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 274,
+    "cliente_id": 401,
+    "data_abertura": "2025-03-25",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 275,
+    "cliente_id": 156,
+    "data_abertura": "2025-01-25",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 39,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 276,
+    "cliente_id": 385,
+    "data_abertura": "2024-08-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 49,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 277,
+    "cliente_id": 53,
+    "data_abertura": "2024-12-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 278,
+    "cliente_id": 73,
+    "data_abertura": "2025-06-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 279,
+    "cliente_id": 183,
+    "data_abertura": "2025-03-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 280,
+    "cliente_id": 369,
+    "data_abertura": "2025-06-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 73,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 281,
+    "cliente_id": 189,
+    "data_abertura": "2024-08-30",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 33,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 282,
+    "cliente_id": 13,
+    "data_abertura": "2024-08-25",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 76,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 283,
+    "cliente_id": 47,
+    "data_abertura": "2024-12-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 12,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 284,
+    "cliente_id": 448,
+    "data_abertura": "2025-02-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 285,
+    "cliente_id": 160,
+    "data_abertura": "2025-03-14",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 11,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 286,
+    "cliente_id": 284,
+    "data_abertura": "2025-03-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 87,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 287,
+    "cliente_id": 53,
+    "data_abertura": "2025-01-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 107,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 288,
+    "cliente_id": 287,
+    "data_abertura": "2025-01-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 289,
+    "cliente_id": 8,
+    "data_abertura": "2024-09-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 290,
+    "cliente_id": 72,
+    "data_abertura": "2024-12-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 291,
+    "cliente_id": 380,
+    "data_abertura": "2024-08-25",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 36,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 292,
+    "cliente_id": 98,
+    "data_abertura": "2024-11-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 66,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 293,
+    "cliente_id": 87,
+    "data_abertura": "2024-11-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 49,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 294,
+    "cliente_id": 330,
+    "data_abertura": "2024-09-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 295,
+    "cliente_id": 101,
+    "data_abertura": "2024-12-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 296,
+    "cliente_id": 496,
+    "data_abertura": "2024-12-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 119,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 297,
+    "cliente_id": 281,
+    "data_abertura": "2025-06-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 298,
+    "cliente_id": 371,
+    "data_abertura": "2025-04-17",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 43,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 299,
+    "cliente_id": 289,
+    "data_abertura": "2024-10-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 300,
+    "cliente_id": 237,
+    "data_abertura": "2024-09-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 71,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 301,
+    "cliente_id": 196,
+    "data_abertura": "2025-05-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 302,
+    "cliente_id": 391,
+    "data_abertura": "2025-07-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 303,
+    "cliente_id": 97,
+    "data_abertura": "2024-11-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 304,
+    "cliente_id": 450,
+    "data_abertura": "2025-05-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 305,
+    "cliente_id": 368,
+    "data_abertura": "2024-10-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 102,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 306,
+    "cliente_id": 430,
+    "data_abertura": "2024-08-23",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 33,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 307,
+    "cliente_id": 96,
+    "data_abertura": "2025-05-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 47,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 308,
+    "cliente_id": 261,
+    "data_abertura": "2024-09-14",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 46,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 309,
+    "cliente_id": 121,
+    "data_abertura": "2025-06-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 64,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 310,
+    "cliente_id": 366,
+    "data_abertura": "2024-08-17",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 311,
+    "cliente_id": 273,
+    "data_abertura": "2025-03-31",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 312,
+    "cliente_id": 332,
+    "data_abertura": "2024-08-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 78,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 313,
+    "cliente_id": 52,
+    "data_abertura": "2024-12-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 96,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 314,
+    "cliente_id": 396,
+    "data_abertura": "2025-05-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 315,
+    "cliente_id": 318,
+    "data_abertura": "2024-11-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 316,
+    "cliente_id": 163,
+    "data_abertura": "2024-11-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 317,
+    "cliente_id": 190,
+    "data_abertura": "2025-01-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 318,
+    "cliente_id": 277,
+    "data_abertura": "2024-11-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 319,
+    "cliente_id": 85,
+    "data_abertura": "2025-06-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 320,
+    "cliente_id": 194,
+    "data_abertura": "2025-07-28",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 88,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 321,
+    "cliente_id": 181,
+    "data_abertura": "2024-12-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 10,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 322,
+    "cliente_id": 21,
+    "data_abertura": "2024-08-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 323,
+    "cliente_id": 399,
+    "data_abertura": "2025-06-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 32,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 324,
+    "cliente_id": 203,
+    "data_abertura": "2025-07-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 81,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 325,
+    "cliente_id": 202,
+    "data_abertura": "2024-12-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 326,
+    "cliente_id": 466,
+    "data_abertura": "2025-06-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 43,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 327,
+    "cliente_id": 151,
+    "data_abertura": "2025-03-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 328,
+    "cliente_id": 384,
+    "data_abertura": "2024-12-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 329,
+    "cliente_id": 159,
+    "data_abertura": "2024-08-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 330,
+    "cliente_id": 310,
+    "data_abertura": "2025-06-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 331,
+    "cliente_id": 439,
+    "data_abertura": "2025-04-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 332,
+    "cliente_id": 26,
+    "data_abertura": "2025-06-21",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 92,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 333,
+    "cliente_id": 309,
+    "data_abertura": "2025-05-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 76,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 334,
+    "cliente_id": 66,
+    "data_abertura": "2024-09-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 335,
+    "cliente_id": 423,
+    "data_abertura": "2024-12-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 336,
+    "cliente_id": 263,
+    "data_abertura": "2025-01-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 337,
+    "cliente_id": 472,
+    "data_abertura": "2025-06-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 74,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 338,
+    "cliente_id": 167,
+    "data_abertura": "2024-08-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 339,
+    "cliente_id": 288,
+    "data_abertura": "2025-03-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 29,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 340,
+    "cliente_id": 154,
+    "data_abertura": "2024-08-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 341,
+    "cliente_id": 343,
+    "data_abertura": "2024-09-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 342,
+    "cliente_id": 206,
+    "data_abertura": "2025-05-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 97,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 343,
+    "cliente_id": 413,
+    "data_abertura": "2024-09-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 344,
+    "cliente_id": 153,
+    "data_abertura": "2025-04-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 14,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 345,
+    "cliente_id": 184,
+    "data_abertura": "2025-04-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 346,
+    "cliente_id": 159,
+    "data_abertura": "2024-12-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 117,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 347,
+    "cliente_id": 194,
+    "data_abertura": "2024-11-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 81,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 348,
+    "cliente_id": 2,
+    "data_abertura": "2025-05-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 36,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 349,
+    "cliente_id": 215,
+    "data_abertura": "2025-03-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 117,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 350,
+    "cliente_id": 175,
+    "data_abertura": "2024-08-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 351,
+    "cliente_id": 75,
+    "data_abertura": "2025-01-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 352,
+    "cliente_id": 285,
+    "data_abertura": "2025-06-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 353,
+    "cliente_id": 127,
+    "data_abertura": "2025-07-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 354,
+    "cliente_id": 490,
+    "data_abertura": "2024-11-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 355,
+    "cliente_id": 483,
+    "data_abertura": "2025-05-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 356,
+    "cliente_id": 49,
+    "data_abertura": "2025-01-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 44,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 357,
+    "cliente_id": 457,
+    "data_abertura": "2025-06-12",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 22,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 358,
+    "cliente_id": 32,
+    "data_abertura": "2025-05-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 40,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 359,
+    "cliente_id": 158,
+    "data_abertura": "2025-04-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 360,
+    "cliente_id": 15,
+    "data_abertura": "2024-10-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 361,
+    "cliente_id": 318,
+    "data_abertura": "2024-11-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 67,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 362,
+    "cliente_id": 334,
+    "data_abertura": "2025-07-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 5,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 363,
+    "cliente_id": 243,
+    "data_abertura": "2025-01-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 115,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 364,
+    "cliente_id": 17,
+    "data_abertura": "2025-01-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 56,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 365,
+    "cliente_id": 22,
+    "data_abertura": "2025-05-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 366,
+    "cliente_id": 244,
+    "data_abertura": "2025-01-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 61,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 367,
+    "cliente_id": 414,
+    "data_abertura": "2025-02-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 368,
+    "cliente_id": 81,
+    "data_abertura": "2025-07-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 369,
+    "cliente_id": 144,
+    "data_abertura": "2025-04-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 96,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 370,
+    "cliente_id": 436,
+    "data_abertura": "2024-10-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 371,
+    "cliente_id": 8,
+    "data_abertura": "2025-04-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 78,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 372,
+    "cliente_id": 448,
+    "data_abertura": "2025-07-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 373,
+    "cliente_id": 167,
+    "data_abertura": "2024-08-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 51,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 374,
+    "cliente_id": 287,
+    "data_abertura": "2025-02-26",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 7,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 375,
+    "cliente_id": 268,
+    "data_abertura": "2025-04-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 6,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 376,
+    "cliente_id": 289,
+    "data_abertura": "2024-09-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 58,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 377,
+    "cliente_id": 186,
+    "data_abertura": "2024-11-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 378,
+    "cliente_id": 12,
+    "data_abertura": "2025-05-17",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 379,
+    "cliente_id": 281,
+    "data_abertura": "2024-09-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 380,
+    "cliente_id": 422,
+    "data_abertura": "2025-03-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 101,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 381,
+    "cliente_id": 304,
+    "data_abertura": "2024-10-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 382,
+    "cliente_id": 466,
+    "data_abertura": "2025-04-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 111,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 383,
+    "cliente_id": 83,
+    "data_abertura": "2024-12-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 384,
+    "cliente_id": 55,
+    "data_abertura": "2025-06-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 62,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 385,
+    "cliente_id": 131,
+    "data_abertura": "2025-06-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 71,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 386,
+    "cliente_id": 125,
+    "data_abertura": "2024-12-25",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 387,
+    "cliente_id": 483,
+    "data_abertura": "2025-02-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 30,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 388,
+    "cliente_id": 325,
+    "data_abertura": "2024-12-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 389,
+    "cliente_id": 419,
+    "data_abertura": "2024-11-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 390,
+    "cliente_id": 51,
+    "data_abertura": "2025-07-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 391,
+    "cliente_id": 27,
+    "data_abertura": "2024-08-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 20,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 392,
+    "cliente_id": 165,
+    "data_abertura": "2025-04-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 57,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 393,
+    "cliente_id": 494,
+    "data_abertura": "2025-06-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 76,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 394,
+    "cliente_id": 469,
+    "data_abertura": "2024-07-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 395,
+    "cliente_id": 400,
+    "data_abertura": "2025-02-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 396,
+    "cliente_id": 476,
+    "data_abertura": "2025-03-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 96,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 397,
+    "cliente_id": 281,
+    "data_abertura": "2025-07-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 11,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 398,
+    "cliente_id": 33,
+    "data_abertura": "2024-11-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 399,
+    "cliente_id": 62,
+    "data_abertura": "2025-06-21",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 400,
+    "cliente_id": 145,
+    "data_abertura": "2024-10-31",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 40,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 401,
+    "cliente_id": 171,
+    "data_abertura": "2024-10-08",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 76,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 402,
+    "cliente_id": 286,
+    "data_abertura": "2025-06-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 78,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 403,
+    "cliente_id": 297,
+    "data_abertura": "2024-09-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 19,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 404,
+    "cliente_id": 117,
+    "data_abertura": "2025-01-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 66,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 405,
+    "cliente_id": 4,
+    "data_abertura": "2024-11-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 22,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 406,
+    "cliente_id": 66,
+    "data_abertura": "2025-01-14",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 407,
+    "cliente_id": 60,
+    "data_abertura": "2025-07-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 408,
+    "cliente_id": 393,
+    "data_abertura": "2024-12-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 409,
+    "cliente_id": 287,
+    "data_abertura": "2025-04-30",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 410,
+    "cliente_id": 345,
+    "data_abertura": "2024-12-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 65,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 411,
+    "cliente_id": 229,
+    "data_abertura": "2025-03-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 119,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 412,
+    "cliente_id": 100,
+    "data_abertura": "2025-03-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 47,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 413,
+    "cliente_id": 119,
+    "data_abertura": "2025-03-17",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 48,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 414,
+    "cliente_id": 69,
+    "data_abertura": "2025-04-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 103,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 415,
+    "cliente_id": 152,
+    "data_abertura": "2025-03-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 70,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 416,
+    "cliente_id": 280,
+    "data_abertura": "2024-11-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 417,
+    "cliente_id": 221,
+    "data_abertura": "2025-02-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 418,
+    "cliente_id": 498,
+    "data_abertura": "2025-01-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 83,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 419,
+    "cliente_id": 429,
+    "data_abertura": "2025-04-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 420,
+    "cliente_id": 223,
+    "data_abertura": "2024-10-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 43,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 421,
+    "cliente_id": 165,
+    "data_abertura": "2025-06-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 422,
+    "cliente_id": 442,
+    "data_abertura": "2024-08-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 423,
+    "cliente_id": 211,
+    "data_abertura": "2025-05-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 61,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 424,
+    "cliente_id": 279,
+    "data_abertura": "2025-01-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 425,
+    "cliente_id": 419,
+    "data_abertura": "2025-01-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 426,
+    "cliente_id": 63,
+    "data_abertura": "2024-10-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 95,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 427,
+    "cliente_id": 374,
+    "data_abertura": "2024-11-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 20,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 428,
+    "cliente_id": 370,
+    "data_abertura": "2025-05-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 61,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 429,
+    "cliente_id": 262,
+    "data_abertura": "2024-09-02",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 430,
+    "cliente_id": 6,
+    "data_abertura": "2024-09-25",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 431,
+    "cliente_id": 248,
+    "data_abertura": "2025-05-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 86,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 432,
+    "cliente_id": 229,
+    "data_abertura": "2025-07-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 433,
+    "cliente_id": 286,
+    "data_abertura": "2025-03-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 29,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 434,
+    "cliente_id": 257,
+    "data_abertura": "2024-10-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 435,
+    "cliente_id": 63,
+    "data_abertura": "2025-02-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 436,
+    "cliente_id": 392,
+    "data_abertura": "2025-04-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 437,
+    "cliente_id": 28,
+    "data_abertura": "2024-09-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 438,
+    "cliente_id": 345,
+    "data_abertura": "2024-10-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 91,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 439,
+    "cliente_id": 417,
+    "data_abertura": "2025-03-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 20,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 440,
+    "cliente_id": 53,
+    "data_abertura": "2024-09-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 74,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 441,
+    "cliente_id": 252,
+    "data_abertura": "2024-12-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 442,
+    "cliente_id": 38,
+    "data_abertura": "2024-10-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 443,
+    "cliente_id": 308,
+    "data_abertura": "2025-05-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 86,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 444,
+    "cliente_id": 334,
+    "data_abertura": "2025-03-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 445,
+    "cliente_id": 139,
+    "data_abertura": "2024-12-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 17,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 446,
+    "cliente_id": 386,
+    "data_abertura": "2024-10-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 28,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 447,
+    "cliente_id": 53,
+    "data_abertura": "2025-01-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 17,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 448,
+    "cliente_id": 94,
+    "data_abertura": "2025-06-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 449,
+    "cliente_id": 94,
+    "data_abertura": "2025-04-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 450,
+    "cliente_id": 452,
+    "data_abertura": "2024-09-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 40,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 451,
+    "cliente_id": 461,
+    "data_abertura": "2025-01-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 452,
+    "cliente_id": 263,
+    "data_abertura": "2025-07-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 86,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 453,
+    "cliente_id": 486,
+    "data_abertura": "2025-07-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 52,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 454,
+    "cliente_id": 323,
+    "data_abertura": "2025-06-12",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 101,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 455,
+    "cliente_id": 137,
+    "data_abertura": "2024-12-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 456,
+    "cliente_id": 462,
+    "data_abertura": "2025-01-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 47,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 457,
+    "cliente_id": 372,
+    "data_abertura": "2024-11-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 10,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 458,
+    "cliente_id": 447,
+    "data_abertura": "2025-07-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 85,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 459,
+    "cliente_id": 256,
+    "data_abertura": "2024-10-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 460,
+    "cliente_id": 395,
+    "data_abertura": "2025-07-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 18,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 461,
+    "cliente_id": 37,
+    "data_abertura": "2025-06-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 462,
+    "cliente_id": 142,
+    "data_abertura": "2024-09-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 114,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 463,
+    "cliente_id": 147,
+    "data_abertura": "2025-06-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 464,
+    "cliente_id": 8,
+    "data_abertura": "2025-03-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 12,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 465,
+    "cliente_id": 251,
+    "data_abertura": "2024-08-13",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 466,
+    "cliente_id": 135,
+    "data_abertura": "2025-04-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 70,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 467,
+    "cliente_id": 59,
+    "data_abertura": "2025-06-12",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 468,
+    "cliente_id": 123,
+    "data_abertura": "2025-01-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 469,
+    "cliente_id": 447,
+    "data_abertura": "2025-02-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 78,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 470,
+    "cliente_id": 263,
+    "data_abertura": "2025-04-08",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 88,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 471,
+    "cliente_id": 120,
+    "data_abertura": "2024-11-28",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 64,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 472,
+    "cliente_id": 439,
+    "data_abertura": "2025-01-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 57,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 473,
+    "cliente_id": 259,
+    "data_abertura": "2025-06-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 474,
+    "cliente_id": 323,
+    "data_abertura": "2025-05-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 475,
+    "cliente_id": 18,
+    "data_abertura": "2024-08-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 78,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 476,
+    "cliente_id": 301,
+    "data_abertura": "2024-09-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 96,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 477,
+    "cliente_id": 353,
+    "data_abertura": "2024-09-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 478,
+    "cliente_id": 485,
+    "data_abertura": "2024-09-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 479,
+    "cliente_id": 92,
+    "data_abertura": "2025-05-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 5,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 480,
+    "cliente_id": 164,
+    "data_abertura": "2025-02-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 481,
+    "cliente_id": 144,
+    "data_abertura": "2025-07-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 95,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 482,
+    "cliente_id": 335,
+    "data_abertura": "2025-05-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 97,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 483,
+    "cliente_id": 413,
+    "data_abertura": "2025-06-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 484,
+    "cliente_id": 315,
+    "data_abertura": "2025-01-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 78,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 485,
+    "cliente_id": 402,
+    "data_abertura": "2024-08-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 486,
+    "cliente_id": 433,
+    "data_abertura": "2025-04-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 26,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 487,
+    "cliente_id": 238,
+    "data_abertura": "2025-06-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 488,
+    "cliente_id": 174,
+    "data_abertura": "2024-10-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 52,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 489,
+    "cliente_id": 83,
+    "data_abertura": "2025-02-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 490,
+    "cliente_id": 157,
+    "data_abertura": "2024-11-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 55,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 491,
+    "cliente_id": 454,
+    "data_abertura": "2024-11-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 492,
+    "cliente_id": 109,
+    "data_abertura": "2025-03-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 21,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 493,
+    "cliente_id": 178,
+    "data_abertura": "2025-06-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 494,
+    "cliente_id": 250,
+    "data_abertura": "2025-02-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 87,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 495,
+    "cliente_id": 495,
+    "data_abertura": "2025-05-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 108,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 496,
+    "cliente_id": 253,
+    "data_abertura": "2024-10-14",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 95,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 497,
+    "cliente_id": 55,
+    "data_abertura": "2025-02-04",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 498,
+    "cliente_id": 155,
+    "data_abertura": "2025-04-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 499,
+    "cliente_id": 391,
+    "data_abertura": "2025-01-07",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 102,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 500,
+    "cliente_id": 91,
+    "data_abertura": "2024-08-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 115,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 501,
+    "cliente_id": 339,
+    "data_abertura": "2024-09-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 502,
+    "cliente_id": 126,
+    "data_abertura": "2025-05-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 63,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 503,
+    "cliente_id": 337,
+    "data_abertura": "2024-08-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 14,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 504,
+    "cliente_id": 169,
+    "data_abertura": "2024-11-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 505,
+    "cliente_id": 139,
+    "data_abertura": "2024-12-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 89,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 506,
+    "cliente_id": 5,
+    "data_abertura": "2024-11-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 25,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 507,
+    "cliente_id": 66,
+    "data_abertura": "2025-06-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 508,
+    "cliente_id": 111,
+    "data_abertura": "2024-11-21",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 509,
+    "cliente_id": 184,
+    "data_abertura": "2025-02-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 102,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 510,
+    "cliente_id": 268,
+    "data_abertura": "2024-10-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 511,
+    "cliente_id": 170,
+    "data_abertura": "2024-12-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 80,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 512,
+    "cliente_id": 362,
+    "data_abertura": "2025-04-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 51,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 513,
+    "cliente_id": 244,
+    "data_abertura": "2024-08-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 89,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 514,
+    "cliente_id": 331,
+    "data_abertura": "2024-12-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 515,
+    "cliente_id": 138,
+    "data_abertura": "2025-01-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 10,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 516,
+    "cliente_id": 28,
+    "data_abertura": "2025-03-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 54,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 517,
+    "cliente_id": 7,
+    "data_abertura": "2025-02-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 518,
+    "cliente_id": 398,
+    "data_abertura": "2024-12-31",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 104,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 519,
+    "cliente_id": 333,
+    "data_abertura": "2024-08-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 67,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 520,
+    "cliente_id": 453,
+    "data_abertura": "2025-03-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 521,
+    "cliente_id": 317,
+    "data_abertura": "2025-01-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 522,
+    "cliente_id": 51,
+    "data_abertura": "2025-01-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 35,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 523,
+    "cliente_id": 426,
+    "data_abertura": "2024-10-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 6,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 524,
+    "cliente_id": 136,
+    "data_abertura": "2025-01-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 20,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 525,
+    "cliente_id": 178,
+    "data_abertura": "2025-06-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 5,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 526,
+    "cliente_id": 129,
+    "data_abertura": "2025-05-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 527,
+    "cliente_id": 197,
+    "data_abertura": "2024-11-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 51,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 528,
+    "cliente_id": 267,
+    "data_abertura": "2025-02-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 529,
+    "cliente_id": 500,
+    "data_abertura": "2025-03-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 56,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 530,
+    "cliente_id": 107,
+    "data_abertura": "2024-08-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 51,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 531,
+    "cliente_id": 48,
+    "data_abertura": "2024-08-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 532,
+    "cliente_id": 138,
+    "data_abertura": "2025-07-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 81,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 533,
+    "cliente_id": 399,
+    "data_abertura": "2025-04-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 534,
+    "cliente_id": 103,
+    "data_abertura": "2024-09-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 49,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 535,
+    "cliente_id": 47,
+    "data_abertura": "2025-01-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 46,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 536,
+    "cliente_id": 477,
+    "data_abertura": "2024-11-10",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 537,
+    "cliente_id": 153,
+    "data_abertura": "2025-04-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 538,
+    "cliente_id": 368,
+    "data_abertura": "2024-12-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 539,
+    "cliente_id": 6,
+    "data_abertura": "2025-06-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 75,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 540,
+    "cliente_id": 11,
+    "data_abertura": "2025-03-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 61,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 541,
+    "cliente_id": 17,
+    "data_abertura": "2025-01-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 108,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 542,
+    "cliente_id": 143,
+    "data_abertura": "2025-05-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 37,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 543,
+    "cliente_id": 272,
+    "data_abertura": "2025-02-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 544,
+    "cliente_id": 312,
+    "data_abertura": "2025-05-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 545,
+    "cliente_id": 66,
+    "data_abertura": "2025-05-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 48,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 546,
+    "cliente_id": 420,
+    "data_abertura": "2025-03-26",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 547,
+    "cliente_id": 339,
+    "data_abertura": "2025-01-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 548,
+    "cliente_id": 422,
+    "data_abertura": "2025-07-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 48,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 549,
+    "cliente_id": 498,
+    "data_abertura": "2025-07-08",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 550,
+    "cliente_id": 469,
+    "data_abertura": "2025-07-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 551,
+    "cliente_id": 331,
+    "data_abertura": "2024-11-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 552,
+    "cliente_id": 256,
+    "data_abertura": "2025-03-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 553,
+    "cliente_id": 489,
+    "data_abertura": "2025-01-08",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 18,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 554,
+    "cliente_id": 127,
+    "data_abertura": "2024-08-21",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 555,
+    "cliente_id": 131,
+    "data_abertura": "2025-06-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 33,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 556,
+    "cliente_id": 482,
+    "data_abertura": "2025-03-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 83,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 557,
+    "cliente_id": 18,
+    "data_abertura": "2025-02-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 21,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 558,
+    "cliente_id": 207,
+    "data_abertura": "2024-09-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 87,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 559,
+    "cliente_id": 89,
+    "data_abertura": "2025-05-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 106,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 560,
+    "cliente_id": 438,
+    "data_abertura": "2024-09-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 561,
+    "cliente_id": 498,
+    "data_abertura": "2024-11-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 31,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 562,
+    "cliente_id": 243,
+    "data_abertura": "2025-06-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 563,
+    "cliente_id": 463,
+    "data_abertura": "2025-06-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 83,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 564,
+    "cliente_id": 350,
+    "data_abertura": "2024-09-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 565,
+    "cliente_id": 17,
+    "data_abertura": "2025-03-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 566,
+    "cliente_id": 466,
+    "data_abertura": "2024-10-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 54,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 567,
+    "cliente_id": 223,
+    "data_abertura": "2024-08-22",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 568,
+    "cliente_id": 370,
+    "data_abertura": "2024-12-24",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 569,
+    "cliente_id": 363,
+    "data_abertura": "2025-01-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 89,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 570,
+    "cliente_id": 210,
+    "data_abertura": "2024-12-08",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 102,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 571,
+    "cliente_id": 99,
+    "data_abertura": "2025-01-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 23,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 572,
+    "cliente_id": 13,
+    "data_abertura": "2024-09-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 573,
+    "cliente_id": 319,
+    "data_abertura": "2024-12-26",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 574,
+    "cliente_id": 270,
+    "data_abertura": "2025-05-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 41,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 575,
+    "cliente_id": 187,
+    "data_abertura": "2025-03-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 576,
+    "cliente_id": 420,
+    "data_abertura": "2025-03-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 36,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 577,
+    "cliente_id": 274,
+    "data_abertura": "2025-02-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 49,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 578,
+    "cliente_id": 133,
+    "data_abertura": "2024-08-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 579,
+    "cliente_id": 14,
+    "data_abertura": "2025-06-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 580,
+    "cliente_id": 281,
+    "data_abertura": "2025-01-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 581,
+    "cliente_id": 44,
+    "data_abertura": "2025-01-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 582,
+    "cliente_id": 377,
+    "data_abertura": "2024-09-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 84,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 583,
+    "cliente_id": 295,
+    "data_abertura": "2024-10-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 18,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 584,
+    "cliente_id": 396,
+    "data_abertura": "2024-12-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 585,
+    "cliente_id": 104,
+    "data_abertura": "2024-10-17",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 67,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 586,
+    "cliente_id": 445,
+    "data_abertura": "2025-04-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 587,
+    "cliente_id": 62,
+    "data_abertura": "2025-06-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 62,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 588,
+    "cliente_id": 53,
+    "data_abertura": "2024-09-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 589,
+    "cliente_id": 309,
+    "data_abertura": "2025-02-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 25,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 590,
+    "cliente_id": 412,
+    "data_abertura": "2025-06-07",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 591,
+    "cliente_id": 419,
+    "data_abertura": "2025-07-08",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 592,
+    "cliente_id": 118,
+    "data_abertura": "2024-11-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 119,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 593,
+    "cliente_id": 321,
+    "data_abertura": "2025-02-11",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 50,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 594,
+    "cliente_id": 131,
+    "data_abertura": "2025-05-19",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 90,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 595,
+    "cliente_id": 299,
+    "data_abertura": "2025-06-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 16,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 596,
+    "cliente_id": 306,
+    "data_abertura": "2025-01-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 597,
+    "cliente_id": 199,
+    "data_abertura": "2025-07-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 98,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 598,
+    "cliente_id": 393,
+    "data_abertura": "2024-09-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 100,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 599,
+    "cliente_id": 36,
+    "data_abertura": "2024-11-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 64,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 600,
+    "cliente_id": 279,
+    "data_abertura": "2025-02-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 601,
+    "cliente_id": 216,
+    "data_abertura": "2025-02-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 602,
+    "cliente_id": 74,
+    "data_abertura": "2024-12-26",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 85,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 603,
+    "cliente_id": 306,
+    "data_abertura": "2024-10-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 604,
+    "cliente_id": 55,
+    "data_abertura": "2025-04-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 18,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 605,
+    "cliente_id": 496,
+    "data_abertura": "2024-11-06",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 115,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 606,
+    "cliente_id": 381,
+    "data_abertura": "2025-01-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 48,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 607,
+    "cliente_id": 12,
+    "data_abertura": "2025-03-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 112,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 608,
+    "cliente_id": 83,
+    "data_abertura": "2024-07-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 106,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 609,
+    "cliente_id": 32,
+    "data_abertura": "2025-04-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 30,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 610,
+    "cliente_id": 408,
+    "data_abertura": "2024-09-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 95,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 611,
+    "cliente_id": 86,
+    "data_abertura": "2025-03-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 612,
+    "cliente_id": 451,
+    "data_abertura": "2025-05-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 20,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 613,
+    "cliente_id": 232,
+    "data_abertura": "2024-12-13",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 114,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 614,
+    "cliente_id": 411,
+    "data_abertura": "2025-01-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 11,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 615,
+    "cliente_id": 445,
+    "data_abertura": "2025-06-17",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 36,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 616,
+    "cliente_id": 275,
+    "data_abertura": "2025-01-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 617,
+    "cliente_id": 201,
+    "data_abertura": "2025-01-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 618,
+    "cliente_id": 51,
+    "data_abertura": "2025-04-15",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 20,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 619,
+    "cliente_id": 320,
+    "data_abertura": "2024-12-02",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 109,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 620,
+    "cliente_id": 256,
+    "data_abertura": "2024-08-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 621,
+    "cliente_id": 241,
+    "data_abertura": "2025-02-08",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 622,
+    "cliente_id": 205,
+    "data_abertura": "2024-12-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 66,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 623,
+    "cliente_id": 386,
+    "data_abertura": "2024-11-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 34,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 624,
+    "cliente_id": 420,
+    "data_abertura": "2025-05-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 75,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 625,
+    "cliente_id": 477,
+    "data_abertura": "2024-11-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 626,
+    "cliente_id": 384,
+    "data_abertura": "2024-08-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 71,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 627,
+    "cliente_id": 395,
+    "data_abertura": "2025-07-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 95,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 628,
+    "cliente_id": 482,
+    "data_abertura": "2024-11-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 629,
+    "cliente_id": 196,
+    "data_abertura": "2025-04-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 87,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 630,
+    "cliente_id": 452,
+    "data_abertura": "2025-07-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 47,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 631,
+    "cliente_id": 244,
+    "data_abertura": "2025-01-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 632,
+    "cliente_id": 320,
+    "data_abertura": "2024-09-15",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 633,
+    "cliente_id": 1,
+    "data_abertura": "2024-10-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 49,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 634,
+    "cliente_id": 89,
+    "data_abertura": "2024-10-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 64,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 635,
+    "cliente_id": 282,
+    "data_abertura": "2024-12-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 110,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 636,
+    "cliente_id": 139,
+    "data_abertura": "2025-01-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 637,
+    "cliente_id": 87,
+    "data_abertura": "2024-12-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 117,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 638,
+    "cliente_id": 2,
+    "data_abertura": "2024-10-05",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 84,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 639,
+    "cliente_id": 467,
+    "data_abertura": "2024-08-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 36,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 640,
+    "cliente_id": 349,
+    "data_abertura": "2025-05-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 12,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 641,
+    "cliente_id": 168,
+    "data_abertura": "2024-07-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 117,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 642,
+    "cliente_id": 119,
+    "data_abertura": "2025-07-08",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 81,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 643,
+    "cliente_id": 500,
+    "data_abertura": "2025-01-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 66,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 644,
+    "cliente_id": 388,
+    "data_abertura": "2025-06-07",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 79,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 645,
+    "cliente_id": 80,
+    "data_abertura": "2024-12-04",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 24,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 646,
+    "cliente_id": 111,
+    "data_abertura": "2025-05-17",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 22,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 647,
+    "cliente_id": 165,
+    "data_abertura": "2025-06-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 648,
+    "cliente_id": 382,
+    "data_abertura": "2024-08-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 10,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 649,
+    "cliente_id": 445,
+    "data_abertura": "2025-03-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 650,
+    "cliente_id": 219,
+    "data_abertura": "2024-11-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 651,
+    "cliente_id": 5,
+    "data_abertura": "2024-09-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 114,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 652,
+    "cliente_id": 399,
+    "data_abertura": "2025-03-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 112,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 653,
+    "cliente_id": 215,
+    "data_abertura": "2025-04-12",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 33,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 654,
+    "cliente_id": 497,
+    "data_abertura": "2024-09-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 655,
+    "cliente_id": 195,
+    "data_abertura": "2025-05-24",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 75,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 656,
+    "cliente_id": 466,
+    "data_abertura": "2025-07-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 47,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 657,
+    "cliente_id": 491,
+    "data_abertura": "2024-11-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 658,
+    "cliente_id": 282,
+    "data_abertura": "2025-03-09",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 659,
+    "cliente_id": 6,
+    "data_abertura": "2024-12-01",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 660,
+    "cliente_id": 379,
+    "data_abertura": "2024-09-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 75,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 661,
+    "cliente_id": 300,
+    "data_abertura": "2025-06-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 37,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 662,
+    "cliente_id": 58,
+    "data_abertura": "2024-12-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 19,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 663,
+    "cliente_id": 337,
+    "data_abertura": "2025-01-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 100,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 664,
+    "cliente_id": 302,
+    "data_abertura": "2024-08-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 665,
+    "cliente_id": 102,
+    "data_abertura": "2024-10-08",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 44,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 666,
+    "cliente_id": 426,
+    "data_abertura": "2025-06-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 97,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 667,
+    "cliente_id": 48,
+    "data_abertura": "2025-02-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 668,
+    "cliente_id": 370,
+    "data_abertura": "2025-04-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 669,
+    "cliente_id": 411,
+    "data_abertura": "2025-04-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 670,
+    "cliente_id": 276,
+    "data_abertura": "2025-06-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 54,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 671,
+    "cliente_id": 454,
+    "data_abertura": "2025-05-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 672,
+    "cliente_id": 371,
+    "data_abertura": "2025-01-31",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 70,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 673,
+    "cliente_id": 163,
+    "data_abertura": "2025-02-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 93,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 674,
+    "cliente_id": 332,
+    "data_abertura": "2025-06-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 675,
+    "cliente_id": 432,
+    "data_abertura": "2025-07-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 84,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 676,
+    "cliente_id": 451,
+    "data_abertura": "2025-06-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 677,
+    "cliente_id": 496,
+    "data_abertura": "2024-09-28",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 84,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 678,
+    "cliente_id": 196,
+    "data_abertura": "2025-01-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 15,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 679,
+    "cliente_id": 377,
+    "data_abertura": "2024-08-17",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 680,
+    "cliente_id": 436,
+    "data_abertura": "2024-09-17",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 103,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 681,
+    "cliente_id": 365,
+    "data_abertura": "2025-03-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 27,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 682,
+    "cliente_id": 324,
+    "data_abertura": "2025-02-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 683,
+    "cliente_id": 132,
+    "data_abertura": "2025-05-29",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 684,
+    "cliente_id": 423,
+    "data_abertura": "2024-09-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 68,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 685,
+    "cliente_id": 405,
+    "data_abertura": "2024-10-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 39,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 686,
+    "cliente_id": 492,
+    "data_abertura": "2024-08-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 97,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 687,
+    "cliente_id": 66,
+    "data_abertura": "2025-06-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 115,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 688,
+    "cliente_id": 400,
+    "data_abertura": "2024-10-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 73,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 689,
+    "cliente_id": 391,
+    "data_abertura": "2024-11-09",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 690,
+    "cliente_id": 83,
+    "data_abertura": "2025-03-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 7,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 691,
+    "cliente_id": 491,
+    "data_abertura": "2024-12-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 10,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 692,
+    "cliente_id": 481,
+    "data_abertura": "2024-10-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 91,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 693,
+    "cliente_id": 265,
+    "data_abertura": "2025-07-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 114,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 694,
+    "cliente_id": 229,
+    "data_abertura": "2024-11-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 60,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 695,
+    "cliente_id": 273,
+    "data_abertura": "2025-03-26",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 6,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 696,
+    "cliente_id": 219,
+    "data_abertura": "2024-12-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 86,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 697,
+    "cliente_id": 225,
+    "data_abertura": "2024-12-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 98,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 698,
+    "cliente_id": 113,
+    "data_abertura": "2025-03-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 42,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 699,
+    "cliente_id": 140,
+    "data_abertura": "2025-05-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 60,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 700,
+    "cliente_id": 185,
+    "data_abertura": "2025-06-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 701,
+    "cliente_id": 173,
+    "data_abertura": "2024-09-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 702,
+    "cliente_id": 376,
+    "data_abertura": "2025-07-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 117,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 703,
+    "cliente_id": 11,
+    "data_abertura": "2024-09-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 15,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 704,
+    "cliente_id": 397,
+    "data_abertura": "2025-05-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 705,
+    "cliente_id": 159,
+    "data_abertura": "2025-02-14",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 14,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 706,
+    "cliente_id": 205,
+    "data_abertura": "2025-04-19",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 707,
+    "cliente_id": 230,
+    "data_abertura": "2025-03-18",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 48,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 708,
+    "cliente_id": 26,
+    "data_abertura": "2024-10-02",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 709,
+    "cliente_id": 319,
+    "data_abertura": "2025-07-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 37,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 710,
+    "cliente_id": 159,
+    "data_abertura": "2024-08-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 95,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 711,
+    "cliente_id": 278,
+    "data_abertura": "2025-05-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 712,
+    "cliente_id": 390,
+    "data_abertura": "2025-06-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 118,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 713,
+    "cliente_id": 148,
+    "data_abertura": "2024-10-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 16,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 714,
+    "cliente_id": 469,
+    "data_abertura": "2024-12-24",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 6,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 715,
+    "cliente_id": 266,
+    "data_abertura": "2025-02-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 5,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 716,
+    "cliente_id": 83,
+    "data_abertura": "2025-02-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 69,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 717,
+    "cliente_id": 419,
+    "data_abertura": "2024-12-03",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 37,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 718,
+    "cliente_id": 26,
+    "data_abertura": "2024-11-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 90,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 719,
+    "cliente_id": 71,
+    "data_abertura": "2025-01-29",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 80,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 720,
+    "cliente_id": 37,
+    "data_abertura": "2025-04-17",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 107,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 721,
+    "cliente_id": 392,
+    "data_abertura": "2024-08-09",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 40,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 722,
+    "cliente_id": 133,
+    "data_abertura": "2025-07-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 25,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 723,
+    "cliente_id": 428,
+    "data_abertura": "2024-08-14",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 88,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 724,
+    "cliente_id": 484,
+    "data_abertura": "2025-01-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 40,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 725,
+    "cliente_id": 126,
+    "data_abertura": "2025-02-17",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 30,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 726,
+    "cliente_id": 115,
+    "data_abertura": "2024-10-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 51,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 727,
+    "cliente_id": 92,
+    "data_abertura": "2024-12-10",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 99,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 728,
+    "cliente_id": 242,
+    "data_abertura": "2025-02-05",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 5,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 729,
+    "cliente_id": 451,
+    "data_abertura": "2025-03-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 42,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 730,
+    "cliente_id": 487,
+    "data_abertura": "2024-12-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 18,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 731,
+    "cliente_id": 200,
+    "data_abertura": "2024-11-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 94,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 732,
+    "cliente_id": 207,
+    "data_abertura": "2025-04-13",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 50,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 733,
+    "cliente_id": 117,
+    "data_abertura": "2024-08-18",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 46,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 734,
+    "cliente_id": 219,
+    "data_abertura": "2024-09-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 11,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 735,
+    "cliente_id": 305,
+    "data_abertura": "2024-11-22",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 736,
+    "cliente_id": 243,
+    "data_abertura": "2025-04-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 60,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 737,
+    "cliente_id": 292,
+    "data_abertura": "2025-07-20",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 80,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 738,
+    "cliente_id": 464,
+    "data_abertura": "2025-01-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 67,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 739,
+    "cliente_id": 282,
+    "data_abertura": "2025-03-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 28,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 740,
+    "cliente_id": 301,
+    "data_abertura": "2025-05-30",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 87,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 741,
+    "cliente_id": 317,
+    "data_abertura": "2024-08-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 77,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 742,
+    "cliente_id": 172,
+    "data_abertura": "2024-10-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 103,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 743,
+    "cliente_id": 388,
+    "data_abertura": "2024-10-11",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 8,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 744,
+    "cliente_id": 76,
+    "data_abertura": "2024-08-23",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 745,
+    "cliente_id": 209,
+    "data_abertura": "2025-06-18",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 46,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 746,
+    "cliente_id": 314,
+    "data_abertura": "2025-05-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 100,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 747,
+    "cliente_id": 105,
+    "data_abertura": "2025-06-01",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 114,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 748,
+    "cliente_id": 492,
+    "data_abertura": "2025-02-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 74,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 749,
+    "cliente_id": 26,
+    "data_abertura": "2025-07-10",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 750,
+    "cliente_id": 351,
+    "data_abertura": "2025-07-20",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 96,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 751,
+    "cliente_id": 79,
+    "data_abertura": "2025-06-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 44,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 752,
+    "cliente_id": 500,
+    "data_abertura": "2025-04-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 55,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 753,
+    "cliente_id": 482,
+    "data_abertura": "2024-10-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 33,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 754,
+    "cliente_id": 128,
+    "data_abertura": "2025-05-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 46,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 755,
+    "cliente_id": 413,
+    "data_abertura": "2025-04-27",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 73,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 756,
+    "cliente_id": 137,
+    "data_abertura": "2025-03-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 9,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 757,
+    "cliente_id": 334,
+    "data_abertura": "2025-02-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 105,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 758,
+    "cliente_id": 36,
+    "data_abertura": "2024-12-05",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 759,
+    "cliente_id": 388,
+    "data_abertura": "2025-03-28",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 65,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 760,
+    "cliente_id": 59,
+    "data_abertura": "2025-01-21",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 59,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 761,
+    "cliente_id": 230,
+    "data_abertura": "2025-03-02",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 32,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 762,
+    "cliente_id": 421,
+    "data_abertura": "2025-06-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 45,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 763,
+    "cliente_id": 124,
+    "data_abertura": "2024-09-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 115,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 764,
+    "cliente_id": 88,
+    "data_abertura": "2024-12-20",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 13,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 765,
+    "cliente_id": 337,
+    "data_abertura": "2024-10-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 33,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 766,
+    "cliente_id": 141,
+    "data_abertura": "2025-04-16",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 82,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 767,
+    "cliente_id": 404,
+    "data_abertura": "2025-05-28",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 42,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 768,
+    "cliente_id": 273,
+    "data_abertura": "2025-01-06",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 66,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 769,
+    "cliente_id": 51,
+    "data_abertura": "2024-11-04",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 58,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 770,
+    "cliente_id": 475,
+    "data_abertura": "2024-11-23",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 56,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 771,
+    "cliente_id": 55,
+    "data_abertura": "2025-03-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 108,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 772,
+    "cliente_id": 417,
+    "data_abertura": "2024-09-16",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 38,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 773,
+    "cliente_id": 405,
+    "data_abertura": "2025-01-19",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 41,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 774,
+    "cliente_id": 337,
+    "data_abertura": "2024-11-22",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 53,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 775,
+    "cliente_id": 150,
+    "data_abertura": "2024-12-03",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 46,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 776,
+    "cliente_id": 153,
+    "data_abertura": "2025-03-02",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 18,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 777,
+    "cliente_id": 451,
+    "data_abertura": "2024-09-23",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 86,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 778,
+    "cliente_id": 219,
+    "data_abertura": "2024-10-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 37,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 779,
+    "cliente_id": 219,
+    "data_abertura": "2025-02-16",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 102,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 780,
+    "cliente_id": 366,
+    "data_abertura": "2025-02-12",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 96,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 781,
+    "cliente_id": 396,
+    "data_abertura": "2025-07-04",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 782,
+    "cliente_id": 399,
+    "data_abertura": "2025-03-15",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 113,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 783,
+    "cliente_id": 486,
+    "data_abertura": "2025-02-01",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 116,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 784,
+    "cliente_id": 468,
+    "data_abertura": "2024-11-29",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 785,
+    "cliente_id": 342,
+    "data_abertura": "2025-03-30",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 91,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 786,
+    "cliente_id": 258,
+    "data_abertura": "2024-08-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 110,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 787,
+    "cliente_id": 388,
+    "data_abertura": "2025-02-03",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 21,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 788,
+    "cliente_id": 45,
+    "data_abertura": "2025-02-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 79,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 789,
+    "cliente_id": 269,
+    "data_abertura": "2025-01-21",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 36,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 790,
+    "cliente_id": 311,
+    "data_abertura": "2024-12-30",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 105,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 791,
+    "cliente_id": 160,
+    "data_abertura": "2025-04-06",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 83,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 792,
+    "cliente_id": 278,
+    "data_abertura": "2024-12-27",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 72,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 793,
+    "cliente_id": 345,
+    "data_abertura": "2024-12-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 43,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 794,
+    "cliente_id": 475,
+    "data_abertura": "2025-03-25",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 98,
+    "resolvido": "Não"
+  },
+  {
+    "chamado_id": 795,
+    "cliente_id": 55,
+    "data_abertura": "2024-09-12",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 14,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 796,
+    "cliente_id": 145,
+    "data_abertura": "2024-11-13",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 91,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 797,
+    "cliente_id": 454,
+    "data_abertura": "2025-01-27",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 28,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 798,
+    "cliente_id": 235,
+    "data_abertura": "2025-01-07",
+    "categoria": "Dúvidas Gerais",
+    "tempo_resposta_min": 104,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 799,
+    "cliente_id": 179,
+    "data_abertura": "2025-03-11",
+    "categoria": "Financeiro",
+    "tempo_resposta_min": 62,
+    "resolvido": "Sim"
+  },
+  {
+    "chamado_id": 800,
+    "cliente_id": 208,
+    "data_abertura": "2025-02-01",
+    "categoria": "Técnico",
+    "tempo_resposta_min": 73,
+    "resolvido": "Não"
+  }
+]

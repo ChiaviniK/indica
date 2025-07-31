@@ -1,0 +1,261 @@
+[
+  {
+    "id_fazenda": 1,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2022/23",
+    "hectares_colhidos": 200.31,
+    "quantidade_toneladas": 291.13
+  },
+  {
+    "id_fazenda": 2,
+    "cultura": "Café",
+    "safra": "2022/23",
+    "hectares_colhidos": 171.63,
+    "quantidade_toneladas": 475.33
+  },
+  {
+    "id_fazenda": 3,
+    "cultura": "Milho",
+    "safra": "2023/24",
+    "hectares_colhidos": 253.46,
+    "quantidade_toneladas": 89.85
+  },
+  {
+    "id_fazenda": 4,
+    "cultura": "Café",
+    "safra": "2023/24",
+    "hectares_colhidos": 288.75,
+    "quantidade_toneladas": 165.61
+  },
+  {
+    "id_fazenda": 5,
+    "cultura": "Café",
+    "safra": "2022/23",
+    "hectares_colhidos": 235.94,
+    "quantidade_toneladas": 71.25
+  },
+  {
+    "id_fazenda": 5,
+    "cultura": "Milho",
+    "safra": "2022/23",
+    "hectares_colhidos": 231.11,
+    "quantidade_toneladas": 313.75
+  },
+  {
+    "id_fazenda": 5,
+    "cultura": "Café",
+    "safra": "2022/23",
+    "hectares_colhidos": 182.94,
+    "quantidade_toneladas": 130.84
+  },
+  {
+    "id_fazenda": 6,
+    "cultura": "Café",
+    "safra": "2022/23",
+    "hectares_colhidos": 209.56,
+    "quantidade_toneladas": 248.77
+  },
+  {
+    "id_fazenda": 7,
+    "cultura": "Algodão",
+    "safra": "2023/24",
+    "hectares_colhidos": 216.49,
+    "quantidade_toneladas": 199.5
+  },
+  {
+    "id_fazenda": 7,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2023/24",
+    "hectares_colhidos": 147.42,
+    "quantidade_toneladas": 98.62
+  },
+  {
+    "id_fazenda": 7,
+    "cultura": "Milho",
+    "safra": "2022/23",
+    "hectares_colhidos": 128.49,
+    "quantidade_toneladas": 485.03
+  },
+  {
+    "id_fazenda": 8,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2022/23",
+    "hectares_colhidos": 225.29,
+    "quantidade_toneladas": 494.36
+  },
+  {
+    "id_fazenda": 8,
+    "cultura": "Milho",
+    "safra": "2022/23",
+    "hectares_colhidos": 61.35,
+    "quantidade_toneladas": 478.26
+  },
+  {
+    "id_fazenda": 9,
+    "cultura": "Algodão",
+    "safra": "2023/24",
+    "hectares_colhidos": 209.48,
+    "quantidade_toneladas": 436.05
+  },
+  {
+    "id_fazenda": 9,
+    "cultura": "Milho",
+    "safra": "2023/24",
+    "hectares_colhidos": 127.41,
+    "quantidade_toneladas": 40.08
+  },
+  {
+    "id_fazenda": 10,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2023/24",
+    "hectares_colhidos": 124.3,
+    "quantidade_toneladas": 470.79
+  },
+  {
+    "id_fazenda": 10,
+    "cultura": "Algodão",
+    "safra": "2022/23",
+    "hectares_colhidos": 160.99,
+    "quantidade_toneladas": 236.77
+  },
+  {
+    "id_fazenda": 10,
+    "cultura": "Soja",
+    "safra": "2022/23",
+    "hectares_colhidos": 160.42,
+    "quantidade_toneladas": 209.89
+  },
+  {
+    "id_fazenda": 11,
+    "cultura": "Soja",
+    "safra": "2023/24",
+    "hectares_colhidos": 159.68,
+    "quantidade_toneladas": 322.71
+  },
+  {
+    "id_fazenda": 11,
+    "cultura": "Soja",
+    "safra": "2022/23",
+    "hectares_colhidos": 94.44,
+    "quantidade_toneladas": 211.06
+  },
+  {
+    "id_fazenda": 11,
+    "cultura": "Café",
+    "safra": "2023/24",
+    "hectares_colhidos": 143.79,
+    "quantidade_toneladas": 222.78
+  },
+  {
+    "id_fazenda": 12,
+    "cultura": "Soja",
+    "safra": "2022/23",
+    "hectares_colhidos": 144.44,
+    "quantidade_toneladas": 330.13
+  },
+  {
+    "id_fazenda": 12,
+    "cultura": "Soja",
+    "safra": "2022/23",
+    "hectares_colhidos": 62.13,
+    "quantidade_toneladas": 301.01
+  },
+  {
+    "id_fazenda": 12,
+    "cultura": "Algodão",
+    "safra": "2022/23",
+    "hectares_colhidos": 123.99,
+    "quantidade_toneladas": 175.26
+  },
+  {
+    "id_fazenda": 13,
+    "cultura": "Milho",
+    "safra": "2023/24",
+    "hectares_colhidos": 181.19,
+    "quantidade_toneladas": 362.06
+  },
+  {
+    "id_fazenda": 14,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2022/23",
+    "hectares_colhidos": 82.52,
+    "quantidade_toneladas": 352.02
+  },
+  {
+    "id_fazenda": 15,
+    "cultura": "Milho",
+    "safra": "2022/23",
+    "hectares_colhidos": 36.45,
+    "quantidade_toneladas": 358.99
+  },
+  {
+    "id_fazenda": 15,
+    "cultura": "Café",
+    "safra": "2022/23",
+    "hectares_colhidos": 161.91,
+    "quantidade_toneladas": 204.36
+  },
+  {
+    "id_fazenda": 15,
+    "cultura": "Algodão",
+    "safra": "2022/23",
+    "hectares_colhidos": 119.82,
+    "quantidade_toneladas": 202.69
+  },
+  {
+    "id_fazenda": 16,
+    "cultura": "Café",
+    "safra": "2022/23",
+    "hectares_colhidos": 57.02,
+    "quantidade_toneladas": 89.41
+  },
+  {
+    "id_fazenda": 17,
+    "cultura": "Soja",
+    "safra": "2023/24",
+    "hectares_colhidos": 99.34,
+    "quantidade_toneladas": 370.48
+  },
+  {
+    "id_fazenda": 17,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2023/24",
+    "hectares_colhidos": 191.67,
+    "quantidade_toneladas": 76.43
+  },
+  {
+    "id_fazenda": 17,
+    "cultura": "Milho",
+    "safra": "2022/23",
+    "hectares_colhidos": 11.02,
+    "quantidade_toneladas": 387.39
+  },
+  {
+    "id_fazenda": 18,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2023/24",
+    "hectares_colhidos": 258.07,
+    "quantidade_toneladas": 280.88
+  },
+  {
+    "id_fazenda": 19,
+    "cultura": "Algodão",
+    "safra": "2023/24",
+    "hectares_colhidos": 78.98,
+    "quantidade_toneladas": 302.65
+  },
+  {
+    "id_fazenda": 20,
+    "cultura": "Cana-de-Açúcar",
+    "safra": "2023/24",
+    "hectares_colhidos": 138.14,
+    "quantidade_toneladas": 308.58
+  },
+  {
+    "id_fazenda": 20,
+    "cultura": "Soja",
+    "safra": "2022/23",
+    "hectares_colhidos": 265.83,
+    "quantidade_toneladas": 153.49
+  }
+]

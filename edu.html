@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Educação - Indica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-content {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .dashboard-container {
+            margin-top: 40px;
+        }
+        .dashboard-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            text-align: left;
+        }
+        .services-cards .card {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .services-cards .card:hover {
+            transform: translateY(-10px);
+        }
+        .chart-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .search-box {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 10;
+        }
+        .search-results div {
+            padding: 10px;
+            cursor: pointer;
+        }
+        .search-results div:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Indica</a>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <h1>Dashboards da EduAvance</h1>
+        <p>Clique em um dos cards abaixo para visualizar os indicadores.</p>
+
+        <section class="services-cards" id="dashboards-edu">
+            <div class="card-grid">
+                <div class="card" data-dashboard="desempenho-academico">
+                    <img src="assets/img/analytics.jpg" alt="Ícone de Desempenho Acadêmico">
+                    <h3>Desempenho Acadêmico</h3>
+                    <p>Análise de notas e frequência dos alunos.</p>
+                </div>
+                <div class="card" data-dashboard="satisfacao-aluno">
+                    <img src="assets/img/produtividade.jpg" alt="Ícone de Satisfação do Aluno">
+                    <h3>Satisfação do Aluno</h3>
+                    <p>Resultados de avaliações e feedback da comunidade.</p>
+                </div>
+                <div class="card" data-dashboard="analise-docentes">
+                    <img src="assets/img/target.jpg" alt="Ícone de Análise de Docentes">
+                    <h3>Análise de Docentes</h3>
+                    <p>Perfil e média de avaliações dos professores.</p>
+                </div>
+                <div class="card" data-dashboard="analise-individual">
+                    <img src="assets/img/person.jpg" alt="Ícone de Análise Individual">
+                    <h3>Análise Individual</h3>
+                    <p>Busque um aluno para ver seu desempenho.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="dashboard-display" class="dashboard-container">
+            </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <script src="dashboardedu.js"></script>
+</body>
+</html>

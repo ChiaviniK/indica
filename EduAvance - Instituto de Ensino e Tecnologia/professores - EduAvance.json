@@ -1,0 +1,212 @@
+[
+  {
+    "id_professor": 1,
+    "nome": "Luiz Felipe das Neves",
+    "disciplina": "Português",
+    "tempo_casa_anos": 16,
+    "formacao": "Mestrado"
+  },
+  {
+    "id_professor": 2,
+    "nome": "Nathan da Rocha",
+    "disciplina": "Matemática",
+    "tempo_casa_anos": 3,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 3,
+    "nome": "Maria Eduarda Mendonça",
+    "disciplina": "História",
+    "tempo_casa_anos": 16,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 4,
+    "nome": "Zoe Aparecida",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 12,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 5,
+    "nome": "Raul Andrade",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 14,
+    "formacao": "Bacharelado"
+  },
+  {
+    "id_professor": 6,
+    "nome": "Ana Cecília Leão",
+    "disciplina": "Inglês",
+    "tempo_casa_anos": 11,
+    "formacao": "Mestrado"
+  },
+  {
+    "id_professor": 7,
+    "nome": "Dr. Igor Ramos",
+    "disciplina": "Português",
+    "tempo_casa_anos": 11,
+    "formacao": "Bacharelado"
+  },
+  {
+    "id_professor": 8,
+    "nome": "José Pedro Moreira",
+    "disciplina": "Inglês",
+    "tempo_casa_anos": 4,
+    "formacao": "Mestrado"
+  },
+  {
+    "id_professor": 9,
+    "nome": "Davi Barros",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 6,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 10,
+    "nome": "Dra. Nicole Sousa",
+    "disciplina": "Química",
+    "tempo_casa_anos": 11,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 11,
+    "nome": "Srta. Hellena da Paz",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 14,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 12,
+    "nome": "Vitor Novais",
+    "disciplina": "Inglês",
+    "tempo_casa_anos": 16,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 13,
+    "nome": "Ana Laura Martins",
+    "disciplina": "Inglês",
+    "tempo_casa_anos": 10,
+    "formacao": "Bacharelado"
+  },
+  {
+    "id_professor": 14,
+    "nome": "José Pedro da Costa",
+    "disciplina": "Português",
+    "tempo_casa_anos": 13,
+    "formacao": "Bacharelado"
+  },
+  {
+    "id_professor": 15,
+    "nome": "Esther Guerra",
+    "disciplina": "Matemática",
+    "tempo_casa_anos": 18,
+    "formacao": "Mestrado"
+  },
+  {
+    "id_professor": 16,
+    "nome": "Anthony Gabriel da Mata",
+    "disciplina": "Química",
+    "tempo_casa_anos": 2,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 17,
+    "nome": "Daniela Barbosa",
+    "disciplina": "Física",
+    "tempo_casa_anos": 15,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 18,
+    "nome": "Theodoro Farias",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 3,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 19,
+    "nome": "Clarice Monteiro",
+    "disciplina": "Matemática",
+    "tempo_casa_anos": 11,
+    "formacao": "Bacharelado"
+  },
+  {
+    "id_professor": 20,
+    "nome": "Ana Beatriz Siqueira",
+    "disciplina": "Português",
+    "tempo_casa_anos": 9,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 21,
+    "nome": "Diogo Camargo",
+    "disciplina": "Geografia",
+    "tempo_casa_anos": 11,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 22,
+    "nome": "Pietra Silveira",
+    "disciplina": "Matemática",
+    "tempo_casa_anos": 4,
+    "formacao": "Licenciatura"
+  },
+  {
+    "id_professor": 23,
+    "nome": "Bento Sampaio",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 13,
+    "formacao": "Bacharelado"
+  },
+  {
+    "id_professor": 24,
+    "nome": "Ana Liz Siqueira",
+    "disciplina": "Matemática",
+    "tempo_casa_anos": 17,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 25,
+    "nome": "Vicente Costela",
+    "disciplina": "História",
+    "tempo_casa_anos": 1,
+    "formacao": "Mestrado"
+  },
+  {
+    "id_professor": 26,
+    "nome": "Isaque Sousa",
+    "disciplina": "Inglês",
+    "tempo_casa_anos": 18,
+    "formacao": "Mestrado"
+  },
+  {
+    "id_professor": 27,
+    "nome": "Clara Nogueira",
+    "disciplina": "Inglês",
+    "tempo_casa_anos": 15,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 28,
+    "nome": "Ágatha Guerra",
+    "disciplina": "Biologia",
+    "tempo_casa_anos": 14,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 29,
+    "nome": "Sr. Ravi Lucca Oliveira",
+    "disciplina": "História",
+    "tempo_casa_anos": 2,
+    "formacao": "Doutorado"
+  },
+  {
+    "id_professor": 30,
+    "nome": "Ana Laura da Costa",
+    "disciplina": "Química",
+    "tempo_casa_anos": 7,
+    "formacao": "Bacharelado"
+  }
+]

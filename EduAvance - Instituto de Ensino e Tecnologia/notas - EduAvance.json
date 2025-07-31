@@ -1,0 +1,7002 @@
+[
+  {
+    "id_nota": 1,
+    "id_aluno": 117,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 8
+  },
+  {
+    "id_nota": 2,
+    "id_aluno": 142,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 3,
+    "id_aluno": 38,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 4,
+    "id_aluno": 99,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 5,
+    "id_aluno": 49,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 6,
+    "id_aluno": 154,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 7,
+    "id_aluno": 131,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 8,
+    "id_aluno": 192,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 9,
+    "id_aluno": 35,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 10,
+    "id_aluno": 18,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 11,
+    "id_aluno": 71,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 12,
+    "id_aluno": 198,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 13,
+    "id_aluno": 107,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 8.8
+  },
+  {
+    "id_nota": 14,
+    "id_aluno": 88,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 15,
+    "id_aluno": 130,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 16,
+    "id_aluno": 69,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 17,
+    "id_aluno": 1,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 4
+  },
+  {
+    "id_nota": 18,
+    "id_aluno": 73,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 19,
+    "id_aluno": 186,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 20,
+    "id_aluno": 77,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 21,
+    "id_aluno": 151,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 22,
+    "id_aluno": 149,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 8
+  },
+  {
+    "id_nota": 23,
+    "id_aluno": 169,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 24,
+    "id_aluno": 126,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 8
+  },
+  {
+    "id_nota": 25,
+    "id_aluno": 39,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 26,
+    "id_aluno": 115,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 7
+  },
+  {
+    "id_nota": 27,
+    "id_aluno": 138,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 28,
+    "id_aluno": 124,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 9.4
+  },
+  {
+    "id_nota": 29,
+    "id_aluno": 89,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 30,
+    "id_aluno": 86,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 31,
+    "id_aluno": 142,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 32,
+    "id_aluno": 196,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 8
+  },
+  {
+    "id_nota": 33,
+    "id_aluno": 140,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 34,
+    "id_aluno": 97,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 35,
+    "id_aluno": 117,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 36,
+    "id_aluno": 83,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 37,
+    "id_aluno": 49,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 38,
+    "id_aluno": 179,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 39,
+    "id_aluno": 62,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 40,
+    "id_aluno": 147,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 41,
+    "id_aluno": 99,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 42,
+    "id_aluno": 60,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 43,
+    "id_aluno": 199,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 44,
+    "id_aluno": 106,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 45,
+    "id_aluno": 12,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 46,
+    "id_aluno": 82,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 47,
+    "id_aluno": 191,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 48,
+    "id_aluno": 122,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7
+  },
+  {
+    "id_nota": 49,
+    "id_aluno": 181,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 50,
+    "id_aluno": 98,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 51,
+    "id_aluno": 99,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 52,
+    "id_aluno": 170,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 53,
+    "id_aluno": 167,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 54,
+    "id_aluno": 39,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 55,
+    "id_aluno": 127,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 56,
+    "id_aluno": 10,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 57,
+    "id_aluno": 33,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 58,
+    "id_aluno": 129,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 1
+  },
+  {
+    "id_nota": 59,
+    "id_aluno": 152,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 60,
+    "id_aluno": 85,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 61,
+    "id_aluno": 26,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 62,
+    "id_aluno": 113,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 63,
+    "id_aluno": 26,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 64,
+    "id_aluno": 135,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 65,
+    "id_aluno": 117,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 66,
+    "id_aluno": 4,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 9.9
+  },
+  {
+    "id_nota": 67,
+    "id_aluno": 185,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 68,
+    "id_aluno": 37,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 69,
+    "id_aluno": 105,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 70,
+    "id_aluno": 168,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 71,
+    "id_aluno": 40,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 72,
+    "id_aluno": 20,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 73,
+    "id_aluno": 121,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 74,
+    "id_aluno": 68,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 75,
+    "id_aluno": 87,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.4
+  },
+  {
+    "id_nota": 76,
+    "id_aluno": 160,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 77,
+    "id_aluno": 178,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 78,
+    "id_aluno": 102,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 79,
+    "id_aluno": 167,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 80,
+    "id_aluno": 21,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 4
+  },
+  {
+    "id_nota": 81,
+    "id_aluno": 85,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 82,
+    "id_aluno": 173,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 83,
+    "id_aluno": 137,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 8
+  },
+  {
+    "id_nota": 84,
+    "id_aluno": 98,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 85,
+    "id_aluno": 82,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 86,
+    "id_aluno": 161,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 87,
+    "id_aluno": 184,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 88,
+    "id_aluno": 195,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 5
+  },
+  {
+    "id_nota": 89,
+    "id_aluno": 125,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 90,
+    "id_aluno": 139,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 1
+  },
+  {
+    "id_nota": 91,
+    "id_aluno": 10,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 92,
+    "id_aluno": 159,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 93,
+    "id_aluno": 18,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 0
+  },
+  {
+    "id_nota": 94,
+    "id_aluno": 61,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 95,
+    "id_aluno": 162,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 6
+  },
+  {
+    "id_nota": 96,
+    "id_aluno": 176,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 97,
+    "id_aluno": 74,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 3
+  },
+  {
+    "id_nota": 98,
+    "id_aluno": 59,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 99,
+    "id_aluno": 192,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 100,
+    "id_aluno": 24,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 101,
+    "id_aluno": 112,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 102,
+    "id_aluno": 26,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 103,
+    "id_aluno": 195,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 104,
+    "id_aluno": 163,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 105,
+    "id_aluno": 181,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 106,
+    "id_aluno": 26,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 107,
+    "id_aluno": 114,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 108,
+    "id_aluno": 43,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 109,
+    "id_aluno": 178,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 110,
+    "id_aluno": 77,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 111,
+    "id_aluno": 8,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 112,
+    "id_aluno": 12,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 113,
+    "id_aluno": 84,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 114,
+    "id_aluno": 15,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 115,
+    "id_aluno": 76,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 116,
+    "id_aluno": 92,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 117,
+    "id_aluno": 96,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 118,
+    "id_aluno": 111,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 119,
+    "id_aluno": 38,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 120,
+    "id_aluno": 63,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 121,
+    "id_aluno": 136,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 122,
+    "id_aluno": 106,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 1.4
+  },
+  {
+    "id_nota": 123,
+    "id_aluno": 145,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 124,
+    "id_aluno": 175,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 125,
+    "id_aluno": 47,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 126,
+    "id_aluno": 44,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 127,
+    "id_aluno": 45,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 128,
+    "id_aluno": 21,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 129,
+    "id_aluno": 157,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 130,
+    "id_aluno": 98,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 131,
+    "id_aluno": 159,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 132,
+    "id_aluno": 175,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 133,
+    "id_aluno": 62,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 134,
+    "id_aluno": 128,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 135,
+    "id_aluno": 150,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 136,
+    "id_aluno": 37,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 137,
+    "id_aluno": 60,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 138,
+    "id_aluno": 119,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 139,
+    "id_aluno": 164,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 140,
+    "id_aluno": 66,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 141,
+    "id_aluno": 118,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 142,
+    "id_aluno": 66,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 143,
+    "id_aluno": 171,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 5
+  },
+  {
+    "id_nota": 144,
+    "id_aluno": 3,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 5.3
+  },
+  {
+    "id_nota": 145,
+    "id_aluno": 120,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 146,
+    "id_aluno": 74,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 9.4
+  },
+  {
+    "id_nota": 147,
+    "id_aluno": 174,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 148,
+    "id_aluno": 140,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 149,
+    "id_aluno": 41,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 150,
+    "id_aluno": 19,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 151,
+    "id_aluno": 114,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 152,
+    "id_aluno": 89,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 153,
+    "id_aluno": 151,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 154,
+    "id_aluno": 77,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 155,
+    "id_aluno": 164,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 156,
+    "id_aluno": 109,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 6
+  },
+  {
+    "id_nota": 157,
+    "id_aluno": 177,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 8.8
+  },
+  {
+    "id_nota": 158,
+    "id_aluno": 65,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 5
+  },
+  {
+    "id_nota": 159,
+    "id_aluno": 117,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 160,
+    "id_aluno": 78,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 161,
+    "id_aluno": 51,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 162,
+    "id_aluno": 99,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 163,
+    "id_aluno": 124,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 164,
+    "id_aluno": 28,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 165,
+    "id_aluno": 61,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 166,
+    "id_aluno": 98,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 167,
+    "id_aluno": 147,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 168,
+    "id_aluno": 92,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 169,
+    "id_aluno": 148,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 7
+  },
+  {
+    "id_nota": 170,
+    "id_aluno": 76,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 171,
+    "id_aluno": 180,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 3
+  },
+  {
+    "id_nota": 172,
+    "id_aluno": 76,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 7
+  },
+  {
+    "id_nota": 173,
+    "id_aluno": 6,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 174,
+    "id_aluno": 169,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 7.1
+  },
+  {
+    "id_nota": 175,
+    "id_aluno": 102,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 9.4
+  },
+  {
+    "id_nota": 176,
+    "id_aluno": 71,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 177,
+    "id_aluno": 3,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 2
+  },
+  {
+    "id_nota": 178,
+    "id_aluno": 145,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 179,
+    "id_aluno": 176,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 180,
+    "id_aluno": 200,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 181,
+    "id_aluno": 191,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 182,
+    "id_aluno": 13,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 183,
+    "id_aluno": 156,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 184,
+    "id_aluno": 191,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 185,
+    "id_aluno": 128,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 5
+  },
+  {
+    "id_nota": 186,
+    "id_aluno": 74,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 187,
+    "id_aluno": 199,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 188,
+    "id_aluno": 59,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 189,
+    "id_aluno": 156,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 190,
+    "id_aluno": 91,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 191,
+    "id_aluno": 57,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 192,
+    "id_aluno": 163,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 193,
+    "id_aluno": 49,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 194,
+    "id_aluno": 159,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 195,
+    "id_aluno": 65,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 196,
+    "id_aluno": 174,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 197,
+    "id_aluno": 194,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 198,
+    "id_aluno": 185,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 199,
+    "id_aluno": 197,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 200,
+    "id_aluno": 169,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 201,
+    "id_aluno": 175,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 202,
+    "id_aluno": 36,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 203,
+    "id_aluno": 161,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2
+  },
+  {
+    "id_nota": 204,
+    "id_aluno": 25,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 205,
+    "id_aluno": 161,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 206,
+    "id_aluno": 166,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 207,
+    "id_aluno": 11,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 208,
+    "id_aluno": 80,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 209,
+    "id_aluno": 113,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 210,
+    "id_aluno": 9,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 3
+  },
+  {
+    "id_nota": 211,
+    "id_aluno": 149,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 212,
+    "id_aluno": 94,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 213,
+    "id_aluno": 188,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 214,
+    "id_aluno": 34,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 1
+  },
+  {
+    "id_nota": 215,
+    "id_aluno": 24,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 216,
+    "id_aluno": 76,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 217,
+    "id_aluno": 84,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 218,
+    "id_aluno": 192,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 219,
+    "id_aluno": 107,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 220,
+    "id_aluno": 45,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 2.4
+  },
+  {
+    "id_nota": 221,
+    "id_aluno": 52,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 222,
+    "id_aluno": 34,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 8
+  },
+  {
+    "id_nota": 223,
+    "id_aluno": 139,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 224,
+    "id_aluno": 94,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 225,
+    "id_aluno": 136,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 226,
+    "id_aluno": 129,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 227,
+    "id_aluno": 70,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 228,
+    "id_aluno": 43,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 229,
+    "id_aluno": 66,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 230,
+    "id_aluno": 124,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 231,
+    "id_aluno": 76,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 232,
+    "id_aluno": 192,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 233,
+    "id_aluno": 87,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 234,
+    "id_aluno": 30,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 235,
+    "id_aluno": 120,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 236,
+    "id_aluno": 20,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 237,
+    "id_aluno": 37,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 238,
+    "id_aluno": 194,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 7
+  },
+  {
+    "id_nota": 239,
+    "id_aluno": 58,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 240,
+    "id_aluno": 174,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 241,
+    "id_aluno": 186,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 242,
+    "id_aluno": 173,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 6
+  },
+  {
+    "id_nota": 243,
+    "id_aluno": 102,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 244,
+    "id_aluno": 143,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 245,
+    "id_aluno": 94,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 246,
+    "id_aluno": 24,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 247,
+    "id_aluno": 102,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 248,
+    "id_aluno": 4,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 249,
+    "id_aluno": 68,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 250,
+    "id_aluno": 138,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 251,
+    "id_aluno": 32,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 252,
+    "id_aluno": 117,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 4.3
+  },
+  {
+    "id_nota": 253,
+    "id_aluno": 95,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 254,
+    "id_aluno": 173,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 255,
+    "id_aluno": 192,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 256,
+    "id_aluno": 173,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 257,
+    "id_aluno": 68,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 258,
+    "id_aluno": 150,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 7.1
+  },
+  {
+    "id_nota": 259,
+    "id_aluno": 98,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 260,
+    "id_aluno": 164,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 261,
+    "id_aluno": 96,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 262,
+    "id_aluno": 28,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 263,
+    "id_aluno": 173,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 264,
+    "id_aluno": 60,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 265,
+    "id_aluno": 121,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 266,
+    "id_aluno": 7,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 267,
+    "id_aluno": 159,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 268,
+    "id_aluno": 144,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 269,
+    "id_aluno": 84,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 270,
+    "id_aluno": 157,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 271,
+    "id_aluno": 57,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 272,
+    "id_aluno": 166,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 273,
+    "id_aluno": 17,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 274,
+    "id_aluno": 163,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 275,
+    "id_aluno": 119,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 276,
+    "id_aluno": 180,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 277,
+    "id_aluno": 78,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 278,
+    "id_aluno": 167,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 279,
+    "id_aluno": 105,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 280,
+    "id_aluno": 30,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 281,
+    "id_aluno": 36,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 282,
+    "id_aluno": 12,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 283,
+    "id_aluno": 10,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 284,
+    "id_aluno": 78,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 5.3
+  },
+  {
+    "id_nota": 285,
+    "id_aluno": 127,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 10
+  },
+  {
+    "id_nota": 286,
+    "id_aluno": 30,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 287,
+    "id_aluno": 25,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 288,
+    "id_aluno": 61,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 289,
+    "id_aluno": 138,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 290,
+    "id_aluno": 35,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 291,
+    "id_aluno": 100,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 9
+  },
+  {
+    "id_nota": 292,
+    "id_aluno": 117,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 293,
+    "id_aluno": 95,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 294,
+    "id_aluno": 172,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 295,
+    "id_aluno": 191,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 296,
+    "id_aluno": 179,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 297,
+    "id_aluno": 139,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 298,
+    "id_aluno": 108,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 9.4
+  },
+  {
+    "id_nota": 299,
+    "id_aluno": 151,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 300,
+    "id_aluno": 191,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 301,
+    "id_aluno": 187,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 302,
+    "id_aluno": 40,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 303,
+    "id_aluno": 107,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 304,
+    "id_aluno": 168,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 305,
+    "id_aluno": 26,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 8
+  },
+  {
+    "id_nota": 306,
+    "id_aluno": 126,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 307,
+    "id_aluno": 158,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 308,
+    "id_aluno": 105,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 9
+  },
+  {
+    "id_nota": 309,
+    "id_aluno": 72,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 310,
+    "id_aluno": 9,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 311,
+    "id_aluno": 177,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 312,
+    "id_aluno": 95,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 313,
+    "id_aluno": 56,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 314,
+    "id_aluno": 114,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 315,
+    "id_aluno": 114,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 316,
+    "id_aluno": 61,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 317,
+    "id_aluno": 93,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 318,
+    "id_aluno": 26,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 319,
+    "id_aluno": 176,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 320,
+    "id_aluno": 95,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 321,
+    "id_aluno": 140,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 1
+  },
+  {
+    "id_nota": 322,
+    "id_aluno": 166,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 323,
+    "id_aluno": 92,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 324,
+    "id_aluno": 16,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 325,
+    "id_aluno": 102,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 326,
+    "id_aluno": 71,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 327,
+    "id_aluno": 49,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 9.4
+  },
+  {
+    "id_nota": 328,
+    "id_aluno": 32,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 329,
+    "id_aluno": 117,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 330,
+    "id_aluno": 24,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 331,
+    "id_aluno": 170,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 332,
+    "id_aluno": 55,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 333,
+    "id_aluno": 165,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 334,
+    "id_aluno": 164,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 335,
+    "id_aluno": 153,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 336,
+    "id_aluno": 6,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 337,
+    "id_aluno": 13,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 338,
+    "id_aluno": 86,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 339,
+    "id_aluno": 63,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 340,
+    "id_aluno": 33,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 341,
+    "id_aluno": 145,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 4.3
+  },
+  {
+    "id_nota": 342,
+    "id_aluno": 53,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 343,
+    "id_aluno": 18,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 344,
+    "id_aluno": 196,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 5.3
+  },
+  {
+    "id_nota": 345,
+    "id_aluno": 142,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 346,
+    "id_aluno": 54,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 347,
+    "id_aluno": 151,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 348,
+    "id_aluno": 56,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 349,
+    "id_aluno": 60,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 7
+  },
+  {
+    "id_nota": 350,
+    "id_aluno": 85,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 351,
+    "id_aluno": 199,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 352,
+    "id_aluno": 38,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 353,
+    "id_aluno": 153,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 354,
+    "id_aluno": 1,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 3
+  },
+  {
+    "id_nota": 355,
+    "id_aluno": 71,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 356,
+    "id_aluno": 38,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 357,
+    "id_aluno": 34,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 358,
+    "id_aluno": 139,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 4
+  },
+  {
+    "id_nota": 359,
+    "id_aluno": 65,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 360,
+    "id_aluno": 45,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 361,
+    "id_aluno": 29,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 5.3
+  },
+  {
+    "id_nota": 362,
+    "id_aluno": 170,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 1.4
+  },
+  {
+    "id_nota": 363,
+    "id_aluno": 7,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 364,
+    "id_aluno": 34,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 8
+  },
+  {
+    "id_nota": 365,
+    "id_aluno": 4,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 366,
+    "id_aluno": 92,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 367,
+    "id_aluno": 61,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 1.4
+  },
+  {
+    "id_nota": 368,
+    "id_aluno": 151,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 369,
+    "id_aluno": 83,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 370,
+    "id_aluno": 5,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 8
+  },
+  {
+    "id_nota": 371,
+    "id_aluno": 45,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 372,
+    "id_aluno": 68,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 373,
+    "id_aluno": 14,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 374,
+    "id_aluno": 33,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 375,
+    "id_aluno": 190,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 376,
+    "id_aluno": 108,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 377,
+    "id_aluno": 135,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 378,
+    "id_aluno": 30,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6
+  },
+  {
+    "id_nota": 379,
+    "id_aluno": 191,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 380,
+    "id_aluno": 17,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 381,
+    "id_aluno": 122,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 3
+  },
+  {
+    "id_nota": 382,
+    "id_aluno": 115,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 383,
+    "id_aluno": 200,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 9
+  },
+  {
+    "id_nota": 384,
+    "id_aluno": 93,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 385,
+    "id_aluno": 132,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 386,
+    "id_aluno": 152,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 387,
+    "id_aluno": 28,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 388,
+    "id_aluno": 116,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 389,
+    "id_aluno": 129,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 390,
+    "id_aluno": 57,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 391,
+    "id_aluno": 158,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 392,
+    "id_aluno": 12,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 393,
+    "id_aluno": 187,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 8
+  },
+  {
+    "id_nota": 394,
+    "id_aluno": 169,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 395,
+    "id_aluno": 134,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 396,
+    "id_aluno": 78,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 397,
+    "id_aluno": 118,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.9
+  },
+  {
+    "id_nota": 398,
+    "id_aluno": 165,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 399,
+    "id_aluno": 8,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 400,
+    "id_aluno": 16,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 401,
+    "id_aluno": 123,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 402,
+    "id_aluno": 103,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 1
+  },
+  {
+    "id_nota": 403,
+    "id_aluno": 110,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 404,
+    "id_aluno": 176,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 405,
+    "id_aluno": 28,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 406,
+    "id_aluno": 126,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 407,
+    "id_aluno": 183,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 408,
+    "id_aluno": 114,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 1
+  },
+  {
+    "id_nota": 409,
+    "id_aluno": 19,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 410,
+    "id_aluno": 21,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 9
+  },
+  {
+    "id_nota": 411,
+    "id_aluno": 83,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 412,
+    "id_aluno": 156,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 413,
+    "id_aluno": 38,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 414,
+    "id_aluno": 17,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 415,
+    "id_aluno": 33,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 416,
+    "id_aluno": 71,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 417,
+    "id_aluno": 160,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 418,
+    "id_aluno": 163,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 419,
+    "id_aluno": 150,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 4.3
+  },
+  {
+    "id_nota": 420,
+    "id_aluno": 141,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 0
+  },
+  {
+    "id_nota": 421,
+    "id_aluno": 183,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 422,
+    "id_aluno": 84,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 423,
+    "id_aluno": 98,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 424,
+    "id_aluno": 153,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 425,
+    "id_aluno": 136,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 426,
+    "id_aluno": 76,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 427,
+    "id_aluno": 117,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 428,
+    "id_aluno": 130,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 8.8
+  },
+  {
+    "id_nota": 429,
+    "id_aluno": 155,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 430,
+    "id_aluno": 111,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 431,
+    "id_aluno": 26,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 432,
+    "id_aluno": 180,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 433,
+    "id_aluno": 30,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 434,
+    "id_aluno": 168,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 435,
+    "id_aluno": 167,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 436,
+    "id_aluno": 197,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 437,
+    "id_aluno": 142,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 1.4
+  },
+  {
+    "id_nota": 438,
+    "id_aluno": 185,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 439,
+    "id_aluno": 56,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 440,
+    "id_aluno": 111,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 8.9
+  },
+  {
+    "id_nota": 441,
+    "id_aluno": 116,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 442,
+    "id_aluno": 59,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 443,
+    "id_aluno": 106,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 444,
+    "id_aluno": 87,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 445,
+    "id_aluno": 117,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 446,
+    "id_aluno": 103,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 447,
+    "id_aluno": 107,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 448,
+    "id_aluno": 187,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 449,
+    "id_aluno": 25,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 450,
+    "id_aluno": 81,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 451,
+    "id_aluno": 110,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 452,
+    "id_aluno": 81,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 10
+  },
+  {
+    "id_nota": 453,
+    "id_aluno": 171,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 454,
+    "id_aluno": 66,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 455,
+    "id_aluno": 96,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 456,
+    "id_aluno": 40,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 457,
+    "id_aluno": 176,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 458,
+    "id_aluno": 122,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 459,
+    "id_aluno": 18,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 460,
+    "id_aluno": 24,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 461,
+    "id_aluno": 22,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 462,
+    "id_aluno": 24,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 4
+  },
+  {
+    "id_nota": 463,
+    "id_aluno": 111,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 5
+  },
+  {
+    "id_nota": 464,
+    "id_aluno": 25,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 465,
+    "id_aluno": 191,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 466,
+    "id_aluno": 190,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 467,
+    "id_aluno": 96,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 468,
+    "id_aluno": 34,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 469,
+    "id_aluno": 143,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 5.1
+  },
+  {
+    "id_nota": 470,
+    "id_aluno": 16,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 471,
+    "id_aluno": 151,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 472,
+    "id_aluno": 144,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 473,
+    "id_aluno": 144,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 474,
+    "id_aluno": 85,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 475,
+    "id_aluno": 172,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 476,
+    "id_aluno": 32,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 477,
+    "id_aluno": 106,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 478,
+    "id_aluno": 91,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 479,
+    "id_aluno": 171,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 480,
+    "id_aluno": 193,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 481,
+    "id_aluno": 109,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 482,
+    "id_aluno": 185,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 483,
+    "id_aluno": 14,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 484,
+    "id_aluno": 74,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 485,
+    "id_aluno": 154,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 486,
+    "id_aluno": 80,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 487,
+    "id_aluno": 91,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 488,
+    "id_aluno": 27,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 489,
+    "id_aluno": 148,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 490,
+    "id_aluno": 130,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 491,
+    "id_aluno": 55,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 492,
+    "id_aluno": 40,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 493,
+    "id_aluno": 169,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 494,
+    "id_aluno": 124,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 495,
+    "id_aluno": 58,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 496,
+    "id_aluno": 28,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 497,
+    "id_aluno": 90,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 498,
+    "id_aluno": 143,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 499,
+    "id_aluno": 95,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 500,
+    "id_aluno": 30,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 501,
+    "id_aluno": 196,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 502,
+    "id_aluno": 72,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 503,
+    "id_aluno": 147,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 504,
+    "id_aluno": 58,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 505,
+    "id_aluno": 110,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 506,
+    "id_aluno": 144,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 507,
+    "id_aluno": 197,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 508,
+    "id_aluno": 160,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 509,
+    "id_aluno": 158,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 510,
+    "id_aluno": 173,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6
+  },
+  {
+    "id_nota": 511,
+    "id_aluno": 165,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 5
+  },
+  {
+    "id_nota": 512,
+    "id_aluno": 143,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 1.4
+  },
+  {
+    "id_nota": 513,
+    "id_aluno": 7,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 514,
+    "id_aluno": 156,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 515,
+    "id_aluno": 169,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 516,
+    "id_aluno": 178,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 517,
+    "id_aluno": 69,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 518,
+    "id_aluno": 8,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 519,
+    "id_aluno": 47,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 520,
+    "id_aluno": 70,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 521,
+    "id_aluno": 180,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 522,
+    "id_aluno": 196,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 523,
+    "id_aluno": 80,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 524,
+    "id_aluno": 87,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 525,
+    "id_aluno": 90,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 526,
+    "id_aluno": 2,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 527,
+    "id_aluno": 47,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 528,
+    "id_aluno": 37,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 529,
+    "id_aluno": 145,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 530,
+    "id_aluno": 169,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 531,
+    "id_aluno": 103,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 532,
+    "id_aluno": 18,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 533,
+    "id_aluno": 37,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 534,
+    "id_aluno": 190,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 535,
+    "id_aluno": 163,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 536,
+    "id_aluno": 8,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 537,
+    "id_aluno": 24,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 538,
+    "id_aluno": 192,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 539,
+    "id_aluno": 136,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 540,
+    "id_aluno": 56,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 6
+  },
+  {
+    "id_nota": 541,
+    "id_aluno": 97,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 542,
+    "id_aluno": 108,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 543,
+    "id_aluno": 117,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 544,
+    "id_aluno": 88,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 545,
+    "id_aluno": 41,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 546,
+    "id_aluno": 95,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 547,
+    "id_aluno": 80,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 548,
+    "id_aluno": 185,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 9.9
+  },
+  {
+    "id_nota": 549,
+    "id_aluno": 84,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 550,
+    "id_aluno": 199,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 551,
+    "id_aluno": 146,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 552,
+    "id_aluno": 153,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 6
+  },
+  {
+    "id_nota": 553,
+    "id_aluno": 22,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 554,
+    "id_aluno": 14,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 555,
+    "id_aluno": 40,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 556,
+    "id_aluno": 41,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 557,
+    "id_aluno": 194,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 558,
+    "id_aluno": 159,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 559,
+    "id_aluno": 13,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 560,
+    "id_aluno": 173,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 561,
+    "id_aluno": 21,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 562,
+    "id_aluno": 70,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 563,
+    "id_aluno": 114,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 564,
+    "id_aluno": 170,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 565,
+    "id_aluno": 109,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 2
+  },
+  {
+    "id_nota": 566,
+    "id_aluno": 125,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 567,
+    "id_aluno": 156,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 5
+  },
+  {
+    "id_nota": 568,
+    "id_aluno": 114,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 569,
+    "id_aluno": 107,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 570,
+    "id_aluno": 70,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 1
+  },
+  {
+    "id_nota": 571,
+    "id_aluno": 56,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 572,
+    "id_aluno": 194,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 573,
+    "id_aluno": 132,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 574,
+    "id_aluno": 30,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 575,
+    "id_aluno": 89,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 5
+  },
+  {
+    "id_nota": 576,
+    "id_aluno": 111,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 577,
+    "id_aluno": 29,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 578,
+    "id_aluno": 73,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 579,
+    "id_aluno": 174,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 6
+  },
+  {
+    "id_nota": 580,
+    "id_aluno": 174,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 581,
+    "id_aluno": 152,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 9
+  },
+  {
+    "id_nota": 582,
+    "id_aluno": 125,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 583,
+    "id_aluno": 135,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 584,
+    "id_aluno": 171,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 585,
+    "id_aluno": 79,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 586,
+    "id_aluno": 12,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 587,
+    "id_aluno": 57,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 5.3
+  },
+  {
+    "id_nota": 588,
+    "id_aluno": 102,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 589,
+    "id_aluno": 154,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 8
+  },
+  {
+    "id_nota": 590,
+    "id_aluno": 15,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 591,
+    "id_aluno": 2,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 592,
+    "id_aluno": 53,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 593,
+    "id_aluno": 78,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 594,
+    "id_aluno": 55,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 595,
+    "id_aluno": 197,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 7
+  },
+  {
+    "id_nota": 596,
+    "id_aluno": 36,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 1
+  },
+  {
+    "id_nota": 597,
+    "id_aluno": 196,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 598,
+    "id_aluno": 66,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 599,
+    "id_aluno": 75,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 600,
+    "id_aluno": 84,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 601,
+    "id_aluno": 31,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 602,
+    "id_aluno": 2,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 8.8
+  },
+  {
+    "id_nota": 603,
+    "id_aluno": 128,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 604,
+    "id_aluno": 192,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 605,
+    "id_aluno": 111,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 7.1
+  },
+  {
+    "id_nota": 606,
+    "id_aluno": 45,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 607,
+    "id_aluno": 34,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 608,
+    "id_aluno": 98,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 609,
+    "id_aluno": 137,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 610,
+    "id_aluno": 181,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 611,
+    "id_aluno": 59,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 612,
+    "id_aluno": 129,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 613,
+    "id_aluno": 144,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 614,
+    "id_aluno": 172,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 615,
+    "id_aluno": 91,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 616,
+    "id_aluno": 19,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 617,
+    "id_aluno": 102,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 618,
+    "id_aluno": 190,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 619,
+    "id_aluno": 11,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 620,
+    "id_aluno": 112,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 621,
+    "id_aluno": 5,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 622,
+    "id_aluno": 118,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 623,
+    "id_aluno": 20,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 624,
+    "id_aluno": 81,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 625,
+    "id_aluno": 148,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 626,
+    "id_aluno": 110,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 627,
+    "id_aluno": 147,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 628,
+    "id_aluno": 104,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 629,
+    "id_aluno": 182,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 630,
+    "id_aluno": 164,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 631,
+    "id_aluno": 107,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 7.1
+  },
+  {
+    "id_nota": 632,
+    "id_aluno": 75,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 633,
+    "id_aluno": 30,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 634,
+    "id_aluno": 104,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 635,
+    "id_aluno": 6,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 7.5
+  },
+  {
+    "id_nota": 636,
+    "id_aluno": 84,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 637,
+    "id_aluno": 44,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 638,
+    "id_aluno": 159,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 639,
+    "id_aluno": 118,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 640,
+    "id_aluno": 177,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 4
+  },
+  {
+    "id_nota": 641,
+    "id_aluno": 93,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 642,
+    "id_aluno": 23,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 643,
+    "id_aluno": 112,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 7
+  },
+  {
+    "id_nota": 644,
+    "id_aluno": 28,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 7.1
+  },
+  {
+    "id_nota": 645,
+    "id_aluno": 63,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 646,
+    "id_aluno": 112,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 647,
+    "id_aluno": 151,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 648,
+    "id_aluno": 103,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 649,
+    "id_aluno": 135,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 650,
+    "id_aluno": 21,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 651,
+    "id_aluno": 102,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 652,
+    "id_aluno": 80,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 653,
+    "id_aluno": 191,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 654,
+    "id_aluno": 87,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 655,
+    "id_aluno": 57,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 656,
+    "id_aluno": 86,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 657,
+    "id_aluno": 200,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 658,
+    "id_aluno": 44,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 659,
+    "id_aluno": 20,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 660,
+    "id_aluno": 131,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 7.1
+  },
+  {
+    "id_nota": 661,
+    "id_aluno": 163,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 6
+  },
+  {
+    "id_nota": 662,
+    "id_aluno": 30,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 663,
+    "id_aluno": 136,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 664,
+    "id_aluno": 131,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 665,
+    "id_aluno": 50,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 666,
+    "id_aluno": 199,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 2
+  },
+  {
+    "id_nota": 667,
+    "id_aluno": 90,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 668,
+    "id_aluno": 90,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 8
+  },
+  {
+    "id_nota": 669,
+    "id_aluno": 187,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 670,
+    "id_aluno": 166,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 671,
+    "id_aluno": 38,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 6
+  },
+  {
+    "id_nota": 672,
+    "id_aluno": 61,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 673,
+    "id_aluno": 27,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 674,
+    "id_aluno": 38,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 675,
+    "id_aluno": 66,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 676,
+    "id_aluno": 51,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 2.4
+  },
+  {
+    "id_nota": 677,
+    "id_aluno": 45,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 0
+  },
+  {
+    "id_nota": 678,
+    "id_aluno": 155,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 679,
+    "id_aluno": 40,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 10
+  },
+  {
+    "id_nota": 680,
+    "id_aluno": 195,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 681,
+    "id_aluno": 195,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 682,
+    "id_aluno": 168,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 4
+  },
+  {
+    "id_nota": 683,
+    "id_aluno": 20,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 684,
+    "id_aluno": 46,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 685,
+    "id_aluno": 198,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 686,
+    "id_aluno": 161,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 687,
+    "id_aluno": 127,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 688,
+    "id_aluno": 119,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 689,
+    "id_aluno": 194,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 690,
+    "id_aluno": 145,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 691,
+    "id_aluno": 195,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 692,
+    "id_aluno": 149,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 693,
+    "id_aluno": 115,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 694,
+    "id_aluno": 175,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 695,
+    "id_aluno": 145,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 696,
+    "id_aluno": 165,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 697,
+    "id_aluno": 163,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 698,
+    "id_aluno": 160,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 699,
+    "id_aluno": 83,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 700,
+    "id_aluno": 161,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 701,
+    "id_aluno": 81,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 702,
+    "id_aluno": 39,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 703,
+    "id_aluno": 113,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 704,
+    "id_aluno": 18,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 8
+  },
+  {
+    "id_nota": 705,
+    "id_aluno": 121,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 706,
+    "id_aluno": 114,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 8.8
+  },
+  {
+    "id_nota": 707,
+    "id_aluno": 162,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 708,
+    "id_aluno": 78,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 709,
+    "id_aluno": 71,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 710,
+    "id_aluno": 152,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 711,
+    "id_aluno": 15,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 712,
+    "id_aluno": 91,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 713,
+    "id_aluno": 130,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 714,
+    "id_aluno": 19,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 715,
+    "id_aluno": 80,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 716,
+    "id_aluno": 119,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 717,
+    "id_aluno": 116,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 718,
+    "id_aluno": 10,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 719,
+    "id_aluno": 15,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 720,
+    "id_aluno": 95,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 721,
+    "id_aluno": 74,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 722,
+    "id_aluno": 20,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 9.9
+  },
+  {
+    "id_nota": 723,
+    "id_aluno": 166,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 724,
+    "id_aluno": 24,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 725,
+    "id_aluno": 158,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 726,
+    "id_aluno": 153,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 727,
+    "id_aluno": 130,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 728,
+    "id_aluno": 99,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 729,
+    "id_aluno": 119,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 730,
+    "id_aluno": 149,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 731,
+    "id_aluno": 142,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 0.9
+  },
+  {
+    "id_nota": 732,
+    "id_aluno": 190,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 733,
+    "id_aluno": 11,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 734,
+    "id_aluno": 116,
+    "disciplina": "Matemática",
+    "bimestre": "3º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 735,
+    "id_aluno": 147,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 736,
+    "id_aluno": 167,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 737,
+    "id_aluno": 49,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 738,
+    "id_aluno": 83,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 8.9
+  },
+  {
+    "id_nota": 739,
+    "id_aluno": 155,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 740,
+    "id_aluno": 122,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 741,
+    "id_aluno": 129,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 742,
+    "id_aluno": 39,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 743,
+    "id_aluno": 16,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 5
+  },
+  {
+    "id_nota": 744,
+    "id_aluno": 116,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 2
+  },
+  {
+    "id_nota": 745,
+    "id_aluno": 27,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 746,
+    "id_aluno": 88,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 747,
+    "id_aluno": 183,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 748,
+    "id_aluno": 22,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 2
+  },
+  {
+    "id_nota": 749,
+    "id_aluno": 130,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 750,
+    "id_aluno": 166,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 751,
+    "id_aluno": 45,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 752,
+    "id_aluno": 11,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 1.1
+  },
+  {
+    "id_nota": 753,
+    "id_aluno": 64,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 754,
+    "id_aluno": 182,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 755,
+    "id_aluno": 113,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 756,
+    "id_aluno": 113,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 757,
+    "id_aluno": 135,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 758,
+    "id_aluno": 134,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 759,
+    "id_aluno": 157,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 0.4
+  },
+  {
+    "id_nota": 760,
+    "id_aluno": 41,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 761,
+    "id_aluno": 94,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 762,
+    "id_aluno": 96,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 763,
+    "id_aluno": 73,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 9.9
+  },
+  {
+    "id_nota": 764,
+    "id_aluno": 100,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 9
+  },
+  {
+    "id_nota": 765,
+    "id_aluno": 105,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 766,
+    "id_aluno": 199,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 767,
+    "id_aluno": 87,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 768,
+    "id_aluno": 174,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 769,
+    "id_aluno": 154,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 770,
+    "id_aluno": 14,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 2.2
+  },
+  {
+    "id_nota": 771,
+    "id_aluno": 162,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 772,
+    "id_aluno": 166,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 773,
+    "id_aluno": 86,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 8
+  },
+  {
+    "id_nota": 774,
+    "id_aluno": 17,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 775,
+    "id_aluno": 85,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 776,
+    "id_aluno": 25,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 5
+  },
+  {
+    "id_nota": 777,
+    "id_aluno": 143,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 778,
+    "id_aluno": 174,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 779,
+    "id_aluno": 99,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 780,
+    "id_aluno": 73,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 9.8
+  },
+  {
+    "id_nota": 781,
+    "id_aluno": 65,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 782,
+    "id_aluno": 186,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 783,
+    "id_aluno": 169,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 784,
+    "id_aluno": 155,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 785,
+    "id_aluno": 39,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 786,
+    "id_aluno": 86,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 787,
+    "id_aluno": 21,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 788,
+    "id_aluno": 150,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 789,
+    "id_aluno": 170,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 790,
+    "id_aluno": 37,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 791,
+    "id_aluno": 90,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 2.4
+  },
+  {
+    "id_nota": 792,
+    "id_aluno": 80,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 793,
+    "id_aluno": 168,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 6.1
+  },
+  {
+    "id_nota": 794,
+    "id_aluno": 179,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 795,
+    "id_aluno": 170,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 5
+  },
+  {
+    "id_nota": 796,
+    "id_aluno": 101,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 2.1
+  },
+  {
+    "id_nota": 797,
+    "id_aluno": 34,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 7
+  },
+  {
+    "id_nota": 798,
+    "id_aluno": 153,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 799,
+    "id_aluno": 182,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 800,
+    "id_aluno": 22,
+    "disciplina": "Biologia",
+    "bimestre": "1º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 801,
+    "id_aluno": 80,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 802,
+    "id_aluno": 144,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 803,
+    "id_aluno": 97,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 804,
+    "id_aluno": 165,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 805,
+    "id_aluno": 85,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 1
+  },
+  {
+    "id_nota": 806,
+    "id_aluno": 33,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 807,
+    "id_aluno": 172,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 2.4
+  },
+  {
+    "id_nota": 808,
+    "id_aluno": 180,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 4.3
+  },
+  {
+    "id_nota": 809,
+    "id_aluno": 190,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 810,
+    "id_aluno": 176,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 811,
+    "id_aluno": 135,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 812,
+    "id_aluno": 24,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 813,
+    "id_aluno": 166,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 814,
+    "id_aluno": 172,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 815,
+    "id_aluno": 109,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5
+  },
+  {
+    "id_nota": 816,
+    "id_aluno": 131,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 10
+  },
+  {
+    "id_nota": 817,
+    "id_aluno": 93,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 818,
+    "id_aluno": 5,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 819,
+    "id_aluno": 93,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 820,
+    "id_aluno": 80,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 821,
+    "id_aluno": 47,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 3
+  },
+  {
+    "id_nota": 822,
+    "id_aluno": 55,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 823,
+    "id_aluno": 88,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 824,
+    "id_aluno": 197,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 4
+  },
+  {
+    "id_nota": 825,
+    "id_aluno": 125,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 6.9
+  },
+  {
+    "id_nota": 826,
+    "id_aluno": 50,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 827,
+    "id_aluno": 58,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 828,
+    "id_aluno": 36,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 829,
+    "id_aluno": 40,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 830,
+    "id_aluno": 20,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 4.5
+  },
+  {
+    "id_nota": 831,
+    "id_aluno": 76,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 832,
+    "id_aluno": 26,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 833,
+    "id_aluno": 130,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 834,
+    "id_aluno": 198,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 9.3
+  },
+  {
+    "id_nota": 835,
+    "id_aluno": 139,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 836,
+    "id_aluno": 190,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 837,
+    "id_aluno": 135,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 838,
+    "id_aluno": 10,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 8.7
+  },
+  {
+    "id_nota": 839,
+    "id_aluno": 170,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 9.6
+  },
+  {
+    "id_nota": 840,
+    "id_aluno": 87,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 2
+  },
+  {
+    "id_nota": 841,
+    "id_aluno": 197,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 5.8
+  },
+  {
+    "id_nota": 842,
+    "id_aluno": 159,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 843,
+    "id_aluno": 34,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 844,
+    "id_aluno": 153,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 845,
+    "id_aluno": 97,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 846,
+    "id_aluno": 40,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 6.7
+  },
+  {
+    "id_nota": 847,
+    "id_aluno": 42,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 848,
+    "id_aluno": 47,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 849,
+    "id_aluno": 178,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 8.9
+  },
+  {
+    "id_nota": 850,
+    "id_aluno": 198,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 851,
+    "id_aluno": 160,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 852,
+    "id_aluno": 43,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 853,
+    "id_aluno": 185,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 1.4
+  },
+  {
+    "id_nota": 854,
+    "id_aluno": 113,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 855,
+    "id_aluno": 12,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 856,
+    "id_aluno": 106,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 857,
+    "id_aluno": 94,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 858,
+    "id_aluno": 174,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 5.7
+  },
+  {
+    "id_nota": 859,
+    "id_aluno": 185,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 860,
+    "id_aluno": 61,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 861,
+    "id_aluno": 114,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 862,
+    "id_aluno": 157,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 863,
+    "id_aluno": 73,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 3.2
+  },
+  {
+    "id_nota": 864,
+    "id_aluno": 193,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 865,
+    "id_aluno": 192,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 866,
+    "id_aluno": 115,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 867,
+    "id_aluno": 60,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 868,
+    "id_aluno": 137,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 869,
+    "id_aluno": 62,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 870,
+    "id_aluno": 80,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 3.6
+  },
+  {
+    "id_nota": 871,
+    "id_aluno": 121,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.9
+  },
+  {
+    "id_nota": 872,
+    "id_aluno": 50,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 873,
+    "id_aluno": 95,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 874,
+    "id_aluno": 174,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 875,
+    "id_aluno": 147,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 876,
+    "id_aluno": 113,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 877,
+    "id_aluno": 119,
+    "disciplina": "Química",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 878,
+    "id_aluno": 197,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 9.4
+  },
+  {
+    "id_nota": 879,
+    "id_aluno": 73,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 7
+  },
+  {
+    "id_nota": 880,
+    "id_aluno": 200,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 881,
+    "id_aluno": 98,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 1.7
+  },
+  {
+    "id_nota": 882,
+    "id_aluno": 129,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 1
+  },
+  {
+    "id_nota": 883,
+    "id_aluno": 136,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 884,
+    "id_aluno": 108,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 8.8
+  },
+  {
+    "id_nota": 885,
+    "id_aluno": 42,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 5.5
+  },
+  {
+    "id_nota": 886,
+    "id_aluno": 52,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 887,
+    "id_aluno": 155,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 4
+  },
+  {
+    "id_nota": 888,
+    "id_aluno": 36,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 889,
+    "id_aluno": 65,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 0.8
+  },
+  {
+    "id_nota": 890,
+    "id_aluno": 14,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 891,
+    "id_aluno": 165,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 892,
+    "id_aluno": 124,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 6.5
+  },
+  {
+    "id_nota": 893,
+    "id_aluno": 96,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 8.9
+  },
+  {
+    "id_nota": 894,
+    "id_aluno": 142,
+    "disciplina": "Geografia",
+    "bimestre": "4º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 895,
+    "id_aluno": 27,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 896,
+    "id_aluno": 183,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 897,
+    "id_aluno": 133,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 898,
+    "id_aluno": 32,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 1.3
+  },
+  {
+    "id_nota": 899,
+    "id_aluno": 73,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 900,
+    "id_aluno": 22,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 0.3
+  },
+  {
+    "id_nota": 901,
+    "id_aluno": 196,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6.6
+  },
+  {
+    "id_nota": 902,
+    "id_aluno": 42,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 8.6
+  },
+  {
+    "id_nota": 903,
+    "id_aluno": 70,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 904,
+    "id_aluno": 116,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 905,
+    "id_aluno": 132,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 906,
+    "id_aluno": 38,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 907,
+    "id_aluno": 112,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 908,
+    "id_aluno": 24,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 909,
+    "id_aluno": 57,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.7
+  },
+  {
+    "id_nota": 910,
+    "id_aluno": 116,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 7
+  },
+  {
+    "id_nota": 911,
+    "id_aluno": 90,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 912,
+    "id_aluno": 7,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 6
+  },
+  {
+    "id_nota": 913,
+    "id_aluno": 107,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 6.3
+  },
+  {
+    "id_nota": 914,
+    "id_aluno": 14,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 915,
+    "id_aluno": 102,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 916,
+    "id_aluno": 129,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 5.2
+  },
+  {
+    "id_nota": 917,
+    "id_aluno": 96,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 918,
+    "id_aluno": 61,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 919,
+    "id_aluno": 99,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 3.5
+  },
+  {
+    "id_nota": 920,
+    "id_aluno": 21,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 5.4
+  },
+  {
+    "id_nota": 921,
+    "id_aluno": 96,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 8
+  },
+  {
+    "id_nota": 922,
+    "id_aluno": 58,
+    "disciplina": "Português",
+    "bimestre": "4º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 923,
+    "id_aluno": 8,
+    "disciplina": "Biologia",
+    "bimestre": "3º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 924,
+    "id_aluno": 82,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 925,
+    "id_aluno": 26,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 3
+  },
+  {
+    "id_nota": 926,
+    "id_aluno": 183,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 0
+  },
+  {
+    "id_nota": 927,
+    "id_aluno": 167,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 928,
+    "id_aluno": 86,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 929,
+    "id_aluno": 38,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 930,
+    "id_aluno": 36,
+    "disciplina": "Geografia",
+    "bimestre": "2º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 931,
+    "id_aluno": 10,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 932,
+    "id_aluno": 74,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 9.2
+  },
+  {
+    "id_nota": 933,
+    "id_aluno": 121,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 934,
+    "id_aluno": 179,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 4.8
+  },
+  {
+    "id_nota": 935,
+    "id_aluno": 36,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 936,
+    "id_aluno": 195,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 4.3
+  },
+  {
+    "id_nota": 937,
+    "id_aluno": 181,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 938,
+    "id_aluno": 121,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 939,
+    "id_aluno": 115,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.1
+  },
+  {
+    "id_nota": 940,
+    "id_aluno": 158,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 3.7
+  },
+  {
+    "id_nota": 941,
+    "id_aluno": 2,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 942,
+    "id_aluno": 21,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 5.6
+  },
+  {
+    "id_nota": 943,
+    "id_aluno": 5,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 944,
+    "id_aluno": 66,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 1.6
+  },
+  {
+    "id_nota": 945,
+    "id_aluno": 56,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 946,
+    "id_aluno": 39,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 3.9
+  },
+  {
+    "id_nota": 947,
+    "id_aluno": 141,
+    "disciplina": "Matemática",
+    "bimestre": "4º",
+    "nota": 3.8
+  },
+  {
+    "id_nota": 948,
+    "id_aluno": 187,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 2.6
+  },
+  {
+    "id_nota": 949,
+    "id_aluno": 156,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 4.2
+  },
+  {
+    "id_nota": 950,
+    "id_aluno": 136,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 2.4
+  },
+  {
+    "id_nota": 951,
+    "id_aluno": 109,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 7.6
+  },
+  {
+    "id_nota": 952,
+    "id_aluno": 29,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 9.1
+  },
+  {
+    "id_nota": 953,
+    "id_aluno": 199,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 954,
+    "id_aluno": 74,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 6.8
+  },
+  {
+    "id_nota": 955,
+    "id_aluno": 61,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 2.8
+  },
+  {
+    "id_nota": 956,
+    "id_aluno": 78,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 7.4
+  },
+  {
+    "id_nota": 957,
+    "id_aluno": 32,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 8.1
+  },
+  {
+    "id_nota": 958,
+    "id_aluno": 13,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 4.1
+  },
+  {
+    "id_nota": 959,
+    "id_aluno": 62,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 8.5
+  },
+  {
+    "id_nota": 960,
+    "id_aluno": 108,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 1.8
+  },
+  {
+    "id_nota": 961,
+    "id_aluno": 164,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 2.9
+  },
+  {
+    "id_nota": 962,
+    "id_aluno": 160,
+    "disciplina": "Química",
+    "bimestre": "3º",
+    "nota": 6.4
+  },
+  {
+    "id_nota": 963,
+    "id_aluno": 118,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 964,
+    "id_aluno": 17,
+    "disciplina": "Português",
+    "bimestre": "1º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 965,
+    "id_aluno": 29,
+    "disciplina": "Física",
+    "bimestre": "4º",
+    "nota": 6.2
+  },
+  {
+    "id_nota": 966,
+    "id_aluno": 128,
+    "disciplina": "Física",
+    "bimestre": "2º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 967,
+    "id_aluno": 153,
+    "disciplina": "Inglês",
+    "bimestre": "2º",
+    "nota": 0.2
+  },
+  {
+    "id_nota": 968,
+    "id_aluno": 138,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 0.5
+  },
+  {
+    "id_nota": 969,
+    "id_aluno": 5,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 5.3
+  },
+  {
+    "id_nota": 970,
+    "id_aluno": 162,
+    "disciplina": "Português",
+    "bimestre": "3º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 971,
+    "id_aluno": 132,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 1
+  },
+  {
+    "id_nota": 972,
+    "id_aluno": 148,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 2.7
+  },
+  {
+    "id_nota": 973,
+    "id_aluno": 62,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 7.2
+  },
+  {
+    "id_nota": 974,
+    "id_aluno": 184,
+    "disciplina": "Geografia",
+    "bimestre": "1º",
+    "nota": 7.3
+  },
+  {
+    "id_nota": 975,
+    "id_aluno": 37,
+    "disciplina": "Biologia",
+    "bimestre": "4º",
+    "nota": 2.3
+  },
+  {
+    "id_nota": 976,
+    "id_aluno": 75,
+    "disciplina": "Português",
+    "bimestre": "2º",
+    "nota": 1.5
+  },
+  {
+    "id_nota": 977,
+    "id_aluno": 110,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 4.9
+  },
+  {
+    "id_nota": 978,
+    "id_aluno": 1,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 3.4
+  },
+  {
+    "id_nota": 979,
+    "id_aluno": 158,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 3.1
+  },
+  {
+    "id_nota": 980,
+    "id_aluno": 91,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 8
+  },
+  {
+    "id_nota": 981,
+    "id_aluno": 62,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 10
+  },
+  {
+    "id_nota": 982,
+    "id_aluno": 147,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 4.6
+  },
+  {
+    "id_nota": 983,
+    "id_aluno": 107,
+    "disciplina": "Química",
+    "bimestre": "1º",
+    "nota": 7.9
+  },
+  {
+    "id_nota": 984,
+    "id_aluno": 48,
+    "disciplina": "Química",
+    "bimestre": "4º",
+    "nota": 3.3
+  },
+  {
+    "id_nota": 985,
+    "id_aluno": 171,
+    "disciplina": "História",
+    "bimestre": "2º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 986,
+    "id_aluno": 172,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 9.5
+  },
+  {
+    "id_nota": 987,
+    "id_aluno": 22,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 0.6
+  },
+  {
+    "id_nota": 988,
+    "id_aluno": 135,
+    "disciplina": "História",
+    "bimestre": "1º",
+    "nota": 7.8
+  },
+  {
+    "id_nota": 989,
+    "id_aluno": 93,
+    "disciplina": "Inglês",
+    "bimestre": "3º",
+    "nota": 0.7
+  },
+  {
+    "id_nota": 990,
+    "id_aluno": 18,
+    "disciplina": "Biologia",
+    "bimestre": "2º",
+    "nota": 4.7
+  },
+  {
+    "id_nota": 991,
+    "id_aluno": 135,
+    "disciplina": "História",
+    "bimestre": "4º",
+    "nota": 1.9
+  },
+  {
+    "id_nota": 992,
+    "id_aluno": 140,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 8.4
+  },
+  {
+    "id_nota": 993,
+    "id_aluno": 130,
+    "disciplina": "Física",
+    "bimestre": "3º",
+    "nota": 8.2
+  },
+  {
+    "id_nota": 994,
+    "id_aluno": 130,
+    "disciplina": "Inglês",
+    "bimestre": "4º",
+    "nota": 8.3
+  },
+  {
+    "id_nota": 995,
+    "id_aluno": 142,
+    "disciplina": "Matemática",
+    "bimestre": "1º",
+    "nota": 1.2
+  },
+  {
+    "id_nota": 996,
+    "id_aluno": 6,
+    "disciplina": "Física",
+    "bimestre": "1º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 997,
+    "id_aluno": 100,
+    "disciplina": "Matemática",
+    "bimestre": "2º",
+    "nota": 2.5
+  },
+  {
+    "id_nota": 998,
+    "id_aluno": 121,
+    "disciplina": "Inglês",
+    "bimestre": "1º",
+    "nota": 7.7
+  },
+  {
+    "id_nota": 999,
+    "id_aluno": 12,
+    "disciplina": "História",
+    "bimestre": "3º",
+    "nota": 4.4
+  },
+  {
+    "id_nota": 1000,
+    "id_aluno": 163,
+    "disciplina": "Geografia",
+    "bimestre": "3º",
+    "nota": 7.4
+  }
+]

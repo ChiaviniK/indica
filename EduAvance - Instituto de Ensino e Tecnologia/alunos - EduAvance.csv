@@ -1,0 +1,201 @@
+id_aluno,nome,idade,sexo,turma,ano_ingresso
+1,Marina Mendes,15,Masculino,3A,2021
+2,Luiz Henrique Barbosa,14,Masculino,2A,2023
+3,Anna Liz Siqueira,18,Masculino,3B,2022
+4,Theodoro Camargo,17,Feminino,1A,2022
+5,Isabelly Andrade,17,Feminino,3B,2023
+6,Mirella Gomes,16,Feminino,2A,2022
+7,Samuel Cirino,15,Feminino,3A,2023
+8,Elisa Lopes,22,Feminino,2A,2022
+9,Marcos Vinicius Macedo,15,Masculino,3B,2020
+10,Josué Albuquerque,20,Masculino,2B,2023
+11,Maria Helena Rios,14,Masculino,2A,2020
+12,Dra. Maria Helena Moraes,14,Feminino,2B,2020
+13,Luiz Fernando Mendonça,15,Feminino,3B,2022
+14,Joaquim Oliveira,17,Masculino,2A,2021
+15,Juan Almeida,17,Masculino,3A,2020
+16,Sra. Evelyn da Conceição,22,Masculino,1B,2020
+17,Antônio Andrade,14,Masculino,1B,2020
+18,Apollo Martins,22,Feminino,2B,2021
+19,João Vitor Costela,17,Masculino,3B,2021
+20,Ian Gomes,22,Feminino,2B,2020
+21,José Pedro Novais,20,Masculino,3B,2021
+22,Caio Albuquerque,17,Feminino,3B,2021
+23,Isis Cardoso,21,Feminino,1B,2021
+24,Joana Novaes,18,Masculino,3A,2023
+25,Sra. Maria Luísa Fonseca,14,Masculino,3A,2020
+26,Sra. Eduarda da Rosa,16,Feminino,2A,2021
+27,Melina Carvalho,20,Masculino,2B,2023
+28,Helena Fonseca,19,Masculino,3A,2022
+29,Joana Lopes,18,Masculino,1A,2022
+30,Manuela da Conceição,16,Masculino,2A,2021
+31,Benicio Barros,17,Masculino,2A,2020
+32,Maria das Neves,19,Masculino,1B,2021
+33,Luana Duarte,15,Feminino,2B,2022
+34,Srta. Sophie Borges,15,Feminino,3A,2020
+35,Rafaela Costela,20,Feminino,3A,2020
+36,Gustavo Henrique Moura,15,Masculino,3B,2022
+37,Ana Lívia Araújo,19,Feminino,2A,2023
+38,Leandro Marques,19,Masculino,2B,2023
+39,Ana Clara Gomes,18,Masculino,2B,2021
+40,Joaquim Silva,14,Feminino,2B,2020
+41,Sr. Antony Cunha,21,Masculino,3B,2021
+42,Bruna Rodrigues,22,Feminino,1B,2020
+43,Julia Garcia,15,Feminino,3A,2022
+44,Dra. Heloisa Abreu,20,Feminino,2B,2020
+45,Ana da Costa,15,Feminino,3B,2020
+46,Marcelo Duarte,22,Feminino,1B,2022
+47,Isabela Machado,18,Feminino,3B,2023
+48,Davi Luiz da Rosa,19,Masculino,1A,2022
+49,Sr. Brayan Leão,17,Masculino,2A,2020
+50,Ana Luiza Campos,15,Feminino,3A,2022
+51,Yasmin Ramos,14,Masculino,3B,2020
+52,Rhavi Cavalcante,17,Masculino,3B,2023
+53,Marcos Vinicius Martins,18,Masculino,3A,2023
+54,João Gabriel Sampaio,15,Feminino,2A,2020
+55,Pietra Mendes,17,Masculino,1A,2023
+56,Kevin Vasconcelos,15,Masculino,1B,2022
+57,Benjamim Sales,20,Feminino,3B,2023
+58,Cecilia Ferreira,18,Masculino,2A,2021
+59,Lunna Dias,21,Masculino,1B,2023
+60,Ana Beatriz Lopes,19,Masculino,1B,2021
+61,Dr. Ian Garcia,16,Masculino,1B,2022
+62,Yago Montenegro,19,Masculino,1A,2023
+63,Mariana Machado,19,Masculino,1A,2023
+64,Isabelly da Rocha,17,Masculino,1B,2023
+65,Paulo Fernandes,18,Feminino,2B,2022
+66,Luiz Gustavo Pinto,15,Masculino,3A,2022
+67,Valentina Leão,16,Masculino,1A,2021
+68,Thomas Pinto,22,Masculino,2B,2020
+69,Davi Lucca Cavalcanti,17,Masculino,2B,2022
+70,Fernanda Siqueira,16,Feminino,3B,2023
+71,Vitor Gabriel Souza,21,Feminino,3A,2021
+72,Ana Julia Moraes,20,Feminino,1B,2023
+73,Melissa Aragão,18,Masculino,3B,2023
+74,Aurora Ramos,22,Feminino,3B,2022
+75,Luara Pimenta,17,Masculino,2B,2020
+76,Carolina Santos,19,Feminino,2B,2023
+77,Bella da Luz,14,Feminino,2B,2022
+78,Marcos Vinicius Siqueira,17,Masculino,1B,2021
+79,Maria Laura Campos,14,Feminino,1B,2023
+80,Ana Lívia Nogueira,19,Feminino,3B,2021
+81,Luiz Miguel Sales,20,Feminino,3B,2022
+82,Sr. Carlos Eduardo Silveira,18,Masculino,1A,2022
+83,Daniel Cardoso,15,Masculino,1A,2022
+84,Carolina Garcia,17,Feminino,2B,2022
+85,Lucas Gabriel Rodrigues,19,Masculino,1B,2022
+86,Sr. Felipe Barbosa,17,Masculino,1B,2020
+87,Bruna Sá,21,Masculino,3B,2021
+88,Gabrielly Marques,20,Feminino,3A,2020
+89,Sara da Cruz,21,Masculino,2B,2021
+90,Eduardo Rocha,16,Feminino,1A,2023
+91,Sra. Helena Martins,18,Masculino,3A,2023
+92,Sra. Isadora Cavalcanti,16,Masculino,1B,2021
+93,Isabel Siqueira,17,Feminino,1A,2023
+94,Leandro das Neves,22,Feminino,2B,2023
+95,Sra. Esther Caldeira,22,Masculino,1B,2023
+96,Vinícius Rios,18,Feminino,2B,2020
+97,Maria Fernanda Sousa,20,Feminino,3B,2020
+98,Felipe Marques,20,Masculino,3A,2022
+99,Yan Ramos,19,Feminino,3A,2021
+100,Luara Farias,17,Masculino,3A,2023
+101,Lunna da Paz,16,Masculino,2A,2021
+102,Srta. Ana Sophia Santos,22,Feminino,2B,2022
+103,João Felipe Almeida,21,Masculino,3A,2022
+104,Lorenzo Santos,15,Masculino,3B,2023
+105,Ágatha Pimenta,14,Masculino,3A,2022
+106,Ana Carolina Fonseca,15,Feminino,2B,2023
+107,Vitor da Luz,16,Feminino,3A,2022
+108,Ravi Lucca Pimenta,16,Masculino,2B,2022
+109,Diogo Camargo,20,Feminino,1B,2023
+110,Maria Luísa Montenegro,15,Masculino,3B,2022
+111,Ana Cecília Marques,20,Feminino,2B,2022
+112,Valentina Dias,20,Feminino,2B,2022
+113,Lavínia Camargo,21,Feminino,2A,2021
+114,Rodrigo Alves,22,Masculino,1B,2020
+115,Vitória Farias,18,Masculino,3B,2021
+116,Diogo Fernandes,22,Feminino,2A,2022
+117,Maria Albuquerque,14,Feminino,3A,2020
+118,Melina Gonçalves,15,Masculino,2B,2021
+119,Gustavo Henrique Oliveira,22,Masculino,3B,2021
+120,Renan Azevedo,18,Feminino,1B,2021
+121,Dra. Juliana Novais,19,Masculino,2A,2023
+122,Heloísa Almeida,15,Feminino,2B,2022
+123,Benjamin Freitas,18,Masculino,1A,2022
+124,Bruna da Mota,20,Feminino,3B,2020
+125,Vicente Fonseca,16,Feminino,2A,2021
+126,Mirella Dias,21,Masculino,1B,2022
+127,Sra. Clara da Costa,14,Masculino,2A,2021
+128,Isabelly Fernandes,18,Masculino,2A,2022
+129,Maria Helena Farias,22,Masculino,2A,2021
+130,Elisa Correia,16,Masculino,3A,2022
+131,Alana da Paz,22,Feminino,1A,2020
+132,Ana Cecília Silveira,15,Masculino,1B,2021
+133,Renan Peixoto,18,Feminino,1B,2022
+134,Eloah Cunha,22,Masculino,1B,2020
+135,Mariana Monteiro,17,Masculino,2B,2020
+136,Mateus Santos,16,Feminino,3B,2022
+137,Renan Ferreira,19,Feminino,1B,2021
+138,Ana Sophia Guerra,16,Masculino,3B,2023
+139,Lorena da Cruz,22,Feminino,1B,2020
+140,Lucas Gabriel Peixoto,22,Masculino,1A,2020
+141,Sra. Ágatha Barbosa,14,Masculino,2B,2022
+142,Sr. Francisco Mendonça,19,Masculino,2B,2023
+143,Nathan Fogaça,21,Feminino,2A,2023
+144,Lorena Ramos,14,Feminino,3A,2023
+145,Maitê Nunes,15,Masculino,2B,2022
+146,Leandro Macedo,19,Masculino,2B,2021
+147,Pietra da Mota,18,Masculino,1A,2020
+148,Cauã Freitas,17,Masculino,1B,2022
+149,Luigi Sousa,14,Feminino,2B,2023
+150,Helena Oliveira,17,Masculino,2B,2020
+151,Letícia Cavalcanti,15,Masculino,3A,2020
+152,Bárbara Rios,15,Feminino,3B,2023
+153,Dante Nunes,21,Feminino,1A,2023
+154,Sophie Cardoso,15,Masculino,3A,2020
+155,Rhavi Nascimento,22,Feminino,2B,2020
+156,Stella Ribeiro,16,Masculino,2B,2021
+157,Lavínia Almeida,16,Masculino,1A,2021
+158,Mariana Teixeira,21,Feminino,2A,2022
+159,Ana Sophia Sá,22,Masculino,2A,2020
+160,Giovanna das Neves,16,Feminino,2B,2021
+161,Danilo Pereira,18,Masculino,2B,2020
+162,Caroline Pereira,22,Masculino,3A,2023
+163,Alana Gonçalves,20,Feminino,3B,2021
+164,Vitor Gabriel Marques,17,Feminino,3B,2023
+165,Ravy da Cruz,22,Feminino,3A,2023
+166,Otávio da Cruz,17,Masculino,3A,2023
+167,Srta. Olivia Gomes,18,Masculino,1B,2022
+168,Dr. Antony Souza,20,Masculino,2B,2023
+169,Eloá Macedo,19,Masculino,1B,2022
+170,Maria Luísa Correia,21,Feminino,2A,2020
+171,Thiago das Neves,22,Feminino,2B,2020
+172,Otto Brito,21,Feminino,2B,2021
+173,Sr. Luiz Fernando Santos,15,Masculino,1A,2021
+174,Ian Cunha,17,Feminino,2B,2022
+175,Gael Henrique Alves,17,Feminino,2A,2020
+176,Isadora da Cruz,15,Feminino,3B,2021
+177,João Felipe Leão,19,Feminino,3B,2021
+178,Dra. Maria Julia Farias,14,Masculino,2B,2021
+179,Ana Nogueira,22,Masculino,3B,2020
+180,Leandro Macedo,17,Feminino,1B,2021
+181,Mateus Jesus,17,Masculino,2B,2020
+182,Benjamim da Rocha,14,Feminino,1B,2023
+183,Maria Júlia Cavalcante,15,Masculino,3A,2023
+184,Maria Luísa Mendes,14,Masculino,3A,2023
+185,Rael Rios,17,Feminino,1A,2022
+186,Jade Nunes,15,Feminino,2B,2020
+187,Ian Cardoso,14,Feminino,3A,2021
+188,Otto Nogueira,19,Feminino,3A,2022
+189,Rafaela Moraes,15,Masculino,3B,2022
+190,Sra. Ana Lívia Mendes,22,Feminino,1A,2023
+191,João Miguel Silva,17,Masculino,1A,2020
+192,Gustavo Brito,18,Feminino,3B,2021
+193,Rafaela Alves,21,Masculino,2B,2022
+194,Luiz Fernando Barbosa,17,Feminino,1B,2021
+195,João Guilherme Leão,22,Masculino,2B,2023
+196,Maria Vitória Borges,16,Masculino,1B,2020
+197,Lucas Gabriel da Cunha,21,Feminino,1A,2021
+198,Mateus Silveira,17,Feminino,2A,2021
+199,Ian Carvalho,21,Masculino,2B,2022
+200,Sr. Cauã Moraes,20,Feminino,2A,2021

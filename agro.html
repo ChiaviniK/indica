@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Agronegócio - Indica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-content {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .dashboard-container {
+            margin-top: 40px;
+        }
+        .dashboard-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            text-align: left;
+        }
+        .services-cards .card {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .services-cards .card:hover {
+            transform: translateY(-10px);
+        }
+        .chart-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .flex-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .chart-box {
+            flex: 1;
+            min-width: 200px;
+            max-width: 25%;
+        }
+        .line-chart-box {
+            flex: 3;
+            min-width: 400px;
+            max-width: 75%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Indica</a>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <h1>Dashboards da AgroTech</h1>
+        <p>Clique em um dos cards abaixo para visualizar os indicadores.</p>
+
+        <section class="services-cards" id="dashboards-agro">
+            <div class="card-grid">
+                <div class="card" data-dashboard="produtividade-agricola">
+                    <img src="assets/img/data.jpg" alt="Ícone de Produtividade Agrícola">
+                    <h3>Produtividade Agrícola</h3>
+                    <p>Análise de produção por cultura e safra.</p>
+                </div>
+                <div class="card" data-dashboard="monitoramento-sensores">
+                    <img src="assets/img/data.jpg" alt="Ícone de Monitoramento de Sensores">
+                    <h3>Monitoramento de Sensores</h3>
+                    <p>Leituras em tempo real de clima, solo e sensores.</p>
+                </div>
+                <div class="card" data-dashboard="analise-custos">
+                    <img src="assets/img/data.jpg" alt="Ícone de Análise de Custos">
+                    <h3>Análise de Custos</h3>
+                    <p>Detalhes sobre gastos com insumos e operações.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="dashboard-display" class="dashboard-container">
+            </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <script src="dashboardagro.js"></script>
+</body>
+</html>

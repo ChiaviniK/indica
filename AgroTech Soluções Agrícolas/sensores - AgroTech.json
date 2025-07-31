@@ -1,0 +1,738 @@
+[
+  {
+    "id_sensor": 1,
+    "id_fazenda": 1,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-765",
+    "ativo": "False",
+    "data_instalacao": "2024-01-18"
+  },
+  {
+    "id_sensor": 2,
+    "id_fazenda": 1,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-559",
+    "ativo": "True",
+    "data_instalacao": "2024-02-16"
+  },
+  {
+    "id_sensor": 3,
+    "id_fazenda": 1,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-877",
+    "ativo": "True",
+    "data_instalacao": "2025-03-19"
+  },
+  {
+    "id_sensor": 4,
+    "id_fazenda": 1,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-532",
+    "ativo": "True",
+    "data_instalacao": "2023-10-22"
+  },
+  {
+    "id_sensor": 5,
+    "id_fazenda": 2,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-320",
+    "ativo": "True",
+    "data_instalacao": "2025-03-01"
+  },
+  {
+    "id_sensor": 6,
+    "id_fazenda": 2,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-194",
+    "ativo": "False",
+    "data_instalacao": "2024-06-15"
+  },
+  {
+    "id_sensor": 7,
+    "id_fazenda": 2,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-467",
+    "ativo": "True",
+    "data_instalacao": "2024-07-08"
+  },
+  {
+    "id_sensor": 8,
+    "id_fazenda": 2,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-370",
+    "ativo": "True",
+    "data_instalacao": "2025-06-16"
+  },
+  {
+    "id_sensor": 9,
+    "id_fazenda": 2,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-570",
+    "ativo": "True",
+    "data_instalacao": "2023-12-05"
+  },
+  {
+    "id_sensor": 10,
+    "id_fazenda": 3,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-665",
+    "ativo": "True",
+    "data_instalacao": "2025-07-13"
+  },
+  {
+    "id_sensor": 11,
+    "id_fazenda": 3,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-733",
+    "ativo": "True",
+    "data_instalacao": "2024-09-05"
+  },
+  {
+    "id_sensor": 12,
+    "id_fazenda": 3,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-296",
+    "ativo": "True",
+    "data_instalacao": "2024-01-16"
+  },
+  {
+    "id_sensor": 13,
+    "id_fazenda": 3,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-777",
+    "ativo": "True",
+    "data_instalacao": "2025-01-27"
+  },
+  {
+    "id_sensor": 14,
+    "id_fazenda": 3,
+    "tipo_sensor": "pH",
+    "modelo": "MOD-181",
+    "ativo": "True",
+    "data_instalacao": "2024-07-09"
+  },
+  {
+    "id_sensor": 15,
+    "id_fazenda": 3,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-489",
+    "ativo": "True",
+    "data_instalacao": "2024-12-26"
+  },
+  {
+    "id_sensor": 16,
+    "id_fazenda": 4,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-954",
+    "ativo": "True",
+    "data_instalacao": "2024-09-21"
+  },
+  {
+    "id_sensor": 17,
+    "id_fazenda": 4,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-479",
+    "ativo": "True",
+    "data_instalacao": "2025-07-17"
+  },
+  {
+    "id_sensor": 18,
+    "id_fazenda": 4,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-786",
+    "ativo": "True",
+    "data_instalacao": "2024-01-23"
+  },
+  {
+    "id_sensor": 19,
+    "id_fazenda": 4,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-799",
+    "ativo": "True",
+    "data_instalacao": "2024-02-09"
+  },
+  {
+    "id_sensor": 20,
+    "id_fazenda": 4,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-750",
+    "ativo": "True",
+    "data_instalacao": "2025-05-15"
+  },
+  {
+    "id_sensor": 21,
+    "id_fazenda": 4,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-846",
+    "ativo": "True",
+    "data_instalacao": "2024-08-12"
+  },
+  {
+    "id_sensor": 22,
+    "id_fazenda": 5,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-488",
+    "ativo": "True",
+    "data_instalacao": "2025-05-22"
+  },
+  {
+    "id_sensor": 23,
+    "id_fazenda": 5,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-804",
+    "ativo": "True",
+    "data_instalacao": "2024-09-10"
+  },
+  {
+    "id_sensor": 24,
+    "id_fazenda": 5,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-432",
+    "ativo": "True",
+    "data_instalacao": "2024-10-24"
+  },
+  {
+    "id_sensor": 25,
+    "id_fazenda": 5,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-941",
+    "ativo": "True",
+    "data_instalacao": "2024-02-18"
+  },
+  {
+    "id_sensor": 26,
+    "id_fazenda": 6,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-374",
+    "ativo": "True",
+    "data_instalacao": "2024-09-12"
+  },
+  {
+    "id_sensor": 27,
+    "id_fazenda": 6,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-680",
+    "ativo": "True",
+    "data_instalacao": "2025-04-29"
+  },
+  {
+    "id_sensor": 28,
+    "id_fazenda": 6,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-771",
+    "ativo": "False",
+    "data_instalacao": "2024-07-11"
+  },
+  {
+    "id_sensor": 29,
+    "id_fazenda": 6,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-758",
+    "ativo": "False",
+    "data_instalacao": "2023-08-05"
+  },
+  {
+    "id_sensor": 30,
+    "id_fazenda": 6,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-371",
+    "ativo": "True",
+    "data_instalacao": "2024-12-05"
+  },
+  {
+    "id_sensor": 31,
+    "id_fazenda": 7,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-674",
+    "ativo": "True",
+    "data_instalacao": "2024-09-04"
+  },
+  {
+    "id_sensor": 32,
+    "id_fazenda": 7,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-698",
+    "ativo": "False",
+    "data_instalacao": "2025-07-20"
+  },
+  {
+    "id_sensor": 33,
+    "id_fazenda": 7,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-508",
+    "ativo": "True",
+    "data_instalacao": "2024-07-26"
+  },
+  {
+    "id_sensor": 34,
+    "id_fazenda": 7,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-241",
+    "ativo": "False",
+    "data_instalacao": "2025-07-01"
+  },
+  {
+    "id_sensor": 35,
+    "id_fazenda": 8,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-981",
+    "ativo": "True",
+    "data_instalacao": "2024-04-08"
+  },
+  {
+    "id_sensor": 36,
+    "id_fazenda": 8,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-742",
+    "ativo": "True",
+    "data_instalacao": "2024-02-10"
+  },
+  {
+    "id_sensor": 37,
+    "id_fazenda": 8,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-532",
+    "ativo": "True",
+    "data_instalacao": "2023-11-07"
+  },
+  {
+    "id_sensor": 38,
+    "id_fazenda": 9,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-710",
+    "ativo": "False",
+    "data_instalacao": "2024-10-22"
+  },
+  {
+    "id_sensor": 39,
+    "id_fazenda": 9,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-357",
+    "ativo": "True",
+    "data_instalacao": "2024-07-05"
+  },
+  {
+    "id_sensor": 40,
+    "id_fazenda": 9,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-838",
+    "ativo": "True",
+    "data_instalacao": "2024-01-21"
+  },
+  {
+    "id_sensor": 41,
+    "id_fazenda": 9,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-649",
+    "ativo": "True",
+    "data_instalacao": "2025-01-26"
+  },
+  {
+    "id_sensor": 42,
+    "id_fazenda": 9,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-448",
+    "ativo": "True",
+    "data_instalacao": "2024-08-22"
+  },
+  {
+    "id_sensor": 43,
+    "id_fazenda": 9,
+    "tipo_sensor": "pH",
+    "modelo": "MOD-545",
+    "ativo": "True",
+    "data_instalacao": "2024-08-19"
+  },
+  {
+    "id_sensor": 44,
+    "id_fazenda": 10,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-839",
+    "ativo": "True",
+    "data_instalacao": "2024-07-21"
+  },
+  {
+    "id_sensor": 45,
+    "id_fazenda": 10,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-880",
+    "ativo": "True",
+    "data_instalacao": "2023-12-25"
+  },
+  {
+    "id_sensor": 46,
+    "id_fazenda": 10,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-208",
+    "ativo": "True",
+    "data_instalacao": "2023-11-30"
+  },
+  {
+    "id_sensor": 47,
+    "id_fazenda": 10,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-619",
+    "ativo": "True",
+    "data_instalacao": "2024-11-10"
+  },
+  {
+    "id_sensor": 48,
+    "id_fazenda": 10,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-482",
+    "ativo": "True",
+    "data_instalacao": "2024-08-03"
+  },
+  {
+    "id_sensor": 49,
+    "id_fazenda": 10,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-897",
+    "ativo": "True",
+    "data_instalacao": "2025-06-19"
+  },
+  {
+    "id_sensor": 50,
+    "id_fazenda": 11,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-119",
+    "ativo": "True",
+    "data_instalacao": "2025-03-17"
+  },
+  {
+    "id_sensor": 51,
+    "id_fazenda": 11,
+    "tipo_sensor": "pH",
+    "modelo": "MOD-999",
+    "ativo": "True",
+    "data_instalacao": "2023-08-16"
+  },
+  {
+    "id_sensor": 52,
+    "id_fazenda": 11,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-159",
+    "ativo": "True",
+    "data_instalacao": "2025-01-03"
+  },
+  {
+    "id_sensor": 53,
+    "id_fazenda": 11,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-180",
+    "ativo": "True",
+    "data_instalacao": "2023-11-09"
+  },
+  {
+    "id_sensor": 54,
+    "id_fazenda": 11,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-597",
+    "ativo": "True",
+    "data_instalacao": "2023-10-01"
+  },
+  {
+    "id_sensor": 55,
+    "id_fazenda": 12,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-775",
+    "ativo": "False",
+    "data_instalacao": "2024-09-27"
+  },
+  {
+    "id_sensor": 56,
+    "id_fazenda": 12,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-269",
+    "ativo": "True",
+    "data_instalacao": "2025-02-20"
+  },
+  {
+    "id_sensor": 57,
+    "id_fazenda": 12,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-993",
+    "ativo": "False",
+    "data_instalacao": "2024-10-12"
+  },
+  {
+    "id_sensor": 58,
+    "id_fazenda": 12,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-652",
+    "ativo": "True",
+    "data_instalacao": "2025-07-09"
+  },
+  {
+    "id_sensor": 59,
+    "id_fazenda": 13,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-787",
+    "ativo": "True",
+    "data_instalacao": "2023-10-05"
+  },
+  {
+    "id_sensor": 60,
+    "id_fazenda": 13,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-629",
+    "ativo": "False",
+    "data_instalacao": "2025-04-17"
+  },
+  {
+    "id_sensor": 61,
+    "id_fazenda": 13,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-353",
+    "ativo": "True",
+    "data_instalacao": "2025-04-28"
+  },
+  {
+    "id_sensor": 62,
+    "id_fazenda": 13,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-446",
+    "ativo": "True",
+    "data_instalacao": "2025-02-09"
+  },
+  {
+    "id_sensor": 63,
+    "id_fazenda": 13,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-667",
+    "ativo": "True",
+    "data_instalacao": "2024-07-30"
+  },
+  {
+    "id_sensor": 64,
+    "id_fazenda": 14,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-172",
+    "ativo": "True",
+    "data_instalacao": "2024-02-03"
+  },
+  {
+    "id_sensor": 65,
+    "id_fazenda": 14,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-169",
+    "ativo": "True",
+    "data_instalacao": "2023-10-08"
+  },
+  {
+    "id_sensor": 66,
+    "id_fazenda": 14,
+    "tipo_sensor": "pH",
+    "modelo": "MOD-172",
+    "ativo": "True",
+    "data_instalacao": "2025-03-10"
+  },
+  {
+    "id_sensor": 67,
+    "id_fazenda": 14,
+    "tipo_sensor": "pH",
+    "modelo": "MOD-785",
+    "ativo": "False",
+    "data_instalacao": "2023-07-31"
+  },
+  {
+    "id_sensor": 68,
+    "id_fazenda": 15,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-235",
+    "ativo": "False",
+    "data_instalacao": "2024-12-23"
+  },
+  {
+    "id_sensor": 69,
+    "id_fazenda": 15,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-903",
+    "ativo": "False",
+    "data_instalacao": "2024-01-21"
+  },
+  {
+    "id_sensor": 70,
+    "id_fazenda": 15,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-294",
+    "ativo": "True",
+    "data_instalacao": "2024-04-02"
+  },
+  {
+    "id_sensor": 71,
+    "id_fazenda": 15,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-774",
+    "ativo": "False",
+    "data_instalacao": "2025-06-14"
+  },
+  {
+    "id_sensor": 72,
+    "id_fazenda": 16,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-520",
+    "ativo": "False",
+    "data_instalacao": "2024-01-23"
+  },
+  {
+    "id_sensor": 73,
+    "id_fazenda": 16,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-155",
+    "ativo": "True",
+    "data_instalacao": "2024-11-06"
+  },
+  {
+    "id_sensor": 74,
+    "id_fazenda": 16,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-512",
+    "ativo": "True",
+    "data_instalacao": "2024-05-01"
+  },
+  {
+    "id_sensor": 75,
+    "id_fazenda": 16,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-354",
+    "ativo": "True",
+    "data_instalacao": "2024-04-26"
+  },
+  {
+    "id_sensor": 76,
+    "id_fazenda": 16,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-649",
+    "ativo": "False",
+    "data_instalacao": "2023-10-22"
+  },
+  {
+    "id_sensor": 77,
+    "id_fazenda": 17,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-287",
+    "ativo": "True",
+    "data_instalacao": "2024-12-24"
+  },
+  {
+    "id_sensor": 78,
+    "id_fazenda": 17,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-355",
+    "ativo": "True",
+    "data_instalacao": "2025-07-07"
+  },
+  {
+    "id_sensor": 79,
+    "id_fazenda": 17,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-927",
+    "ativo": "True",
+    "data_instalacao": "2024-07-28"
+  },
+  {
+    "id_sensor": 80,
+    "id_fazenda": 17,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-767",
+    "ativo": "True",
+    "data_instalacao": "2023-09-24"
+  },
+  {
+    "id_sensor": 81,
+    "id_fazenda": 18,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-270",
+    "ativo": "False",
+    "data_instalacao": "2024-12-09"
+  },
+  {
+    "id_sensor": 82,
+    "id_fazenda": 18,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-592",
+    "ativo": "True",
+    "data_instalacao": "2025-04-16"
+  },
+  {
+    "id_sensor": 83,
+    "id_fazenda": 18,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-160",
+    "ativo": "True",
+    "data_instalacao": "2025-02-17"
+  },
+  {
+    "id_sensor": 84,
+    "id_fazenda": 19,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-499",
+    "ativo": "True",
+    "data_instalacao": "2024-09-15"
+  },
+  {
+    "id_sensor": 85,
+    "id_fazenda": 19,
+    "tipo_sensor": "Luminosidade",
+    "modelo": "MOD-392",
+    "ativo": "False",
+    "data_instalacao": "2025-01-20"
+  },
+  {
+    "id_sensor": 86,
+    "id_fazenda": 19,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-848",
+    "ativo": "False",
+    "data_instalacao": "2024-09-07"
+  },
+  {
+    "id_sensor": 87,
+    "id_fazenda": 19,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-294",
+    "ativo": "True",
+    "data_instalacao": "2025-01-08"
+  },
+  {
+    "id_sensor": 88,
+    "id_fazenda": 19,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-159",
+    "ativo": "True",
+    "data_instalacao": "2023-12-10"
+  },
+  {
+    "id_sensor": 89,
+    "id_fazenda": 19,
+    "tipo_sensor": "Nitrogênio",
+    "modelo": "MOD-421",
+    "ativo": "True",
+    "data_instalacao": "2024-02-25"
+  },
+  {
+    "id_sensor": 90,
+    "id_fazenda": 20,
+    "tipo_sensor": "CO2",
+    "modelo": "MOD-588",
+    "ativo": "True",
+    "data_instalacao": "2024-09-29"
+  },
+  {
+    "id_sensor": 91,
+    "id_fazenda": 20,
+    "tipo_sensor": "Umidade do Solo",
+    "modelo": "MOD-620",
+    "ativo": "True",
+    "data_instalacao": "2024-05-23"
+  },
+  {
+    "id_sensor": 92,
+    "id_fazenda": 20,
+    "tipo_sensor": "Temperatura",
+    "modelo": "MOD-170",
+    "ativo": "True",
+    "data_instalacao": "2024-03-20"
+  }
+]

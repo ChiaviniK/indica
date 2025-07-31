@@ -1,0 +1,11 @@
+campanha_id,nome_campanha,canal,data_inicio,custo_total,clientes_atingidos,conversões
+1,Campanha 1,Parcerias,2024-10-10,6119.2,353,59
+2,Campanha 2,Parcerias,2024-10-14,1873.32,138,23
+3,Campanha 3,Parcerias,2025-01-14,6355.09,432,72
+4,Campanha 4,Anúncios Pagos,2024-10-21,9987.89,454,75
+5,Campanha 5,Anúncios Pagos,2025-06-27,9500.22,211,35
+6,Campanha 6,Redes Sociais,2024-11-08,1024.04,459,76
+7,Campanha 7,Email,2024-11-30,8158.4,85,14
+8,Campanha 8,Email,2025-07-29,4182.45,276,46
+9,Campanha 9,Parcerias,2024-10-01,1572.86,200,33
+10,Campanha 10,Parcerias,2025-05-03,3663.85,130,22

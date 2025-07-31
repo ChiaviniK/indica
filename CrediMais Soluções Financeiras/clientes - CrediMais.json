@@ -1,0 +1,4502 @@
+[
+  {
+    "cliente_id": 1,
+    "idade": 56,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4133.43,
+    "data_cadastro": "2024-10-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 2,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5748.87,
+    "data_cadastro": "2022-12-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 3,
+    "idade": 46,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3186.09,
+    "data_cadastro": "2025-05-22",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 4,
+    "idade": 32,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5315.65,
+    "data_cadastro": "2025-04-01",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 5,
+    "idade": 60,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4695.59,
+    "data_cadastro": "2022-11-28",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 6,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4866.73,
+    "data_cadastro": "2025-06-11",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 7,
+    "idade": 38,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3273.54,
+    "data_cadastro": "2025-04-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 8,
+    "idade": 56,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3468.06,
+    "data_cadastro": "2024-01-06",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 9,
+    "idade": 36,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 1229.84,
+    "data_cadastro": "2025-06-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 10,
+    "idade": 40,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3150,
+    "data_cadastro": "2024-05-17",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 11,
+    "idade": 28,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5745.23,
+    "data_cadastro": "2023-05-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 12,
+    "idade": 28,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2606,
+    "data_cadastro": "2022-10-11",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 13,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2829.55,
+    "data_cadastro": "2025-01-20",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 14,
+    "idade": 53,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4960.28,
+    "data_cadastro": "2023-02-13",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 15,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4604.15,
+    "data_cadastro": "2022-10-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 16,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5034.79,
+    "data_cadastro": "2024-12-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 17,
+    "idade": 20,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2255.17,
+    "data_cadastro": "2024-02-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 18,
+    "idade": 39,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 7846.09,
+    "data_cadastro": "2024-04-11",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 19,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2176.37,
+    "data_cadastro": "2024-02-21",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 20,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4231.37,
+    "data_cadastro": "2024-08-19",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 21,
+    "idade": 61,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3762.02,
+    "data_cadastro": "2024-10-11",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 22,
+    "idade": 47,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2220.04,
+    "data_cadastro": "2022-11-19",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 23,
+    "idade": 55,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3444.69,
+    "data_cadastro": "2024-12-30",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 24,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4034.96,
+    "data_cadastro": "2025-05-27",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 25,
+    "idade": 38,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3025.04,
+    "data_cadastro": "2023-09-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 26,
+    "idade": 50,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5405.84,
+    "data_cadastro": "2022-07-30",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 27,
+    "idade": 29,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 3757.56,
+    "data_cadastro": "2025-02-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 28,
+    "idade": 39,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1988.09,
+    "data_cadastro": "2024-12-14",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 29,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 1860.81,
+    "data_cadastro": "2023-10-04",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 30,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4909.25,
+    "data_cadastro": "2024-07-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 31,
+    "idade": 66,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1769.84,
+    "data_cadastro": "2023-11-01",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 32,
+    "idade": 44,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4474.64,
+    "data_cadastro": "2024-06-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 33,
+    "idade": 59,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4666.98,
+    "data_cadastro": "2025-05-15",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 34,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2506.97,
+    "data_cadastro": "2024-10-04",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 35,
+    "idade": 33,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5336.11,
+    "data_cadastro": "2022-09-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 36,
+    "idade": 32,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 1423.31,
+    "data_cadastro": "2025-02-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 37,
+    "idade": 64,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4444.69,
+    "data_cadastro": "2023-07-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 38,
+    "idade": 68,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3938.71,
+    "data_cadastro": "2023-10-26",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 39,
+    "idade": 61,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3821.5,
+    "data_cadastro": "2023-03-19",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 40,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2233.16,
+    "data_cadastro": "2023-05-22",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 41,
+    "idade": 20,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2594.47,
+    "data_cadastro": "2023-03-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 42,
+    "idade": 54,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 6428.2,
+    "data_cadastro": "2023-02-08",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 43,
+    "idade": 68,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 5822.73,
+    "data_cadastro": "2024-12-30",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 44,
+    "idade": 24,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5113.13,
+    "data_cadastro": "2024-01-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 45,
+    "idade": 38,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 5409.77,
+    "data_cadastro": "2025-05-25",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 46,
+    "idade": 26,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 5269.02,
+    "data_cadastro": "2022-10-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 47,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3514.97,
+    "data_cadastro": "2022-09-17",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 48,
+    "idade": 35,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4071.41,
+    "data_cadastro": "2022-12-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 49,
+    "idade": 21,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 1791.24,
+    "data_cadastro": "2023-08-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 50,
+    "idade": 42,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3865.46,
+    "data_cadastro": "2025-02-05",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 51,
+    "idade": 31,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 5775.12,
+    "data_cadastro": "2024-05-18",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 52,
+    "idade": 67,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3008.94,
+    "data_cadastro": "2023-02-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 53,
+    "idade": 26,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5534.71,
+    "data_cadastro": "2024-12-05",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 54,
+    "idade": 43,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4137.38,
+    "data_cadastro": "2024-05-01",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 55,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 1921.94,
+    "data_cadastro": "2024-05-11",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 56,
+    "idade": 37,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2339.02,
+    "data_cadastro": "2024-11-10",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 57,
+    "idade": 45,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5378.95,
+    "data_cadastro": "2024-06-27",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 58,
+    "idade": 64,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4828.79,
+    "data_cadastro": "2022-12-20",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 59,
+    "idade": 24,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4152.65,
+    "data_cadastro": "2024-06-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 60,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3588.95,
+    "data_cadastro": "2023-04-12",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 61,
+    "idade": 25,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4315.85,
+    "data_cadastro": "2023-06-19",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 62,
+    "idade": 64,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5320.44,
+    "data_cadastro": "2023-06-09",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 63,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 6213.78,
+    "data_cadastro": "2022-08-16",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 64,
+    "idade": 31,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 6285.53,
+    "data_cadastro": "2024-10-24",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 65,
+    "idade": 34,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4557.94,
+    "data_cadastro": "2024-07-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 66,
+    "idade": 53,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3742.1,
+    "data_cadastro": "2023-06-20",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 67,
+    "idade": 67,
+    "gênero": "Outro",
+    "região": "Sudeste",
+    "renda_mensal": 4219.37,
+    "data_cadastro": "2025-04-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 68,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4783.18,
+    "data_cadastro": "2023-03-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 69,
+    "idade": 21,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4777.1,
+    "data_cadastro": "2023-10-26",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 70,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5961.98,
+    "data_cadastro": "2025-07-17",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 71,
+    "idade": 23,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 7173.63,
+    "data_cadastro": "2024-02-24",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 72,
+    "idade": 59,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 3692.12,
+    "data_cadastro": "2025-02-05",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 73,
+    "idade": 21,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 7233.83,
+    "data_cadastro": "2025-06-19",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 74,
+    "idade": 46,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5758.36,
+    "data_cadastro": "2024-09-19",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 75,
+    "idade": 35,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3848.77,
+    "data_cadastro": "2022-11-21",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 76,
+    "idade": 43,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 6247.85,
+    "data_cadastro": "2025-03-05",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 77,
+    "idade": 61,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 6528.47,
+    "data_cadastro": "2024-07-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 78,
+    "idade": 51,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3309.56,
+    "data_cadastro": "2022-09-16",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 79,
+    "idade": 27,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 6598.32,
+    "data_cadastro": "2025-07-01",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 80,
+    "idade": 53,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5612.62,
+    "data_cadastro": "2022-09-06",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 81,
+    "idade": 31,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 7552.84,
+    "data_cadastro": "2023-04-07",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 82,
+    "idade": 48,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3363.94,
+    "data_cadastro": "2023-08-18",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 83,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3469.86,
+    "data_cadastro": "2025-02-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 84,
+    "idade": 32,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 960.01,
+    "data_cadastro": "2025-01-16",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 85,
+    "idade": 25,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4856.79,
+    "data_cadastro": "2023-10-01",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 86,
+    "idade": 31,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4562.88,
+    "data_cadastro": "2022-11-19",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 87,
+    "idade": 40,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3155.51,
+    "data_cadastro": "2024-02-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 88,
+    "idade": 57,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3877.22,
+    "data_cadastro": "2022-12-18",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 89,
+    "idade": 38,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2033.17,
+    "data_cadastro": "2024-09-28",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 90,
+    "idade": 33,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5797.67,
+    "data_cadastro": "2025-01-08",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 91,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3265.45,
+    "data_cadastro": "2023-07-04",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 92,
+    "idade": 35,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 8641.07,
+    "data_cadastro": "2024-09-17",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 93,
+    "idade": 64,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3736.6,
+    "data_cadastro": "2022-10-12",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 94,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2860.57,
+    "data_cadastro": "2022-12-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 95,
+    "idade": 43,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3381.53,
+    "data_cadastro": "2024-02-10",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 96,
+    "idade": 42,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1882.06,
+    "data_cadastro": "2024-05-24",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 97,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4723.41,
+    "data_cadastro": "2024-03-21",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 98,
+    "idade": 58,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3370.15,
+    "data_cadastro": "2023-06-13",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 99,
+    "idade": 46,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5696.88,
+    "data_cadastro": "2024-07-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 100,
+    "idade": 32,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3587.88,
+    "data_cadastro": "2025-03-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 101,
+    "idade": 62,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6076.66,
+    "data_cadastro": "2025-03-13",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 102,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5136.18,
+    "data_cadastro": "2024-07-15",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 103,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4042.9,
+    "data_cadastro": "2024-10-16",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 104,
+    "idade": 24,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 6370.35,
+    "data_cadastro": "2023-05-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 105,
+    "idade": 26,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5428.44,
+    "data_cadastro": "2023-03-30",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 106,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 8419.32,
+    "data_cadastro": "2023-02-12",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 107,
+    "idade": 18,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3385.82,
+    "data_cadastro": "2025-02-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 108,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4114.92,
+    "data_cadastro": "2023-09-26",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 109,
+    "idade": 25,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 6353.06,
+    "data_cadastro": "2022-10-16",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 110,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 1684.69,
+    "data_cadastro": "2025-04-23",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 111,
+    "idade": 28,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5975.42,
+    "data_cadastro": "2024-02-07",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 112,
+    "idade": 68,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4658.95,
+    "data_cadastro": "2023-01-13",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 113,
+    "idade": 34,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2667.68,
+    "data_cadastro": "2022-12-30",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 114,
+    "idade": 25,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1955.44,
+    "data_cadastro": "2024-04-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 115,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2991.27,
+    "data_cadastro": "2024-04-17",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 116,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 572.77,
+    "data_cadastro": "2024-07-18",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 117,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3265.69,
+    "data_cadastro": "2025-07-01",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 118,
+    "idade": 22,
+    "gênero": "Outro",
+    "região": "Nordeste",
+    "renda_mensal": 4933.83,
+    "data_cadastro": "2025-04-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 119,
+    "idade": 59,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3285.55,
+    "data_cadastro": "2023-04-17",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 120,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6082.47,
+    "data_cadastro": "2023-02-22",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 121,
+    "idade": 58,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 6489.92,
+    "data_cadastro": "2023-12-19",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 122,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5913.47,
+    "data_cadastro": "2023-02-11",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 123,
+    "idade": 24,
+    "gênero": "Outro",
+    "região": "Sudeste",
+    "renda_mensal": 4345.96,
+    "data_cadastro": "2024-03-23",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 124,
+    "idade": 26,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 512.98,
+    "data_cadastro": "2024-06-09",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 125,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2944.45,
+    "data_cadastro": "2025-04-15",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 126,
+    "idade": 29,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3786.94,
+    "data_cadastro": "2022-08-18",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 127,
+    "idade": 51,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2659.2,
+    "data_cadastro": "2023-10-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 128,
+    "idade": 50,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3790.74,
+    "data_cadastro": "2024-01-06",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 129,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 6415.1,
+    "data_cadastro": "2025-06-08",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 130,
+    "idade": 40,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1531.34,
+    "data_cadastro": "2025-05-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 131,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6717.54,
+    "data_cadastro": "2024-02-12",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 132,
+    "idade": 54,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5327.09,
+    "data_cadastro": "2023-07-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 133,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4402.33,
+    "data_cadastro": "2024-01-08",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 134,
+    "idade": 61,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 2929.58,
+    "data_cadastro": "2023-07-10",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 135,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2689.07,
+    "data_cadastro": "2025-05-07",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 136,
+    "idade": 39,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 1560.67,
+    "data_cadastro": "2022-08-19",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 137,
+    "idade": 44,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6575.15,
+    "data_cadastro": "2023-03-09",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 138,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 6306.42,
+    "data_cadastro": "2024-08-16",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 139,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1890.57,
+    "data_cadastro": "2024-05-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 140,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3171.06,
+    "data_cadastro": "2023-11-20",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 141,
+    "idade": 54,
+    "gênero": "Outro",
+    "região": "Sudeste",
+    "renda_mensal": 4649.72,
+    "data_cadastro": "2022-10-15",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 142,
+    "idade": 64,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3550.74,
+    "data_cadastro": "2022-07-30",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 143,
+    "idade": 31,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 1121.99,
+    "data_cadastro": "2023-02-26",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 144,
+    "idade": 20,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3013.34,
+    "data_cadastro": "2023-08-01",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 145,
+    "idade": 18,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 6926.55,
+    "data_cadastro": "2022-09-10",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 146,
+    "idade": 22,
+    "gênero": "Outro",
+    "região": "Sul",
+    "renda_mensal": 3115.03,
+    "data_cadastro": "2024-01-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 147,
+    "idade": 43,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3754.8,
+    "data_cadastro": "2023-08-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 148,
+    "idade": 31,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 2282.23,
+    "data_cadastro": "2023-09-30",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 149,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4881.64,
+    "data_cadastro": "2025-03-17",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 150,
+    "idade": 44,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4172.73,
+    "data_cadastro": "2024-01-09",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 151,
+    "idade": 26,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2886.97,
+    "data_cadastro": "2023-02-14",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 152,
+    "idade": 32,
+    "gênero": "Outro",
+    "região": "Sudeste",
+    "renda_mensal": 2043.02,
+    "data_cadastro": "2025-06-17",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 153,
+    "idade": 32,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 6106.82,
+    "data_cadastro": "2022-11-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 154,
+    "idade": 43,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1591.68,
+    "data_cadastro": "2024-06-21",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 155,
+    "idade": 59,
+    "gênero": "Outro",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4755.72,
+    "data_cadastro": "2025-03-24",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 156,
+    "idade": 30,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 769.18,
+    "data_cadastro": "2024-02-20",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 157,
+    "idade": 68,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5060.82,
+    "data_cadastro": "2022-11-26",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 158,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5455.45,
+    "data_cadastro": "2025-03-29",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 159,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 5642.18,
+    "data_cadastro": "2024-02-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 160,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3758.19,
+    "data_cadastro": "2023-12-21",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 161,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 6376.01,
+    "data_cadastro": "2022-11-14",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 162,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 7461.69,
+    "data_cadastro": "2023-08-15",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 163,
+    "idade": 21,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3517.57,
+    "data_cadastro": "2024-07-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 164,
+    "idade": 47,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3323.49,
+    "data_cadastro": "2025-05-02",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 165,
+    "idade": 54,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4223.77,
+    "data_cadastro": "2022-10-25",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 166,
+    "idade": 40,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3283.48,
+    "data_cadastro": "2024-06-19",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 167,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3064.19,
+    "data_cadastro": "2022-08-21",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 168,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3194.89,
+    "data_cadastro": "2023-02-23",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 169,
+    "idade": 32,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 6573.63,
+    "data_cadastro": "2023-02-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 170,
+    "idade": 60,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5157.82,
+    "data_cadastro": "2024-09-02",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 171,
+    "idade": 46,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3278.58,
+    "data_cadastro": "2022-09-07",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 172,
+    "idade": 53,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 317.31,
+    "data_cadastro": "2024-04-09",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 173,
+    "idade": 30,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 1683.3,
+    "data_cadastro": "2022-12-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 174,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4755.14,
+    "data_cadastro": "2023-02-10",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 175,
+    "idade": 24,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 817.67,
+    "data_cadastro": "2024-04-23",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 176,
+    "idade": 68,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 4439.49,
+    "data_cadastro": "2023-10-29",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 177,
+    "idade": 39,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2401.65,
+    "data_cadastro": "2025-02-08",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 178,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4137.71,
+    "data_cadastro": "2024-12-05",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 179,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4095.78,
+    "data_cadastro": "2023-07-12",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 180,
+    "idade": 59,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4180.88,
+    "data_cadastro": "2023-01-25",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 181,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3408.37,
+    "data_cadastro": "2024-05-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 182,
+    "idade": 23,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3359.07,
+    "data_cadastro": "2022-09-21",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 183,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2918.81,
+    "data_cadastro": "2022-12-16",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 184,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4725.84,
+    "data_cadastro": "2024-03-07",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 185,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5207.79,
+    "data_cadastro": "2025-02-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 186,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2171.54,
+    "data_cadastro": "2025-01-08",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 187,
+    "idade": 37,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3922.56,
+    "data_cadastro": "2023-10-27",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 188,
+    "idade": 47,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4294.87,
+    "data_cadastro": "2022-08-16",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 189,
+    "idade": 28,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4275.66,
+    "data_cadastro": "2025-02-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 190,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4250.15,
+    "data_cadastro": "2023-11-25",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 191,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3396.95,
+    "data_cadastro": "2024-12-21",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 192,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4418.55,
+    "data_cadastro": "2025-04-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 193,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4927.04,
+    "data_cadastro": "2023-01-24",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 194,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4211.55,
+    "data_cadastro": "2023-02-14",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 195,
+    "idade": 44,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 4758.91,
+    "data_cadastro": "2025-04-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 196,
+    "idade": 69,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5485.53,
+    "data_cadastro": "2024-07-30",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 197,
+    "idade": 30,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1223.59,
+    "data_cadastro": "2024-05-18",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 198,
+    "idade": 58,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 5415.2,
+    "data_cadastro": "2023-02-07",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 199,
+    "idade": 20,
+    "gênero": "Outro",
+    "região": "Sul",
+    "renda_mensal": 4513.64,
+    "data_cadastro": "2024-08-03",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 200,
+    "idade": 56,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2332.56,
+    "data_cadastro": "2023-12-23",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 201,
+    "idade": 23,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5203.71,
+    "data_cadastro": "2024-06-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 202,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3402.52,
+    "data_cadastro": "2025-05-16",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 203,
+    "idade": 44,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3607.05,
+    "data_cadastro": "2022-10-10",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 204,
+    "idade": 26,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3238.48,
+    "data_cadastro": "2024-11-11",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 205,
+    "idade": 54,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4453.6,
+    "data_cadastro": "2024-02-07",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 206,
+    "idade": 50,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2821.97,
+    "data_cadastro": "2024-01-28",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 207,
+    "idade": 68,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5352.21,
+    "data_cadastro": "2023-06-09",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 208,
+    "idade": 59,
+    "gênero": "Outro",
+    "região": "Nordeste",
+    "renda_mensal": 3791.71,
+    "data_cadastro": "2024-05-30",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 209,
+    "idade": 61,
+    "gênero": "Outro",
+    "região": "Sul",
+    "renda_mensal": 3453.7,
+    "data_cadastro": "2023-12-20",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 210,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5129.31,
+    "data_cadastro": "2023-04-13",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 211,
+    "idade": 32,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3520.66,
+    "data_cadastro": "2023-06-22",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 212,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5422.27,
+    "data_cadastro": "2022-12-05",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 213,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5469.39,
+    "data_cadastro": "2024-03-20",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 214,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 1997.79,
+    "data_cadastro": "2025-06-09",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 215,
+    "idade": 58,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5663.89,
+    "data_cadastro": "2023-06-26",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 216,
+    "idade": 69,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1806.95,
+    "data_cadastro": "2024-04-28",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 217,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5757.37,
+    "data_cadastro": "2022-11-09",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 218,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 7042.54,
+    "data_cadastro": "2025-02-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 219,
+    "idade": 69,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5312.25,
+    "data_cadastro": "2023-07-17",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 220,
+    "idade": 29,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 764.53,
+    "data_cadastro": "2023-11-01",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 221,
+    "idade": 56,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5595.35,
+    "data_cadastro": "2025-07-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 222,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 7369.19,
+    "data_cadastro": "2025-07-09",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 223,
+    "idade": 20,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3545.45,
+    "data_cadastro": "2023-08-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 224,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3947.95,
+    "data_cadastro": "2023-08-06",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 225,
+    "idade": 54,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2217.27,
+    "data_cadastro": "2025-04-08",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 226,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4468.12,
+    "data_cadastro": "2025-04-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 227,
+    "idade": 34,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5903.77,
+    "data_cadastro": "2025-04-19",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 228,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5046.61,
+    "data_cadastro": "2023-08-01",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 229,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 8712.95,
+    "data_cadastro": "2024-07-25",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 230,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4049.54,
+    "data_cadastro": "2023-02-28",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 231,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1553.99,
+    "data_cadastro": "2023-04-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 232,
+    "idade": 40,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4256.46,
+    "data_cadastro": "2025-04-14",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 233,
+    "idade": 54,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 375.32,
+    "data_cadastro": "2024-04-16",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 234,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3200.34,
+    "data_cadastro": "2023-01-04",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 235,
+    "idade": 50,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 6436.57,
+    "data_cadastro": "2024-01-16",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 236,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4487.7,
+    "data_cadastro": "2023-04-06",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 237,
+    "idade": 36,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4269.13,
+    "data_cadastro": "2024-06-20",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 238,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 6731.17,
+    "data_cadastro": "2023-09-23",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 239,
+    "idade": 61,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3594.1,
+    "data_cadastro": "2023-07-16",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 240,
+    "idade": 43,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5892.73,
+    "data_cadastro": "2023-07-09",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 241,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4193.96,
+    "data_cadastro": "2025-02-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 242,
+    "idade": 23,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4570.07,
+    "data_cadastro": "2023-01-09",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 243,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2174.04,
+    "data_cadastro": "2022-09-22",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 244,
+    "idade": 21,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3276.93,
+    "data_cadastro": "2024-05-19",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 245,
+    "idade": 28,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1903.72,
+    "data_cadastro": "2022-08-10",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 246,
+    "idade": 34,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3857.13,
+    "data_cadastro": "2024-06-08",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 247,
+    "idade": 55,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4585.6,
+    "data_cadastro": "2024-11-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 248,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2334.94,
+    "data_cadastro": "2025-01-22",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 249,
+    "idade": 22,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 7073.77,
+    "data_cadastro": "2025-05-05",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 250,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4417.16,
+    "data_cadastro": "2024-09-16",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 251,
+    "idade": 51,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4086.69,
+    "data_cadastro": "2022-08-06",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 252,
+    "idade": 23,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5154.49,
+    "data_cadastro": "2023-06-08",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 253,
+    "idade": 39,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 2756.61,
+    "data_cadastro": "2023-01-10",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 254,
+    "idade": 28,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4245.22,
+    "data_cadastro": "2025-06-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 255,
+    "idade": 65,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2924.7,
+    "data_cadastro": "2023-10-01",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 256,
+    "idade": 33,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6338.02,
+    "data_cadastro": "2024-05-03",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 257,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2412.04,
+    "data_cadastro": "2023-09-26",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 258,
+    "idade": 26,
+    "gênero": "Outro",
+    "região": "Nordeste",
+    "renda_mensal": 4094.75,
+    "data_cadastro": "2024-11-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 259,
+    "idade": 23,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4493.97,
+    "data_cadastro": "2024-04-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 260,
+    "idade": 33,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4592.24,
+    "data_cadastro": "2023-06-06",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 261,
+    "idade": 46,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3128.15,
+    "data_cadastro": "2023-12-04",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 262,
+    "idade": 20,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2656.74,
+    "data_cadastro": "2024-03-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 263,
+    "idade": 37,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 3149.81,
+    "data_cadastro": "2025-04-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 264,
+    "idade": 53,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4792.49,
+    "data_cadastro": "2023-09-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 265,
+    "idade": 36,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3784.23,
+    "data_cadastro": "2024-08-08",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 266,
+    "idade": 43,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 5194.31,
+    "data_cadastro": "2025-06-25",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 267,
+    "idade": 20,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4715.51,
+    "data_cadastro": "2023-01-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 268,
+    "idade": 36,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 584.63,
+    "data_cadastro": "2023-03-02",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 269,
+    "idade": 37,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4371.25,
+    "data_cadastro": "2025-07-20",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 270,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 7375.68,
+    "data_cadastro": "2024-01-08",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 271,
+    "idade": 24,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5987.9,
+    "data_cadastro": "2023-06-19",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 272,
+    "idade": 69,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4633.02,
+    "data_cadastro": "2022-10-13",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 273,
+    "idade": 58,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2410.91,
+    "data_cadastro": "2024-12-17",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 274,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4716.33,
+    "data_cadastro": "2023-10-27",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 275,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 5109.62,
+    "data_cadastro": "2023-12-09",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 276,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3619.38,
+    "data_cadastro": "2023-10-07",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 277,
+    "idade": 35,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4475.11,
+    "data_cadastro": "2025-03-03",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 278,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6264.49,
+    "data_cadastro": "2023-10-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 279,
+    "idade": 18,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2714.09,
+    "data_cadastro": "2024-12-08",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 280,
+    "idade": 28,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2412.55,
+    "data_cadastro": "2023-03-09",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 281,
+    "idade": 45,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 5039.05,
+    "data_cadastro": "2023-05-15",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 282,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4686.31,
+    "data_cadastro": "2025-06-21",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 283,
+    "idade": 67,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 5543.26,
+    "data_cadastro": "2024-07-21",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 284,
+    "idade": 40,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4854.69,
+    "data_cadastro": "2023-06-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 285,
+    "idade": 48,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3148.37,
+    "data_cadastro": "2024-09-01",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 286,
+    "idade": 47,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4648.29,
+    "data_cadastro": "2023-04-04",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 287,
+    "idade": 59,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 2286.81,
+    "data_cadastro": "2024-11-06",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 288,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3624.52,
+    "data_cadastro": "2025-01-04",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 289,
+    "idade": 24,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4754.2,
+    "data_cadastro": "2024-06-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 290,
+    "idade": 33,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3459.23,
+    "data_cadastro": "2022-10-07",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 291,
+    "idade": 43,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 7702.08,
+    "data_cadastro": "2024-05-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 292,
+    "idade": 65,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 1161.72,
+    "data_cadastro": "2025-05-10",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 293,
+    "idade": 69,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3178.76,
+    "data_cadastro": "2022-11-01",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 294,
+    "idade": 66,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2593.33,
+    "data_cadastro": "2024-09-04",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 295,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2949.48,
+    "data_cadastro": "2025-02-18",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 296,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3035.5,
+    "data_cadastro": "2024-02-04",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 297,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2010.37,
+    "data_cadastro": "2024-07-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 298,
+    "idade": 29,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5129.05,
+    "data_cadastro": "2023-07-25",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 299,
+    "idade": 22,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3179.36,
+    "data_cadastro": "2023-01-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 300,
+    "idade": 54,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4245.36,
+    "data_cadastro": "2023-04-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 301,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 3347.76,
+    "data_cadastro": "2024-10-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 302,
+    "idade": 26,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 2963.68,
+    "data_cadastro": "2024-12-15",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 303,
+    "idade": 58,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 6508.42,
+    "data_cadastro": "2025-05-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 304,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5384.4,
+    "data_cadastro": "2025-05-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 305,
+    "idade": 36,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 1197.7,
+    "data_cadastro": "2024-01-21",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 306,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 1038.79,
+    "data_cadastro": "2023-02-06",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 307,
+    "idade": 33,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5563.91,
+    "data_cadastro": "2025-02-03",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 308,
+    "idade": 20,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3220.22,
+    "data_cadastro": "2022-08-10",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 309,
+    "idade": 37,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 1526.38,
+    "data_cadastro": "2024-06-28",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 310,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5568.6,
+    "data_cadastro": "2023-07-21",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 311,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4253.69,
+    "data_cadastro": "2025-07-03",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 312,
+    "idade": 41,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4377.36,
+    "data_cadastro": "2025-07-26",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 313,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5214.31,
+    "data_cadastro": "2024-01-21",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 314,
+    "idade": 28,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2035.03,
+    "data_cadastro": "2025-03-20",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 315,
+    "idade": 66,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 1552.75,
+    "data_cadastro": "2023-04-03",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 316,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 6371.43,
+    "data_cadastro": "2022-08-17",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 317,
+    "idade": 53,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 1844.25,
+    "data_cadastro": "2023-07-18",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 318,
+    "idade": 55,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2166.64,
+    "data_cadastro": "2024-07-06",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 319,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2466.35,
+    "data_cadastro": "2025-03-30",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 320,
+    "idade": 37,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 7119.92,
+    "data_cadastro": "2023-10-08",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 321,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4740.07,
+    "data_cadastro": "2024-11-10",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 322,
+    "idade": 65,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5448.11,
+    "data_cadastro": "2025-04-01",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 323,
+    "idade": 42,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4294.25,
+    "data_cadastro": "2025-05-11",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 324,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3097.17,
+    "data_cadastro": "2025-07-27",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 325,
+    "idade": 42,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4946.94,
+    "data_cadastro": "2023-05-08",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 326,
+    "idade": 46,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 1665.08,
+    "data_cadastro": "2022-11-24",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 327,
+    "idade": 35,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 2357.07,
+    "data_cadastro": "2023-07-02",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 328,
+    "idade": 63,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5099.46,
+    "data_cadastro": "2025-02-23",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 329,
+    "idade": 35,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 1964.12,
+    "data_cadastro": "2022-12-15",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 330,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3716.38,
+    "data_cadastro": "2023-08-05",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 331,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3784.73,
+    "data_cadastro": "2024-03-28",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 332,
+    "idade": 33,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3207.01,
+    "data_cadastro": "2023-10-08",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 333,
+    "idade": 58,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1073.32,
+    "data_cadastro": "2024-02-08",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 334,
+    "idade": 53,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3056.61,
+    "data_cadastro": "2025-07-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 335,
+    "idade": 50,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2762.55,
+    "data_cadastro": "2025-04-24",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 336,
+    "idade": 21,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4242.16,
+    "data_cadastro": "2022-10-24",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 337,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4165.74,
+    "data_cadastro": "2024-11-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 338,
+    "idade": 31,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 4566.94,
+    "data_cadastro": "2023-03-20",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 339,
+    "idade": 38,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2986.02,
+    "data_cadastro": "2022-09-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 340,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4784.17,
+    "data_cadastro": "2022-10-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 341,
+    "idade": 37,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 1665.99,
+    "data_cadastro": "2025-04-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 342,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 1267.14,
+    "data_cadastro": "2024-05-05",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 343,
+    "idade": 24,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 496.64,
+    "data_cadastro": "2023-11-30",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 344,
+    "idade": 20,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3251.05,
+    "data_cadastro": "2022-09-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 345,
+    "idade": 34,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 2870.05,
+    "data_cadastro": "2024-04-17",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 346,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 5183.97,
+    "data_cadastro": "2022-08-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 347,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3027.01,
+    "data_cadastro": "2022-12-10",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 348,
+    "idade": 29,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4410.06,
+    "data_cadastro": "2025-07-01",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 349,
+    "idade": 68,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5219.94,
+    "data_cadastro": "2024-08-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 350,
+    "idade": 39,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2970.52,
+    "data_cadastro": "2024-01-12",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 351,
+    "idade": 39,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4447.08,
+    "data_cadastro": "2024-03-23",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 352,
+    "idade": 63,
+    "gênero": "Outro",
+    "região": "Sudeste",
+    "renda_mensal": 5502.89,
+    "data_cadastro": "2023-08-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 353,
+    "idade": 47,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2142.76,
+    "data_cadastro": "2025-06-12",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 354,
+    "idade": 55,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4037.28,
+    "data_cadastro": "2023-08-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 355,
+    "idade": 55,
+    "gênero": "Outro",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2976.95,
+    "data_cadastro": "2025-01-13",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 356,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2238.27,
+    "data_cadastro": "2024-01-09",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 357,
+    "idade": 68,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 1695.32,
+    "data_cadastro": "2025-03-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 358,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 2214.03,
+    "data_cadastro": "2024-12-12",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 359,
+    "idade": 44,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4090.04,
+    "data_cadastro": "2024-06-08",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 360,
+    "idade": 44,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1583.73,
+    "data_cadastro": "2024-02-26",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 361,
+    "idade": 51,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3173.91,
+    "data_cadastro": "2022-12-04",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 362,
+    "idade": 38,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5219.79,
+    "data_cadastro": "2022-08-14",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 363,
+    "idade": 47,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4673.52,
+    "data_cadastro": "2024-07-28",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 364,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3204.24,
+    "data_cadastro": "2023-01-02",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 365,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 6534.54,
+    "data_cadastro": "2025-01-23",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 366,
+    "idade": 64,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 6839.55,
+    "data_cadastro": "2023-03-21",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 367,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4039.18,
+    "data_cadastro": "2024-11-11",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 368,
+    "idade": 22,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 297.19,
+    "data_cadastro": "2025-07-04",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 369,
+    "idade": 65,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5329.67,
+    "data_cadastro": "2022-09-15",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 370,
+    "idade": 36,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 559.04,
+    "data_cadastro": "2023-04-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 371,
+    "idade": 21,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 6214.22,
+    "data_cadastro": "2025-01-01",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 372,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5625.38,
+    "data_cadastro": "2025-05-21",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 373,
+    "idade": 66,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6661.32,
+    "data_cadastro": "2023-05-30",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 374,
+    "idade": 34,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4390.4,
+    "data_cadastro": "2025-03-14",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 375,
+    "idade": 61,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3457.92,
+    "data_cadastro": "2024-08-18",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 376,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3324.85,
+    "data_cadastro": "2023-07-01",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 377,
+    "idade": 47,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3180.61,
+    "data_cadastro": "2025-01-14",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 378,
+    "idade": 46,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5471.6,
+    "data_cadastro": "2023-02-10",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 379,
+    "idade": 63,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 5068.41,
+    "data_cadastro": "2024-05-29",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 380,
+    "idade": 23,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4180.34,
+    "data_cadastro": "2024-07-03",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 381,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 2916.73,
+    "data_cadastro": "2023-04-27",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 382,
+    "idade": 58,
+    "gênero": "Outro",
+    "região": "Sudeste",
+    "renda_mensal": 7943.82,
+    "data_cadastro": "2025-07-03",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 383,
+    "idade": 54,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 5368.56,
+    "data_cadastro": "2025-03-17",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 384,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1603.43,
+    "data_cadastro": "2025-05-03",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 385,
+    "idade": 46,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3225.62,
+    "data_cadastro": "2023-11-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 386,
+    "idade": 66,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5397.66,
+    "data_cadastro": "2024-08-15",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 387,
+    "idade": 63,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2800.69,
+    "data_cadastro": "2023-10-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 388,
+    "idade": 48,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4527.32,
+    "data_cadastro": "2023-07-25",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 389,
+    "idade": 52,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5426.19,
+    "data_cadastro": "2023-02-27",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 390,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": -1082.64,
+    "data_cadastro": "2022-10-16",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 391,
+    "idade": 69,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3837.94,
+    "data_cadastro": "2025-05-20",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 392,
+    "idade": 38,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3896.81,
+    "data_cadastro": "2025-04-16",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 393,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3381.89,
+    "data_cadastro": "2024-07-29",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 394,
+    "idade": 40,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 4452.54,
+    "data_cadastro": "2023-08-28",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 395,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 4986.28,
+    "data_cadastro": "2024-12-31",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 396,
+    "idade": 20,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4213.08,
+    "data_cadastro": "2024-03-11",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 397,
+    "idade": 35,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3439.26,
+    "data_cadastro": "2023-01-22",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 398,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4948.93,
+    "data_cadastro": "2022-09-04",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 399,
+    "idade": 59,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4073.58,
+    "data_cadastro": "2023-02-16",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 400,
+    "idade": 48,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3653.95,
+    "data_cadastro": "2025-03-02",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 401,
+    "idade": 20,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2031.58,
+    "data_cadastro": "2023-04-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 402,
+    "idade": 57,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 1656.02,
+    "data_cadastro": "2025-05-03",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 403,
+    "idade": 63,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2003.16,
+    "data_cadastro": "2025-07-05",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 404,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4417.49,
+    "data_cadastro": "2023-08-23",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 405,
+    "idade": 67,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3881.38,
+    "data_cadastro": "2023-10-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 406,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 1779.57,
+    "data_cadastro": "2022-11-01",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 407,
+    "idade": 64,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4968.88,
+    "data_cadastro": "2023-12-30",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 408,
+    "idade": 39,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 6061.46,
+    "data_cadastro": "2023-03-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 409,
+    "idade": 40,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3102.26,
+    "data_cadastro": "2024-06-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 410,
+    "idade": 19,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 1388.53,
+    "data_cadastro": "2024-08-15",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 411,
+    "idade": 44,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 2936.31,
+    "data_cadastro": "2025-03-06",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 412,
+    "idade": 59,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5281.69,
+    "data_cadastro": "2024-04-18",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 413,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4822.79,
+    "data_cadastro": "2023-07-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 414,
+    "idade": 43,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2616.35,
+    "data_cadastro": "2023-01-28",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 415,
+    "idade": 34,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 6281.76,
+    "data_cadastro": "2023-02-09",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 416,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 6022.42,
+    "data_cadastro": "2024-04-04",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 417,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2900.49,
+    "data_cadastro": "2023-08-14",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 418,
+    "idade": 26,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 2885.06,
+    "data_cadastro": "2024-10-31",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 419,
+    "idade": 60,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3110.76,
+    "data_cadastro": "2023-06-16",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 420,
+    "idade": 65,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 3239,
+    "data_cadastro": "2023-07-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 421,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 5425.81,
+    "data_cadastro": "2024-04-10",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 422,
+    "idade": 46,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4637.99,
+    "data_cadastro": "2025-03-27",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 423,
+    "idade": 59,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 5315.62,
+    "data_cadastro": "2023-03-07",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 424,
+    "idade": 43,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5010.35,
+    "data_cadastro": "2023-11-01",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 425,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 6571.79,
+    "data_cadastro": "2023-02-22",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 426,
+    "idade": 67,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2410.92,
+    "data_cadastro": "2024-04-19",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 427,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4570.54,
+    "data_cadastro": "2024-05-20",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 428,
+    "idade": 41,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 739.27,
+    "data_cadastro": "2025-05-30",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 429,
+    "idade": 30,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2024.57,
+    "data_cadastro": "2022-11-11",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 430,
+    "idade": 24,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3887.72,
+    "data_cadastro": "2024-04-08",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 431,
+    "idade": 53,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 4627.31,
+    "data_cadastro": "2022-11-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 432,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 3847.28,
+    "data_cadastro": "2025-02-10",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 433,
+    "idade": 37,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3149.21,
+    "data_cadastro": "2024-10-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 434,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 3415.87,
+    "data_cadastro": "2023-11-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 435,
+    "idade": 25,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 6054.16,
+    "data_cadastro": "2025-04-21",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 436,
+    "idade": 63,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3423.95,
+    "data_cadastro": "2024-01-23",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 437,
+    "idade": 33,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 6623.86,
+    "data_cadastro": "2025-01-22",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 438,
+    "idade": 31,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5191.03,
+    "data_cadastro": "2025-07-13",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 439,
+    "idade": 29,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 4686.31,
+    "data_cadastro": "2023-05-04",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 440,
+    "idade": 68,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2209.6,
+    "data_cadastro": "2024-05-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 441,
+    "idade": 40,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 5402.86,
+    "data_cadastro": "2025-02-15",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 442,
+    "idade": 32,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3259.34,
+    "data_cadastro": "2023-03-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 443,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2208.34,
+    "data_cadastro": "2023-08-24",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 444,
+    "idade": 51,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4769.27,
+    "data_cadastro": "2023-02-11",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 445,
+    "idade": 19,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 1918.08,
+    "data_cadastro": "2022-08-13",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 446,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2856.64,
+    "data_cadastro": "2024-11-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 447,
+    "idade": 40,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3984.83,
+    "data_cadastro": "2023-08-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 448,
+    "idade": 39,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 7327.63,
+    "data_cadastro": "2022-08-01",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 449,
+    "idade": 68,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 2969.63,
+    "data_cadastro": "2024-12-25",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 450,
+    "idade": 42,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3312.68,
+    "data_cadastro": "2023-11-10",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 451,
+    "idade": 39,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5098.52,
+    "data_cadastro": "2024-04-27",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 452,
+    "idade": 39,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 2142.56,
+    "data_cadastro": "2024-03-09",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 453,
+    "idade": 66,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4664.21,
+    "data_cadastro": "2025-02-21",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 454,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 5808.89,
+    "data_cadastro": "2022-12-20",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 455,
+    "idade": 59,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3539.36,
+    "data_cadastro": "2023-02-13",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 456,
+    "idade": 23,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5539.23,
+    "data_cadastro": "2025-07-11",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 457,
+    "idade": 32,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4437.17,
+    "data_cadastro": "2022-09-24",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 458,
+    "idade": 60,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 2903.98,
+    "data_cadastro": "2025-02-12",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 459,
+    "idade": 54,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3703.29,
+    "data_cadastro": "2025-03-19",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 460,
+    "idade": 50,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3430.36,
+    "data_cadastro": "2024-04-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 461,
+    "idade": 25,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3868.54,
+    "data_cadastro": "2022-10-15",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 462,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4229.08,
+    "data_cadastro": "2024-11-07",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 463,
+    "idade": 61,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 4882.3,
+    "data_cadastro": "2023-04-13",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 464,
+    "idade": 22,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4763,
+    "data_cadastro": "2023-10-13",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 465,
+    "idade": 56,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 352.43,
+    "data_cadastro": "2023-11-19",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 466,
+    "idade": 21,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3854.04,
+    "data_cadastro": "2022-08-17",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 467,
+    "idade": 23,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 1735.87,
+    "data_cadastro": "2024-09-18",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 468,
+    "idade": 62,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3586.41,
+    "data_cadastro": "2024-07-13",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 469,
+    "idade": 49,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 3814.32,
+    "data_cadastro": "2023-10-05",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 470,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5464.22,
+    "data_cadastro": "2024-09-17",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 471,
+    "idade": 47,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 3954.83,
+    "data_cadastro": "2024-12-09",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 472,
+    "idade": 64,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 4388.83,
+    "data_cadastro": "2022-07-30",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 473,
+    "idade": 52,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5189.58,
+    "data_cadastro": "2024-01-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 474,
+    "idade": 57,
+    "gênero": "Feminino",
+    "região": "Sudeste",
+    "renda_mensal": 5841.63,
+    "data_cadastro": "2024-01-14",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 475,
+    "idade": 69,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 3815.48,
+    "data_cadastro": "2023-11-09",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 476,
+    "idade": 33,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4141.27,
+    "data_cadastro": "2023-06-10",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 477,
+    "idade": 30,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 4015.03,
+    "data_cadastro": "2023-08-03",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 478,
+    "idade": 67,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3186.1,
+    "data_cadastro": "2023-10-29",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 479,
+    "idade": 59,
+    "gênero": "Feminino",
+    "região": "Norte",
+    "renda_mensal": 2846.33,
+    "data_cadastro": "2023-12-13",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 480,
+    "idade": 47,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 592.17,
+    "data_cadastro": "2022-12-12",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 481,
+    "idade": 36,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2385.01,
+    "data_cadastro": "2024-02-19",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 482,
+    "idade": 34,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 1332.05,
+    "data_cadastro": "2022-10-07",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 483,
+    "idade": 36,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 5882.8,
+    "data_cadastro": "2024-03-04",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 484,
+    "idade": 45,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 4282.62,
+    "data_cadastro": "2024-06-28",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 485,
+    "idade": 43,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3811.09,
+    "data_cadastro": "2023-08-02",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 486,
+    "idade": 54,
+    "gênero": "Masculino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2923.77,
+    "data_cadastro": "2025-05-09",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 487,
+    "idade": 43,
+    "gênero": "Outro",
+    "região": "Norte",
+    "renda_mensal": 4044.67,
+    "data_cadastro": "2024-06-22",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 488,
+    "idade": 40,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2728.03,
+    "data_cadastro": "2024-01-06",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 489,
+    "idade": 26,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 4261.03,
+    "data_cadastro": "2024-06-23",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 490,
+    "idade": 29,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 4368.6,
+    "data_cadastro": "2022-11-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 491,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Nordeste",
+    "renda_mensal": 2707.92,
+    "data_cadastro": "2023-05-05",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 492,
+    "idade": 18,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 2679.31,
+    "data_cadastro": "2023-04-11",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 493,
+    "idade": 64,
+    "gênero": "Feminino",
+    "região": "Sul",
+    "renda_mensal": 5443.3,
+    "data_cadastro": "2025-06-21",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 494,
+    "idade": 51,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 3920.71,
+    "data_cadastro": "2023-10-15",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 495,
+    "idade": 49,
+    "gênero": "Masculino",
+    "região": "Sul",
+    "renda_mensal": 2828.47,
+    "data_cadastro": "2024-06-29",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 496,
+    "idade": 65,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3444.24,
+    "data_cadastro": "2025-02-07",
+    "canal_aquisicao": "Site"
+  },
+  {
+    "cliente_id": 497,
+    "idade": 42,
+    "gênero": "Feminino",
+    "região": "Centro-Oeste",
+    "renda_mensal": 2484.11,
+    "data_cadastro": "2024-07-11",
+    "canal_aquisicao": "Agência"
+  },
+  {
+    "cliente_id": 498,
+    "idade": 57,
+    "gênero": "Masculino",
+    "região": "Sudeste",
+    "renda_mensal": 3899.22,
+    "data_cadastro": "2023-12-12",
+    "canal_aquisicao": "App"
+  },
+  {
+    "cliente_id": 499,
+    "idade": 62,
+    "gênero": "Masculino",
+    "região": "Nordeste",
+    "renda_mensal": 5247.44,
+    "data_cadastro": "2024-04-26",
+    "canal_aquisicao": "Indicação"
+  },
+  {
+    "cliente_id": 500,
+    "idade": 18,
+    "gênero": "Masculino",
+    "região": "Norte",
+    "renda_mensal": 3958.49,
+    "data_cadastro": "2025-01-16",
+    "canal_aquisicao": "Agência"
+  }
+]

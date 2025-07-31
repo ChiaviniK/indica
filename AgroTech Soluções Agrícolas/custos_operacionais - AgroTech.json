@@ -1,0 +1,614 @@
+[
+  {
+    "id_fazenda": 1,
+    "data": "2024-08-22",
+    "categoria": "Mão de Obra",
+    "valor": 16582.31
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2025-06-12",
+    "categoria": "Irrigação",
+    "valor": 1929.46
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2025-07-21",
+    "categoria": "Irrigação",
+    "valor": 2046.21
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2024-11-24",
+    "categoria": "Colheita",
+    "valor": 1697.7
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2024-12-17",
+    "categoria": "Insumos",
+    "valor": 13672.93
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2024-11-13",
+    "categoria": "Mão de Obra",
+    "valor": 6670.39
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2024-11-06",
+    "categoria": "Insumos",
+    "valor": 1931.6
+  },
+  {
+    "id_fazenda": 1,
+    "data": "2025-07-07",
+    "categoria": "Equipamentos",
+    "valor": 19880.97
+  },
+  {
+    "id_fazenda": 2,
+    "data": "2025-01-09",
+    "categoria": "Transporte",
+    "valor": 6403.23
+  },
+  {
+    "id_fazenda": 2,
+    "data": "2024-12-06",
+    "categoria": "Transporte",
+    "valor": 14138.76
+  },
+  {
+    "id_fazenda": 2,
+    "data": "2025-04-10",
+    "categoria": "Mão de Obra",
+    "valor": 11873.37
+  },
+  {
+    "id_fazenda": 2,
+    "data": "2025-07-20",
+    "categoria": "Mão de Obra",
+    "valor": 4370.97
+  },
+  {
+    "id_fazenda": 3,
+    "data": "2025-04-23",
+    "categoria": "Transporte",
+    "valor": 12000.36
+  },
+  {
+    "id_fazenda": 3,
+    "data": "2024-12-01",
+    "categoria": "Insumos",
+    "valor": 2769.4
+  },
+  {
+    "id_fazenda": 3,
+    "data": "2025-02-06",
+    "categoria": "Colheita",
+    "valor": 7133.62
+  },
+  {
+    "id_fazenda": 3,
+    "data": "2025-04-18",
+    "categoria": "Equipamentos",
+    "valor": 16585.03
+  },
+  {
+    "id_fazenda": 3,
+    "data": "2024-08-12",
+    "categoria": "Equipamentos",
+    "valor": 17022.88
+  },
+  {
+    "id_fazenda": 3,
+    "data": "2025-05-05",
+    "categoria": "Insumos",
+    "valor": 6563.82
+  },
+  {
+    "id_fazenda": 4,
+    "data": "2024-09-20",
+    "categoria": "Insumos",
+    "valor": 14197.77
+  },
+  {
+    "id_fazenda": 4,
+    "data": "2025-05-10",
+    "categoria": "Colheita",
+    "valor": 7254.96
+  },
+  {
+    "id_fazenda": 4,
+    "data": "2025-04-27",
+    "categoria": "Equipamentos",
+    "valor": 10968.28
+  },
+  {
+    "id_fazenda": 4,
+    "data": "2025-01-01",
+    "categoria": "Transporte",
+    "valor": 4971.97
+  },
+  {
+    "id_fazenda": 5,
+    "data": "2025-04-16",
+    "categoria": "Insumos",
+    "valor": 11855.97
+  },
+  {
+    "id_fazenda": 5,
+    "data": "2025-04-17",
+    "categoria": "Transporte",
+    "valor": 11049.99
+  },
+  {
+    "id_fazenda": 5,
+    "data": "2024-08-02",
+    "categoria": "Insumos",
+    "valor": 10189.6
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2025-05-28",
+    "categoria": "Mão de Obra",
+    "valor": 18743.94
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2025-04-26",
+    "categoria": "Transporte",
+    "valor": 6456.56
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2025-03-23",
+    "categoria": "Mão de Obra",
+    "valor": 17108.16
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2024-12-25",
+    "categoria": "Colheita",
+    "valor": 10982.43
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2025-03-22",
+    "categoria": "Mão de Obra",
+    "valor": 7723.21
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2024-11-08",
+    "categoria": "Irrigação",
+    "valor": 12671.51
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2024-12-24",
+    "categoria": "Equipamentos",
+    "valor": 10874.41
+  },
+  {
+    "id_fazenda": 6,
+    "data": "2025-05-25",
+    "categoria": "Transporte",
+    "valor": 10457.08
+  },
+  {
+    "id_fazenda": 7,
+    "data": "2024-08-02",
+    "categoria": "Mão de Obra",
+    "valor": 5421.71
+  },
+  {
+    "id_fazenda": 7,
+    "data": "2024-12-14",
+    "categoria": "Colheita",
+    "valor": 19605.9
+  },
+  {
+    "id_fazenda": 7,
+    "data": "2025-04-16",
+    "categoria": "Insumos",
+    "valor": 3245.94
+  },
+  {
+    "id_fazenda": 7,
+    "data": "2025-02-13",
+    "categoria": "Equipamentos",
+    "valor": 12883.75
+  },
+  {
+    "id_fazenda": 8,
+    "data": "2025-06-08",
+    "categoria": "Transporte",
+    "valor": 17113.33
+  },
+  {
+    "id_fazenda": 8,
+    "data": "2024-08-20",
+    "categoria": "Mão de Obra",
+    "valor": 19980.75
+  },
+  {
+    "id_fazenda": 8,
+    "data": "2025-04-08",
+    "categoria": "Equipamentos",
+    "valor": 1864.35
+  },
+  {
+    "id_fazenda": 9,
+    "data": "2024-12-30",
+    "categoria": "Mão de Obra",
+    "valor": 16314.83
+  },
+  {
+    "id_fazenda": 9,
+    "data": "2024-10-07",
+    "categoria": "Irrigação",
+    "valor": 1214.65
+  },
+  {
+    "id_fazenda": 9,
+    "data": "2024-10-29",
+    "categoria": "Irrigação",
+    "valor": 14110.32
+  },
+  {
+    "id_fazenda": 9,
+    "data": "2025-07-03",
+    "categoria": "Colheita",
+    "valor": 16013.71
+  },
+  {
+    "id_fazenda": 9,
+    "data": "2025-05-05",
+    "categoria": "Colheita",
+    "valor": 6705.4
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2025-03-14",
+    "categoria": "Colheita",
+    "valor": 15573.62
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2024-08-28",
+    "categoria": "Insumos",
+    "valor": 14030.88
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2025-05-22",
+    "categoria": "Colheita",
+    "valor": 8524.94
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2025-06-14",
+    "categoria": "Mão de Obra",
+    "valor": 12703.87
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2025-04-16",
+    "categoria": "Insumos",
+    "valor": 16808.81
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2025-04-06",
+    "categoria": "Irrigação",
+    "valor": 7279.78
+  },
+  {
+    "id_fazenda": 10,
+    "data": "2025-04-23",
+    "categoria": "Colheita",
+    "valor": 18523.32
+  },
+  {
+    "id_fazenda": 11,
+    "data": "2025-01-02",
+    "categoria": "Equipamentos",
+    "valor": 16147.83
+  },
+  {
+    "id_fazenda": 11,
+    "data": "2025-07-03",
+    "categoria": "Transporte",
+    "valor": 3579.32
+  },
+  {
+    "id_fazenda": 11,
+    "data": "2024-11-24",
+    "categoria": "Irrigação",
+    "valor": 12916.81
+  },
+  {
+    "id_fazenda": 11,
+    "data": "2025-06-01",
+    "categoria": "Mão de Obra",
+    "valor": 18022.64
+  },
+  {
+    "id_fazenda": 11,
+    "data": "2025-07-26",
+    "categoria": "Equipamentos",
+    "valor": 15895.79
+  },
+  {
+    "id_fazenda": 11,
+    "data": "2025-05-18",
+    "categoria": "Equipamentos",
+    "valor": 18628.01
+  },
+  {
+    "id_fazenda": 12,
+    "data": "2025-02-12",
+    "categoria": "Mão de Obra",
+    "valor": 6687.53
+  },
+  {
+    "id_fazenda": 12,
+    "data": "2024-11-26",
+    "categoria": "Transporte",
+    "valor": 13885.75
+  },
+  {
+    "id_fazenda": 12,
+    "data": "2024-09-17",
+    "categoria": "Mão de Obra",
+    "valor": 11181.82
+  },
+  {
+    "id_fazenda": 13,
+    "data": "2025-05-29",
+    "categoria": "Mão de Obra",
+    "valor": 14024.37
+  },
+  {
+    "id_fazenda": 13,
+    "data": "2025-02-19",
+    "categoria": "Colheita",
+    "valor": 2258.05
+  },
+  {
+    "id_fazenda": 13,
+    "data": "2025-02-09",
+    "categoria": "Irrigação",
+    "valor": 6328.74
+  },
+  {
+    "id_fazenda": 13,
+    "data": "2024-08-11",
+    "categoria": "Insumos",
+    "valor": 7443.9
+  },
+  {
+    "id_fazenda": 14,
+    "data": "2024-11-26",
+    "categoria": "Transporte",
+    "valor": 11151.19
+  },
+  {
+    "id_fazenda": 14,
+    "data": "2025-02-16",
+    "categoria": "Irrigação",
+    "valor": 11848.65
+  },
+  {
+    "id_fazenda": 14,
+    "data": "2024-11-04",
+    "categoria": "Equipamentos",
+    "valor": 4560.2
+  },
+  {
+    "id_fazenda": 14,
+    "data": "2025-07-02",
+    "categoria": "Insumos",
+    "valor": 17427.28
+  },
+  {
+    "id_fazenda": 14,
+    "data": "2024-08-03",
+    "categoria": "Colheita",
+    "valor": 14400.06
+  },
+  {
+    "id_fazenda": 14,
+    "data": "2024-11-26",
+    "categoria": "Colheita",
+    "valor": 14486.96
+  },
+  {
+    "id_fazenda": 15,
+    "data": "2025-07-20",
+    "categoria": "Equipamentos",
+    "valor": 2649.16
+  },
+  {
+    "id_fazenda": 15,
+    "data": "2024-10-29",
+    "categoria": "Irrigação",
+    "valor": 8060.09
+  },
+  {
+    "id_fazenda": 15,
+    "data": "2025-06-16",
+    "categoria": "Colheita",
+    "valor": 5106.66
+  },
+  {
+    "id_fazenda": 15,
+    "data": "2025-01-25",
+    "categoria": "Colheita",
+    "valor": 4325.24
+  },
+  {
+    "id_fazenda": 15,
+    "data": "2024-09-17",
+    "categoria": "Colheita",
+    "valor": 15913.94
+  },
+  {
+    "id_fazenda": 16,
+    "data": "2025-02-24",
+    "categoria": "Insumos",
+    "valor": 9431.71
+  },
+  {
+    "id_fazenda": 16,
+    "data": "2025-06-20",
+    "categoria": "Insumos",
+    "valor": 16181.48
+  },
+  {
+    "id_fazenda": 16,
+    "data": "2025-02-03",
+    "categoria": "Mão de Obra",
+    "valor": 3927.48
+  },
+  {
+    "id_fazenda": 16,
+    "data": "2025-05-27",
+    "categoria": "Colheita",
+    "valor": 18549.1
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2024-12-11",
+    "categoria": "Mão de Obra",
+    "valor": 6896.82
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2024-11-04",
+    "categoria": "Colheita",
+    "valor": 3722.61
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2025-03-22",
+    "categoria": "Insumos",
+    "valor": 16620.63
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2025-04-28",
+    "categoria": "Mão de Obra",
+    "valor": 13857.63
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2024-11-29",
+    "categoria": "Irrigação",
+    "valor": 4898.56
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2025-04-09",
+    "categoria": "Insumos",
+    "valor": 9728
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2024-08-14",
+    "categoria": "Transporte",
+    "valor": 17431.39
+  },
+  {
+    "id_fazenda": 17,
+    "data": "2024-11-07",
+    "categoria": "Insumos",
+    "valor": 1078.09
+  },
+  {
+    "id_fazenda": 18,
+    "data": "2024-11-02",
+    "categoria": "Transporte",
+    "valor": 17114.36
+  },
+  {
+    "id_fazenda": 18,
+    "data": "2024-09-20",
+    "categoria": "Insumos",
+    "valor": 7332.51
+  },
+  {
+    "id_fazenda": 18,
+    "data": "2024-11-06",
+    "categoria": "Insumos",
+    "valor": 2958.95
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2025-06-23",
+    "categoria": "Transporte",
+    "valor": 6937.14
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2025-05-25",
+    "categoria": "Mão de Obra",
+    "valor": 15411.38
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2024-10-18",
+    "categoria": "Transporte",
+    "valor": 17950.58
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2024-09-24",
+    "categoria": "Colheita",
+    "valor": 4810.55
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2024-08-21",
+    "categoria": "Colheita",
+    "valor": 6256.34
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2025-04-29",
+    "categoria": "Colheita",
+    "valor": 15682.95
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2024-08-16",
+    "categoria": "Transporte",
+    "valor": 3235.37
+  },
+  {
+    "id_fazenda": 19,
+    "data": "2025-03-17",
+    "categoria": "Irrigação",
+    "valor": 3992.42
+  },
+  {
+    "id_fazenda": 20,
+    "data": "2025-04-02",
+    "categoria": "Insumos",
+    "valor": 19207.66
+  },
+  {
+    "id_fazenda": 20,
+    "data": "2024-09-08",
+    "categoria": "Mão de Obra",
+    "valor": 10767.15
+  },
+  {
+    "id_fazenda": 20,
+    "data": "2024-09-30",
+    "categoria": "Irrigação",
+    "valor": 11308.05
+  }
+]

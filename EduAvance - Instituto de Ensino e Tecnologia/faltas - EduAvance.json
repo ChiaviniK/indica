@@ -1,0 +1,7002 @@
+[
+  {
+    "id_falta": 1,
+    "id_aluno": 9,
+    "disciplina": "Biologia",
+    "data": "2024-09-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 2,
+    "id_aluno": 51,
+    "disciplina": "Física",
+    "data": "2024-11-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 3,
+    "id_aluno": 118,
+    "disciplina": "Matemática",
+    "data": "2025-03-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 4,
+    "id_aluno": 189,
+    "disciplina": "Geografia",
+    "data": "2025-06-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 5,
+    "id_aluno": 198,
+    "disciplina": "Física",
+    "data": "2024-12-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 6,
+    "id_aluno": 25,
+    "disciplina": "Física",
+    "data": "2024-07-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 7,
+    "id_aluno": 134,
+    "disciplina": "Português",
+    "data": "2025-06-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 8,
+    "id_aluno": 171,
+    "disciplina": "História",
+    "data": "2024-08-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 9,
+    "id_aluno": 54,
+    "disciplina": "Biologia",
+    "data": "2025-04-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 10,
+    "id_aluno": 122,
+    "disciplina": "Matemática",
+    "data": "2024-10-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 11,
+    "id_aluno": 100,
+    "disciplina": "Física",
+    "data": "2025-03-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 12,
+    "id_aluno": 175,
+    "disciplina": "Química",
+    "data": "2025-03-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 13,
+    "id_aluno": 80,
+    "disciplina": "História",
+    "data": "2024-10-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 14,
+    "id_aluno": 83,
+    "disciplina": "Química",
+    "data": "2025-07-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 15,
+    "id_aluno": 41,
+    "disciplina": "História",
+    "data": "2025-03-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 16,
+    "id_aluno": 162,
+    "disciplina": "Português",
+    "data": "2024-11-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 17,
+    "id_aluno": 187,
+    "disciplina": "Biologia",
+    "data": "2024-11-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 18,
+    "id_aluno": 11,
+    "disciplina": "Física",
+    "data": "2024-10-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 19,
+    "id_aluno": 191,
+    "disciplina": "Matemática",
+    "data": "2025-03-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 20,
+    "id_aluno": 141,
+    "disciplina": "Biologia",
+    "data": "2024-09-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 21,
+    "id_aluno": 134,
+    "disciplina": "Química",
+    "data": "2025-03-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 22,
+    "id_aluno": 32,
+    "disciplina": "Português",
+    "data": "2024-10-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 23,
+    "id_aluno": 65,
+    "disciplina": "Inglês",
+    "data": "2024-12-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 24,
+    "id_aluno": 124,
+    "disciplina": "Geografia",
+    "data": "2025-04-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 25,
+    "id_aluno": 164,
+    "disciplina": "Física",
+    "data": "2024-12-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 26,
+    "id_aluno": 77,
+    "disciplina": "Inglês",
+    "data": "2025-07-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 27,
+    "id_aluno": 51,
+    "disciplina": "Biologia",
+    "data": "2024-12-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 28,
+    "id_aluno": 93,
+    "disciplina": "Geografia",
+    "data": "2025-04-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 29,
+    "id_aluno": 14,
+    "disciplina": "Biologia",
+    "data": "2025-02-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 30,
+    "id_aluno": 171,
+    "disciplina": "História",
+    "data": "2024-09-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 31,
+    "id_aluno": 56,
+    "disciplina": "Português",
+    "data": "2024-09-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 32,
+    "id_aluno": 29,
+    "disciplina": "Física",
+    "data": "2024-12-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 33,
+    "id_aluno": 61,
+    "disciplina": "Matemática",
+    "data": "2024-09-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 34,
+    "id_aluno": 163,
+    "disciplina": "Geografia",
+    "data": "2024-12-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 35,
+    "id_aluno": 112,
+    "disciplina": "Português",
+    "data": "2024-10-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 36,
+    "id_aluno": 84,
+    "disciplina": "Inglês",
+    "data": "2024-08-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 37,
+    "id_aluno": 4,
+    "disciplina": "Matemática",
+    "data": "2024-09-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 38,
+    "id_aluno": 43,
+    "disciplina": "Inglês",
+    "data": "2025-03-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 39,
+    "id_aluno": 71,
+    "disciplina": "História",
+    "data": "2025-04-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 40,
+    "id_aluno": 150,
+    "disciplina": "Geografia",
+    "data": "2025-03-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 41,
+    "id_aluno": 31,
+    "disciplina": "Física",
+    "data": "2025-04-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 42,
+    "id_aluno": 102,
+    "disciplina": "Inglês",
+    "data": "2025-02-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 43,
+    "id_aluno": 63,
+    "disciplina": "Biologia",
+    "data": "2024-10-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 44,
+    "id_aluno": 3,
+    "disciplina": "Física",
+    "data": "2025-03-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 45,
+    "id_aluno": 11,
+    "disciplina": "História",
+    "data": "2024-10-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 46,
+    "id_aluno": 149,
+    "disciplina": "Português",
+    "data": "2025-05-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 47,
+    "id_aluno": 177,
+    "disciplina": "História",
+    "data": "2024-09-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 48,
+    "id_aluno": 122,
+    "disciplina": "Geografia",
+    "data": "2024-09-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 49,
+    "id_aluno": 177,
+    "disciplina": "Matemática",
+    "data": "2024-08-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 50,
+    "id_aluno": 153,
+    "disciplina": "Inglês",
+    "data": "2025-07-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 51,
+    "id_aluno": 40,
+    "disciplina": "Química",
+    "data": "2025-03-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 52,
+    "id_aluno": 96,
+    "disciplina": "Português",
+    "data": "2024-08-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 53,
+    "id_aluno": 198,
+    "disciplina": "Matemática",
+    "data": "2025-06-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 54,
+    "id_aluno": 23,
+    "disciplina": "Biologia",
+    "data": "2024-10-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 55,
+    "id_aluno": 64,
+    "disciplina": "Matemática",
+    "data": "2025-01-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 56,
+    "id_aluno": 41,
+    "disciplina": "Português",
+    "data": "2024-09-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 57,
+    "id_aluno": 128,
+    "disciplina": "Física",
+    "data": "2024-10-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 58,
+    "id_aluno": 24,
+    "disciplina": "Inglês",
+    "data": "2024-10-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 59,
+    "id_aluno": 176,
+    "disciplina": "Matemática",
+    "data": "2024-09-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 60,
+    "id_aluno": 159,
+    "disciplina": "Português",
+    "data": "2025-05-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 61,
+    "id_aluno": 87,
+    "disciplina": "Biologia",
+    "data": "2025-02-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 62,
+    "id_aluno": 195,
+    "disciplina": "Matemática",
+    "data": "2025-01-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 63,
+    "id_aluno": 161,
+    "disciplina": "Biologia",
+    "data": "2025-05-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 64,
+    "id_aluno": 16,
+    "disciplina": "Geografia",
+    "data": "2025-03-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 65,
+    "id_aluno": 16,
+    "disciplina": "Física",
+    "data": "2025-05-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 66,
+    "id_aluno": 92,
+    "disciplina": "Geografia",
+    "data": "2024-08-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 67,
+    "id_aluno": 166,
+    "disciplina": "Geografia",
+    "data": "2025-06-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 68,
+    "id_aluno": 40,
+    "disciplina": "Biologia",
+    "data": "2024-12-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 69,
+    "id_aluno": 180,
+    "disciplina": "Biologia",
+    "data": "2025-02-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 70,
+    "id_aluno": 138,
+    "disciplina": "Física",
+    "data": "2024-10-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 71,
+    "id_aluno": 28,
+    "disciplina": "Inglês",
+    "data": "2025-07-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 72,
+    "id_aluno": 33,
+    "disciplina": "Português",
+    "data": "2025-01-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 73,
+    "id_aluno": 125,
+    "disciplina": "Biologia",
+    "data": "2025-02-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 74,
+    "id_aluno": 60,
+    "disciplina": "História",
+    "data": "2025-03-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 75,
+    "id_aluno": 82,
+    "disciplina": "História",
+    "data": "2025-02-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 76,
+    "id_aluno": 143,
+    "disciplina": "Biologia",
+    "data": "2024-10-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 77,
+    "id_aluno": 166,
+    "disciplina": "Português",
+    "data": "2024-10-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 78,
+    "id_aluno": 194,
+    "disciplina": "Matemática",
+    "data": "2025-03-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 79,
+    "id_aluno": 89,
+    "disciplina": "Português",
+    "data": "2025-03-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 80,
+    "id_aluno": 113,
+    "disciplina": "Geografia",
+    "data": "2025-05-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 81,
+    "id_aluno": 188,
+    "disciplina": "Física",
+    "data": "2024-08-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 82,
+    "id_aluno": 50,
+    "disciplina": "Física",
+    "data": "2025-01-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 83,
+    "id_aluno": 6,
+    "disciplina": "Biologia",
+    "data": "2024-10-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 84,
+    "id_aluno": 177,
+    "disciplina": "História",
+    "data": "2024-12-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 85,
+    "id_aluno": 97,
+    "disciplina": "Biologia",
+    "data": "2025-05-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 86,
+    "id_aluno": 92,
+    "disciplina": "Geografia",
+    "data": "2024-12-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 87,
+    "id_aluno": 186,
+    "disciplina": "História",
+    "data": "2025-04-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 88,
+    "id_aluno": 35,
+    "disciplina": "Português",
+    "data": "2025-03-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 89,
+    "id_aluno": 65,
+    "disciplina": "Biologia",
+    "data": "2024-09-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 90,
+    "id_aluno": 11,
+    "disciplina": "Física",
+    "data": "2024-10-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 91,
+    "id_aluno": 125,
+    "disciplina": "Inglês",
+    "data": "2024-11-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 92,
+    "id_aluno": 181,
+    "disciplina": "Matemática",
+    "data": "2024-12-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 93,
+    "id_aluno": 113,
+    "disciplina": "História",
+    "data": "2024-11-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 94,
+    "id_aluno": 144,
+    "disciplina": "Matemática",
+    "data": "2024-12-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 95,
+    "id_aluno": 76,
+    "disciplina": "Inglês",
+    "data": "2024-11-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 96,
+    "id_aluno": 139,
+    "disciplina": "Matemática",
+    "data": "2025-06-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 97,
+    "id_aluno": 179,
+    "disciplina": "Português",
+    "data": "2024-09-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 98,
+    "id_aluno": 126,
+    "disciplina": "Química",
+    "data": "2024-11-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 99,
+    "id_aluno": 49,
+    "disciplina": "Matemática",
+    "data": "2024-10-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 100,
+    "id_aluno": 146,
+    "disciplina": "Português",
+    "data": "2025-07-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 101,
+    "id_aluno": 48,
+    "disciplina": "Química",
+    "data": "2025-01-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 102,
+    "id_aluno": 140,
+    "disciplina": "Química",
+    "data": "2025-04-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 103,
+    "id_aluno": 90,
+    "disciplina": "História",
+    "data": "2024-11-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 104,
+    "id_aluno": 83,
+    "disciplina": "Inglês",
+    "data": "2024-08-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 105,
+    "id_aluno": 188,
+    "disciplina": "Física",
+    "data": "2025-06-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 106,
+    "id_aluno": 120,
+    "disciplina": "Biologia",
+    "data": "2025-03-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 107,
+    "id_aluno": 71,
+    "disciplina": "Física",
+    "data": "2024-12-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 108,
+    "id_aluno": 154,
+    "disciplina": "Geografia",
+    "data": "2024-08-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 109,
+    "id_aluno": 142,
+    "disciplina": "Português",
+    "data": "2025-05-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 110,
+    "id_aluno": 42,
+    "disciplina": "Inglês",
+    "data": "2024-09-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 111,
+    "id_aluno": 18,
+    "disciplina": "História",
+    "data": "2025-04-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 112,
+    "id_aluno": 136,
+    "disciplina": "Português",
+    "data": "2024-10-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 113,
+    "id_aluno": 40,
+    "disciplina": "Inglês",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 114,
+    "id_aluno": 116,
+    "disciplina": "Português",
+    "data": "2024-10-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 115,
+    "id_aluno": 76,
+    "disciplina": "Inglês",
+    "data": "2025-05-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 116,
+    "id_aluno": 68,
+    "disciplina": "Biologia",
+    "data": "2025-03-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 117,
+    "id_aluno": 139,
+    "disciplina": "Inglês",
+    "data": "2025-03-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 118,
+    "id_aluno": 94,
+    "disciplina": "Inglês",
+    "data": "2024-12-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 119,
+    "id_aluno": 117,
+    "disciplina": "Geografia",
+    "data": "2025-07-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 120,
+    "id_aluno": 1,
+    "disciplina": "Geografia",
+    "data": "2025-07-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 121,
+    "id_aluno": 199,
+    "disciplina": "História",
+    "data": "2025-06-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 122,
+    "id_aluno": 164,
+    "disciplina": "Biologia",
+    "data": "2025-06-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 123,
+    "id_aluno": 130,
+    "disciplina": "Física",
+    "data": "2025-07-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 124,
+    "id_aluno": 98,
+    "disciplina": "Química",
+    "data": "2024-09-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 125,
+    "id_aluno": 188,
+    "disciplina": "História",
+    "data": "2025-07-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 126,
+    "id_aluno": 48,
+    "disciplina": "Física",
+    "data": "2024-10-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 127,
+    "id_aluno": 5,
+    "disciplina": "Física",
+    "data": "2024-08-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 128,
+    "id_aluno": 159,
+    "disciplina": "Inglês",
+    "data": "2024-08-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 129,
+    "id_aluno": 94,
+    "disciplina": "Inglês",
+    "data": "2024-09-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 130,
+    "id_aluno": 199,
+    "disciplina": "Matemática",
+    "data": "2025-04-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 131,
+    "id_aluno": 159,
+    "disciplina": "Português",
+    "data": "2024-12-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 132,
+    "id_aluno": 62,
+    "disciplina": "Inglês",
+    "data": "2025-03-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 133,
+    "id_aluno": 83,
+    "disciplina": "Português",
+    "data": "2025-03-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 134,
+    "id_aluno": 185,
+    "disciplina": "Física",
+    "data": "2025-04-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 135,
+    "id_aluno": 17,
+    "disciplina": "Inglês",
+    "data": "2024-10-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 136,
+    "id_aluno": 169,
+    "disciplina": "Inglês",
+    "data": "2025-06-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 137,
+    "id_aluno": 138,
+    "disciplina": "História",
+    "data": "2024-11-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 138,
+    "id_aluno": 100,
+    "disciplina": "Biologia",
+    "data": "2024-10-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 139,
+    "id_aluno": 49,
+    "disciplina": "Física",
+    "data": "2025-01-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 140,
+    "id_aluno": 135,
+    "disciplina": "História",
+    "data": "2024-09-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 141,
+    "id_aluno": 175,
+    "disciplina": "Português",
+    "data": "2024-10-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 142,
+    "id_aluno": 128,
+    "disciplina": "Química",
+    "data": "2025-07-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 143,
+    "id_aluno": 197,
+    "disciplina": "Português",
+    "data": "2025-06-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 144,
+    "id_aluno": 142,
+    "disciplina": "Física",
+    "data": "2025-03-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 145,
+    "id_aluno": 40,
+    "disciplina": "Português",
+    "data": "2024-11-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 146,
+    "id_aluno": 157,
+    "disciplina": "Biologia",
+    "data": "2024-10-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 147,
+    "id_aluno": 73,
+    "disciplina": "Inglês",
+    "data": "2025-04-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 148,
+    "id_aluno": 83,
+    "disciplina": "Química",
+    "data": "2025-03-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 149,
+    "id_aluno": 105,
+    "disciplina": "Química",
+    "data": "2025-04-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 150,
+    "id_aluno": 165,
+    "disciplina": "Geografia",
+    "data": "2024-09-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 151,
+    "id_aluno": 83,
+    "disciplina": "Geografia",
+    "data": "2024-12-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 152,
+    "id_aluno": 29,
+    "disciplina": "História",
+    "data": "2025-05-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 153,
+    "id_aluno": 25,
+    "disciplina": "Inglês",
+    "data": "2024-08-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 154,
+    "id_aluno": 134,
+    "disciplina": "Química",
+    "data": "2025-07-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 155,
+    "id_aluno": 169,
+    "disciplina": "Português",
+    "data": "2025-05-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 156,
+    "id_aluno": 18,
+    "disciplina": "Física",
+    "data": "2024-11-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 157,
+    "id_aluno": 12,
+    "disciplina": "Geografia",
+    "data": "2024-12-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 158,
+    "id_aluno": 34,
+    "disciplina": "Química",
+    "data": "2024-07-31",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 159,
+    "id_aluno": 46,
+    "disciplina": "Química",
+    "data": "2025-07-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 160,
+    "id_aluno": 9,
+    "disciplina": "Física",
+    "data": "2024-12-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 161,
+    "id_aluno": 52,
+    "disciplina": "Geografia",
+    "data": "2025-05-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 162,
+    "id_aluno": 28,
+    "disciplina": "História",
+    "data": "2025-02-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 163,
+    "id_aluno": 125,
+    "disciplina": "Português",
+    "data": "2025-01-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 164,
+    "id_aluno": 50,
+    "disciplina": "Inglês",
+    "data": "2025-04-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 165,
+    "id_aluno": 26,
+    "disciplina": "Português",
+    "data": "2025-01-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 166,
+    "id_aluno": 9,
+    "disciplina": "Inglês",
+    "data": "2025-02-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 167,
+    "id_aluno": 147,
+    "disciplina": "Física",
+    "data": "2024-09-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 168,
+    "id_aluno": 165,
+    "disciplina": "Português",
+    "data": "2024-08-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 169,
+    "id_aluno": 100,
+    "disciplina": "Inglês",
+    "data": "2025-02-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 170,
+    "id_aluno": 169,
+    "disciplina": "História",
+    "data": "2025-02-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 171,
+    "id_aluno": 126,
+    "disciplina": "Biologia",
+    "data": "2025-07-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 172,
+    "id_aluno": 135,
+    "disciplina": "Química",
+    "data": "2025-07-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 173,
+    "id_aluno": 160,
+    "disciplina": "Português",
+    "data": "2025-07-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 174,
+    "id_aluno": 180,
+    "disciplina": "Português",
+    "data": "2025-07-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 175,
+    "id_aluno": 152,
+    "disciplina": "Química",
+    "data": "2025-06-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 176,
+    "id_aluno": 66,
+    "disciplina": "Física",
+    "data": "2024-12-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 177,
+    "id_aluno": 13,
+    "disciplina": "Inglês",
+    "data": "2024-09-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 178,
+    "id_aluno": 94,
+    "disciplina": "Matemática",
+    "data": "2025-01-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 179,
+    "id_aluno": 57,
+    "disciplina": "Português",
+    "data": "2025-07-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 180,
+    "id_aluno": 156,
+    "disciplina": "Geografia",
+    "data": "2025-07-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 181,
+    "id_aluno": 184,
+    "disciplina": "História",
+    "data": "2025-05-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 182,
+    "id_aluno": 19,
+    "disciplina": "Matemática",
+    "data": "2025-07-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 183,
+    "id_aluno": 4,
+    "disciplina": "História",
+    "data": "2025-01-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 184,
+    "id_aluno": 54,
+    "disciplina": "História",
+    "data": "2024-10-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 185,
+    "id_aluno": 168,
+    "disciplina": "Inglês",
+    "data": "2025-03-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 186,
+    "id_aluno": 126,
+    "disciplina": "Biologia",
+    "data": "2025-06-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 187,
+    "id_aluno": 21,
+    "disciplina": "Química",
+    "data": "2025-02-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 188,
+    "id_aluno": 120,
+    "disciplina": "Inglês",
+    "data": "2024-09-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 189,
+    "id_aluno": 164,
+    "disciplina": "Geografia",
+    "data": "2025-04-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 190,
+    "id_aluno": 16,
+    "disciplina": "Geografia",
+    "data": "2024-07-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 191,
+    "id_aluno": 93,
+    "disciplina": "Física",
+    "data": "2025-02-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 192,
+    "id_aluno": 143,
+    "disciplina": "Biologia",
+    "data": "2025-07-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 193,
+    "id_aluno": 191,
+    "disciplina": "Biologia",
+    "data": "2024-07-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 194,
+    "id_aluno": 107,
+    "disciplina": "Química",
+    "data": "2024-11-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 195,
+    "id_aluno": 95,
+    "disciplina": "Física",
+    "data": "2025-02-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 196,
+    "id_aluno": 182,
+    "disciplina": "Português",
+    "data": "2025-05-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 197,
+    "id_aluno": 15,
+    "disciplina": "Matemática",
+    "data": "2025-06-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 198,
+    "id_aluno": 158,
+    "disciplina": "Química",
+    "data": "2025-07-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 199,
+    "id_aluno": 69,
+    "disciplina": "História",
+    "data": "2025-05-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 200,
+    "id_aluno": 136,
+    "disciplina": "Biologia",
+    "data": "2025-03-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 201,
+    "id_aluno": 11,
+    "disciplina": "Matemática",
+    "data": "2025-05-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 202,
+    "id_aluno": 188,
+    "disciplina": "Física",
+    "data": "2024-11-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 203,
+    "id_aluno": 19,
+    "disciplina": "Matemática",
+    "data": "2024-08-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 204,
+    "id_aluno": 78,
+    "disciplina": "Matemática",
+    "data": "2025-03-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 205,
+    "id_aluno": 20,
+    "disciplina": "Física",
+    "data": "2025-05-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 206,
+    "id_aluno": 56,
+    "disciplina": "Português",
+    "data": "2024-08-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 207,
+    "id_aluno": 133,
+    "disciplina": "Biologia",
+    "data": "2024-12-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 208,
+    "id_aluno": 25,
+    "disciplina": "Matemática",
+    "data": "2025-04-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 209,
+    "id_aluno": 26,
+    "disciplina": "Geografia",
+    "data": "2024-09-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 210,
+    "id_aluno": 186,
+    "disciplina": "Química",
+    "data": "2025-03-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 211,
+    "id_aluno": 60,
+    "disciplina": "Química",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 212,
+    "id_aluno": 137,
+    "disciplina": "Física",
+    "data": "2024-10-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 213,
+    "id_aluno": 99,
+    "disciplina": "Química",
+    "data": "2025-02-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 214,
+    "id_aluno": 49,
+    "disciplina": "Química",
+    "data": "2024-11-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 215,
+    "id_aluno": 50,
+    "disciplina": "Química",
+    "data": "2024-12-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 216,
+    "id_aluno": 135,
+    "disciplina": "Química",
+    "data": "2024-11-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 217,
+    "id_aluno": 169,
+    "disciplina": "Geografia",
+    "data": "2025-05-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 218,
+    "id_aluno": 64,
+    "disciplina": "História",
+    "data": "2024-10-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 219,
+    "id_aluno": 146,
+    "disciplina": "Inglês",
+    "data": "2025-01-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 220,
+    "id_aluno": 161,
+    "disciplina": "História",
+    "data": "2025-07-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 221,
+    "id_aluno": 46,
+    "disciplina": "Geografia",
+    "data": "2024-10-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 222,
+    "id_aluno": 143,
+    "disciplina": "Química",
+    "data": "2025-05-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 223,
+    "id_aluno": 192,
+    "disciplina": "Física",
+    "data": "2024-09-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 224,
+    "id_aluno": 143,
+    "disciplina": "Química",
+    "data": "2025-07-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 225,
+    "id_aluno": 107,
+    "disciplina": "História",
+    "data": "2025-06-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 226,
+    "id_aluno": 192,
+    "disciplina": "Biologia",
+    "data": "2025-05-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 227,
+    "id_aluno": 28,
+    "disciplina": "História",
+    "data": "2024-10-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 228,
+    "id_aluno": 197,
+    "disciplina": "História",
+    "data": "2025-07-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 229,
+    "id_aluno": 164,
+    "disciplina": "Matemática",
+    "data": "2025-06-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 230,
+    "id_aluno": 148,
+    "disciplina": "Português",
+    "data": "2025-06-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 231,
+    "id_aluno": 92,
+    "disciplina": "Matemática",
+    "data": "2025-01-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 232,
+    "id_aluno": 173,
+    "disciplina": "História",
+    "data": "2024-08-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 233,
+    "id_aluno": 118,
+    "disciplina": "Inglês",
+    "data": "2024-12-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 234,
+    "id_aluno": 180,
+    "disciplina": "Química",
+    "data": "2025-05-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 235,
+    "id_aluno": 171,
+    "disciplina": "História",
+    "data": "2025-04-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 236,
+    "id_aluno": 110,
+    "disciplina": "Português",
+    "data": "2024-09-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 237,
+    "id_aluno": 27,
+    "disciplina": "História",
+    "data": "2025-07-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 238,
+    "id_aluno": 43,
+    "disciplina": "Química",
+    "data": "2025-07-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 239,
+    "id_aluno": 47,
+    "disciplina": "Inglês",
+    "data": "2025-01-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 240,
+    "id_aluno": 141,
+    "disciplina": "Química",
+    "data": "2024-10-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 241,
+    "id_aluno": 103,
+    "disciplina": "História",
+    "data": "2025-04-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 242,
+    "id_aluno": 130,
+    "disciplina": "Inglês",
+    "data": "2025-01-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 243,
+    "id_aluno": 87,
+    "disciplina": "Química",
+    "data": "2024-09-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 244,
+    "id_aluno": 169,
+    "disciplina": "Inglês",
+    "data": "2025-01-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 245,
+    "id_aluno": 41,
+    "disciplina": "Química",
+    "data": "2025-03-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 246,
+    "id_aluno": 137,
+    "disciplina": "Física",
+    "data": "2024-09-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 247,
+    "id_aluno": 154,
+    "disciplina": "Geografia",
+    "data": "2025-02-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 248,
+    "id_aluno": 114,
+    "disciplina": "História",
+    "data": "2025-07-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 249,
+    "id_aluno": 91,
+    "disciplina": "Química",
+    "data": "2025-07-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 250,
+    "id_aluno": 81,
+    "disciplina": "Matemática",
+    "data": "2025-02-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 251,
+    "id_aluno": 141,
+    "disciplina": "Inglês",
+    "data": "2025-04-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 252,
+    "id_aluno": 84,
+    "disciplina": "Geografia",
+    "data": "2024-11-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 253,
+    "id_aluno": 96,
+    "disciplina": "Biologia",
+    "data": "2025-04-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 254,
+    "id_aluno": 106,
+    "disciplina": "Química",
+    "data": "2024-11-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 255,
+    "id_aluno": 196,
+    "disciplina": "Física",
+    "data": "2025-07-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 256,
+    "id_aluno": 163,
+    "disciplina": "Matemática",
+    "data": "2025-07-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 257,
+    "id_aluno": 111,
+    "disciplina": "Matemática",
+    "data": "2024-09-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 258,
+    "id_aluno": 186,
+    "disciplina": "Inglês",
+    "data": "2025-06-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 259,
+    "id_aluno": 83,
+    "disciplina": "Física",
+    "data": "2024-09-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 260,
+    "id_aluno": 156,
+    "disciplina": "Português",
+    "data": "2025-04-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 261,
+    "id_aluno": 62,
+    "disciplina": "Inglês",
+    "data": "2025-03-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 262,
+    "id_aluno": 145,
+    "disciplina": "Português",
+    "data": "2025-06-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 263,
+    "id_aluno": 140,
+    "disciplina": "História",
+    "data": "2024-09-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 264,
+    "id_aluno": 55,
+    "disciplina": "Biologia",
+    "data": "2024-11-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 265,
+    "id_aluno": 97,
+    "disciplina": "Inglês",
+    "data": "2025-05-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 266,
+    "id_aluno": 197,
+    "disciplina": "Português",
+    "data": "2025-03-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 267,
+    "id_aluno": 141,
+    "disciplina": "Português",
+    "data": "2024-08-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 268,
+    "id_aluno": 191,
+    "disciplina": "Geografia",
+    "data": "2024-10-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 269,
+    "id_aluno": 66,
+    "disciplina": "Inglês",
+    "data": "2025-03-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 270,
+    "id_aluno": 93,
+    "disciplina": "Português",
+    "data": "2024-09-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 271,
+    "id_aluno": 116,
+    "disciplina": "Biologia",
+    "data": "2024-09-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 272,
+    "id_aluno": 115,
+    "disciplina": "Matemática",
+    "data": "2025-07-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 273,
+    "id_aluno": 102,
+    "disciplina": "Física",
+    "data": "2024-12-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 274,
+    "id_aluno": 1,
+    "disciplina": "Matemática",
+    "data": "2025-04-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 275,
+    "id_aluno": 186,
+    "disciplina": "Inglês",
+    "data": "2024-07-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 276,
+    "id_aluno": 9,
+    "disciplina": "Inglês",
+    "data": "2025-03-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 277,
+    "id_aluno": 73,
+    "disciplina": "Inglês",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 278,
+    "id_aluno": 153,
+    "disciplina": "Física",
+    "data": "2025-05-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 279,
+    "id_aluno": 5,
+    "disciplina": "Química",
+    "data": "2025-05-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 280,
+    "id_aluno": 133,
+    "disciplina": "Física",
+    "data": "2024-10-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 281,
+    "id_aluno": 35,
+    "disciplina": "Biologia",
+    "data": "2024-10-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 282,
+    "id_aluno": 78,
+    "disciplina": "Biologia",
+    "data": "2025-01-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 283,
+    "id_aluno": 2,
+    "disciplina": "História",
+    "data": "2025-07-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 284,
+    "id_aluno": 77,
+    "disciplina": "Matemática",
+    "data": "2024-11-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 285,
+    "id_aluno": 57,
+    "disciplina": "Biologia",
+    "data": "2024-11-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 286,
+    "id_aluno": 55,
+    "disciplina": "Biologia",
+    "data": "2024-09-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 287,
+    "id_aluno": 81,
+    "disciplina": "Matemática",
+    "data": "2025-06-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 288,
+    "id_aluno": 6,
+    "disciplina": "Inglês",
+    "data": "2024-11-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 289,
+    "id_aluno": 198,
+    "disciplina": "História",
+    "data": "2025-03-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 290,
+    "id_aluno": 177,
+    "disciplina": "Matemática",
+    "data": "2025-06-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 291,
+    "id_aluno": 71,
+    "disciplina": "Biologia",
+    "data": "2025-03-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 292,
+    "id_aluno": 142,
+    "disciplina": "Matemática",
+    "data": "2024-10-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 293,
+    "id_aluno": 131,
+    "disciplina": "Biologia",
+    "data": "2025-07-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 294,
+    "id_aluno": 143,
+    "disciplina": "Inglês",
+    "data": "2025-07-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 295,
+    "id_aluno": 147,
+    "disciplina": "Português",
+    "data": "2024-08-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 296,
+    "id_aluno": 147,
+    "disciplina": "História",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 297,
+    "id_aluno": 40,
+    "disciplina": "Português",
+    "data": "2024-08-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 298,
+    "id_aluno": 25,
+    "disciplina": "Biologia",
+    "data": "2024-10-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 299,
+    "id_aluno": 10,
+    "disciplina": "Biologia",
+    "data": "2025-06-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 300,
+    "id_aluno": 118,
+    "disciplina": "História",
+    "data": "2024-08-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 301,
+    "id_aluno": 92,
+    "disciplina": "Biologia",
+    "data": "2025-02-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 302,
+    "id_aluno": 40,
+    "disciplina": "Biologia",
+    "data": "2025-06-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 303,
+    "id_aluno": 36,
+    "disciplina": "Biologia",
+    "data": "2024-10-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 304,
+    "id_aluno": 68,
+    "disciplina": "Matemática",
+    "data": "2024-12-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 305,
+    "id_aluno": 94,
+    "disciplina": "Português",
+    "data": "2024-10-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 306,
+    "id_aluno": 150,
+    "disciplina": "História",
+    "data": "2024-11-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 307,
+    "id_aluno": 64,
+    "disciplina": "História",
+    "data": "2024-09-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 308,
+    "id_aluno": 60,
+    "disciplina": "Inglês",
+    "data": "2025-06-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 309,
+    "id_aluno": 66,
+    "disciplina": "Física",
+    "data": "2024-11-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 310,
+    "id_aluno": 77,
+    "disciplina": "História",
+    "data": "2024-09-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 311,
+    "id_aluno": 24,
+    "disciplina": "Biologia",
+    "data": "2024-12-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 312,
+    "id_aluno": 147,
+    "disciplina": "Geografia",
+    "data": "2025-03-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 313,
+    "id_aluno": 103,
+    "disciplina": "Inglês",
+    "data": "2024-10-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 314,
+    "id_aluno": 146,
+    "disciplina": "História",
+    "data": "2024-12-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 315,
+    "id_aluno": 56,
+    "disciplina": "Matemática",
+    "data": "2024-11-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 316,
+    "id_aluno": 188,
+    "disciplina": "Física",
+    "data": "2024-11-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 317,
+    "id_aluno": 20,
+    "disciplina": "Português",
+    "data": "2024-09-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 318,
+    "id_aluno": 186,
+    "disciplina": "História",
+    "data": "2025-01-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 319,
+    "id_aluno": 84,
+    "disciplina": "História",
+    "data": "2025-05-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 320,
+    "id_aluno": 124,
+    "disciplina": "Inglês",
+    "data": "2024-08-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 321,
+    "id_aluno": 45,
+    "disciplina": "Química",
+    "data": "2024-07-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 322,
+    "id_aluno": 125,
+    "disciplina": "Química",
+    "data": "2024-08-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 323,
+    "id_aluno": 177,
+    "disciplina": "Geografia",
+    "data": "2025-06-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 324,
+    "id_aluno": 180,
+    "disciplina": "Inglês",
+    "data": "2025-05-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 325,
+    "id_aluno": 148,
+    "disciplina": "História",
+    "data": "2024-11-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 326,
+    "id_aluno": 25,
+    "disciplina": "Geografia",
+    "data": "2024-12-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 327,
+    "id_aluno": 153,
+    "disciplina": "Física",
+    "data": "2025-05-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 328,
+    "id_aluno": 165,
+    "disciplina": "Matemática",
+    "data": "2025-02-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 329,
+    "id_aluno": 77,
+    "disciplina": "Biologia",
+    "data": "2025-03-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 330,
+    "id_aluno": 10,
+    "disciplina": "Português",
+    "data": "2024-11-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 331,
+    "id_aluno": 188,
+    "disciplina": "Matemática",
+    "data": "2024-11-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 332,
+    "id_aluno": 148,
+    "disciplina": "História",
+    "data": "2024-12-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 333,
+    "id_aluno": 98,
+    "disciplina": "Inglês",
+    "data": "2025-06-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 334,
+    "id_aluno": 21,
+    "disciplina": "Química",
+    "data": "2025-04-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 335,
+    "id_aluno": 200,
+    "disciplina": "Inglês",
+    "data": "2024-09-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 336,
+    "id_aluno": 15,
+    "disciplina": "Biologia",
+    "data": "2024-10-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 337,
+    "id_aluno": 198,
+    "disciplina": "Inglês",
+    "data": "2025-03-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 338,
+    "id_aluno": 86,
+    "disciplina": "Geografia",
+    "data": "2025-02-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 339,
+    "id_aluno": 90,
+    "disciplina": "Química",
+    "data": "2025-01-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 340,
+    "id_aluno": 112,
+    "disciplina": "Química",
+    "data": "2024-10-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 341,
+    "id_aluno": 107,
+    "disciplina": "Inglês",
+    "data": "2025-05-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 342,
+    "id_aluno": 31,
+    "disciplina": "Biologia",
+    "data": "2024-11-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 343,
+    "id_aluno": 198,
+    "disciplina": "História",
+    "data": "2025-06-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 344,
+    "id_aluno": 59,
+    "disciplina": "Química",
+    "data": "2025-05-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 345,
+    "id_aluno": 192,
+    "disciplina": "Matemática",
+    "data": "2025-04-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 346,
+    "id_aluno": 168,
+    "disciplina": "Biologia",
+    "data": "2025-01-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 347,
+    "id_aluno": 155,
+    "disciplina": "Inglês",
+    "data": "2024-10-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 348,
+    "id_aluno": 3,
+    "disciplina": "Química",
+    "data": "2024-08-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 349,
+    "id_aluno": 163,
+    "disciplina": "Física",
+    "data": "2024-12-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 350,
+    "id_aluno": 200,
+    "disciplina": "Matemática",
+    "data": "2024-11-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 351,
+    "id_aluno": 162,
+    "disciplina": "Português",
+    "data": "2025-04-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 352,
+    "id_aluno": 98,
+    "disciplina": "Física",
+    "data": "2025-04-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 353,
+    "id_aluno": 14,
+    "disciplina": "Química",
+    "data": "2025-06-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 354,
+    "id_aluno": 79,
+    "disciplina": "Biologia",
+    "data": "2024-12-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 355,
+    "id_aluno": 135,
+    "disciplina": "Física",
+    "data": "2025-07-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 356,
+    "id_aluno": 11,
+    "disciplina": "Biologia",
+    "data": "2025-04-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 357,
+    "id_aluno": 82,
+    "disciplina": "Biologia",
+    "data": "2025-07-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 358,
+    "id_aluno": 139,
+    "disciplina": "Português",
+    "data": "2024-11-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 359,
+    "id_aluno": 145,
+    "disciplina": "Biologia",
+    "data": "2025-03-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 360,
+    "id_aluno": 39,
+    "disciplina": "Química",
+    "data": "2025-04-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 361,
+    "id_aluno": 84,
+    "disciplina": "Inglês",
+    "data": "2025-05-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 362,
+    "id_aluno": 129,
+    "disciplina": "Geografia",
+    "data": "2025-03-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 363,
+    "id_aluno": 179,
+    "disciplina": "Geografia",
+    "data": "2025-03-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 364,
+    "id_aluno": 57,
+    "disciplina": "Física",
+    "data": "2024-09-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 365,
+    "id_aluno": 40,
+    "disciplina": "História",
+    "data": "2024-09-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 366,
+    "id_aluno": 13,
+    "disciplina": "Física",
+    "data": "2024-08-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 367,
+    "id_aluno": 173,
+    "disciplina": "Matemática",
+    "data": "2024-08-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 368,
+    "id_aluno": 188,
+    "disciplina": "Matemática",
+    "data": "2024-08-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 369,
+    "id_aluno": 101,
+    "disciplina": "Português",
+    "data": "2024-07-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 370,
+    "id_aluno": 115,
+    "disciplina": "Matemática",
+    "data": "2025-01-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 371,
+    "id_aluno": 193,
+    "disciplina": "Química",
+    "data": "2025-06-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 372,
+    "id_aluno": 153,
+    "disciplina": "Português",
+    "data": "2024-08-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 373,
+    "id_aluno": 148,
+    "disciplina": "Português",
+    "data": "2024-11-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 374,
+    "id_aluno": 130,
+    "disciplina": "Inglês",
+    "data": "2025-04-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 375,
+    "id_aluno": 24,
+    "disciplina": "Física",
+    "data": "2025-06-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 376,
+    "id_aluno": 57,
+    "disciplina": "Geografia",
+    "data": "2025-04-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 377,
+    "id_aluno": 111,
+    "disciplina": "Biologia",
+    "data": "2024-09-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 378,
+    "id_aluno": 75,
+    "disciplina": "Biologia",
+    "data": "2025-04-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 379,
+    "id_aluno": 101,
+    "disciplina": "Geografia",
+    "data": "2025-03-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 380,
+    "id_aluno": 38,
+    "disciplina": "Matemática",
+    "data": "2024-09-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 381,
+    "id_aluno": 34,
+    "disciplina": "Matemática",
+    "data": "2024-12-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 382,
+    "id_aluno": 87,
+    "disciplina": "Português",
+    "data": "2024-09-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 383,
+    "id_aluno": 22,
+    "disciplina": "Matemática",
+    "data": "2024-11-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 384,
+    "id_aluno": 122,
+    "disciplina": "Geografia",
+    "data": "2024-11-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 385,
+    "id_aluno": 147,
+    "disciplina": "Português",
+    "data": "2024-07-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 386,
+    "id_aluno": 191,
+    "disciplina": "Português",
+    "data": "2025-05-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 387,
+    "id_aluno": 13,
+    "disciplina": "Português",
+    "data": "2025-03-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 388,
+    "id_aluno": 141,
+    "disciplina": "História",
+    "data": "2025-07-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 389,
+    "id_aluno": 103,
+    "disciplina": "Química",
+    "data": "2025-05-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 390,
+    "id_aluno": 68,
+    "disciplina": "História",
+    "data": "2025-04-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 391,
+    "id_aluno": 22,
+    "disciplina": "Português",
+    "data": "2025-02-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 392,
+    "id_aluno": 103,
+    "disciplina": "História",
+    "data": "2025-01-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 393,
+    "id_aluno": 129,
+    "disciplina": "Biologia",
+    "data": "2024-08-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 394,
+    "id_aluno": 112,
+    "disciplina": "Biologia",
+    "data": "2024-11-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 395,
+    "id_aluno": 199,
+    "disciplina": "Inglês",
+    "data": "2025-02-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 396,
+    "id_aluno": 179,
+    "disciplina": "Português",
+    "data": "2025-05-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 397,
+    "id_aluno": 34,
+    "disciplina": "Inglês",
+    "data": "2025-02-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 398,
+    "id_aluno": 196,
+    "disciplina": "Biologia",
+    "data": "2024-12-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 399,
+    "id_aluno": 35,
+    "disciplina": "Química",
+    "data": "2025-04-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 400,
+    "id_aluno": 124,
+    "disciplina": "Física",
+    "data": "2024-11-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 401,
+    "id_aluno": 144,
+    "disciplina": "Biologia",
+    "data": "2024-09-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 402,
+    "id_aluno": 51,
+    "disciplina": "História",
+    "data": "2024-08-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 403,
+    "id_aluno": 125,
+    "disciplina": "Português",
+    "data": "2024-12-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 404,
+    "id_aluno": 102,
+    "disciplina": "Biologia",
+    "data": "2025-05-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 405,
+    "id_aluno": 167,
+    "disciplina": "Matemática",
+    "data": "2025-05-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 406,
+    "id_aluno": 147,
+    "disciplina": "Química",
+    "data": "2025-06-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 407,
+    "id_aluno": 51,
+    "disciplina": "Química",
+    "data": "2025-01-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 408,
+    "id_aluno": 144,
+    "disciplina": "Física",
+    "data": "2025-02-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 409,
+    "id_aluno": 158,
+    "disciplina": "Matemática",
+    "data": "2024-11-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 410,
+    "id_aluno": 189,
+    "disciplina": "Biologia",
+    "data": "2024-12-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 411,
+    "id_aluno": 135,
+    "disciplina": "Biologia",
+    "data": "2025-03-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 412,
+    "id_aluno": 64,
+    "disciplina": "História",
+    "data": "2025-06-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 413,
+    "id_aluno": 63,
+    "disciplina": "Inglês",
+    "data": "2025-04-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 414,
+    "id_aluno": 19,
+    "disciplina": "Português",
+    "data": "2024-08-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 415,
+    "id_aluno": 69,
+    "disciplina": "Inglês",
+    "data": "2025-07-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 416,
+    "id_aluno": 199,
+    "disciplina": "Geografia",
+    "data": "2025-07-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 417,
+    "id_aluno": 111,
+    "disciplina": "Química",
+    "data": "2025-05-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 418,
+    "id_aluno": 83,
+    "disciplina": "História",
+    "data": "2025-01-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 419,
+    "id_aluno": 176,
+    "disciplina": "Inglês",
+    "data": "2024-12-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 420,
+    "id_aluno": 148,
+    "disciplina": "Português",
+    "data": "2024-10-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 421,
+    "id_aluno": 23,
+    "disciplina": "História",
+    "data": "2024-09-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 422,
+    "id_aluno": 29,
+    "disciplina": "Química",
+    "data": "2025-05-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 423,
+    "id_aluno": 172,
+    "disciplina": "Geografia",
+    "data": "2025-05-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 424,
+    "id_aluno": 106,
+    "disciplina": "Português",
+    "data": "2025-05-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 425,
+    "id_aluno": 109,
+    "disciplina": "Inglês",
+    "data": "2025-06-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 426,
+    "id_aluno": 94,
+    "disciplina": "Biologia",
+    "data": "2024-12-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 427,
+    "id_aluno": 90,
+    "disciplina": "Português",
+    "data": "2025-03-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 428,
+    "id_aluno": 49,
+    "disciplina": "Matemática",
+    "data": "2024-12-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 429,
+    "id_aluno": 83,
+    "disciplina": "Português",
+    "data": "2025-03-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 430,
+    "id_aluno": 89,
+    "disciplina": "Português",
+    "data": "2025-04-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 431,
+    "id_aluno": 153,
+    "disciplina": "Biologia",
+    "data": "2024-09-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 432,
+    "id_aluno": 168,
+    "disciplina": "Inglês",
+    "data": "2025-07-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 433,
+    "id_aluno": 7,
+    "disciplina": "Matemática",
+    "data": "2025-07-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 434,
+    "id_aluno": 198,
+    "disciplina": "Inglês",
+    "data": "2025-05-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 435,
+    "id_aluno": 79,
+    "disciplina": "História",
+    "data": "2025-01-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 436,
+    "id_aluno": 44,
+    "disciplina": "Matemática",
+    "data": "2025-01-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 437,
+    "id_aluno": 90,
+    "disciplina": "Matemática",
+    "data": "2024-11-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 438,
+    "id_aluno": 158,
+    "disciplina": "Química",
+    "data": "2024-10-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 439,
+    "id_aluno": 114,
+    "disciplina": "Biologia",
+    "data": "2025-01-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 440,
+    "id_aluno": 160,
+    "disciplina": "História",
+    "data": "2025-02-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 441,
+    "id_aluno": 38,
+    "disciplina": "Física",
+    "data": "2025-07-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 442,
+    "id_aluno": 113,
+    "disciplina": "Química",
+    "data": "2024-12-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 443,
+    "id_aluno": 12,
+    "disciplina": "Matemática",
+    "data": "2025-06-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 444,
+    "id_aluno": 60,
+    "disciplina": "Inglês",
+    "data": "2025-04-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 445,
+    "id_aluno": 52,
+    "disciplina": "Inglês",
+    "data": "2025-03-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 446,
+    "id_aluno": 176,
+    "disciplina": "Química",
+    "data": "2025-05-31",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 447,
+    "id_aluno": 96,
+    "disciplina": "Química",
+    "data": "2025-04-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 448,
+    "id_aluno": 40,
+    "disciplina": "Português",
+    "data": "2025-01-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 449,
+    "id_aluno": 194,
+    "disciplina": "Geografia",
+    "data": "2025-06-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 450,
+    "id_aluno": 187,
+    "disciplina": "Matemática",
+    "data": "2024-08-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 451,
+    "id_aluno": 22,
+    "disciplina": "Química",
+    "data": "2024-11-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 452,
+    "id_aluno": 29,
+    "disciplina": "Inglês",
+    "data": "2024-11-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 453,
+    "id_aluno": 190,
+    "disciplina": "Português",
+    "data": "2024-11-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 454,
+    "id_aluno": 14,
+    "disciplina": "Física",
+    "data": "2025-07-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 455,
+    "id_aluno": 63,
+    "disciplina": "Física",
+    "data": "2024-10-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 456,
+    "id_aluno": 159,
+    "disciplina": "Biologia",
+    "data": "2025-01-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 457,
+    "id_aluno": 38,
+    "disciplina": "Química",
+    "data": "2024-12-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 458,
+    "id_aluno": 74,
+    "disciplina": "Matemática",
+    "data": "2024-11-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 459,
+    "id_aluno": 4,
+    "disciplina": "Português",
+    "data": "2025-07-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 460,
+    "id_aluno": 88,
+    "disciplina": "Física",
+    "data": "2024-12-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 461,
+    "id_aluno": 178,
+    "disciplina": "Física",
+    "data": "2025-04-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 462,
+    "id_aluno": 29,
+    "disciplina": "Português",
+    "data": "2025-06-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 463,
+    "id_aluno": 79,
+    "disciplina": "Inglês",
+    "data": "2025-04-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 464,
+    "id_aluno": 116,
+    "disciplina": "Biologia",
+    "data": "2024-09-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 465,
+    "id_aluno": 121,
+    "disciplina": "Geografia",
+    "data": "2025-03-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 466,
+    "id_aluno": 6,
+    "disciplina": "História",
+    "data": "2025-06-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 467,
+    "id_aluno": 85,
+    "disciplina": "Matemática",
+    "data": "2024-09-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 468,
+    "id_aluno": 54,
+    "disciplina": "Química",
+    "data": "2025-04-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 469,
+    "id_aluno": 190,
+    "disciplina": "Geografia",
+    "data": "2025-02-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 470,
+    "id_aluno": 138,
+    "disciplina": "Biologia",
+    "data": "2025-02-13",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 471,
+    "id_aluno": 55,
+    "disciplina": "Química",
+    "data": "2025-03-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 472,
+    "id_aluno": 53,
+    "disciplina": "Português",
+    "data": "2025-01-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 473,
+    "id_aluno": 140,
+    "disciplina": "Física",
+    "data": "2024-07-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 474,
+    "id_aluno": 134,
+    "disciplina": "Inglês",
+    "data": "2025-07-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 475,
+    "id_aluno": 193,
+    "disciplina": "Português",
+    "data": "2024-08-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 476,
+    "id_aluno": 67,
+    "disciplina": "Inglês",
+    "data": "2025-05-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 477,
+    "id_aluno": 141,
+    "disciplina": "Geografia",
+    "data": "2024-08-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 478,
+    "id_aluno": 124,
+    "disciplina": "História",
+    "data": "2025-06-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 479,
+    "id_aluno": 160,
+    "disciplina": "Matemática",
+    "data": "2024-10-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 480,
+    "id_aluno": 187,
+    "disciplina": "Geografia",
+    "data": "2025-04-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 481,
+    "id_aluno": 37,
+    "disciplina": "Matemática",
+    "data": "2024-08-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 482,
+    "id_aluno": 178,
+    "disciplina": "Geografia",
+    "data": "2025-05-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 483,
+    "id_aluno": 179,
+    "disciplina": "Inglês",
+    "data": "2025-04-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 484,
+    "id_aluno": 172,
+    "disciplina": "Química",
+    "data": "2024-10-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 485,
+    "id_aluno": 5,
+    "disciplina": "Português",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 486,
+    "id_aluno": 97,
+    "disciplina": "Biologia",
+    "data": "2024-12-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 487,
+    "id_aluno": 150,
+    "disciplina": "Inglês",
+    "data": "2025-06-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 488,
+    "id_aluno": 170,
+    "disciplina": "Inglês",
+    "data": "2024-08-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 489,
+    "id_aluno": 135,
+    "disciplina": "Matemática",
+    "data": "2024-11-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 490,
+    "id_aluno": 12,
+    "disciplina": "Matemática",
+    "data": "2025-07-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 491,
+    "id_aluno": 66,
+    "disciplina": "Física",
+    "data": "2025-06-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 492,
+    "id_aluno": 44,
+    "disciplina": "Matemática",
+    "data": "2025-03-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 493,
+    "id_aluno": 16,
+    "disciplina": "Física",
+    "data": "2024-09-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 494,
+    "id_aluno": 73,
+    "disciplina": "Matemática",
+    "data": "2025-01-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 495,
+    "id_aluno": 52,
+    "disciplina": "Química",
+    "data": "2025-05-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 496,
+    "id_aluno": 179,
+    "disciplina": "Português",
+    "data": "2024-09-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 497,
+    "id_aluno": 159,
+    "disciplina": "Geografia",
+    "data": "2025-04-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 498,
+    "id_aluno": 70,
+    "disciplina": "Inglês",
+    "data": "2025-03-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 499,
+    "id_aluno": 14,
+    "disciplina": "História",
+    "data": "2025-02-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 500,
+    "id_aluno": 120,
+    "disciplina": "Geografia",
+    "data": "2025-01-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 501,
+    "id_aluno": 168,
+    "disciplina": "Português",
+    "data": "2025-07-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 502,
+    "id_aluno": 3,
+    "disciplina": "Matemática",
+    "data": "2025-02-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 503,
+    "id_aluno": 18,
+    "disciplina": "História",
+    "data": "2025-06-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 504,
+    "id_aluno": 100,
+    "disciplina": "Inglês",
+    "data": "2024-08-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 505,
+    "id_aluno": 170,
+    "disciplina": "Matemática",
+    "data": "2024-12-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 506,
+    "id_aluno": 70,
+    "disciplina": "Inglês",
+    "data": "2025-05-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 507,
+    "id_aluno": 170,
+    "disciplina": "Matemática",
+    "data": "2024-08-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 508,
+    "id_aluno": 169,
+    "disciplina": "Geografia",
+    "data": "2025-04-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 509,
+    "id_aluno": 93,
+    "disciplina": "História",
+    "data": "2025-03-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 510,
+    "id_aluno": 28,
+    "disciplina": "Matemática",
+    "data": "2025-01-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 511,
+    "id_aluno": 5,
+    "disciplina": "História",
+    "data": "2025-04-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 512,
+    "id_aluno": 75,
+    "disciplina": "Matemática",
+    "data": "2025-05-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 513,
+    "id_aluno": 167,
+    "disciplina": "Biologia",
+    "data": "2025-05-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 514,
+    "id_aluno": 99,
+    "disciplina": "Português",
+    "data": "2024-11-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 515,
+    "id_aluno": 60,
+    "disciplina": "Inglês",
+    "data": "2025-07-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 516,
+    "id_aluno": 98,
+    "disciplina": "História",
+    "data": "2024-09-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 517,
+    "id_aluno": 131,
+    "disciplina": "Português",
+    "data": "2024-09-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 518,
+    "id_aluno": 182,
+    "disciplina": "Português",
+    "data": "2025-01-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 519,
+    "id_aluno": 26,
+    "disciplina": "Português",
+    "data": "2025-07-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 520,
+    "id_aluno": 81,
+    "disciplina": "Inglês",
+    "data": "2025-01-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 521,
+    "id_aluno": 125,
+    "disciplina": "Geografia",
+    "data": "2024-11-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 522,
+    "id_aluno": 153,
+    "disciplina": "Português",
+    "data": "2024-09-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 523,
+    "id_aluno": 137,
+    "disciplina": "Geografia",
+    "data": "2025-07-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 524,
+    "id_aluno": 23,
+    "disciplina": "Química",
+    "data": "2025-03-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 525,
+    "id_aluno": 48,
+    "disciplina": "Física",
+    "data": "2025-01-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 526,
+    "id_aluno": 51,
+    "disciplina": "Química",
+    "data": "2025-04-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 527,
+    "id_aluno": 129,
+    "disciplina": "Física",
+    "data": "2024-11-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 528,
+    "id_aluno": 118,
+    "disciplina": "Português",
+    "data": "2025-05-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 529,
+    "id_aluno": 144,
+    "disciplina": "História",
+    "data": "2025-04-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 530,
+    "id_aluno": 183,
+    "disciplina": "Física",
+    "data": "2024-09-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 531,
+    "id_aluno": 6,
+    "disciplina": "Geografia",
+    "data": "2024-10-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 532,
+    "id_aluno": 11,
+    "disciplina": "Matemática",
+    "data": "2025-07-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 533,
+    "id_aluno": 64,
+    "disciplina": "História",
+    "data": "2024-08-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 534,
+    "id_aluno": 136,
+    "disciplina": "Física",
+    "data": "2025-01-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 535,
+    "id_aluno": 79,
+    "disciplina": "Português",
+    "data": "2024-10-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 536,
+    "id_aluno": 86,
+    "disciplina": "Português",
+    "data": "2025-01-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 537,
+    "id_aluno": 126,
+    "disciplina": "Biologia",
+    "data": "2025-07-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 538,
+    "id_aluno": 101,
+    "disciplina": "História",
+    "data": "2025-02-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 539,
+    "id_aluno": 191,
+    "disciplina": "Química",
+    "data": "2025-02-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 540,
+    "id_aluno": 41,
+    "disciplina": "História",
+    "data": "2025-02-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 541,
+    "id_aluno": 5,
+    "disciplina": "Física",
+    "data": "2024-08-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 542,
+    "id_aluno": 89,
+    "disciplina": "História",
+    "data": "2025-02-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 543,
+    "id_aluno": 176,
+    "disciplina": "Inglês",
+    "data": "2024-10-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 544,
+    "id_aluno": 91,
+    "disciplina": "Geografia",
+    "data": "2024-12-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 545,
+    "id_aluno": 91,
+    "disciplina": "Matemática",
+    "data": "2024-11-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 546,
+    "id_aluno": 161,
+    "disciplina": "História",
+    "data": "2024-08-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 547,
+    "id_aluno": 78,
+    "disciplina": "Português",
+    "data": "2024-08-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 548,
+    "id_aluno": 61,
+    "disciplina": "Química",
+    "data": "2025-04-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 549,
+    "id_aluno": 129,
+    "disciplina": "História",
+    "data": "2024-10-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 550,
+    "id_aluno": 71,
+    "disciplina": "Matemática",
+    "data": "2024-11-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 551,
+    "id_aluno": 16,
+    "disciplina": "Inglês",
+    "data": "2025-07-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 552,
+    "id_aluno": 161,
+    "disciplina": "Português",
+    "data": "2025-03-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 553,
+    "id_aluno": 66,
+    "disciplina": "Matemática",
+    "data": "2025-05-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 554,
+    "id_aluno": 100,
+    "disciplina": "Matemática",
+    "data": "2025-07-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 555,
+    "id_aluno": 8,
+    "disciplina": "História",
+    "data": "2024-09-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 556,
+    "id_aluno": 143,
+    "disciplina": "Português",
+    "data": "2025-02-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 557,
+    "id_aluno": 72,
+    "disciplina": "Biologia",
+    "data": "2024-10-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 558,
+    "id_aluno": 58,
+    "disciplina": "Química",
+    "data": "2024-08-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 559,
+    "id_aluno": 39,
+    "disciplina": "Inglês",
+    "data": "2025-03-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 560,
+    "id_aluno": 88,
+    "disciplina": "História",
+    "data": "2025-06-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 561,
+    "id_aluno": 101,
+    "disciplina": "Geografia",
+    "data": "2024-11-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 562,
+    "id_aluno": 169,
+    "disciplina": "História",
+    "data": "2025-01-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 563,
+    "id_aluno": 36,
+    "disciplina": "Biologia",
+    "data": "2025-04-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 564,
+    "id_aluno": 23,
+    "disciplina": "Inglês",
+    "data": "2025-04-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 565,
+    "id_aluno": 187,
+    "disciplina": "Química",
+    "data": "2025-04-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 566,
+    "id_aluno": 98,
+    "disciplina": "Geografia",
+    "data": "2024-12-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 567,
+    "id_aluno": 134,
+    "disciplina": "História",
+    "data": "2024-12-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 568,
+    "id_aluno": 174,
+    "disciplina": "Matemática",
+    "data": "2025-01-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 569,
+    "id_aluno": 157,
+    "disciplina": "História",
+    "data": "2024-10-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 570,
+    "id_aluno": 161,
+    "disciplina": "Inglês",
+    "data": "2024-09-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 571,
+    "id_aluno": 176,
+    "disciplina": "Português",
+    "data": "2025-03-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 572,
+    "id_aluno": 59,
+    "disciplina": "Biologia",
+    "data": "2025-01-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 573,
+    "id_aluno": 107,
+    "disciplina": "Física",
+    "data": "2025-01-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 574,
+    "id_aluno": 62,
+    "disciplina": "Química",
+    "data": "2024-08-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 575,
+    "id_aluno": 147,
+    "disciplina": "Matemática",
+    "data": "2025-04-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 576,
+    "id_aluno": 40,
+    "disciplina": "Geografia",
+    "data": "2025-05-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 577,
+    "id_aluno": 110,
+    "disciplina": "Geografia",
+    "data": "2024-09-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 578,
+    "id_aluno": 80,
+    "disciplina": "Português",
+    "data": "2024-10-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 579,
+    "id_aluno": 155,
+    "disciplina": "Português",
+    "data": "2024-12-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 580,
+    "id_aluno": 85,
+    "disciplina": "Física",
+    "data": "2025-01-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 581,
+    "id_aluno": 115,
+    "disciplina": "Geografia",
+    "data": "2024-08-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 582,
+    "id_aluno": 139,
+    "disciplina": "Inglês",
+    "data": "2025-01-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 583,
+    "id_aluno": 34,
+    "disciplina": "Geografia",
+    "data": "2024-09-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 584,
+    "id_aluno": 53,
+    "disciplina": "Biologia",
+    "data": "2024-11-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 585,
+    "id_aluno": 168,
+    "disciplina": "Matemática",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 586,
+    "id_aluno": 36,
+    "disciplina": "Geografia",
+    "data": "2025-06-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 587,
+    "id_aluno": 149,
+    "disciplina": "Português",
+    "data": "2025-05-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 588,
+    "id_aluno": 139,
+    "disciplina": "História",
+    "data": "2025-01-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 589,
+    "id_aluno": 176,
+    "disciplina": "Inglês",
+    "data": "2024-12-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 590,
+    "id_aluno": 52,
+    "disciplina": "Inglês",
+    "data": "2025-04-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 591,
+    "id_aluno": 36,
+    "disciplina": "História",
+    "data": "2024-12-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 592,
+    "id_aluno": 80,
+    "disciplina": "História",
+    "data": "2025-06-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 593,
+    "id_aluno": 177,
+    "disciplina": "Matemática",
+    "data": "2024-10-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 594,
+    "id_aluno": 181,
+    "disciplina": "Matemática",
+    "data": "2025-04-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 595,
+    "id_aluno": 135,
+    "disciplina": "Física",
+    "data": "2024-08-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 596,
+    "id_aluno": 35,
+    "disciplina": "Biologia",
+    "data": "2024-12-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 597,
+    "id_aluno": 111,
+    "disciplina": "Geografia",
+    "data": "2025-04-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 598,
+    "id_aluno": 198,
+    "disciplina": "Química",
+    "data": "2024-12-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 599,
+    "id_aluno": 38,
+    "disciplina": "Biologia",
+    "data": "2025-07-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 600,
+    "id_aluno": 168,
+    "disciplina": "Física",
+    "data": "2024-12-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 601,
+    "id_aluno": 145,
+    "disciplina": "Inglês",
+    "data": "2025-04-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 602,
+    "id_aluno": 41,
+    "disciplina": "Matemática",
+    "data": "2025-02-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 603,
+    "id_aluno": 82,
+    "disciplina": "Português",
+    "data": "2024-08-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 604,
+    "id_aluno": 18,
+    "disciplina": "Matemática",
+    "data": "2025-07-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 605,
+    "id_aluno": 143,
+    "disciplina": "História",
+    "data": "2025-06-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 606,
+    "id_aluno": 137,
+    "disciplina": "História",
+    "data": "2025-02-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 607,
+    "id_aluno": 185,
+    "disciplina": "Matemática",
+    "data": "2025-01-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 608,
+    "id_aluno": 31,
+    "disciplina": "Inglês",
+    "data": "2025-04-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 609,
+    "id_aluno": 48,
+    "disciplina": "Português",
+    "data": "2025-07-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 610,
+    "id_aluno": 82,
+    "disciplina": "Português",
+    "data": "2024-08-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 611,
+    "id_aluno": 38,
+    "disciplina": "Geografia",
+    "data": "2024-09-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 612,
+    "id_aluno": 187,
+    "disciplina": "Inglês",
+    "data": "2024-08-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 613,
+    "id_aluno": 8,
+    "disciplina": "Física",
+    "data": "2025-04-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 614,
+    "id_aluno": 196,
+    "disciplina": "Química",
+    "data": "2025-03-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 615,
+    "id_aluno": 82,
+    "disciplina": "Geografia",
+    "data": "2024-09-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 616,
+    "id_aluno": 106,
+    "disciplina": "Física",
+    "data": "2025-01-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 617,
+    "id_aluno": 106,
+    "disciplina": "Geografia",
+    "data": "2025-01-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 618,
+    "id_aluno": 78,
+    "disciplina": "Português",
+    "data": "2025-06-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 619,
+    "id_aluno": 114,
+    "disciplina": "Física",
+    "data": "2024-11-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 620,
+    "id_aluno": 191,
+    "disciplina": "Geografia",
+    "data": "2025-06-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 621,
+    "id_aluno": 164,
+    "disciplina": "Português",
+    "data": "2025-07-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 622,
+    "id_aluno": 190,
+    "disciplina": "Geografia",
+    "data": "2025-03-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 623,
+    "id_aluno": 71,
+    "disciplina": "Química",
+    "data": "2024-10-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 624,
+    "id_aluno": 39,
+    "disciplina": "Geografia",
+    "data": "2025-01-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 625,
+    "id_aluno": 200,
+    "disciplina": "Química",
+    "data": "2024-12-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 626,
+    "id_aluno": 49,
+    "disciplina": "Geografia",
+    "data": "2024-08-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 627,
+    "id_aluno": 28,
+    "disciplina": "Português",
+    "data": "2024-11-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 628,
+    "id_aluno": 34,
+    "disciplina": "Inglês",
+    "data": "2024-10-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 629,
+    "id_aluno": 48,
+    "disciplina": "Inglês",
+    "data": "2024-09-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 630,
+    "id_aluno": 7,
+    "disciplina": "Matemática",
+    "data": "2025-07-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 631,
+    "id_aluno": 196,
+    "disciplina": "Química",
+    "data": "2025-01-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 632,
+    "id_aluno": 157,
+    "disciplina": "História",
+    "data": "2025-04-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 633,
+    "id_aluno": 158,
+    "disciplina": "Geografia",
+    "data": "2024-09-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 634,
+    "id_aluno": 69,
+    "disciplina": "Inglês",
+    "data": "2025-06-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 635,
+    "id_aluno": 156,
+    "disciplina": "História",
+    "data": "2025-02-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 636,
+    "id_aluno": 146,
+    "disciplina": "Química",
+    "data": "2024-08-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 637,
+    "id_aluno": 157,
+    "disciplina": "Física",
+    "data": "2025-05-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 638,
+    "id_aluno": 60,
+    "disciplina": "História",
+    "data": "2024-10-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 639,
+    "id_aluno": 153,
+    "disciplina": "Inglês",
+    "data": "2024-12-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 640,
+    "id_aluno": 60,
+    "disciplina": "Geografia",
+    "data": "2025-02-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 641,
+    "id_aluno": 60,
+    "disciplina": "Física",
+    "data": "2025-01-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 642,
+    "id_aluno": 176,
+    "disciplina": "Biologia",
+    "data": "2025-06-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 643,
+    "id_aluno": 7,
+    "disciplina": "Geografia",
+    "data": "2025-04-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 644,
+    "id_aluno": 92,
+    "disciplina": "Física",
+    "data": "2025-05-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 645,
+    "id_aluno": 21,
+    "disciplina": "História",
+    "data": "2024-08-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 646,
+    "id_aluno": 177,
+    "disciplina": "Matemática",
+    "data": "2024-12-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 647,
+    "id_aluno": 200,
+    "disciplina": "Matemática",
+    "data": "2025-01-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 648,
+    "id_aluno": 123,
+    "disciplina": "Biologia",
+    "data": "2025-05-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 649,
+    "id_aluno": 35,
+    "disciplina": "História",
+    "data": "2025-02-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 650,
+    "id_aluno": 129,
+    "disciplina": "Português",
+    "data": "2024-10-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 651,
+    "id_aluno": 155,
+    "disciplina": "Inglês",
+    "data": "2024-09-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 652,
+    "id_aluno": 121,
+    "disciplina": "Inglês",
+    "data": "2025-07-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 653,
+    "id_aluno": 183,
+    "disciplina": "Química",
+    "data": "2024-08-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 654,
+    "id_aluno": 167,
+    "disciplina": "História",
+    "data": "2024-12-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 655,
+    "id_aluno": 96,
+    "disciplina": "Física",
+    "data": "2025-04-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 656,
+    "id_aluno": 48,
+    "disciplina": "Geografia",
+    "data": "2024-12-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 657,
+    "id_aluno": 100,
+    "disciplina": "Biologia",
+    "data": "2025-06-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 658,
+    "id_aluno": 126,
+    "disciplina": "História",
+    "data": "2025-07-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 659,
+    "id_aluno": 122,
+    "disciplina": "História",
+    "data": "2025-02-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 660,
+    "id_aluno": 36,
+    "disciplina": "Geografia",
+    "data": "2025-07-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 661,
+    "id_aluno": 42,
+    "disciplina": "Português",
+    "data": "2024-11-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 662,
+    "id_aluno": 50,
+    "disciplina": "Química",
+    "data": "2025-03-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 663,
+    "id_aluno": 58,
+    "disciplina": "Inglês",
+    "data": "2025-02-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 664,
+    "id_aluno": 9,
+    "disciplina": "Geografia",
+    "data": "2024-12-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 665,
+    "id_aluno": 105,
+    "disciplina": "Inglês",
+    "data": "2024-12-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 666,
+    "id_aluno": 196,
+    "disciplina": "Inglês",
+    "data": "2025-01-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 667,
+    "id_aluno": 4,
+    "disciplina": "Biologia",
+    "data": "2025-04-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 668,
+    "id_aluno": 70,
+    "disciplina": "Matemática",
+    "data": "2024-12-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 669,
+    "id_aluno": 106,
+    "disciplina": "Química",
+    "data": "2025-05-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 670,
+    "id_aluno": 57,
+    "disciplina": "Geografia",
+    "data": "2025-03-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 671,
+    "id_aluno": 191,
+    "disciplina": "Geografia",
+    "data": "2024-10-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 672,
+    "id_aluno": 172,
+    "disciplina": "Física",
+    "data": "2025-01-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 673,
+    "id_aluno": 52,
+    "disciplina": "Química",
+    "data": "2024-08-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 674,
+    "id_aluno": 194,
+    "disciplina": "Geografia",
+    "data": "2025-06-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 675,
+    "id_aluno": 53,
+    "disciplina": "História",
+    "data": "2024-09-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 676,
+    "id_aluno": 17,
+    "disciplina": "Matemática",
+    "data": "2025-04-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 677,
+    "id_aluno": 46,
+    "disciplina": "Química",
+    "data": "2025-04-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 678,
+    "id_aluno": 113,
+    "disciplina": "Matemática",
+    "data": "2025-01-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 679,
+    "id_aluno": 158,
+    "disciplina": "Matemática",
+    "data": "2025-07-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 680,
+    "id_aluno": 126,
+    "disciplina": "Inglês",
+    "data": "2025-03-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 681,
+    "id_aluno": 177,
+    "disciplina": "Matemática",
+    "data": "2024-09-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 682,
+    "id_aluno": 84,
+    "disciplina": "Química",
+    "data": "2024-11-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 683,
+    "id_aluno": 118,
+    "disciplina": "Química",
+    "data": "2025-01-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 684,
+    "id_aluno": 64,
+    "disciplina": "Inglês",
+    "data": "2025-03-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 685,
+    "id_aluno": 110,
+    "disciplina": "Português",
+    "data": "2024-09-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 686,
+    "id_aluno": 104,
+    "disciplina": "Inglês",
+    "data": "2025-07-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 687,
+    "id_aluno": 199,
+    "disciplina": "Inglês",
+    "data": "2025-01-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 688,
+    "id_aluno": 11,
+    "disciplina": "Geografia",
+    "data": "2024-12-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 689,
+    "id_aluno": 156,
+    "disciplina": "Português",
+    "data": "2024-12-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 690,
+    "id_aluno": 189,
+    "disciplina": "Matemática",
+    "data": "2024-10-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 691,
+    "id_aluno": 98,
+    "disciplina": "Química",
+    "data": "2024-09-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 692,
+    "id_aluno": 185,
+    "disciplina": "Geografia",
+    "data": "2025-04-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 693,
+    "id_aluno": 81,
+    "disciplina": "História",
+    "data": "2024-11-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 694,
+    "id_aluno": 101,
+    "disciplina": "Física",
+    "data": "2024-11-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 695,
+    "id_aluno": 157,
+    "disciplina": "Biologia",
+    "data": "2024-09-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 696,
+    "id_aluno": 191,
+    "disciplina": "Geografia",
+    "data": "2024-11-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 697,
+    "id_aluno": 147,
+    "disciplina": "Português",
+    "data": "2025-07-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 698,
+    "id_aluno": 153,
+    "disciplina": "Matemática",
+    "data": "2024-12-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 699,
+    "id_aluno": 138,
+    "disciplina": "Inglês",
+    "data": "2025-01-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 700,
+    "id_aluno": 135,
+    "disciplina": "Biologia",
+    "data": "2025-05-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 701,
+    "id_aluno": 165,
+    "disciplina": "História",
+    "data": "2024-12-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 702,
+    "id_aluno": 181,
+    "disciplina": "Inglês",
+    "data": "2025-07-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 703,
+    "id_aluno": 10,
+    "disciplina": "Matemática",
+    "data": "2024-07-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 704,
+    "id_aluno": 134,
+    "disciplina": "Inglês",
+    "data": "2025-01-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 705,
+    "id_aluno": 28,
+    "disciplina": "Inglês",
+    "data": "2025-06-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 706,
+    "id_aluno": 116,
+    "disciplina": "História",
+    "data": "2024-11-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 707,
+    "id_aluno": 117,
+    "disciplina": "Química",
+    "data": "2024-12-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 708,
+    "id_aluno": 11,
+    "disciplina": "História",
+    "data": "2025-02-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 709,
+    "id_aluno": 63,
+    "disciplina": "Física",
+    "data": "2024-11-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 710,
+    "id_aluno": 133,
+    "disciplina": "Inglês",
+    "data": "2025-01-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 711,
+    "id_aluno": 138,
+    "disciplina": "Matemática",
+    "data": "2025-05-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 712,
+    "id_aluno": 102,
+    "disciplina": "Português",
+    "data": "2025-02-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 713,
+    "id_aluno": 189,
+    "disciplina": "Química",
+    "data": "2024-12-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 714,
+    "id_aluno": 11,
+    "disciplina": "Física",
+    "data": "2025-06-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 715,
+    "id_aluno": 143,
+    "disciplina": "Matemática",
+    "data": "2025-07-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 716,
+    "id_aluno": 100,
+    "disciplina": "Biologia",
+    "data": "2025-06-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 717,
+    "id_aluno": 133,
+    "disciplina": "Química",
+    "data": "2025-06-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 718,
+    "id_aluno": 196,
+    "disciplina": "Biologia",
+    "data": "2024-09-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 719,
+    "id_aluno": 162,
+    "disciplina": "Geografia",
+    "data": "2024-10-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 720,
+    "id_aluno": 13,
+    "disciplina": "Português",
+    "data": "2025-04-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 721,
+    "id_aluno": 49,
+    "disciplina": "Física",
+    "data": "2025-05-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 722,
+    "id_aluno": 75,
+    "disciplina": "Matemática",
+    "data": "2024-11-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 723,
+    "id_aluno": 113,
+    "disciplina": "Física",
+    "data": "2025-02-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 724,
+    "id_aluno": 102,
+    "disciplina": "Matemática",
+    "data": "2025-04-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 725,
+    "id_aluno": 78,
+    "disciplina": "Português",
+    "data": "2025-06-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 726,
+    "id_aluno": 199,
+    "disciplina": "Química",
+    "data": "2025-02-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 727,
+    "id_aluno": 74,
+    "disciplina": "Física",
+    "data": "2025-05-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 728,
+    "id_aluno": 119,
+    "disciplina": "Inglês",
+    "data": "2024-09-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 729,
+    "id_aluno": 43,
+    "disciplina": "Matemática",
+    "data": "2024-07-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 730,
+    "id_aluno": 109,
+    "disciplina": "Física",
+    "data": "2025-03-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 731,
+    "id_aluno": 76,
+    "disciplina": "Física",
+    "data": "2025-06-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 732,
+    "id_aluno": 157,
+    "disciplina": "História",
+    "data": "2025-07-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 733,
+    "id_aluno": 14,
+    "disciplina": "Português",
+    "data": "2025-06-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 734,
+    "id_aluno": 177,
+    "disciplina": "Geografia",
+    "data": "2024-08-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 735,
+    "id_aluno": 133,
+    "disciplina": "História",
+    "data": "2024-11-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 736,
+    "id_aluno": 37,
+    "disciplina": "Física",
+    "data": "2024-10-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 737,
+    "id_aluno": 119,
+    "disciplina": "Geografia",
+    "data": "2025-03-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 738,
+    "id_aluno": 166,
+    "disciplina": "Português",
+    "data": "2024-12-31",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 739,
+    "id_aluno": 116,
+    "disciplina": "Inglês",
+    "data": "2025-05-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 740,
+    "id_aluno": 24,
+    "disciplina": "Geografia",
+    "data": "2025-03-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 741,
+    "id_aluno": 185,
+    "disciplina": "Geografia",
+    "data": "2024-09-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 742,
+    "id_aluno": 129,
+    "disciplina": "Física",
+    "data": "2024-11-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 743,
+    "id_aluno": 29,
+    "disciplina": "Física",
+    "data": "2025-02-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 744,
+    "id_aluno": 47,
+    "disciplina": "Biologia",
+    "data": "2024-09-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 745,
+    "id_aluno": 200,
+    "disciplina": "Química",
+    "data": "2025-02-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 746,
+    "id_aluno": 150,
+    "disciplina": "Biologia",
+    "data": "2025-06-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 747,
+    "id_aluno": 179,
+    "disciplina": "Matemática",
+    "data": "2024-12-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 748,
+    "id_aluno": 140,
+    "disciplina": "Português",
+    "data": "2025-04-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 749,
+    "id_aluno": 35,
+    "disciplina": "Física",
+    "data": "2025-02-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 750,
+    "id_aluno": 101,
+    "disciplina": "Física",
+    "data": "2025-04-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 751,
+    "id_aluno": 106,
+    "disciplina": "Inglês",
+    "data": "2025-03-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 752,
+    "id_aluno": 83,
+    "disciplina": "Inglês",
+    "data": "2024-09-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 753,
+    "id_aluno": 116,
+    "disciplina": "Português",
+    "data": "2024-08-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 754,
+    "id_aluno": 7,
+    "disciplina": "Inglês",
+    "data": "2025-04-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 755,
+    "id_aluno": 46,
+    "disciplina": "Biologia",
+    "data": "2025-05-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 756,
+    "id_aluno": 117,
+    "disciplina": "Inglês",
+    "data": "2024-09-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 757,
+    "id_aluno": 152,
+    "disciplina": "Física",
+    "data": "2024-08-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 758,
+    "id_aluno": 183,
+    "disciplina": "Português",
+    "data": "2025-04-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 759,
+    "id_aluno": 52,
+    "disciplina": "Geografia",
+    "data": "2025-07-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 760,
+    "id_aluno": 117,
+    "disciplina": "Inglês",
+    "data": "2024-10-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 761,
+    "id_aluno": 24,
+    "disciplina": "Português",
+    "data": "2024-12-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 762,
+    "id_aluno": 65,
+    "disciplina": "Português",
+    "data": "2024-08-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 763,
+    "id_aluno": 83,
+    "disciplina": "Química",
+    "data": "2024-10-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 764,
+    "id_aluno": 178,
+    "disciplina": "História",
+    "data": "2024-10-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 765,
+    "id_aluno": 167,
+    "disciplina": "Biologia",
+    "data": "2025-02-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 766,
+    "id_aluno": 183,
+    "disciplina": "Português",
+    "data": "2025-04-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 767,
+    "id_aluno": 42,
+    "disciplina": "Português",
+    "data": "2024-09-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 768,
+    "id_aluno": 184,
+    "disciplina": "História",
+    "data": "2024-10-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 769,
+    "id_aluno": 188,
+    "disciplina": "Biologia",
+    "data": "2025-02-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 770,
+    "id_aluno": 32,
+    "disciplina": "Português",
+    "data": "2025-05-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 771,
+    "id_aluno": 24,
+    "disciplina": "História",
+    "data": "2024-09-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 772,
+    "id_aluno": 30,
+    "disciplina": "Inglês",
+    "data": "2025-04-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 773,
+    "id_aluno": 181,
+    "disciplina": "História",
+    "data": "2024-11-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 774,
+    "id_aluno": 116,
+    "disciplina": "Geografia",
+    "data": "2025-07-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 775,
+    "id_aluno": 163,
+    "disciplina": "Matemática",
+    "data": "2025-03-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 776,
+    "id_aluno": 93,
+    "disciplina": "Biologia",
+    "data": "2025-02-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 777,
+    "id_aluno": 22,
+    "disciplina": "Química",
+    "data": "2024-10-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 778,
+    "id_aluno": 135,
+    "disciplina": "História",
+    "data": "2025-02-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 779,
+    "id_aluno": 182,
+    "disciplina": "Inglês",
+    "data": "2025-07-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 780,
+    "id_aluno": 99,
+    "disciplina": "Física",
+    "data": "2024-09-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 781,
+    "id_aluno": 187,
+    "disciplina": "Química",
+    "data": "2025-04-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 782,
+    "id_aluno": 131,
+    "disciplina": "Inglês",
+    "data": "2025-01-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 783,
+    "id_aluno": 157,
+    "disciplina": "Matemática",
+    "data": "2025-04-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 784,
+    "id_aluno": 41,
+    "disciplina": "Biologia",
+    "data": "2025-02-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 785,
+    "id_aluno": 97,
+    "disciplina": "Geografia",
+    "data": "2025-07-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 786,
+    "id_aluno": 141,
+    "disciplina": "Português",
+    "data": "2024-08-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 787,
+    "id_aluno": 98,
+    "disciplina": "Matemática",
+    "data": "2025-06-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 788,
+    "id_aluno": 12,
+    "disciplina": "Geografia",
+    "data": "2024-10-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 789,
+    "id_aluno": 197,
+    "disciplina": "Física",
+    "data": "2024-12-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 790,
+    "id_aluno": 44,
+    "disciplina": "Química",
+    "data": "2024-12-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 791,
+    "id_aluno": 86,
+    "disciplina": "Física",
+    "data": "2025-01-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 792,
+    "id_aluno": 145,
+    "disciplina": "Física",
+    "data": "2024-09-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 793,
+    "id_aluno": 169,
+    "disciplina": "Inglês",
+    "data": "2024-12-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 794,
+    "id_aluno": 39,
+    "disciplina": "Inglês",
+    "data": "2025-01-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 795,
+    "id_aluno": 42,
+    "disciplina": "Inglês",
+    "data": "2024-11-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 796,
+    "id_aluno": 38,
+    "disciplina": "Biologia",
+    "data": "2025-05-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 797,
+    "id_aluno": 46,
+    "disciplina": "História",
+    "data": "2024-08-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 798,
+    "id_aluno": 197,
+    "disciplina": "Biologia",
+    "data": "2024-11-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 799,
+    "id_aluno": 183,
+    "disciplina": "História",
+    "data": "2025-04-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 800,
+    "id_aluno": 14,
+    "disciplina": "Biologia",
+    "data": "2025-01-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 801,
+    "id_aluno": 108,
+    "disciplina": "Geografia",
+    "data": "2024-12-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 802,
+    "id_aluno": 79,
+    "disciplina": "Inglês",
+    "data": "2025-03-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 803,
+    "id_aluno": 80,
+    "disciplina": "Física",
+    "data": "2024-12-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 804,
+    "id_aluno": 187,
+    "disciplina": "Biologia",
+    "data": "2024-09-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 805,
+    "id_aluno": 197,
+    "disciplina": "Matemática",
+    "data": "2025-05-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 806,
+    "id_aluno": 115,
+    "disciplina": "História",
+    "data": "2025-04-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 807,
+    "id_aluno": 74,
+    "disciplina": "Física",
+    "data": "2025-07-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 808,
+    "id_aluno": 161,
+    "disciplina": "Biologia",
+    "data": "2025-03-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 809,
+    "id_aluno": 47,
+    "disciplina": "Inglês",
+    "data": "2024-09-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 810,
+    "id_aluno": 31,
+    "disciplina": "História",
+    "data": "2024-12-04",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 811,
+    "id_aluno": 34,
+    "disciplina": "História",
+    "data": "2025-02-02",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 812,
+    "id_aluno": 52,
+    "disciplina": "Biologia",
+    "data": "2025-05-31",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 813,
+    "id_aluno": 1,
+    "disciplina": "História",
+    "data": "2024-09-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 814,
+    "id_aluno": 160,
+    "disciplina": "História",
+    "data": "2024-08-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 815,
+    "id_aluno": 196,
+    "disciplina": "História",
+    "data": "2025-07-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 816,
+    "id_aluno": 65,
+    "disciplina": "História",
+    "data": "2024-10-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 817,
+    "id_aluno": 4,
+    "disciplina": "Geografia",
+    "data": "2024-09-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 818,
+    "id_aluno": 118,
+    "disciplina": "Português",
+    "data": "2025-01-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 819,
+    "id_aluno": 128,
+    "disciplina": "Matemática",
+    "data": "2025-07-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 820,
+    "id_aluno": 128,
+    "disciplina": "Física",
+    "data": "2024-11-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 821,
+    "id_aluno": 140,
+    "disciplina": "História",
+    "data": "2024-11-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 822,
+    "id_aluno": 2,
+    "disciplina": "Inglês",
+    "data": "2025-03-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 823,
+    "id_aluno": 156,
+    "disciplina": "Biologia",
+    "data": "2024-12-05",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 824,
+    "id_aluno": 127,
+    "disciplina": "Física",
+    "data": "2024-09-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 825,
+    "id_aluno": 61,
+    "disciplina": "História",
+    "data": "2025-05-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 826,
+    "id_aluno": 56,
+    "disciplina": "Geografia",
+    "data": "2024-08-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 827,
+    "id_aluno": 151,
+    "disciplina": "Matemática",
+    "data": "2025-05-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 828,
+    "id_aluno": 169,
+    "disciplina": "Física",
+    "data": "2025-06-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 829,
+    "id_aluno": 122,
+    "disciplina": "Física",
+    "data": "2025-03-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 830,
+    "id_aluno": 117,
+    "disciplina": "História",
+    "data": "2024-08-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 831,
+    "id_aluno": 105,
+    "disciplina": "Física",
+    "data": "2025-05-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 832,
+    "id_aluno": 114,
+    "disciplina": "Inglês",
+    "data": "2025-07-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 833,
+    "id_aluno": 21,
+    "disciplina": "História",
+    "data": "2024-12-21",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 834,
+    "id_aluno": 154,
+    "disciplina": "Biologia",
+    "data": "2025-04-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 835,
+    "id_aluno": 154,
+    "disciplina": "Português",
+    "data": "2025-07-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 836,
+    "id_aluno": 2,
+    "disciplina": "Matemática",
+    "data": "2024-10-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 837,
+    "id_aluno": 63,
+    "disciplina": "Química",
+    "data": "2024-09-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 838,
+    "id_aluno": 141,
+    "disciplina": "Inglês",
+    "data": "2025-03-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 839,
+    "id_aluno": 72,
+    "disciplina": "História",
+    "data": "2024-08-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 840,
+    "id_aluno": 159,
+    "disciplina": "Inglês",
+    "data": "2025-01-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 841,
+    "id_aluno": 161,
+    "disciplina": "Física",
+    "data": "2025-03-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 842,
+    "id_aluno": 143,
+    "disciplina": "História",
+    "data": "2025-04-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 843,
+    "id_aluno": 54,
+    "disciplina": "Matemática",
+    "data": "2025-06-16",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 844,
+    "id_aluno": 13,
+    "disciplina": "Física",
+    "data": "2025-04-24",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 845,
+    "id_aluno": 48,
+    "disciplina": "Biologia",
+    "data": "2025-03-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 846,
+    "id_aluno": 38,
+    "disciplina": "Inglês",
+    "data": "2025-04-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 847,
+    "id_aluno": 15,
+    "disciplina": "Biologia",
+    "data": "2025-07-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 848,
+    "id_aluno": 168,
+    "disciplina": "História",
+    "data": "2024-07-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 849,
+    "id_aluno": 90,
+    "disciplina": "Inglês",
+    "data": "2024-09-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 850,
+    "id_aluno": 10,
+    "disciplina": "Física",
+    "data": "2025-01-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 851,
+    "id_aluno": 38,
+    "disciplina": "Português",
+    "data": "2025-05-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 852,
+    "id_aluno": 9,
+    "disciplina": "Inglês",
+    "data": "2024-08-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 853,
+    "id_aluno": 171,
+    "disciplina": "Matemática",
+    "data": "2025-04-07",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 854,
+    "id_aluno": 148,
+    "disciplina": "História",
+    "data": "2025-03-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 855,
+    "id_aluno": 155,
+    "disciplina": "Português",
+    "data": "2024-12-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 856,
+    "id_aluno": 77,
+    "disciplina": "Biologia",
+    "data": "2024-10-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 857,
+    "id_aluno": 85,
+    "disciplina": "Matemática",
+    "data": "2024-12-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 858,
+    "id_aluno": 23,
+    "disciplina": "Química",
+    "data": "2025-01-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 859,
+    "id_aluno": 13,
+    "disciplina": "Geografia",
+    "data": "2024-09-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 860,
+    "id_aluno": 28,
+    "disciplina": "Inglês",
+    "data": "2025-01-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 861,
+    "id_aluno": 107,
+    "disciplina": "Física",
+    "data": "2024-10-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 862,
+    "id_aluno": 46,
+    "disciplina": "Português",
+    "data": "2025-01-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 863,
+    "id_aluno": 42,
+    "disciplina": "Física",
+    "data": "2024-12-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 864,
+    "id_aluno": 173,
+    "disciplina": "Matemática",
+    "data": "2025-04-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 865,
+    "id_aluno": 73,
+    "disciplina": "Geografia",
+    "data": "2025-07-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 866,
+    "id_aluno": 157,
+    "disciplina": "Geografia",
+    "data": "2025-06-22",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 867,
+    "id_aluno": 170,
+    "disciplina": "Biologia",
+    "data": "2024-08-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 868,
+    "id_aluno": 178,
+    "disciplina": "Geografia",
+    "data": "2025-05-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 869,
+    "id_aluno": 180,
+    "disciplina": "Matemática",
+    "data": "2025-03-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 870,
+    "id_aluno": 153,
+    "disciplina": "Português",
+    "data": "2025-05-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 871,
+    "id_aluno": 147,
+    "disciplina": "Inglês",
+    "data": "2024-09-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 872,
+    "id_aluno": 144,
+    "disciplina": "Português",
+    "data": "2024-11-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 873,
+    "id_aluno": 46,
+    "disciplina": "Química",
+    "data": "2025-06-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 874,
+    "id_aluno": 117,
+    "disciplina": "Geografia",
+    "data": "2024-08-16",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 875,
+    "id_aluno": 192,
+    "disciplina": "Inglês",
+    "data": "2025-01-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 876,
+    "id_aluno": 149,
+    "disciplina": "Física",
+    "data": "2024-08-20",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 877,
+    "id_aluno": 93,
+    "disciplina": "Matemática",
+    "data": "2024-08-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 878,
+    "id_aluno": 10,
+    "disciplina": "Física",
+    "data": "2025-03-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 879,
+    "id_aluno": 24,
+    "disciplina": "Química",
+    "data": "2024-09-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 880,
+    "id_aluno": 197,
+    "disciplina": "História",
+    "data": "2025-04-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 881,
+    "id_aluno": 77,
+    "disciplina": "Química",
+    "data": "2025-03-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 882,
+    "id_aluno": 83,
+    "disciplina": "Física",
+    "data": "2025-06-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 883,
+    "id_aluno": 95,
+    "disciplina": "Química",
+    "data": "2025-02-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 884,
+    "id_aluno": 98,
+    "disciplina": "Física",
+    "data": "2025-04-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 885,
+    "id_aluno": 18,
+    "disciplina": "Matemática",
+    "data": "2025-03-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 886,
+    "id_aluno": 195,
+    "disciplina": "Biologia",
+    "data": "2024-10-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 887,
+    "id_aluno": 110,
+    "disciplina": "Física",
+    "data": "2025-04-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 888,
+    "id_aluno": 141,
+    "disciplina": "Física",
+    "data": "2025-02-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 889,
+    "id_aluno": 17,
+    "disciplina": "Biologia",
+    "data": "2025-03-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 890,
+    "id_aluno": 75,
+    "disciplina": "Inglês",
+    "data": "2025-03-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 891,
+    "id_aluno": 121,
+    "disciplina": "Português",
+    "data": "2024-09-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 892,
+    "id_aluno": 35,
+    "disciplina": "Geografia",
+    "data": "2024-11-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 893,
+    "id_aluno": 32,
+    "disciplina": "Inglês",
+    "data": "2025-02-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 894,
+    "id_aluno": 178,
+    "disciplina": "Química",
+    "data": "2025-05-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 895,
+    "id_aluno": 71,
+    "disciplina": "Inglês",
+    "data": "2025-04-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 896,
+    "id_aluno": 85,
+    "disciplina": "Biologia",
+    "data": "2024-08-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 897,
+    "id_aluno": 135,
+    "disciplina": "História",
+    "data": "2025-07-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 898,
+    "id_aluno": 106,
+    "disciplina": "Química",
+    "data": "2025-01-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 899,
+    "id_aluno": 135,
+    "disciplina": "Química",
+    "data": "2025-04-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 900,
+    "id_aluno": 54,
+    "disciplina": "História",
+    "data": "2024-08-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 901,
+    "id_aluno": 179,
+    "disciplina": "Português",
+    "data": "2024-11-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 902,
+    "id_aluno": 54,
+    "disciplina": "História",
+    "data": "2024-10-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 903,
+    "id_aluno": 157,
+    "disciplina": "Geografia",
+    "data": "2025-02-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 904,
+    "id_aluno": 15,
+    "disciplina": "Biologia",
+    "data": "2025-06-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 905,
+    "id_aluno": 28,
+    "disciplina": "Inglês",
+    "data": "2024-11-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 906,
+    "id_aluno": 147,
+    "disciplina": "Física",
+    "data": "2024-09-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 907,
+    "id_aluno": 187,
+    "disciplina": "Português",
+    "data": "2024-10-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 908,
+    "id_aluno": 162,
+    "disciplina": "Química",
+    "data": "2024-12-31",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 909,
+    "id_aluno": 136,
+    "disciplina": "Português",
+    "data": "2024-08-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 910,
+    "id_aluno": 23,
+    "disciplina": "Matemática",
+    "data": "2025-06-10",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 911,
+    "id_aluno": 124,
+    "disciplina": "Química",
+    "data": "2025-04-06",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 912,
+    "id_aluno": 186,
+    "disciplina": "Biologia",
+    "data": "2024-08-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 913,
+    "id_aluno": 177,
+    "disciplina": "Química",
+    "data": "2025-07-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 914,
+    "id_aluno": 155,
+    "disciplina": "História",
+    "data": "2025-02-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 915,
+    "id_aluno": 181,
+    "disciplina": "Inglês",
+    "data": "2024-11-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 916,
+    "id_aluno": 74,
+    "disciplina": "História",
+    "data": "2024-09-26",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 917,
+    "id_aluno": 110,
+    "disciplina": "Geografia",
+    "data": "2024-09-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 918,
+    "id_aluno": 156,
+    "disciplina": "História",
+    "data": "2024-09-02",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 919,
+    "id_aluno": 82,
+    "disciplina": "Química",
+    "data": "2024-10-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 920,
+    "id_aluno": 67,
+    "disciplina": "Biologia",
+    "data": "2025-04-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 921,
+    "id_aluno": 135,
+    "disciplina": "Inglês",
+    "data": "2025-03-25",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 922,
+    "id_aluno": 148,
+    "disciplina": "Matemática",
+    "data": "2025-06-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 923,
+    "id_aluno": 160,
+    "disciplina": "Biologia",
+    "data": "2024-10-04",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 924,
+    "id_aluno": 91,
+    "disciplina": "Biologia",
+    "data": "2024-11-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 925,
+    "id_aluno": 34,
+    "disciplina": "Inglês",
+    "data": "2024-09-21",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 926,
+    "id_aluno": 158,
+    "disciplina": "Inglês",
+    "data": "2024-08-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 927,
+    "id_aluno": 145,
+    "disciplina": "Geografia",
+    "data": "2025-06-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 928,
+    "id_aluno": 128,
+    "disciplina": "Matemática",
+    "data": "2025-02-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 929,
+    "id_aluno": 134,
+    "disciplina": "Matemática",
+    "data": "2024-09-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 930,
+    "id_aluno": 187,
+    "disciplina": "História",
+    "data": "2024-12-28",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 931,
+    "id_aluno": 162,
+    "disciplina": "Biologia",
+    "data": "2025-01-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 932,
+    "id_aluno": 128,
+    "disciplina": "Biologia",
+    "data": "2025-03-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 933,
+    "id_aluno": 127,
+    "disciplina": "Inglês",
+    "data": "2024-10-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 934,
+    "id_aluno": 47,
+    "disciplina": "Português",
+    "data": "2024-10-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 935,
+    "id_aluno": 157,
+    "disciplina": "Biologia",
+    "data": "2024-11-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 936,
+    "id_aluno": 60,
+    "disciplina": "Química",
+    "data": "2025-02-27",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 937,
+    "id_aluno": 182,
+    "disciplina": "História",
+    "data": "2025-05-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 938,
+    "id_aluno": 75,
+    "disciplina": "Inglês",
+    "data": "2025-02-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 939,
+    "id_aluno": 50,
+    "disciplina": "Geografia",
+    "data": "2024-08-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 940,
+    "id_aluno": 1,
+    "disciplina": "Matemática",
+    "data": "2025-06-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 941,
+    "id_aluno": 31,
+    "disciplina": "Português",
+    "data": "2025-01-29",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 942,
+    "id_aluno": 7,
+    "disciplina": "Biologia",
+    "data": "2024-09-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 943,
+    "id_aluno": 120,
+    "disciplina": "Inglês",
+    "data": "2025-01-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 944,
+    "id_aluno": 161,
+    "disciplina": "Português",
+    "data": "2025-01-13",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 945,
+    "id_aluno": 31,
+    "disciplina": "Física",
+    "data": "2025-02-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 946,
+    "id_aluno": 189,
+    "disciplina": "Inglês",
+    "data": "2024-12-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 947,
+    "id_aluno": 54,
+    "disciplina": "Química",
+    "data": "2025-07-29",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 948,
+    "id_aluno": 158,
+    "disciplina": "Biologia",
+    "data": "2024-09-18",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 949,
+    "id_aluno": 107,
+    "disciplina": "Inglês",
+    "data": "2025-04-22",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 950,
+    "id_aluno": 106,
+    "disciplina": "Português",
+    "data": "2025-05-30",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 951,
+    "id_aluno": 12,
+    "disciplina": "Física",
+    "data": "2025-07-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 952,
+    "id_aluno": 86,
+    "disciplina": "Matemática",
+    "data": "2024-12-20",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 953,
+    "id_aluno": 90,
+    "disciplina": "Biologia",
+    "data": "2024-08-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 954,
+    "id_aluno": 144,
+    "disciplina": "História",
+    "data": "2025-02-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 955,
+    "id_aluno": 164,
+    "disciplina": "Matemática",
+    "data": "2025-02-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 956,
+    "id_aluno": 55,
+    "disciplina": "História",
+    "data": "2024-10-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 957,
+    "id_aluno": 3,
+    "disciplina": "Física",
+    "data": "2024-09-15",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 958,
+    "id_aluno": 164,
+    "disciplina": "Inglês",
+    "data": "2024-11-09",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 959,
+    "id_aluno": 52,
+    "disciplina": "História",
+    "data": "2025-06-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 960,
+    "id_aluno": 177,
+    "disciplina": "Física",
+    "data": "2024-08-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 961,
+    "id_aluno": 73,
+    "disciplina": "História",
+    "data": "2025-06-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 962,
+    "id_aluno": 66,
+    "disciplina": "Matemática",
+    "data": "2025-03-06",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 963,
+    "id_aluno": 18,
+    "disciplina": "Biologia",
+    "data": "2024-11-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 964,
+    "id_aluno": 79,
+    "disciplina": "Física",
+    "data": "2025-05-05",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 965,
+    "id_aluno": 77,
+    "disciplina": "Química",
+    "data": "2024-10-19",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 966,
+    "id_aluno": 130,
+    "disciplina": "Física",
+    "data": "2025-06-17",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 967,
+    "id_aluno": 141,
+    "disciplina": "Matemática",
+    "data": "2025-04-03",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 968,
+    "id_aluno": 83,
+    "disciplina": "Biologia",
+    "data": "2024-09-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 969,
+    "id_aluno": 197,
+    "disciplina": "Biologia",
+    "data": "2025-05-01",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 970,
+    "id_aluno": 2,
+    "disciplina": "Português",
+    "data": "2025-03-01",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 971,
+    "id_aluno": 30,
+    "disciplina": "Geografia",
+    "data": "2024-10-10",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 972,
+    "id_aluno": 176,
+    "disciplina": "História",
+    "data": "2025-05-28",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 973,
+    "id_aluno": 86,
+    "disciplina": "Português",
+    "data": "2024-09-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 974,
+    "id_aluno": 88,
+    "disciplina": "História",
+    "data": "2024-11-12",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 975,
+    "id_aluno": 102,
+    "disciplina": "Física",
+    "data": "2025-02-17",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 976,
+    "id_aluno": 186,
+    "disciplina": "Física",
+    "data": "2025-03-11",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 977,
+    "id_aluno": 146,
+    "disciplina": "Biologia",
+    "data": "2024-11-14",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 978,
+    "id_aluno": 158,
+    "disciplina": "Biologia",
+    "data": "2025-06-26",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 979,
+    "id_aluno": 8,
+    "disciplina": "Física",
+    "data": "2025-02-18",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 980,
+    "id_aluno": 45,
+    "disciplina": "Português",
+    "data": "2025-03-19",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 981,
+    "id_aluno": 50,
+    "disciplina": "Física",
+    "data": "2025-04-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 982,
+    "id_aluno": 85,
+    "disciplina": "História",
+    "data": "2025-05-09",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 983,
+    "id_aluno": 87,
+    "disciplina": "Matemática",
+    "data": "2024-08-08",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 984,
+    "id_aluno": 173,
+    "disciplina": "História",
+    "data": "2024-09-11",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 985,
+    "id_aluno": 123,
+    "disciplina": "Biologia",
+    "data": "2025-03-31",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 986,
+    "id_aluno": 122,
+    "disciplina": "Física",
+    "data": "2025-02-23",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 987,
+    "id_aluno": 10,
+    "disciplina": "Inglês",
+    "data": "2024-10-03",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 988,
+    "id_aluno": 166,
+    "disciplina": "Química",
+    "data": "2025-07-23",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 989,
+    "id_aluno": 35,
+    "disciplina": "Física",
+    "data": "2024-12-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 990,
+    "id_aluno": 124,
+    "disciplina": "História",
+    "data": "2025-03-15",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 991,
+    "id_aluno": 40,
+    "disciplina": "Português",
+    "data": "2024-11-24",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 992,
+    "id_aluno": 161,
+    "disciplina": "Geografia",
+    "data": "2025-04-27",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 993,
+    "id_aluno": 118,
+    "disciplina": "História",
+    "data": "2024-08-07",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 994,
+    "id_aluno": 138,
+    "disciplina": "Geografia",
+    "data": "2024-11-30",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 995,
+    "id_aluno": 86,
+    "disciplina": "Geografia",
+    "data": "2025-05-31",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 996,
+    "id_aluno": 119,
+    "disciplina": "Português",
+    "data": "2025-06-12",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 997,
+    "id_aluno": 106,
+    "disciplina": "Química",
+    "data": "2024-12-08",
+    "justificada": "False"
+  },
+  {
+    "id_falta": 998,
+    "id_aluno": 191,
+    "disciplina": "Inglês",
+    "data": "2025-04-25",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 999,
+    "id_aluno": 15,
+    "disciplina": "Português",
+    "data": "2025-03-14",
+    "justificada": "True"
+  },
+  {
+    "id_falta": 1000,
+    "id_aluno": 134,
+    "disciplina": "Português",
+    "data": "2025-06-11",
+    "justificada": "False"
+  }
+]

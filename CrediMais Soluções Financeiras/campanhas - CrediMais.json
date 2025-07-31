@@ -1,0 +1,92 @@
+[
+  {
+    "campanha_id": 1,
+    "nome_campanha": "Campanha 1",
+    "canal": "Parcerias",
+    "data_inicio": "2024-10-10",
+    "custo_total": 6119.2,
+    "clientes_atingidos": 353,
+    "conversões": 59
+  },
+  {
+    "campanha_id": 2,
+    "nome_campanha": "Campanha 2",
+    "canal": "Parcerias",
+    "data_inicio": "2024-10-14",
+    "custo_total": 1873.32,
+    "clientes_atingidos": 138,
+    "conversões": 23
+  },
+  {
+    "campanha_id": 3,
+    "nome_campanha": "Campanha 3",
+    "canal": "Parcerias",
+    "data_inicio": "2025-01-14",
+    "custo_total": 6355.09,
+    "clientes_atingidos": 432,
+    "conversões": 72
+  },
+  {
+    "campanha_id": 4,
+    "nome_campanha": "Campanha 4",
+    "canal": "Anúncios Pagos",
+    "data_inicio": "2024-10-21",
+    "custo_total": 9987.89,
+    "clientes_atingidos": 454,
+    "conversões": 75
+  },
+  {
+    "campanha_id": 5,
+    "nome_campanha": "Campanha 5",
+    "canal": "Anúncios Pagos",
+    "data_inicio": "2025-06-27",
+    "custo_total": 9500.22,
+    "clientes_atingidos": 211,
+    "conversões": 35
+  },
+  {
+    "campanha_id": 6,
+    "nome_campanha": "Campanha 6",
+    "canal": "Redes Sociais",
+    "data_inicio": "2024-11-08",
+    "custo_total": 1024.04,
+    "clientes_atingidos": 459,
+    "conversões": 76
+  },
+  {
+    "campanha_id": 7,
+    "nome_campanha": "Campanha 7",
+    "canal": "Email",
+    "data_inicio": "2024-11-30",
+    "custo_total": 8158.4,
+    "clientes_atingidos": 85,
+    "conversões": 14
+  },
+  {
+    "campanha_id": 8,
+    "nome_campanha": "Campanha 8",
+    "canal": "Email",
+    "data_inicio": "2025-07-29",
+    "custo_total": 4182.45,
+    "clientes_atingidos": 276,
+    "conversões": 46
+  },
+  {
+    "campanha_id": 9,
+    "nome_campanha": "Campanha 9",
+    "canal": "Parcerias",
+    "data_inicio": "2024-10-01",
+    "custo_total": 1572.86,
+    "clientes_atingidos": 200,
+    "conversões": 33
+  },
+  {
+    "campanha_id": 10,
+    "nome_campanha": "Campanha 10",
+    "canal": "Parcerias",
+    "data_inicio": "2025-05-03",
+    "custo_total": 3663.85,
+    "clientes_atingidos": 130,
+    "conversões": 22
+  }
+]

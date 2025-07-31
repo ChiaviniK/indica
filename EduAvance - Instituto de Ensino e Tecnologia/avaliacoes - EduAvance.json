@@ -1,0 +1,2702 @@
+[
+  {
+    "id_avaliacao": 1,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 2,
+    "id_professor": 10,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 3,
+    "id_professor": 2,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 4,
+    "id_professor": 17,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 5,
+    "id_professor": 5,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 6,
+    "id_professor": 4,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 7,
+    "id_professor": 12,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 8,
+    "id_professor": 10,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 9,
+    "id_professor": 12,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 10,
+    "id_professor": 10,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 11,
+    "id_professor": 10,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 12,
+    "id_professor": 16,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 13,
+    "id_professor": 1,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 14,
+    "id_professor": 26,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 15,
+    "id_professor": 5,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 16,
+    "id_professor": 5,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 17,
+    "id_professor": 26,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 18,
+    "id_professor": 19,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 19,
+    "id_professor": 14,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 20,
+    "id_professor": 2,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 21,
+    "id_professor": 30,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 22,
+    "id_professor": 29,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 23,
+    "id_professor": 10,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 24,
+    "id_professor": 29,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 25,
+    "id_professor": 10,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 26,
+    "id_professor": 7,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 27,
+    "id_professor": 6,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 28,
+    "id_professor": 27,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 29,
+    "id_professor": 24,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 30,
+    "id_professor": 16,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 31,
+    "id_professor": 1,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 32,
+    "id_professor": 4,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 33,
+    "id_professor": 18,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 34,
+    "id_professor": 12,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 35,
+    "id_professor": 3,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 36,
+    "id_professor": 28,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 37,
+    "id_professor": 2,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 38,
+    "id_professor": 14,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 39,
+    "id_professor": 16,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 40,
+    "id_professor": 19,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 41,
+    "id_professor": 10,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 42,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 43,
+    "id_professor": 15,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 44,
+    "id_professor": 29,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 45,
+    "id_professor": 11,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 46,
+    "id_professor": 26,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 47,
+    "id_professor": 13,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 48,
+    "id_professor": 16,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 49,
+    "id_professor": 27,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 50,
+    "id_professor": 24,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 51,
+    "id_professor": 27,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 52,
+    "id_professor": 20,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 53,
+    "id_professor": 5,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 54,
+    "id_professor": 25,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 55,
+    "id_professor": 5,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 56,
+    "id_professor": 17,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 57,
+    "id_professor": 21,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 58,
+    "id_professor": 15,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 59,
+    "id_professor": 25,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 60,
+    "id_professor": 15,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 61,
+    "id_professor": 22,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 62,
+    "id_professor": 15,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 63,
+    "id_professor": 5,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 64,
+    "id_professor": 28,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 65,
+    "id_professor": 24,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 66,
+    "id_professor": 11,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 67,
+    "id_professor": 3,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 68,
+    "id_professor": 26,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 69,
+    "id_professor": 20,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 70,
+    "id_professor": 22,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 71,
+    "id_professor": 20,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 72,
+    "id_professor": 14,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 73,
+    "id_professor": 13,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 74,
+    "id_professor": 8,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 75,
+    "id_professor": 29,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 76,
+    "id_professor": 13,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 77,
+    "id_professor": 11,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 78,
+    "id_professor": 18,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 79,
+    "id_professor": 2,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 80,
+    "id_professor": 22,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 5,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 81,
+    "id_professor": 29,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 82,
+    "id_professor": 15,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 83,
+    "id_professor": 24,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 84,
+    "id_professor": 9,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 85,
+    "id_professor": 21,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 86,
+    "id_professor": 3,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 87,
+    "id_professor": 28,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 88,
+    "id_professor": 6,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 89,
+    "id_professor": 23,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 90,
+    "id_professor": 1,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 91,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 92,
+    "id_professor": 21,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 93,
+    "id_professor": 26,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 94,
+    "id_professor": 25,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 95,
+    "id_professor": 23,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 96,
+    "id_professor": 10,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 97,
+    "id_professor": 18,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 98,
+    "id_professor": 21,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 99,
+    "id_professor": 4,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 5,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 100,
+    "id_professor": 21,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 101,
+    "id_professor": 18,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 102,
+    "id_professor": 3,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 103,
+    "id_professor": 7,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 104,
+    "id_professor": 20,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 105,
+    "id_professor": 18,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 106,
+    "id_professor": 19,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 107,
+    "id_professor": 25,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 108,
+    "id_professor": 2,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 109,
+    "id_professor": 19,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 110,
+    "id_professor": 17,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 111,
+    "id_professor": 7,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 112,
+    "id_professor": 25,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 113,
+    "id_professor": 16,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 114,
+    "id_professor": 17,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 115,
+    "id_professor": 29,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 116,
+    "id_professor": 1,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 117,
+    "id_professor": 4,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 118,
+    "id_professor": 22,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 119,
+    "id_professor": 30,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 120,
+    "id_professor": 18,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 121,
+    "id_professor": 6,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 122,
+    "id_professor": 1,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 123,
+    "id_professor": 9,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 124,
+    "id_professor": 26,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 125,
+    "id_professor": 7,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 126,
+    "id_professor": 8,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 127,
+    "id_professor": 27,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 128,
+    "id_professor": 23,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 129,
+    "id_professor": 27,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 130,
+    "id_professor": 29,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 131,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 132,
+    "id_professor": 15,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 133,
+    "id_professor": 3,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 134,
+    "id_professor": 26,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 135,
+    "id_professor": 18,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 136,
+    "id_professor": 20,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 137,
+    "id_professor": 11,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 138,
+    "id_professor": 13,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 139,
+    "id_professor": 19,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 140,
+    "id_professor": 2,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 141,
+    "id_professor": 16,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 142,
+    "id_professor": 28,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 143,
+    "id_professor": 30,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 144,
+    "id_professor": 1,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 145,
+    "id_professor": 11,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 146,
+    "id_professor": 14,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 147,
+    "id_professor": 6,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 148,
+    "id_professor": 14,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 149,
+    "id_professor": 1,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 150,
+    "id_professor": 28,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 151,
+    "id_professor": 17,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 152,
+    "id_professor": 11,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 153,
+    "id_professor": 13,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 154,
+    "id_professor": 9,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 155,
+    "id_professor": 3,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 156,
+    "id_professor": 4,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 157,
+    "id_professor": 4,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 158,
+    "id_professor": 18,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 159,
+    "id_professor": 6,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 160,
+    "id_professor": 10,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 161,
+    "id_professor": 5,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 162,
+    "id_professor": 6,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 163,
+    "id_professor": 9,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 164,
+    "id_professor": 25,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 165,
+    "id_professor": 3,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 166,
+    "id_professor": 5,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 167,
+    "id_professor": 10,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 168,
+    "id_professor": 14,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 169,
+    "id_professor": 22,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 170,
+    "id_professor": 6,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 171,
+    "id_professor": 2,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 172,
+    "id_professor": 20,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 173,
+    "id_professor": 11,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 174,
+    "id_professor": 6,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 175,
+    "id_professor": 1,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 176,
+    "id_professor": 23,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 177,
+    "id_professor": 2,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 178,
+    "id_professor": 10,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 179,
+    "id_professor": 13,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 180,
+    "id_professor": 4,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 181,
+    "id_professor": 11,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 182,
+    "id_professor": 5,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 183,
+    "id_professor": 14,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 184,
+    "id_professor": 29,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 185,
+    "id_professor": 11,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 186,
+    "id_professor": 9,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 187,
+    "id_professor": 13,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 188,
+    "id_professor": 27,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 189,
+    "id_professor": 29,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 190,
+    "id_professor": 4,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 191,
+    "id_professor": 2,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 192,
+    "id_professor": 7,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 193,
+    "id_professor": 8,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 194,
+    "id_professor": 25,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 195,
+    "id_professor": 20,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 196,
+    "id_professor": 19,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 197,
+    "id_professor": 8,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 198,
+    "id_professor": 16,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 199,
+    "id_professor": 17,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 200,
+    "id_professor": 25,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 201,
+    "id_professor": 17,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 202,
+    "id_professor": 13,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 203,
+    "id_professor": 4,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 204,
+    "id_professor": 9,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 205,
+    "id_professor": 2,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 206,
+    "id_professor": 11,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 207,
+    "id_professor": 15,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 208,
+    "id_professor": 18,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 209,
+    "id_professor": 14,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 210,
+    "id_professor": 3,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 211,
+    "id_professor": 16,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 212,
+    "id_professor": 1,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 213,
+    "id_professor": 14,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 214,
+    "id_professor": 21,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 215,
+    "id_professor": 8,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 216,
+    "id_professor": 30,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 217,
+    "id_professor": 29,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 218,
+    "id_professor": 1,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 219,
+    "id_professor": 9,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 220,
+    "id_professor": 18,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 221,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 222,
+    "id_professor": 22,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 223,
+    "id_professor": 4,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 224,
+    "id_professor": 8,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 225,
+    "id_professor": 25,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 226,
+    "id_professor": 18,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 227,
+    "id_professor": 21,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 228,
+    "id_professor": 26,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 229,
+    "id_professor": 5,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 230,
+    "id_professor": 10,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 231,
+    "id_professor": 19,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 232,
+    "id_professor": 14,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 233,
+    "id_professor": 15,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 234,
+    "id_professor": 3,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 235,
+    "id_professor": 28,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 236,
+    "id_professor": 21,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 237,
+    "id_professor": 17,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 238,
+    "id_professor": 7,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 239,
+    "id_professor": 26,
+    "ano": 2021,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 240,
+    "id_professor": 5,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 241,
+    "id_professor": 12,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 242,
+    "id_professor": 18,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 243,
+    "id_professor": 6,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 244,
+    "id_professor": 26,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 245,
+    "id_professor": 8,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 246,
+    "id_professor": 18,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 247,
+    "id_professor": 14,
+    "ano": 2023,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 248,
+    "id_professor": 30,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 249,
+    "id_professor": 18,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 250,
+    "id_professor": 15,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 251,
+    "id_professor": 2,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 252,
+    "id_professor": 1,
+    "ano": 2022,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 253,
+    "id_professor": 27,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 254,
+    "id_professor": 15,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 255,
+    "id_professor": 27,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 3,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 256,
+    "id_professor": 20,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 257,
+    "id_professor": 10,
+    "ano": 2024,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 258,
+    "id_professor": 21,
+    "ano": 2021,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 259,
+    "id_professor": 6,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 260,
+    "id_professor": 1,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 261,
+    "id_professor": 2,
+    "ano": 2023,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 262,
+    "id_professor": 30,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 263,
+    "id_professor": 30,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 264,
+    "id_professor": 16,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 265,
+    "id_professor": 9,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 266,
+    "id_professor": 20,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 267,
+    "id_professor": 9,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 268,
+    "id_professor": 27,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 269,
+    "id_professor": 22,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 3,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 270,
+    "id_professor": 13,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 271,
+    "id_professor": 12,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 2,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 272,
+    "id_professor": 27,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 273,
+    "id_professor": 21,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 2,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 274,
+    "id_professor": 7,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 275,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 3,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 276,
+    "id_professor": 27,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 5,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 277,
+    "id_professor": 17,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 278,
+    "id_professor": 10,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 279,
+    "id_professor": 2,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 280,
+    "id_professor": 6,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 281,
+    "id_professor": 24,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 282,
+    "id_professor": 18,
+    "ano": 2022,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 283,
+    "id_professor": 19,
+    "ano": 2023,
+    "pontualidade": 4,
+    "preparo_aula": 2,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 284,
+    "id_professor": 3,
+    "ano": 2022,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 3,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 285,
+    "id_professor": 10,
+    "ano": 2021,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 286,
+    "id_professor": 3,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 4,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 287,
+    "id_professor": 13,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 288,
+    "id_professor": 23,
+    "ano": 2024,
+    "pontualidade": 4,
+    "preparo_aula": 3,
+    "clareza": 1,
+    "relacao_aluno": 2
+  },
+  {
+    "id_avaliacao": 289,
+    "id_professor": 4,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 5,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 290,
+    "id_professor": 27,
+    "ano": 2021,
+    "pontualidade": 4,
+    "preparo_aula": 5,
+    "clareza": 3,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 291,
+    "id_professor": 5,
+    "ano": 2024,
+    "pontualidade": 3,
+    "preparo_aula": 4,
+    "clareza": 5,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 292,
+    "id_professor": 24,
+    "ano": 2021,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 293,
+    "id_professor": 18,
+    "ano": 2022,
+    "pontualidade": 2,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 294,
+    "id_professor": 9,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 4,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 295,
+    "id_professor": 29,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 1,
+    "clareza": 2,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 296,
+    "id_professor": 14,
+    "ano": 2024,
+    "pontualidade": 1,
+    "preparo_aula": 1,
+    "clareza": 1,
+    "relacao_aluno": 3
+  },
+  {
+    "id_avaliacao": 297,
+    "id_professor": 7,
+    "ano": 2024,
+    "pontualidade": 2,
+    "preparo_aula": 5,
+    "clareza": 1,
+    "relacao_aluno": 1
+  },
+  {
+    "id_avaliacao": 298,
+    "id_professor": 20,
+    "ano": 2022,
+    "pontualidade": 3,
+    "preparo_aula": 3,
+    "clareza": 2,
+    "relacao_aluno": 5
+  },
+  {
+    "id_avaliacao": 299,
+    "id_professor": 17,
+    "ano": 2023,
+    "pontualidade": 1,
+    "preparo_aula": 2,
+    "clareza": 4,
+    "relacao_aluno": 4
+  },
+  {
+    "id_avaliacao": 300,
+    "id_professor": 26,
+    "ano": 2023,
+    "pontualidade": 5,
+    "preparo_aula": 3,
+    "clareza": 4,
+    "relacao_aluno": 3
+  }
+]
