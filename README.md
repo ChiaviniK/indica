@@ -17,29 +17,7 @@ Este projeto é um protótipo de site desenvolvido para a consultoria de Busines
 
 A organização dos arquivos segue uma arquitetura modular e de fácil manutenção, ideal para protótipos e projetos de pequena escala.
 
-/projeto-indica
-├── index.html              # Página inicial
-├── login.html              # Página de login
-├── fin.html                # Dashboard da CrediMais
-├── edu.html                # Dashboard da EduAvance
-├── agro.html               # Dashboard da AgroTech
-├── style.css               # Estilos globais
-├── app.js                  # Lógica compartilhada (login, menu)
-├── dashboardfin.js         # Lógica específica do dashboard financeiro
-├── dashboardedu.js         # Lógica específica do dashboard de educação
-├── dashboardagro.js        # Lógica específica do dashboard do agronegócio
-└── assets/
-├── movies/
-│   └── banner.mp4      # Vídeo de fundo da página inicial
-└── img/
-├── analytics.jpg   # Imagem do card
-├── custos.jpg      # Imagem do card
-├── data.jpg        # Imagem do card
-├── gemeos.webp     # Imagem do card
-├── produtor.jpg    # Imagem do card
-├── sensors.jpg     # Imagem do card
-├── target.jpg      # Imagem do card
-└── vr.avif         # Imagem do card
+
 
 
 ## Como Visualizar
@@ -59,10 +37,9 @@ Alternativamente, você pode usar um servidor web local para testar a aplicaçã
 
 ## Contato
 
-* **Nome**: [Seu Nome]
-* **Email**: [Seu Email]
-* **LinkedIn**: [Seu Perfil do LinkedIn]
-
+* **Nome**: Luiz Chiavini
+* **Email**: luizchiavini@gmail.com
+* **LinkedIn**: www.linkedin.com/in/luizchiavini
 ---
 
 Sinta-se à vontade para personalizar este `README` com seus detalhes e quaisquer outras informações que considerar relevantes.
