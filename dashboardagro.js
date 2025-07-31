@@ -19778,7 +19778,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "valor": 70.93
   }
 ];
-    const tecnicosVisitasData = [
+    const visitasData = [
   {
     "id_fazenda": 1,
     "data_visita": "2025-07-29",
@@ -20284,8 +20284,13 @@ document.addEventListener('DOMContentLoaded', () => {
     "recomendacao": "Expedita iusto ullam iste veritatis adipisci."
   }
 ];
-const dashboardDisplay = document.getElementById('dashboard-display');
+
+
+    const dashboardDisplay = document.getElementById('dashboard-display');
     const dashboardCardsAgro = document.querySelectorAll('#dashboards-agro .card');
+    const showDataBtn = document.getElementById('showDataBtn');
+    const dataOverlay = document.getElementById('dataOverlay');
+    const closeOverlayBtn = document.getElementById('closeOverlayBtn');
 
     let chartInstances = {};
 
@@ -20295,11 +20300,20 @@ const dashboardDisplay = document.getElementById('dashboard-display');
             delete chartInstances[chartId];
         }
     };
+
+    const allAgroData = {
+        'Fazendas': fazendasData,
+        'Colheitas': colheitasData,
+        'Custos': custosData,
+        'Clima': climaData,
+        'Sensores': sensoresData,
+        'Leituras': leiturasSensoresData,
+        'Visitas': visitasData
+    };
     
     if (dashboardCardsAgro.length > 0) {
         dashboardCardsAgro.forEach(card => {
-            card.addEventListener('click', (event) => {
-                // Lógica do estado ativo
+            card.addEventListener('click', () => {
                 dashboardCardsAgro.forEach(c => c.classList.remove('active-card'));
                 card.classList.add('active-card');
                 
@@ -20308,409 +20322,494 @@ const dashboardDisplay = document.getElementById('dashboard-display');
             });
         });
     }
-    // Variáveis de opções de filtro, declaradas uma única vez
-    const fazendasOptionsHtml = fazendasData.map(f => `<option value="${f.id_fazenda}">${f.nome_fazenda}</option>`).join('');
-    const tiposSensoresOptionsHtml = [...new Set(sensoresData.map(s => s.tipo_sensor))].map(t => `<option value="${t}">${t}</option>`).join('');
-    const categoriasOptionsHtml = [...new Set(custosData.map(c => c.categoria))].map(c => `<option value="${c}">${c}</option>`).join('');
 
-    if (dashboardCardsAgro.length > 0) {
-        dashboardCardsAgro.forEach(card => {
-            card.addEventListener('click', (event) => {
-                const dashboardType = card.dataset.dashboard;
-                renderAgroDashboard(dashboardType);
+    showDataBtn.addEventListener('click', () => {
+        setupDataExplorer(allAgroData);
+    });
+
+    closeOverlayBtn.addEventListener('click', () => {
+        dataOverlay.style.display = 'none';
+    });
+    
+    function setupDataExplorer(datasets) {
+        dataOverlay.style.display = 'flex';
+        const dataTabsContainer = document.getElementById('dataTabs');
+        dataTabsContainer.innerHTML = '';
+        
+        const dataNames = Object.keys(datasets);
+        dataNames.forEach(name => {
+            const button = document.createElement('button');
+            button.textContent = name;
+            button.addEventListener('click', () => {
+                dataTabsContainer.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                renderDataTable(`Dados Brutos - ${name}`, datasets[name]);
+            });
+            dataTabsContainer.appendChild(button);
+        });
+
+        if (dataNames.length > 0) {
+            dataTabsContainer.querySelector('button').click();
+        }
+    }
+
+    function renderDataTable(title, data) {
+        const overlayTitle = document.getElementById('overlayTitle');
+        const tableContainer = document.getElementById('dataTableContainer');
+
+        overlayTitle.textContent = title;
+        
+        if (!data || data.length === 0) {
+            tableContainer.innerHTML = '<p>Nenhum dado encontrado.</p>';
+            return;
+        }
+
+        const headers = Object.keys(data[0]);
+        let tableHtml = `
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        ${headers.map(h => `<th>${h}<br><input type="text" class="filter-input" data-column="${h}" placeholder="Filtrar"></th>`).join('')}
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        `;
+        tableContainer.innerHTML = tableHtml;
+
+        const tbody = tableContainer.querySelector('tbody');
+
+        function renderTableRows(filteredData) {
+            tbody.innerHTML = filteredData.map(row => `
+                <tr>
+                    ${headers.map(h => `<td>${row[h]}</td>`).join('')}
+                </tr>
+            `).join('');
+        }
+
+        renderTableRows(data);
+
+        const filterInputs = tableContainer.querySelectorAll('.filter-input');
+        filterInputs.forEach(input => {
+            input.addEventListener('input', () => {
+                let filteredData = [...data];
+                filterInputs.forEach(filterInput => {
+                    const column = filterInput.dataset.column;
+                    const value = filterInput.value.toLowerCase();
+                    if (value) {
+                        filteredData = filteredData.filter(row => 
+                            String(row[column]).toLowerCase().includes(value)
+                        );
+                    }
+                });
+                renderTableRows(filteredData);
             });
         });
     }
 
+
     function renderAgroDashboard(type) {
-        dashboardDisplay.innerHTML = `<p>Gerando dashboard...</p>`;
+        dashboardDisplay.innerHTML = `
+            <div class="loading-overlay">
+                <div class="spinner"></div>
+            </div>
+        `;
+        showDataBtn.classList.add('visible');
+        
         for (const chartId in chartInstances) {
             destroyChart(chartId);
         }
 
-        let content = '';
-        switch (type) {
-            case 'produtividade-agricola':
-                const contentProd = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Produtividade Agrícola</h2>
-                        
-                        <h3 style="margin-top:20px;">Filtro por Fazenda</h3>
+        setTimeout(() => {
+            let content = '';
+            
+            switch (type) {
+                case 'produtividade-agricola':
+                    const fazendasOptionsHtml = fazendasData.map(f => `<option value="${f.id_fazenda}">${f.nome_fazenda}</option>`).join('');
+                    const fazendasOptionsProdutividade = `
                         <select id="fazendaFilterProdutividade" style="width: 200px; margin: 10px auto;">
                             <option value="geral">Geral</option>
                             ${fazendasOptionsHtml}
                         </select>
+                    `;
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Produtividade Agrícola</h2>
+                            
+                            <h3 style="margin-top:20px;">Filtro por Fazenda</h3>
+                            ${fazendasOptionsProdutividade}
 
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div id="kpi-producao-total" style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Produção Total:</strong><br> -
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div id="kpi-producao-total" style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Produção Total:</strong><br> -
+                                </div>
+                                <div id="kpi-hectares" style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Hectares Colhidos:</strong><br> -
+                                </div>
+                                <div id="kpi-produtividade" style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Produtividade Média:</strong><br> -
+                                </div>
                             </div>
-                            <div id="kpi-hectares" style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Hectares Colhidos:</strong><br> -
+
+                            <h3 style="margin-top:20px;">Produção por Cultura</h3>
+                            <div class="chart-container">
+                                <canvas id="producaoCulturaChart"></canvas>
                             </div>
-                            <div id="kpi-produtividade" style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Produtividade Média:</strong><br> -
+                            
+                            <h3 style="margin-top:20px;">Produtividade por Fazenda</h3>
+                            <div class="chart-container">
+                                <canvas id="produtividadeFazendaChart"></canvas>
                             </div>
                         </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
 
-                        <h3 style="margin-top:20px;">Produção por Cultura</h3>
-                        <div class="chart-container">
-                            <canvas id="producaoCulturaChart"></canvas>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Produtividade por Fazenda</h3>
-                        <div class="chart-container">
-                            <canvas id="produtividadeFazendaChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = contentProd;
-
-                const fazendaFilterProdutividade = document.getElementById('fazendaFilterProdutividade');
-                fazendaFilterProdutividade.addEventListener('change', (event) => {
-                    renderProdutividade(event.target.value);
-                });
-
-                renderProdutividade('geral');
-
-                function renderProdutividade(fazendaId) {
-                    let dadosFiltrados = colheitasData;
-                    if (fazendaId !== 'geral') {
-                        dadosFiltrados = colheitasData.filter(c => c.id_fazenda === parseInt(fazendaId));
-                    }
-                    
-                    const producaoPorCultura = dadosFiltrados.reduce((acc, row) => {
-                        acc[row.cultura] = (acc[row.cultura] || 0) + (row.quantidade_toneladas || 0);
-                        return acc;
-                    }, {});
-
-                    const totalProducao = dadosFiltrados.reduce((sum, row) => sum + (row.quantidade_toneladas || 0), 0);
-                    const totalHectares = dadosFiltrados.reduce((sum, row) => sum + (row.hectares_colhidos || 0), 0);
-                    const produtividadeMedia = (totalProducao / totalHectares).toFixed(2);
-                    
-                    document.getElementById('kpi-producao-total').innerHTML = `<strong>Produção Total:</strong><br> ${totalProducao.toFixed(2)} toneladas`;
-                    document.getElementById('kpi-hectares').innerHTML = `<strong>Hectares Colhidos:</strong><br> ${totalHectares.toFixed(2)}`;
-                    document.getElementById('kpi-produtividade').innerHTML = `<strong>Produtividade Média:</strong><br> ${produtividadeMedia} ton/ha`;
-
-                    destroyChart('producaoCulturaChart');
-                    const ctxProducaoCultura = document.getElementById('producaoCulturaChart').getContext('2d');
-                    chartInstances.producaoCulturaChart = new Chart(ctxProducaoCultura, {
-                        type: 'bar',
-                        data: {
-                            labels: Object.keys(producaoPorCultura),
-                            datasets: [{
-                                label: 'Produção Total (ton)',
-                                data: Object.values(producaoPorCultura),
-                                backgroundColor: '#28a745',
-                            }]
-                        },
-                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    const fazendaFilterProdutividade = document.getElementById('fazendaFilterProdutividade');
+                    fazendaFilterProdutividade.addEventListener('change', (event) => {
+                        renderProdutividade(event.target.value);
                     });
 
-                    const produtividadePorFazenda = fazendasData.reduce((acc, fazenda) => {
-                        const colheitasDaFazenda = colheitasData.filter(c => c.id_fazenda === fazenda.id_fazenda);
-                        if (colheitasDaFazenda.length > 0) {
-                            const producao = colheitasDaFazenda.reduce((sum, c) => sum + c.quantidade_toneladas, 0);
-                            const hectares = colheitasDaFazenda.reduce((sum, c) => sum + c.hectares_colhidos, 0);
-                            acc[fazenda.nome_fazenda] = (producao / hectares).toFixed(2);
+                    renderProdutividade('geral');
+
+                    function renderProdutividade(fazendaId) {
+                        let dadosFiltrados = colheitasData;
+                        if (fazendaId !== 'geral') {
+                            dadosFiltrados = colheitasData.filter(c => c.id_fazenda === parseInt(fazendaId));
                         }
-                        return acc;
-                    }, {});
-
-                    destroyChart('produtividadeFazendaChart');
-                    const ctxProdutividadeFazenda = document.getElementById('produtividadeFazendaChart').getContext('2d');
-                    chartInstances.produtividadeFazendaChart = new Chart(ctxProdutividadeFazenda, {
-                        type: 'bar',
-                        data: {
-                            labels: Object.keys(produtividadePorFazenda),
-                            datasets: [{
-                                label: 'Produtividade (ton/ha)',
-                                data: Object.values(produtividadePorFazenda),
-                                backgroundColor: '#007bff',
-                            }]
-                        },
-                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                    });
-                }
-                break;
-
-            case 'monitoramento-sensores':
-                const totalSensores = sensoresData.length;
-                const sensoresAtivos = sensoresData.filter(s => s.ativo).length;
-                const percentualAtivos = ((sensoresAtivos / totalSensores) * 100).toFixed(2);
-                
-                const contentSensores = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Monitoramento de Sensores</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Sensores Ativos:</strong><br> ${percentualAtivos}%
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Sensores Totais:</strong><br> ${totalSensores}
-                            </div>
-                        </div>
-
-                        <h3 style="margin-top:20px;">Filtros</h3>
-                        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
-                            <select id="fazendaFilter" style="width: 200px;">
-                                <option value="geral">Geral</option>
-                                ${fazendasOptionsHtml}
-                            </select>
-                            <select id="tipoSensorFilter" style="width: 200px;">
-                                <option value="geral">Todos os Tipos</option>
-                                ${tiposSensoresOptionsHtml}
-                            </select>
-                        </div>
-
-                        <div id="sensoresChartContainer" class="flex-container">
-                            <div class="chart-box">
-                                <h4 style="text-align: center;">Distribuição de Sensores</h4>
-                                <canvas id="sensoresPieChart"></canvas>
-                            </div>
-                            <div class="line-chart-box">
-                                <h4 style="text-align: center;">Leituras ao Longo do Tempo</h4>
-                                <canvas id="sensoresLineChart"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = contentSensores;
-                
-                const fazendaFilterSensores = document.getElementById('fazendaFilter');
-                const tipoSensorFilter = document.getElementById('tipoSensorFilter');
-                
-                const updateSensoresCharts = () => {
-                    renderSensoresPieChart(fazendaFilterSensores.value);
-                    renderSensoresLineChart(fazendaFilterSensores.value, tipoSensorFilter.value);
-                };
-
-                fazendaFilterSensores.addEventListener('change', updateSensoresCharts);
-                tipoSensorFilter.addEventListener('change', updateSensoresCharts);
-                
-                updateSensoresCharts();
-
-                function renderSensoresPieChart(fazendaId) {
-                    destroyChart('sensoresPieChart');
-                    const ctx = document.getElementById('sensoresPieChart').getContext('2d');
-
-                    let filteredSensores = sensoresData;
-                    if (fazendaId !== 'geral') {
-                        filteredSensores = filteredSensores.filter(s => s.id_fazenda === parseInt(fazendaId));
-                    }
-                    
-                    const tipoSensores = filteredSensores.reduce((acc, row) => {
-                        acc[row.tipo_sensor] = (acc[row.tipo_sensor] || 0) + 1;
-                        return acc;
-                    }, {});
-
-                    chartInstances.sensoresPieChart = new Chart(ctx, {
-                        type: 'pie',
-                        data: {
-                            labels: Object.keys(tipoSensores),
-                            datasets: [{
-                                data: Object.values(tipoSensores),
-                                backgroundColor: ['#007bff', '#28a745', '#ffc107', '#dc3545', '#17a2b8', '#6c757d'],
-                            }]
-                        },
-                        options: { 
-                            responsive: true,
-                            plugins: {
-                                legend: { position: 'top' },
-                                tooltip: { callbacks: { label: function(context) {
-                                    let label = context.label || '';
-                                    if (label) {
-                                        label += ': ';
-                                    }
-                                    const total = filteredSensores.length;
-                                    label += context.parsed + ' (' + ((context.parsed / total) * 100).toFixed(2) + '%)';
-                                    return label;
-                                }}}
-                            }
-                        }
-                    });
-                }
-
-                function renderSensoresLineChart(fazendaId, tipoSensor) {
-                    destroyChart('sensoresLineChart');
-                    const ctx = document.getElementById('sensoresLineChart').getContext('2d');
-                    
-                    let labels = [];
-                    let data = [];
-                    
-                    if (fazendaId !== 'geral' && tipoSensor !== 'geral') {
-                        const sensoresDaFazendaDoTipo = sensoresData.filter(s => s.id_fazenda === parseInt(fazendaId) && s.tipo_sensor === tipoSensor);
-                        const leiturasDoTipo = leiturasSensoresData.filter(l => sensoresDaFazendaDoTipo.some(s => s.id_sensor === l.id_sensor));
                         
-                        const leiturasPorData = leiturasDoTipo.reduce((acc, row) => {
-                            const data = row.data_hora.substring(0, 10);
-                            acc[data] = (acc[data] || 0) + (row.valor || 0);
+                        const producaoPorCultura = dadosFiltrados.reduce((acc, row) => {
+                            acc[row.cultura] = (acc[row.cultura] || 0) + (row.quantidade_toneladas || 0);
                             return acc;
                         }, {});
 
-                        labels = Object.keys(leiturasPorData).sort();
-                        data = labels.map(key => leiturasPorData[key]);
-                    }
-
-                    chartInstances.sensoresLineChart = new Chart(ctx, {
-                        type: 'line',
-                        data: {
-                            labels: labels,
-                            datasets: [{
-                                label: `Leituras de ${tipoSensor}`,
-                                data: data,
-                                borderColor: '#007bff',
-                                tension: 0.4,
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            scales: {
-                                y: { beginAtZero: true }
-                            }
-                        }
-                    });
-                }
-                break;
-            
-            case 'analise-custos':
-                const custoTotal = custosData.reduce((sum, row) => sum + (row.valor || 0), 0).toFixed(2);
-                
-                const fazendasOptionsCustos = fazendasData.map(f => `<option value="${f.id_fazenda}">${f.nome_fazenda}</option>`).join('');
-                const categoriasOptions = [...new Set(custosData.map(c => c.categoria))].map(c => `<option value="${c}">${c}</option>`).join('');
-
-                const contentCustos = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Análise de Custos</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Custo Total:</strong><br> R$ ${custoTotal}
-                            </div>
-                        </div>
-
-                        <h3 style="margin-top:20px;">Filtros</h3>
-                        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
-                            <select id="fazendaFilterCustos" style="width: 200px;">
-                                <option value="geral">Geral</option>
-                                ${fazendasOptionsCustos}
-                            </select>
-                            <select id="categoriaFilter" style="width: 200px;">
-                                <option value="geral">Todas as Categorias</option>
-                                ${categoriasOptions}
-                            </select>
-                        </div>
+                        const totalProducao = dadosFiltrados.reduce((sum, row) => sum + (row.quantidade_toneladas || 0), 0);
+                        const totalHectares = dadosFiltrados.reduce((sum, row) => sum + (row.hectares_colhidos || 0), 0);
+                        const produtividadeMedia = (totalProducao / totalHectares).toFixed(2);
                         
-                        <div id="custosChartContainer" class="flex-container">
-                            <div class="chart-box">
-                                <h4 style="text-align: center;">Distribuição de Custos</h4>
-                                <canvas id="custosPieChart"></canvas>
-                            </div>
-                            <div class="line-chart-box">
-                                <h4 style="text-align: center;">Custo ao Longo do Tempo</h4>
-                                <canvas id="custosLineChart"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = contentCustos;
-                
-                const fazendaFilterCustos = document.getElementById('fazendaFilterCustos');
-                const categoriaFilter = document.getElementById('categoriaFilter');
-                
-                const updateCustosCharts = () => {
-                    renderCustosPieChart(fazendaFilterCustos.value);
-                    renderCustosLineChart(fazendaFilterCustos.value, categoriaFilter.value);
-                };
+                        document.getElementById('kpi-producao-total').innerHTML = `<strong>Produção Total:</strong><br> ${totalProducao.toFixed(2)} toneladas`;
+                        document.getElementById('kpi-hectares').innerHTML = `<strong>Hectares Colhidos:</strong><br> ${totalHectares.toFixed(2)}`;
+                        document.getElementById('kpi-produtividade').innerHTML = `<strong>Produtividade Média:</strong><br> ${produtividadeMedia} ton/ha`;
 
-                fazendaFilterCustos.addEventListener('change', updateCustosCharts);
-                categoriaFilter.addEventListener('change', updateCustosCharts);
-                
-                updateCustosCharts();
+                        destroyChart('producaoCulturaChart');
+                        const ctxProducaoCultura = document.getElementById('producaoCulturaChart').getContext('2d');
+                        chartInstances.producaoCulturaChart = new Chart(ctxProducaoCultura, {
+                            type: 'bar',
+                            data: {
+                                labels: Object.keys(producaoPorCultura),
+                                datasets: [{
+                                    label: 'Produção Total (ton)',
+                                    data: Object.values(producaoPorCultura),
+                                    backgroundColor: '#28a745',
+                                }]
+                            },
+                            options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                        });
 
-                function renderCustosPieChart(fazendaId) {
-                    destroyChart('custosPieChart');
-                    const ctx = document.getElementById('custosPieChart').getContext('2d');
-
-                    let filteredCustos = custosData;
-                    if (fazendaId !== 'geral') {
-                        filteredCustos = filteredCustos.filter(c => c.id_fazenda === parseInt(fazendaId));
-                    }
-
-                    const custoPorCategoria = filteredCustos.reduce((acc, row) => {
-                        acc[row.categoria] = (acc[row.categoria] || 0) + (row.valor || 0);
-                        return acc;
-                    }, {});
-
-                    chartInstances.custosPieChart = new Chart(ctx, {
-                        type: 'pie',
-                        data: {
-                            labels: Object.keys(custoPorCategoria),
-                            datasets: [{
-                                data: Object.values(custoPorCategoria),
-                                backgroundColor: ['#007bff', '#28a745', '#ffc107', '#dc3545', '#17a2b8', '#6c757d'],
-                            }]
-                        },
-                        options: { 
-                            responsive: true,
-                            plugins: {
-                                legend: { position: 'top' },
-                                tooltip: { callbacks: { label: function(context) {
-                                    let label = context.label || '';
-                                    if (label) {
-                                        label += ': ';
-                                    }
-                                    const total = Object.values(custoPorCategoria).reduce((a, b) => a + b, 0);
-                                    label += 'R$ ' + context.parsed.toFixed(2).replace('.', ',') + ' (' + ((context.parsed / total) * 100).toFixed(2) + '%)';
-                                    return label;
-                                }}}
+                        const produtividadePorFazenda = fazendasData.reduce((acc, fazenda) => {
+                            const colheitasDaFazenda = colheitasData.filter(c => c.id_fazenda === fazenda.id_fazenda);
+                            if (colheitasDaFazenda.length > 0) {
+                                const producao = colheitasDaFazenda.reduce((sum, c) => sum + c.quantidade_toneladas, 0);
+                                const hectares = colheitasDaFazenda.reduce((sum, c) => sum + c.hectares_colhidos, 0);
+                                acc[fazenda.nome_fazenda] = (producao / hectares).toFixed(2);
                             }
-                        }
-                    });
-                }
-
-                function renderCustosLineChart(fazendaId, categoria) {
-                    destroyChart('custosLineChart');
-                    const ctx = document.getElementById('custosLineChart').getContext('2d');
-                    
-                    let labels = [];
-                    let data = [];
-                    
-                    if (fazendaId !== 'geral' && categoria !== 'geral') {
-                        const custosDaFazenda = custosData.filter(c => c.id_fazenda === parseInt(fazendaId) && c.categoria === categoria);
-                        
-                        const custosPorData = custosDaFazenda.reduce((acc, row) => {
-                            const data = row.data;
-                            acc[data] = (acc[data] || 0) + (row.valor || 0);
                             return acc;
                         }, {});
 
-                        labels = Object.keys(custosPorData).sort();
-                        data = labels.map(key => custosPorData[key]);
+                        destroyChart('produtividadeFazendaChart');
+                        const ctxProdutividadeFazenda = document.getElementById('produtividadeFazendaChart').getContext('2d');
+                        chartInstances.produtividadeFazendaChart = new Chart(ctxProdutividadeFazenda, {
+                            type: 'bar',
+                            data: {
+                                labels: Object.keys(produtividadePorFazenda),
+                                datasets: [{
+                                    label: 'Produtividade (ton/ha)',
+                                    data: Object.values(produtividadePorFazenda),
+                                    backgroundColor: '#007bff',
+                                }]
+                            },
+                            options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                        });
+                    }
+                    break;
+                case 'monitoramento-sensores':
+                    const totalSensores = sensoresData.length;
+                    const sensoresAtivos = sensoresData.filter(s => s.ativo).length;
+                    const percentualAtivos = ((sensoresAtivos / totalSensores) * 100).toFixed(2);
+                    
+                    const fazendasOptionsSensores = fazendasData.map(f => `<option value="${f.id_fazenda}">${f.nome_fazenda}</option>`).join('');
+                    const tiposSensoresOptions = [...new Set(sensoresData.map(s => s.tipo_sensor))].map(t => `<option value="${t}">${t}</option>`).join('');
+
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Monitoramento de Sensores</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Sensores Ativos:</strong><br> ${percentualAtivos}%
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Sensores Totais:</strong><br> ${totalSensores}
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top:20px;">Filtros</h3>
+                            <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                                <select id="fazendaFilter" style="width: 200px;">
+                                    <option value="geral">Geral</option>
+                                    ${fazendasOptionsHtml}
+                                </select>
+                                <select id="tipoSensorFilter" style="width: 200px;">
+                                    <option value="geral">Todos os Tipos</option>
+                                    ${tiposSensoresOptionsHtml}
+                                </select>
+                            </div>
+
+                            <div id="sensoresChartContainer" class="flex-container">
+                                <div class="chart-box">
+                                    <h4 style="text-align: center;">Distribuição de Sensores</h4>
+                                    <canvas id="sensoresPieChart"></canvas>
+                                </div>
+                                <div class="line-chart-box">
+                                    <h4 style="text-align: center;">Leituras ao Longo do Tempo</h4>
+                                    <canvas id="sensoresLineChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    const fazendaFilterSensores = document.getElementById('fazendaFilter');
+                    const tipoSensorFilter = document.getElementById('tipoSensorFilter');
+                    
+                    const updateSensoresCharts = () => {
+                        renderSensoresPieChart(fazendaFilterSensores.value);
+                        renderSensoresLineChart(fazendaFilterSensores.value, tipoSensorFilter.value);
+                    };
+
+                    fazendaFilterSensores.addEventListener('change', updateSensoresCharts);
+                    tipoSensorFilter.addEventListener('change', updateSensoresCharts);
+                    
+                    updateSensoresCharts();
+
+                    function renderSensoresPieChart(fazendaId) {
+                        destroyChart('sensoresPieChart');
+                        const ctx = document.getElementById('sensoresPieChart').getContext('2d');
+
+                        let filteredSensores = sensoresData;
+                        if (fazendaId !== 'geral') {
+                            filteredSensores = filteredSensores.filter(s => s.id_fazenda === parseInt(fazendaId));
+                        }
+                        
+                        const tipoSensores = filteredSensores.reduce((acc, row) => {
+                            acc[row.tipo_sensor] = (acc[row.tipo_sensor] || 0) + 1;
+                            return acc;
+                        }, {});
+
+                        chartInstances.sensoresPieChart = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                                labels: Object.keys(tipoSensores),
+                                datasets: [{
+                                    data: Object.values(tipoSensores),
+                                    backgroundColor: ['#007bff', '#28a745', '#ffc107', '#dc3545', '#17a2b8', '#6c757d'],
+                                }]
+                            },
+                            options: { 
+                                responsive: true,
+                                plugins: {
+                                    legend: { position: 'top' },
+                                    tooltip: { callbacks: { label: function(context) {
+                                        let label = context.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        const total = filteredSensores.length;
+                                        label += context.parsed + ' (' + ((context.parsed / total) * 100).toFixed(2) + '%)';
+                                        return label;
+                                    }}}
+                                }
+                            }
+                        });
                     }
 
-                    chartInstances.custosLineChart = new Chart(ctx, {
-                        type: 'line',
-                        data: {
-                            labels: labels,
-                            datasets: [{
-                                label: `Custo de ${categoria}`,
-                                data: data,
-                                borderColor: '#dc3545',
-                                tension: 0.4,
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            scales: {
-                                y: { beginAtZero: true }
-                            }
-                        }
-                    });
-                }
-                break;
+                    function renderSensoresLineChart(fazendaId, tipoSensor) {
+                        destroyChart('sensoresLineChart');
+                        const ctx = document.getElementById('sensoresLineChart').getContext('2d');
+                        
+                        let labels = [];
+                        let data = [];
+                        
+                        if (fazendaId !== 'geral' && tipoSensor !== 'geral') {
+                            const sensoresDaFazendaDoTipo = sensoresData.filter(s => s.id_fazenda === parseInt(fazendaId) && s.tipo_sensor === tipoSensor);
+                            const leiturasDoTipo = leiturasSensoresData.filter(l => sensoresDaFazendaDoTipo.some(s => s.id_sensor === l.id_sensor));
+                            
+                            const leiturasPorData = leiturasDoTipo.reduce((acc, row) => {
+                                const data = row.data_hora.substring(0, 10);
+                                acc[data] = (acc[data] || 0) + (row.valor || 0);
+                                return acc;
+                            }, {});
 
-            default:
-                dashboardDisplay.innerHTML = `<p>Dashboard não encontrado.</p>`;
-        }
+                            labels = Object.keys(leiturasPorData).sort();
+                            data = labels.map(key => leiturasPorData[key]);
+                        }
+
+                        chartInstances.sensoresLineChart = new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: labels,
+                                datasets: [{
+                                    label: `Leituras de ${tipoSensor}`,
+                                    data: data,
+                                    borderColor: '#007bff',
+                                    tension: 0.4,
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    y: { beginAtZero: true }
+                                }
+                            }
+                        });
+                    }
+                    break;
+                case 'analise-custos':
+                    const custoTotal = custosData.reduce((sum, row) => sum + (row.valor || 0), 0).toFixed(2);
+                    
+                    const fazendasOptionsCustos = fazendasData.map(f => `<option value="${f.id_fazenda}">${f.nome_fazenda}</option>`).join('');
+                    const categoriasOptions = [...new Set(custosData.map(c => c.categoria))].map(c => `<option value="${c}">${c}</option>`).join('');
+
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Análise de Custos</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Custo Total:</strong><br> R$ ${custoTotal}
+                                </div>
+                            </div>
+
+                            <h3 style="margin-top:20px;">Filtros</h3>
+                            <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                                <select id="fazendaFilterCustos" style="width: 200px;">
+                                    <option value="geral">Geral</option>
+                                    ${fazendasOptionsHtml}
+                                </select>
+                                <select id="categoriaFilter" style="width: 200px;">
+                                    <option value="geral">Todas as Categorias</option>
+                                    ${categoriasOptionsHtml}
+                                </select>
+                            </div>
+                            
+                            <div id="custosChartContainer" class="flex-container">
+                                <div class="chart-box">
+                                    <h4 style="text-align: center;">Distribuição de Custos</h4>
+                                    <canvas id="custosPieChart"></canvas>
+                                </div>
+                                <div class="line-chart-box">
+                                    <h4 style="text-align: center;">Custo ao Longo do Tempo</h4>
+                                    <canvas id="custosLineChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    const fazendaFilterCustos = document.getElementById('fazendaFilterCustos');
+                    const categoriaFilter = document.getElementById('categoriaFilter');
+                    
+                    const updateCustosCharts = () => {
+                        renderCustosPieChart(fazendaFilterCustos.value);
+                        renderCustosLineChart(fazendaFilterCustos.value, categoriaFilter.value);
+                    };
+
+                    fazendaFilterCustos.addEventListener('change', updateCustosCharts);
+                    categoriaFilter.addEventListener('change', updateCustosCharts);
+                    
+                    updateCustosCharts();
+
+                    function renderCustosPieChart(fazendaId) {
+                        destroyChart('custosPieChart');
+                        const ctx = document.getElementById('custosPieChart').getContext('2d');
+
+                        let filteredCustos = custosData;
+                        if (fazendaId !== 'geral') {
+                            filteredCustos = filteredCustos.filter(c => c.id_fazenda === parseInt(fazendaId));
+                        }
+
+                        const custoPorCategoria = filteredCustos.reduce((acc, row) => {
+                            acc[row.categoria] = (acc[row.categoria] || 0) + (row.valor || 0);
+                            return acc;
+                        }, {});
+
+                        chartInstances.custosPieChart = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                                labels: Object.keys(custoPorCategoria),
+                                datasets: [{
+                                    data: Object.values(custoPorCategoria),
+                                    backgroundColor: ['#007bff', '#28a745', '#ffc107', '#dc3545', '#17a2b8', '#6c757d'],
+                                }]
+                            },
+                            options: { 
+                                responsive: true,
+                                plugins: {
+                                    legend: { position: 'top' },
+                                    tooltip: { callbacks: { label: function(context) {
+                                        let label = context.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        const total = Object.values(custoPorCategoria).reduce((a, b) => a + b, 0);
+                                        label += 'R$ ' + context.parsed.toFixed(2).replace('.', ',') + ' (' + ((context.parsed / total) * 100).toFixed(2) + '%)';
+                                        return label;
+                                    }}}
+                                }
+                            }
+                        });
+                    }
+
+                    function renderCustosLineChart(fazendaId, categoria) {
+                        destroyChart('custosLineChart');
+                        const ctx = document.getElementById('custosLineChart').getContext('2d');
+                        
+                        let labels = [];
+                        let data = [];
+                        
+                        if (fazendaId !== 'geral' && categoria !== 'geral') {
+                            const custosDaFazenda = custosData.filter(c => c.id_fazenda === parseInt(fazendaId) && c.categoria === categoria);
+                            
+                            const custosPorData = custosDaFazenda.reduce((acc, row) => {
+                                const data = row.data;
+                                acc[data] = (acc[data] || 0) + (row.valor || 0);
+                                return acc;
+                            }, {});
+
+                            labels = Object.keys(custosPorData).sort();
+                            data = labels.map(key => custosPorData[key]);
+                        }
+
+                        chartInstances.custosLineChart = new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: labels,
+                                datasets: [{
+                                    label: `Custo de ${categoria}`,
+                                    data: data,
+                                    borderColor: '#dc3545',
+                                    tension: 0.4,
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    y: { beginAtZero: true }
+                                }
+                            }
+                        });
+                    }
+                    break;
+                default:
+                    dashboardDisplay.innerHTML = `<p>Dashboard não encontrado.</p>`;
+            }
+        }, 500);
     }
 });

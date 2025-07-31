@@ -18572,6 +18572,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const dashboardDisplay = document.getElementById('dashboard-display');
     const dashboardCardsEdu = document.querySelectorAll('#dashboards-edu .card');
+    const showDataBtn = document.getElementById('showDataBtn');
+    const dataOverlay = document.getElementById('dataOverlay');
+    const closeOverlayBtn = document.getElementById('closeOverlayBtn');
+    
+    const allData = {
+        'Alunos': alunosData,
+        'Notas': notasData,
+        'Faltas': faltasData,
+        'Professores': professoresData,
+        'Avaliações': avaliacoesData
+    };
 
     let chartInstances = {};
 
@@ -18581,11 +18592,10 @@ document.addEventListener('DOMContentLoaded', () => {
             delete chartInstances[chartId];
         }
     };
-
+    
     if (dashboardCardsEdu.length > 0) {
         dashboardCardsEdu.forEach(card => {
             card.addEventListener('click', (event) => {
-                // Lógica do estado ativo
                 dashboardCardsEdu.forEach(c => c.classList.remove('active-card'));
                 card.classList.add('active-card');
                 
@@ -18595,418 +18605,523 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    showDataBtn.addEventListener('click', () => {
+        setupDataExplorer();
+    });
+
+    closeOverlayBtn.addEventListener('click', () => {
+        dataOverlay.style.display = 'none';
+    });
+    
+    function setupDataExplorer() {
+        dataOverlay.style.display = 'flex';
+        const dataTabsContainer = document.getElementById('dataTabs');
+        const tableContainer = document.getElementById('dataTableContainer');
+
+        dataTabsContainer.innerHTML = '';
+        tableContainer.innerHTML = '';
+
+        const dataNames = Object.keys(allData);
+
+        dataNames.forEach(name => {
+            const button = document.createElement('button');
+            button.textContent = name;
+            button.addEventListener('click', () => {
+                dataTabsContainer.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                renderDataTable(`Dados Brutos - ${name}`, allData[name]);
+            });
+            dataTabsContainer.appendChild(button);
+        });
+
+        // Seleciona a primeira aba por padrão
+        if (dataNames.length > 0) {
+            dataTabsContainer.querySelector('button').click();
+        }
+    }
+
+    function renderDataTable(title, data) {
+        const overlayTitle = document.getElementById('overlayTitle');
+        const tableContainer = document.getElementById('dataTableContainer');
+        overlayTitle.textContent = title;
+
+        if (!data || data.length === 0) {
+            tableContainer.innerHTML = '<p>Nenhum dado encontrado.</p>';
+            return;
+        }
+
+        const headers = Object.keys(data[0]);
+        let tableHtml = `
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        ${headers.map(h => `<th>${h}<br><input type="text" class="filter-input" data-column="${h}" placeholder="Filtrar"></th>`).join('')}
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        `;
+        tableContainer.innerHTML = tableHtml;
+
+        const tbody = tableContainer.querySelector('tbody');
+
+        function renderTableRows(filteredData) {
+            tbody.innerHTML = filteredData.map(row => `
+                <tr>
+                    ${headers.map(h => `<td>${row[h]}</td>`).join('')}
+                </tr>
+            `).join('');
+        }
+
+        renderTableRows(data);
+
+        const filterInputs = tableContainer.querySelectorAll('.filter-input');
+        filterInputs.forEach(input => {
+            input.addEventListener('input', () => {
+                let filteredData = [...data];
+                filterInputs.forEach(filterInput => {
+                    const column = filterInput.dataset.column;
+                    const value = filterInput.value.toLowerCase();
+                    if (value) {
+                        filteredData = filteredData.filter(row => 
+                            String(row[column]).toLowerCase().includes(value)
+                        );
+                    }
+                });
+                renderTableRows(filteredData);
+            });
+        });
+    }
+
     function renderEduDashboard(type) {
-        dashboardDisplay.innerHTML = `<p>Gerando dashboard...</p>`;
+        dashboardDisplay.innerHTML = `
+            <div class="loading-overlay">
+                <div class="spinner"></div>
+            </div>
+        `;
+        showDataBtn.classList.remove('visible');
 
-        let content = '';
-        switch (type) {
-            case 'desempenho-academico':
-                const notasPorDisciplina = notasData.reduce((acc, row) => {
-                    const disciplina = row.disciplina;
-                    acc[disciplina] = (acc[disciplina] || []).concat(row.nota);
-                    return acc;
-                }, {});
-                const mediaNotasPorDisciplina = {};
-                Object.keys(notasPorDisciplina).forEach(disciplina => {
-                    const notas = notasPorDisciplina[disciplina];
-                    const media = notas.reduce((sum, nota) => sum + nota, 0) / notas.length;
-                    mediaNotasPorDisciplina[disciplina] = media;
-                });
-                
-                const totalFaltas = faltasData.length;
-                const totalAlunos = alunosData.length;
-                const mediaFaltas = (totalFaltas / totalAlunos).toFixed(2);
-                
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Desempenho Acadêmico</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Média Geral das Notas:</strong><br> ${
-                                    (notasData.reduce((sum, row) => sum + row.nota, 0) / notasData.length).toFixed(2)
-                                }
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Média de Faltas por Aluno:</strong><br> ${mediaFaltas}
-                            </div>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Média de Notas por Disciplina</h3>
-                        <div class="chart-container">
-                            <canvas id="mediaNotasChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-                
-                const ctxMediaNotas = document.getElementById('mediaNotasChart').getContext('2d');
-                new Chart(ctxMediaNotas, {
-                    type: 'bar',
-                    data: {
-                        labels: Object.keys(mediaNotasPorDisciplina),
-                        datasets: [{
-                            label: 'Média de Notas',
-                            data: Object.values(mediaNotasPorDisciplina),
-                            backgroundColor: '#007bff',
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true, max: 10 } } },
-                });
-                break;
+        setTimeout(() => {
+            let content = '';
+            let dataToShow = null;
+            let title = '';
 
-            case 'satisfacao-aluno':
-                const avaliacaoMediaGeral = ['pontualidade', 'preparo_aula', 'clareza', 'relacao_aluno'].reduce((acc, key) => {
-                    acc[key] = (avaliacoesData.reduce((sum, row) => sum + (row[key] || 0), 0) / avaliacoesData.length).toFixed(2);
-                    return acc;
-                }, {});
-
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Satisfação do Aluno</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Pontualidade:</strong><br> ${avaliacaoMediaGeral.pontualidade}
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Preparo da Aula:</strong><br> ${avaliacaoMediaGeral.preparo_aula}
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Clareza:</strong><br> ${avaliacaoMediaGeral.clareza}
-                            </div>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Média de Avaliações por Critério</h3>
-                        <div class="chart-container">
-                            <canvas id="satisfacaoChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-                
-                const ctxSatisfacao = document.getElementById('satisfacaoChart').getContext('2d');
-                new Chart(ctxSatisfacao, {
-                    type: 'bar',
-                    data: {
-                        labels: ['Pontualidade', 'Preparo da Aula', 'Clareza', 'Relação com Aluno'],
-                        datasets: [{
-                            label: 'Média de Avaliação',
-                            data: Object.values(avaliacaoMediaGeral),
-                            backgroundColor: '#28a745',
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true, max: 5 } } },
-                });
-                break;
-            
-            case 'analise-docentes':
-                const professoresPorFormacao = professoresData.reduce((acc, row) => {
-                    const formacao = row.formacao;
-                    acc[formacao] = (acc[formacao] || 0) + 1;
-                    return acc;
-                }, {});
-
-                const tempoMedioCasa = (professoresData.reduce((sum, row) => sum + row.tempo_casa_anos, 0) / professoresData.length).toFixed(2);
-                
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Análise de Docentes</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Total de Professores:</strong><br> ${professoresData.length}
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Tempo Médio de Casa:</strong><br> ${tempoMedioCasa} anos
-                            </div>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Professores por Formação</h3>
-                        <div class="chart-container">
-                            <canvas id="formacaoChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-                
-                const ctxFormacao = document.getElementById('formacaoChart').getContext('2d');
-                new Chart(ctxFormacao, {
-                    type: 'pie',
-                    data: {
-                        labels: Object.keys(professoresPorFormacao),
-                        datasets: [{
-                            data: Object.values(professoresPorFormacao),
-                            backgroundColor: ['#007bff', '#17a2b8', '#ffc107', '#dc3545'],
-                        }]
-                    },
-                    options: { responsive: true },
-                });
-                break;
-            
-            case 'analise-individual':
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Análise Individual de Aluno</h2>
-                        <div class="search-box">
-                            <input type="text" id="studentSearch" placeholder="Digite o nome do aluno...">
-                            <div class="search-results" id="searchResults"></div>
-                        </div>
-                        
-                        <div id="studentDataContainer" style="margin-top:20px;">
-                            <p>Selecione um aluno acima para visualizar seus dados.</p>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-
-                const searchInput = document.getElementById('studentSearch');
-                const searchResults = document.getElementById('searchResults');
-                const studentDataContainer = document.getElementById('studentDataContainer');
-
-                searchInput.addEventListener('input', () => {
-                    const searchTerm = searchInput.value.toLowerCase();
-                    searchResults.innerHTML = '';
-                    if (searchTerm.length > 2) {
-                        const filteredStudents = alunosData.filter(student => student.nome.toLowerCase().includes(searchTerm));
-                        if (filteredStudents.length > 0) {
-                            filteredStudents.forEach(student => {
-                                const resultItem = document.createElement('div');
-                                resultItem.textContent = student.nome;
-                                resultItem.addEventListener('click', () => {
-                                    displayStudentData(student.id_aluno);
-                                    searchInput.value = student.nome;
-                                    searchResults.innerHTML = '';
-                                });
-                                searchResults.appendChild(resultItem);
-                            });
-                        } else {
-                            searchResults.innerHTML = '<div>Nenhum aluno encontrado.</div>';
-                        }
-                    }
-                });
-
-                function displayStudentData(studentId) {
-                    const student = alunosData.find(s => s.id_aluno === studentId);
-                    if (!student) {
-                        studentDataContainer.innerHTML = '<p>Aluno não encontrado.</p>';
-                        return;
-                    }
-
-                    const studentNotas = notasData.filter(n => n.id_aluno === studentId);
-                    const studentFaltas = faltasData.filter(f => f.id_aluno === studentId);
-                    
-                    const notasPorDisciplina = studentNotas.reduce((acc, row) => {
-                        acc[row.disciplina] = row.nota;
+            switch (type) {
+                case 'desempenho-academico':
+                    const notasPorDisciplina = notasData.reduce((acc, row) => {
+                        const disciplina = row.disciplina;
+                        acc[disciplina] = (acc[disciplina] || []).concat(row.nota);
                         return acc;
                     }, {});
-
-                    const disciplinas = [...new Set(studentNotas.map(n => n.disciplina))];
-                    const notas = disciplinas.map(d => notasPorDisciplina[d]);
-                    
-                    const aptidaoPorArea = {
-                        'Exatas': [],
-                        'Humanas': [],
-                        'Linguagens': []
-                    };
-                    
-                    const disciplinaParaCategoria = {
-                        'Matemática': 'Exatas',
-                        'Física': 'Exatas',
-                        'Química': 'Exatas',
-                        'História': 'Humanas',
-                        'Geografia': 'Humanas',
-                        'Biologia': 'Humanas',
-                        'Português': 'Linguagens',
-                        'Inglês': 'Linguagens'
-                    };
-
-                    studentNotas.forEach(nota => {
-                        const categoria = disciplinaParaCategoria[nota.disciplina];
-                        if (categoria) {
-                            aptidaoPorArea[categoria].push(nota.nota);
-                        }
+                    const mediaNotasPorDisciplina = {};
+                    Object.keys(notasPorDisciplina).forEach(disciplina => {
+                        const notas = notasPorDisciplina[disciplina];
+                        const media = notas.reduce((sum, nota) => sum + nota, 0) / notas.length;
+                        mediaNotasPorDisciplina[disciplina] = media;
                     });
                     
-                    const mediasAptidao = Object.keys(aptidaoPorArea).reduce((acc, area) => {
-                        const notasArea = aptidaoPorArea[area];
-                        if (notasArea.length > 0) {
-                            acc[area] = notasArea.reduce((sum, n) => sum + n, 0) / notasArea.length;
-                        } else {
-                            acc[area] = 0;
-                        }
-                        return acc;
-                    }, {});
-
-                    const faltasPorDisciplina = studentFaltas.reduce((acc, row) => {
-                        acc[row.disciplina] = (acc[row.disciplina] || 0) + 1;
-                        return acc;
-                    }, {});
-
-                    const disciplinasComFaltas = [...new Set(studentFaltas.map(f => f.disciplina))];
-                    const faltasDoAluno = disciplinasComFaltas.map(d => faltasPorDisciplina[d]);
-
-                    const alunosDaTurma = alunosData.filter(a => a.turma === student.turma);
-                    const faltasDaTurmaPorDisciplina = faltasData.filter(f => alunosDaTurma.some(a => a.id_aluno === f.id_aluno));
-                    const faltasDaTurmaAgg = faltasDaTurmaPorDisciplina.reduce((acc, row) => {
-                        acc[row.disciplina] = (acc[row.disciplina] || 0) + 1;
-                        return acc;
-                    }, {});
-
-                    const mediaFaltasTurma = disciplinasComFaltas.map(d => {
-                        const totalFaltasNaDisciplina = faltasDaTurmaAgg[d] || 0;
-                        const alunosComFaltas = faltasDaTurmaPorDisciplina.filter(f => f.disciplina === d);
-                        return totalFaltasNaDisciplina / alunosComFaltas.length;
-                    });
+                    const totalFaltas = faltasData.length;
+                    const totalAlunos = alunosData.length;
+                    const mediaFaltas = (totalFaltas / totalAlunos).toFixed(2);
                     
-                    let gradesTable = '';
-                    if (studentNotas.length > 0) {
-                        gradesTable += `<h3>Notas por Disciplina</h3>`;
-                        gradesTable += `<table style="width:100%; border-collapse: collapse; margin-top: 10px;">
-                                            <thead><tr><th style="border: 1px solid #ddd; padding: 8px;">Disciplina</th><th style="border: 1px solid #ddd; padding: 8px;">Nota</th></tr></thead>
-                                            <tbody>`;
-                        studentNotas.forEach(nota => {
-                            gradesTable += `<tr><td style="border: 1px solid #ddd; padding: 8px;">${nota.disciplina}</td><td style="border: 1px solid #ddd; padding: 8px;">${nota.nota}</td></tr>`;
-                        });
-                        gradesTable += `</tbody></table>`;
-                    } else {
-                        gradesTable += `<p>Nenhuma nota encontrada.</p>`;
-                    }
-
-                    let absencesTable = '';
-                    if (studentFaltas.length > 0) {
-                        const faltasPorDisciplinaDisplay = studentFaltas.reduce((acc, row) => {
-                            acc[row.disciplina] = (acc[row.disciplina] || 0) + 1;
-                            return acc;
-                        }, {});
-                        
-                        absencesTable += `<h3>Faltas por Disciplina</h3>`;
-                        absencesTable += `<table style="width:100%; border-collapse: collapse; margin-top: 10px;">
-                                            <thead><tr><th style="border: 1px solid #ddd; padding: 8px;">Disciplina</th><th style="border: 1px solid #ddd; padding: 8px;">Total de Faltas</th></tr></thead>
-                                            <tbody>`;
-                        Object.keys(faltasPorDisciplinaDisplay).forEach(disciplina => {
-                            absencesTable += `<tr><td style="border: 1px solid #ddd; padding: 8px;">${disciplina}</td><td style="border: 1px solid #ddd; padding: 8px;">${faltasPorDisciplinaDisplay[disciplina]}</td></tr>`;
-                        });
-                        absencesTable += `</tbody></table>`;
-                    } else {
-                        absencesTable += `<p>Nenhuma falta encontrada.</p>`;
-                    }
-
-                    studentDataContainer.innerHTML = `
+                    content = `
                         <div class="dashboard-content">
-                            <h3>Informações de ${student.nome}</h3>
-                            <p><strong>Idade:</strong> ${student.idade}</p>
-                            <p><strong>Turma:</strong> ${student.turma}</p>
-                            
-                            <div style="margin-top:20px;">
-                                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-                                    <div style="flex: 1; min-width: 300px;">
-                                        ${gradesTable}
-                                    </div>
-                                    <div style="flex: 1; min-width: 300px;">
-                                        ${absencesTable}
-                                    </div>
+                            <h2>Dashboard de Desempenho Acadêmico</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Média Geral das Notas:</strong><br> ${
+                                        (notasData.reduce((sum, row) => sum + row.nota, 0) / notasData.length).toFixed(2)
+                                    }
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Média de Faltas por Aluno:</strong><br> ${mediaFaltas}
                                 </div>
                             </div>
                             
-                            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-                                <div style="flex: 1; min-width: 300px;">
-                                    <h4 style="margin-top:20px;">Notas por Disciplina (Gráfico)</h4>
-                                    <div class="chart-container">
-                                        <canvas id="studentGradesChart"></canvas>
-                                    </div>
-                                </div>
-                                <div style="flex: 1; min-width: 300px;">
-                                    <h4 style="margin-top:20px;">Aptidão por Área</h4>
-                                    <div class="chart-container">
-                                        <canvas id="studentAptitudeChart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style="flex: 1; min-width: 300px;">
-                                <h4 style="margin-top:20px;">Faltas por Disciplina (vs. Média da Turma)</h4>
-                                <div class="chart-container">
-                                    <canvas id="studentAbsencesChart"></canvas>
-                                </div>
+                            <h3 style="margin-top:20px;">Média de Notas por Disciplina</h3>
+                            <div class="chart-container">
+                                <canvas id="mediaNotasChart"></canvas>
                             </div>
                         </div>
                     `;
-
-                    // Gráfico de Colunas para Notas
-                    const ctxGrades = document.getElementById('studentGradesChart').getContext('2d');
-                    new Chart(ctxGrades, {
+                    dashboardDisplay.innerHTML = content;
+                    
+                    const ctxMediaNotas = document.getElementById('mediaNotasChart').getContext('2d');
+                    new Chart(ctxMediaNotas, {
                         type: 'bar',
                         data: {
-                            labels: disciplinas,
+                            labels: Object.keys(mediaNotasPorDisciplina),
                             datasets: [{
-                                label: 'Nota',
-                                data: notas,
-                                backgroundColor: '#007bff'
+                                label: 'Média de Notas',
+                                data: Object.values(mediaNotasPorDisciplina),
+                                backgroundColor: '#007bff',
                             }]
                         },
-                        options: {
-                            responsive: true,
-                            scales: {
-                                y: { beginAtZero: true, max: 10 }
+                        options: { responsive: true, scales: { y: { beginAtZero: true, max: 10 } } },
+                    });
+                    
+                    dataToShow = notasData;
+                    title = 'Dados Brutos - Notas';
+                    break;
+                case 'satisfacao-aluno':
+                    const avaliacaoMediaGeral = ['pontualidade', 'preparo_aula', 'clareza', 'relacao_aluno'].reduce((acc, key) => {
+                        acc[key] = (avaliacoesData.reduce((sum, row) => sum + (row[key] || 0), 0) / avaliacoesData.length).toFixed(2);
+                        return acc;
+                    }, {});
+
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Satisfação do Aluno</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Pontualidade:</strong><br> ${avaliacaoMediaGeral.pontualidade}
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Preparo da Aula:</strong><br> ${avaliacaoMediaGeral.preparo_aula}
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Clareza:</strong><br> ${avaliacaoMediaGeral.clareza}
+                                </div>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Média de Avaliações por Critério</h3>
+                            <div class="chart-container">
+                                <canvas id="satisfacaoChart"></canvas>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    const ctxSatisfacao = document.getElementById('satisfacaoChart').getContext('2d');
+                    new Chart(ctxSatisfacao, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Pontualidade', 'Preparo da Aula', 'Clareza', 'Relação com Aluno'],
+                            datasets: [{
+                                label: 'Média de Avaliação',
+                                data: Object.values(avaliacaoMediaGeral),
+                                backgroundColor: '#28a745',
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true, max: 5 } } },
+                    });
+                    
+                    dataToShow = avaliacoesData;
+                    title = 'Dados Brutos - Avaliações';
+                    break;
+                case 'analise-docentes':
+                    const professoresPorFormacao = professoresData.reduce((acc, row) => {
+                        const formacao = row.formacao;
+                        acc[formacao] = (acc[formacao] || 0) + 1;
+                        return acc;
+                    }, {});
+
+                    const tempoMedioCasa = (professoresData.reduce((sum, row) => sum + row.tempo_casa_anos, 0) / professoresData.length).toFixed(2);
+                    
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Análise de Docentes</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Total de Professores:</strong><br> ${professoresData.length}
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Tempo Médio de Casa:</strong><br> ${tempoMedioCasa} anos
+                                </div>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Professores por Formação</h3>
+                            <div class="chart-container">
+                                <canvas id="formacaoChart"></canvas>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    const ctxFormacao = document.getElementById('formacaoChart').getContext('2d');
+                    new Chart(ctxFormacao, {
+                        type: 'pie',
+                        data: {
+                            labels: Object.keys(professoresPorFormacao),
+                            datasets: [{
+                                data: Object.values(professoresPorFormacao),
+                                backgroundColor: ['#007bff', '#17a2b8', '#ffc107', '#dc3545'],
+                            }]
+                        },
+                        options: { responsive: true },
+                    });
+                    
+                    dataToShow = professoresData;
+                    title = 'Dados Brutos - Professores';
+                    break;
+                case 'analise-individual':
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Análise Individual de Aluno</h2>
+                            <div class="search-box">
+                                <input type="text" id="studentSearch" placeholder="Digite o nome do aluno...">
+                                <div class="search-results" id="searchResults"></div>
+                            </div>
+                            
+                            <div id="studentDataContainer" style="margin-top:20px;">
+                                <p>Selecione um aluno acima para visualizar seus dados.</p>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+
+                    const searchInput = document.getElementById('studentSearch');
+                    const searchResults = document.getElementById('searchResults');
+                    const studentDataContainer = document.getElementById('studentDataContainer');
+
+                    searchInput.addEventListener('input', () => {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        searchResults.innerHTML = '';
+                        if (searchTerm.length > 2) {
+                            const filteredStudents = alunosData.filter(student => student.nome.toLowerCase().includes(searchTerm));
+                            if (filteredStudents.length > 0) {
+                                filteredStudents.forEach(student => {
+                                    const resultItem = document.createElement('div');
+                                    resultItem.textContent = student.nome;
+                                    resultItem.addEventListener('click', () => {
+                                        displayStudentData(student.id_aluno);
+                                        searchInput.value = student.nome;
+                                        searchResults.innerHTML = '';
+                                    });
+                                    searchResults.appendChild(resultItem);
+                                });
+                            } else {
+                                searchResults.innerHTML = '<div>Nenhum aluno encontrado.</div>';
                             }
                         }
                     });
 
-                    // Gráfico de Radar para Aptidão
-                    const ctxAptitude = document.getElementById('studentAptitudeChart').getContext('2d');
-                    new Chart(ctxAptitude, {
-                        type: 'radar',
-                        data: {
-                            labels: Object.keys(mediasAptidao),
-                            datasets: [{
-                                label: 'Média por Área',
-                                data: Object.values(mediasAptidao),
-                                backgroundColor: 'rgba(40, 167, 69, 0.2)',
-                                borderColor: '#28a745',
-                                borderWidth: 1
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            scales: {
-                                r: {
-                                    angleLines: { display: false },
-                                    suggestedMin: 0,
-                                    suggestedMax: 10
-                                }
-                            }
+                    function displayStudentData(studentId) {
+                        const student = alunosData.find(s => s.id_aluno === studentId);
+                        if (!student) {
+                            studentDataContainer.innerHTML = '<p>Aluno não encontrado.</p>';
+                            return;
                         }
-                    });
 
-                    // NOVO GRÁFICO: Faltas por Disciplina vs. Média da Turma
-                    const ctxAbsences = document.getElementById('studentAbsencesChart').getContext('2d');
-                    new Chart(ctxAbsences, {
-                        type: 'bar',
-                        data: {
-                            labels: disciplinasComFaltas,
-                            datasets: [{
-                                label: 'Faltas do Aluno',
-                                data: faltasDoAluno,
-                                backgroundColor: 'rgba(0, 123, 255, 0.8)',
+                        const studentNotas = notasData.filter(n => n.id_aluno === studentId);
+                        const studentFaltas = faltasData.filter(f => f.id_aluno === studentId);
+                        
+                        const notasPorDisciplina = studentNotas.reduce((acc, row) => {
+                            acc[row.disciplina] = row.nota;
+                            return acc;
+                        }, {});
+
+                        const disciplinas = [...new Set(studentNotas.map(n => n.disciplina))];
+                        const notas = disciplinas.map(d => notasPorDisciplina[d]);
+                        
+                        const aptidaoPorArea = {
+                            'Exatas': [],
+                            'Humanas': [],
+                            'Linguagens': []
+                        };
+                        
+                        const disciplinaParaCategoria = {
+                            'Matemática': 'Exatas',
+                            'Física': 'Exatas',
+                            'Química': 'Exatas',
+                            'História': 'Humanas',
+                            'Geografia': 'Humanas',
+                            'Biologia': 'Humanas',
+                            'Português': 'Linguagens',
+                            'Inglês': 'Linguagens'
+                        };
+
+                        studentNotas.forEach(nota => {
+                            const categoria = disciplinaParaCategoria[nota.disciplina];
+                            if (categoria) {
+                                aptidaoPorArea[categoria].push(nota.nota);
+                            }
+                        });
+                        
+                        const mediasAptidao = Object.keys(aptidaoPorArea).reduce((acc, area) => {
+                            const notasArea = aptidaoPorArea[area];
+                            if (notasArea.length > 0) {
+                                acc[area] = notasArea.reduce((sum, n) => sum + n, 0) / notasArea.length;
+                            } else {
+                                acc[area] = 0;
+                            }
+                            return acc;
+                        }, {});
+
+                        const faltasPorDisciplina = studentFaltas.reduce((acc, row) => {
+                            acc[row.disciplina] = (acc[row.disciplina] || 0) + 1;
+                            return acc;
+                        }, {});
+
+                        const disciplinasComFaltas = [...new Set(studentFaltas.map(f => f.disciplina))];
+                        const faltasDoAluno = disciplinasComFaltas.map(d => faltasPorDisciplina[d]);
+
+                        const alunosDaTurma = alunosData.filter(a => a.turma === student.turma);
+                        const faltasDaTurmaPorDisciplina = faltasData.filter(f => alunosDaTurma.some(a => a.id_aluno === f.id_aluno));
+                        const faltasDaTurmaAgg = faltasDaTurmaPorDisciplina.reduce((acc, row) => {
+                            acc[row.disciplina] = (acc[row.disciplina] || 0) + 1;
+                            return acc;
+                        }, {});
+
+                        const mediaFaltasTurma = disciplinasComFaltas.map(d => {
+                            const totalFaltasNaDisciplina = faltasDaTurmaAgg[d] || 0;
+                            const alunosComFaltas = faltasDaTurmaPorDisciplina.filter(f => f.disciplina === d);
+                            return totalFaltasNaDisciplina / alunosComFaltas.length;
+                        });
+                        
+                        let gradesTable = '';
+                        if (studentNotas.length > 0) {
+                            gradesTable += `<h3>Notas por Disciplina</h3>`;
+                            gradesTable += `<table style="width:100%; border-collapse: collapse; margin-top: 10px;">
+                                                <thead><tr><th style="border: 1px solid #ddd; padding: 8px;">Disciplina</th><th style="border: 1px solid #ddd; padding: 8px;">Nota</th></tr></thead>
+                                                <tbody>`;
+                            studentNotas.forEach(nota => {
+                                gradesTable += `<tr><td style="border: 1px solid #ddd; padding: 8px;">${nota.disciplina}</td><td style="border: 1px solid #ddd; padding: 8px;">${nota.nota}</td></tr>`;
+                            });
+                            gradesTable += `</tbody></table>`;
+                        } else {
+                            gradesTable += `<p>Nenhuma nota encontrada.</p>`;
+                        }
+
+                        let absencesTable = '';
+                        if (studentFaltas.length > 0) {
+                            const faltasPorDisciplinaDisplay = studentFaltas.reduce((acc, row) => {
+                                acc[row.disciplina] = (acc[row.disciplina] || 0) + 1;
+                                return acc;
+                            }, {});
+                            
+                            absencesTable += `<h3>Faltas por Disciplina</h3>`;
+                            absencesTable += `<table style="width:100%; border-collapse: collapse; margin-top: 10px;">
+                                                <thead><tr><th style="border: 1px solid #ddd; padding: 8px;">Disciplina</th><th style="border: 1px solid #ddd; padding: 8px;">Total de Faltas</th></tr></thead>
+                                                <tbody>`;
+                            Object.keys(faltasPorDisciplinaDisplay).forEach(disciplina => {
+                                absencesTable += `<tr><td style="border: 1px solid #ddd; padding: 8px;">${disciplina}</td><td style="border: 1px solid #ddd; padding: 8px;">${faltasPorDisciplinaDisplay[disciplina]}</td></tr>`;
+                            });
+                            absencesTable += `</tbody></table>`;
+                        } else {
+                            absencesTable += `<p>Nenhuma falta encontrada.</p>`;
+                        }
+
+                        studentDataContainer.innerHTML = `
+                            <div class="dashboard-content">
+                                <h3>Informações de ${student.nome}</h3>
+                                <p><strong>Idade:</strong> ${student.idade}</p>
+                                <p><strong>Turma:</strong> ${student.turma}</p>
+                                
+                                <div style="margin-top:20px;">
+                                    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                                        <div style="flex: 1; min-width: 300px;">
+                                            ${gradesTable}
+                                        </div>
+                                        <div style="flex: 1; min-width: 300px;">
+                                            ${absencesTable}
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                                    <div style="flex: 1; min-width: 300px;">
+                                        <h4 style="margin-top:20px;">Notas por Disciplina (Gráfico)</h4>
+                                        <div class="chart-container">
+                                            <canvas id="studentGradesChart"></canvas>
+                                        </div>
+                                    </div>
+                                    <div style="flex: 1; min-width: 300px;">
+                                        <h4 style="margin-top:20px;">Aptidão por Área</h4>
+                                        <div class="chart-container">
+                                            <canvas id="studentAptitudeChart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div style="flex: 1; min-width: 300px;">
+                                    <h4 style="margin-top:20px;">Faltas por Disciplina (vs. Média da Turma)</h4>
+                                    <div class="chart-container">
+                                        <canvas id="studentAbsencesChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+
+                        const ctxGrades = document.getElementById('studentGradesChart').getContext('2d');
+                        new Chart(ctxGrades, {
+                            type: 'bar',
+                            data: {
+                                labels: disciplinas,
+                                datasets: [{
+                                    label: 'Nota',
+                                    data: notas,
+                                    backgroundColor: '#007bff'
+                                }]
                             },
-                            {
-                                label: 'Média da Turma',
-                                data: mediaFaltasTurma,
-                                backgroundColor: 'rgba(220, 53, 69, 0.8)',
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            scales: {
-                                y: {
-                                    beginAtZero: true
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    y: { beginAtZero: true, max: 10 }
                                 }
                             }
-                        }
-                    });
-                }
-                break;
+                        });
 
-            default:
-                dashboardDisplay.innerHTML = `<p>Dashboard não encontrado.</p>`;
-        }
+                        const ctxAptitude = document.getElementById('studentAptitudeChart').getContext('2d');
+                        new Chart(ctxAptitude, {
+                            type: 'radar',
+                            data: {
+                                labels: Object.keys(mediasAptidao),
+                                datasets: [{
+                                    label: 'Média por Área',
+                                    data: Object.values(mediasAptidao),
+                                    backgroundColor: 'rgba(40, 167, 69, 0.2)',
+                                    borderColor: '#28a745',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    r: {
+                                        angleLines: { display: false },
+                                        suggestedMin: 0,
+                                        suggestedMax: 10
+                                    }
+                                }
+                            }
+                        });
+                        
+                        const ctxAbsences = document.getElementById('studentAbsencesChart').getContext('2d');
+                        new Chart(ctxAbsences, {
+                            type: 'bar',
+                            data: {
+                                labels: disciplinasComFaltas,
+                                datasets: [{
+                                    label: 'Faltas do Aluno',
+                                    data: faltasDoAluno,
+                                    backgroundColor: 'rgba(0, 123, 255, 0.8)',
+                                },
+                                {
+                                    label: 'Média da Turma',
+                                    data: mediaFaltasTurma,
+                                    backgroundColor: 'rgba(220, 53, 69, 0.8)',
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    y: { beginAtZero: true }
+                                }
+                            }
+                        });
+                    }
+                    
+                    dataToShow = alunosData;
+                    title = 'Dados Brutos - Alunos';
+                    break;
+                default:
+                    dashboardDisplay.innerHTML = `<p>Dashboard não encontrado.</p>`;
+            }
+            
+            currentData = { title: title, data: dataToShow };
+            showDataBtn.classList.add('visible');
+
+        }, 500);
     }
 });

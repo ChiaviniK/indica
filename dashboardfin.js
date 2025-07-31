@@ -49001,10 +49001,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 ];
     
-    const dashboardDisplay = document.getElementById('dashboard-display');
+const dashboardDisplay = document.getElementById('dashboard-display');
     const dashboardCardsFin = document.querySelectorAll('#dashboards-fin .card');
+    const showDataBtn = document.getElementById('showDataBtn');
+    const dataOverlay = document.getElementById('dataOverlay');
+    const closeOverlayBtn = document.getElementById('closeOverlayBtn');
 
     let chartInstances = {};
+    let currentData = null; // Alterado para null
+    
+    const allFinData = {
+        'Clientes': clientesData,
+        'Produtos': produtosData,
+        'Pagamentos': pagamentosData,
+        'Chamados': chamadosData,
+        'Campanhas': campanhasData,
+    };
 
     const destroyChart = (chartId) => {
         if (chartInstances[chartId]) {
@@ -49016,7 +49028,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (dashboardCardsFin.length > 0) {
         dashboardCardsFin.forEach(card => {
             card.addEventListener('click', (event) => {
-                // Lógica do estado ativo
                 dashboardCardsFin.forEach(c => c.classList.remove('active-card'));
                 card.classList.add('active-card');
                 
@@ -49026,255 +49037,358 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function renderFinDashboard(type) {
-        dashboardDisplay.innerHTML = `<p>Gerando dashboard...</p>`;
-
-        let content = '';
-        switch (type) {
-            case 'performance-financeira':
-                const totalReceita = pagamentosData.reduce((sum, row) => sum + (row.valor_pago || 0), 0).toFixed(2);
-                const totalPagamentos = pagamentosData.length;
-                const atrasos = pagamentosData.filter(row => row.atraso_dias > 0).length;
-                const percentualInadimplencia = ((atrasos / totalPagamentos) * 100).toFixed(2);
-                const ticketMedio = (totalReceita / totalPagamentos).toFixed(2);
-
-                const receitaPorMes = pagamentosData.reduce((acc, row) => {
-                    const mesAno = row.data_pagamento.substring(0, 7);
-                    acc[mesAno] = (acc[mesAno] || 0) + (row.valor_pago || 0);
-                    return acc;
-                }, {});
-                const labelsReceita = Object.keys(receitaPorMes).sort();
-                const dataReceita = labelsReceita.map(mes => receitaPorMes[mes]);
-
-                const chamadosPorCategoria = chamadosData.reduce((acc, row) => {
-                    const categoria = row.categoria;
-                    acc[categoria] = (acc[categoria] || 0) + 1;
-                    return acc;
-                }, {});
-
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Performance Financeira</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Receita Total:</strong><br> R$ ${totalReceita}
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Inadimplência:</strong><br> ${percentualInadimplencia}%
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Ticket Médio:</strong><br> R$ ${ticketMedio}
-                            </div>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Evolução da Receita por Mês</h3>
-                        <div class="chart-container">
-                            <canvas id="revenueChart"></canvas>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Distribuição de Pagamentos</h3>
-                        <div class="chart-container">
-                            <canvas id="inadimplenciaChart"></canvas>
-                        </div>
-
-                        <h3 style="margin-top:20px;">Chamados por Categoria</h3>
-                        <div class="chart-container">
-                            <canvas id="chamadosChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-                
-                const ctxRevenue = document.getElementById('revenueChart').getContext('2d');
-                new Chart(ctxRevenue, {
-                    type: 'line',
-                    data: {
-                        labels: labelsReceita,
-                        datasets: [{
-                            label: 'Receita Total',
-                            data: dataReceita,
-                            backgroundColor: 'rgba(0, 123, 255, 0.5)',
-                            borderColor: '#007bff',
-                            borderWidth: 2,
-                            tension: 0.4
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                });
-
-                const ctxInadimplencia = document.getElementById('inadimplenciaChart').getContext('2d');
-                new Chart(ctxInadimplencia, {
-                    type: 'pie',
-                    data: {
-                        labels: ['Em Dia', 'Atrasado'],
-                        datasets: [{
-                            data: [totalPagamentos - atrasos, atrasos],
-                            backgroundColor: ['#28a745', '#dc3545'],
-                        }]
-                    },
-                    options: { responsive: true },
-                });
-                
-                const ctxChamados = document.getElementById('chamadosChart').getContext('2d');
-                new Chart(ctxChamados, {
-                    type: 'bar',
-                    data: {
-                        labels: Object.keys(chamadosPorCategoria),
-                        datasets: [{
-                            label: 'Número de Chamados',
-                            data: Object.values(chamadosPorCategoria),
-                            backgroundColor: '#ffc107',
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                });
-                break;
-
-            case 'analise-produtos':
-                const valorAprovadoPorTipo = produtosData.reduce((acc, row) => {
-                    const tipo = row.tipo;
-                    acc[tipo] = (acc[tipo] || 0) + (row.valor_aprovado || 0);
-                    return acc;
-                }, {});
-                const labelsProdutos = Object.keys(valorAprovadoPorTipo);
-                const dataProdutos = labelsProdutos.map(tipo => valorAprovadoPorTipo[tipo]);
-
-                const contagemStatus = produtosData.reduce((acc, row) => {
-                    const status = row.status;
-                    acc[status] = (acc[status] || 0) + 1;
-                    return acc;
-                }, {});
-
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Análise de Produtos</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Total de Produtos:</strong><br> ${produtosData.length}
-                            </div>
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Valor Médio Aprovado:</strong><br> R$ ${
-                                    (produtosData.reduce((sum, row) => sum + (row.valor_aprovado || 0), 0) / produtosData.length).toFixed(2)
-                                }
-                            </div>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Valor Aprovado por Tipo de Produto</h3>
-                        <div class="chart-container">
-                            <canvas id="productValueChart"></canvas>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Produtos por Status</h3>
-                        <div class="chart-container">
-                            <canvas id="productStatusChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-
-                const ctxProductValue = document.getElementById('productValueChart').getContext('2d');
-                new Chart(ctxProductValue, {
-                    type: 'bar',
-                    data: {
-                        labels: labelsProdutos,
-                        datasets: [{
-                            label: 'Valor Aprovado',
-                            data: dataProdutos,
-                            backgroundColor: '#17a2b8',
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                });
-                
-                const ctxProductStatus = document.getElementById('productStatusChart').getContext('2d');
-                new Chart(ctxProductStatus, {
-                    type: 'bar',
-                    data: {
-                        labels: Object.keys(contagemStatus),
-                        datasets: [{
-                            label: 'Quantidade',
-                            data: Object.values(contagemStatus),
-                            backgroundColor: ['#28a745', '#ffc107', '#dc3545'],
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                });
-                break;
-            
-            case 'perfil-clientes':
-                const clientesPorRegiao = clientesData.reduce((acc, row) => {
-                    const regiao = row.região;
-                    acc[regiao] = (acc[regiao] || 0) + 1;
-                    return acc;
-                }, {});
-                const labelsRegiao = Object.keys(clientesPorRegiao);
-                const dataRegiao = labelsRegiao.map(regiao => clientesPorRegiao[regiao]);
-
-                const clientesPorGenero = clientesData.reduce((acc, row) => {
-                    const genero = row.gênero;
-                    acc[genero] = (acc[genero] || 0) + 1;
-                    return acc;
-                }, {});
-
-                const canaisAquisicao = clientesData.reduce((acc, row) => {
-                    const canal = row.canal_aquisicao;
-                    acc[canal] = (acc[canal] || 0) + 1;
-                    return acc;
-                }, {});
-
-                content = `
-                    <div class="dashboard-content">
-                        <h2>Dashboard de Análise de Clientes</h2>
-                        <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
-                            <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
-                                <strong>Total de Clientes:</strong><br> ${clientesData.length}
-                            </div>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Clientes por Região</h3>
-                        <div class="chart-container">
-                            <canvas id="clientesRegiaoChart"></canvas>
-                        </div>
-                        
-                        <h3 style="margin-top:20px;">Clientes por Canal de Aquisição</h3>
-                        <div class="chart-container">
-                            <canvas id="canaisAquisicaoChart"></canvas>
-                        </div>
-                    </div>
-                `;
-                dashboardDisplay.innerHTML = content;
-                
-                const ctxClientesRegiao = document.getElementById('clientesRegiaoChart').getContext('2d');
-                new Chart(ctxClientesRegiao, {
-                    type: 'bar',
-                    data: {
-                        labels: labelsRegiao,
-                        datasets: [{
-                            label: 'Quantidade de Clientes',
-                            data: dataRegiao,
-                            backgroundColor: '#ffc107',
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                });
-                
-                const ctxCanaisAquisicao = document.getElementById('canaisAquisicaoChart').getContext('2d');
-                new Chart(ctxCanaisAquisicao, {
-                    type: 'bar',
-                    data: {
-                        labels: Object.keys(canaisAquisicao),
-                        datasets: [{
-                            label: 'Quantidade de Clientes',
-                            data: Object.values(canaisAquisicao),
-                            backgroundColor: ['#6c757d', '#17a2b8', '#28a745', '#dc3545'],
-                        }]
-                    },
-                    options: { responsive: true, scales: { y: { beginAtZero: true } } },
-                });
-                break;
-
-            default:
-                dashboardDisplay.innerHTML = `<p>Dashboard não encontrado.</p>`;
+    showDataBtn.addEventListener('click', () => {
+        if (currentData) {
+            setupDataExplorer(allFinData);
         }
+    });
+
+    closeOverlayBtn.addEventListener('click', () => {
+        dataOverlay.style.display = 'none';
+    });
+
+    function setupDataExplorer(datasets) {
+        dataOverlay.style.display = 'flex';
+        const dataTabsContainer = document.getElementById('dataTabs');
+        dataTabsContainer.innerHTML = '';
+        
+        const dataNames = Object.keys(datasets);
+        dataNames.forEach(name => {
+            const button = document.createElement('button');
+            button.textContent = name;
+            button.addEventListener('click', () => {
+                dataTabsContainer.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                renderDataTable(`Dados Brutos - ${name}`, datasets[name]);
+            });
+            dataTabsContainer.appendChild(button);
+        });
+
+        if (dataNames.length > 0) {
+            dataTabsContainer.querySelector('button').click();
+        }
+    }
+
+    function renderDataTable(title, data) {
+        const overlayTitle = document.getElementById('overlayTitle');
+        const tableContainer = document.getElementById('dataTableContainer');
+
+        overlayTitle.textContent = title;
+        
+        if (!data || data.length === 0) {
+            tableContainer.innerHTML = '<p>Nenhum dado encontrado.</p>';
+            return;
+        }
+
+        const headers = Object.keys(data[0]);
+        let tableHtml = `
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        ${headers.map(h => `<th>${h}<br><input type="text" class="filter-input" data-column="${h}" placeholder="Filtrar"></th>`).join('')}
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        `;
+        tableContainer.innerHTML = tableHtml;
+
+        const tbody = tableContainer.querySelector('tbody');
+
+        function renderTableRows(filteredData) {
+            tbody.innerHTML = filteredData.map(row => `
+                <tr>
+                    ${headers.map(h => `<td>${row[h]}</td>`).join('')}
+                </tr>
+            `).join('');
+        }
+
+        renderTableRows(data);
+
+        const filterInputs = tableContainer.querySelectorAll('.filter-input');
+        filterInputs.forEach(input => {
+            input.addEventListener('input', () => {
+                let filteredData = [...data];
+                filterInputs.forEach(filterInput => {
+                    const column = filterInput.dataset.column;
+                    const value = filterInput.value.toLowerCase();
+                    if (value) {
+                        filteredData = filteredData.filter(row => 
+                            String(row[column]).toLowerCase().includes(value)
+                        );
+                    }
+                });
+                renderTableRows(filteredData);
+            });
+        });
+    }
+
+    function renderFinDashboard(type) {
+        dashboardDisplay.innerHTML = `
+            <div class="loading-overlay">
+                <div class="spinner"></div>
+            </div>
+        `;
+        showDataBtn.classList.remove('visible');
+        
+        for (const chartId in chartInstances) {
+            destroyChart(chartId);
+        }
+
+        setTimeout(() => {
+            let content = '';
+            
+            switch (type) {
+                case 'performance-financeira':
+                    const totalReceita = pagamentosData.reduce((sum, row) => sum + (row.valor_pago || 0), 0).toFixed(2);
+                    const totalPagamentos = pagamentosData.length;
+                    const atrasos = pagamentosData.filter(row => row.atraso_dias > 0).length;
+                    const percentualInadimplencia = ((atrasos / totalPagamentos) * 100).toFixed(2);
+                    const ticketMedio = (totalReceita / totalPagamentos).toFixed(2);
+
+                    const receitaPorMes = pagamentosData.reduce((acc, row) => {
+                        const mesAno = row.data_pagamento.substring(0, 7);
+                        acc[mesAno] = (acc[mesAno] || 0) + (row.valor_pago || 0);
+                        return acc;
+                    }, {});
+                    const labelsReceita = Object.keys(receitaPorMes).sort();
+                    const dataReceita = labelsReceita.map(mes => receitaPorMes[mes]);
+
+                    const chamadosPorCategoria = chamadosData.reduce((acc, row) => {
+                        const categoria = row.categoria;
+                        acc[categoria] = (acc[categoria] || 0) + 1;
+                        return acc;
+                    }, {});
+
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Performance Financeira</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Receita Total:</strong><br> R$ ${totalReceita}
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Inadimplência:</strong><br> ${percentualInadimplencia}%
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Ticket Médio:</strong><br> R$ ${ticketMedio}
+                                </div>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Evolução da Receita por Mês</h3>
+                            <div class="chart-container">
+                                <canvas id="revenueChart"></canvas>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Distribuição de Pagamentos</h3>
+                            <div class="chart-container">
+                                <canvas id="inadimplenciaChart"></canvas>
+                            </div>
+
+                            <h3 style="margin-top:20px;">Chamados por Categoria</h3>
+                            <div class="chart-container">
+                                <canvas id="chamadosChart"></canvas>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    currentData = pagamentosData;
+                    
+                    const ctxRevenue = document.getElementById('revenueChart').getContext('2d');
+                    new Chart(ctxRevenue, {
+                        type: 'line',
+                        data: {
+                            labels: labelsReceita,
+                            datasets: [{
+                                label: 'Receita Total',
+                                data: dataReceita,
+                                backgroundColor: 'rgba(0, 123, 255, 0.5)',
+                                borderColor: '#007bff',
+                                borderWidth: 2,
+                                tension: 0.4
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    });
+
+                    const ctxInadimplencia = document.getElementById('inadimplenciaChart').getContext('2d');
+                    new Chart(ctxInadimplencia, {
+                        type: 'pie',
+                        data: {
+                            labels: ['Em Dia', 'Atrasado'],
+                            datasets: [{
+                                data: [totalPagamentos - atrasos, atrasos],
+                                backgroundColor: ['#28a745', '#dc3545'],
+                            }]
+                        },
+                        options: { responsive: true },
+                    });
+                    
+                    const ctxChamados = document.getElementById('chamadosChart').getContext('2d');
+                    new Chart(ctxChamados, {
+                        type: 'bar',
+                        data: {
+                            labels: Object.keys(chamadosPorCategoria),
+                            datasets: [{
+                                label: 'Número de Chamados',
+                                data: Object.values(chamadosPorCategoria),
+                                backgroundColor: '#ffc107',
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    });
+                    break;
+                case 'analise-produtos':
+                    const valorAprovadoPorTipo = produtosData.reduce((acc, row) => {
+                        const tipo = row.tipo;
+                        acc[tipo] = (acc[tipo] || 0) + (row.valor_aprovado || 0);
+                        return acc;
+                    }, {});
+                    const labelsProdutos = Object.keys(valorAprovadoPorTipo);
+                    const dataProdutos = labelsProdutos.map(tipo => valorAprovadoPorTipo[tipo]);
+
+                    const contagemStatus = produtosData.reduce((acc, row) => {
+                        const status = row.status;
+                        acc[status] = (acc[status] || 0) + 1;
+                        return acc;
+                    }, {});
+
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Análise de Produtos</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Total de Produtos:</strong><br> ${produtosData.length}
+                                </div>
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Valor Médio Aprovado:</strong><br> R$ ${
+                                        (produtosData.reduce((sum, row) => sum + (row.valor_aprovado || 0), 0) / produtosData.length).toFixed(2)
+                                    }
+                                </div>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Valor Aprovado por Tipo de Produto</h3>
+                            <div class="chart-container">
+                                <canvas id="productValueChart"></canvas>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Produtos por Status</h3>
+                            <div class="chart-container">
+                                <canvas id="productStatusChart"></canvas>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    currentData = produtosData;
+
+                    const ctxProductValue = document.getElementById('productValueChart').getContext('2d');
+                    new Chart(ctxProductValue, {
+                        type: 'bar',
+                        data: {
+                            labels: labelsProdutos,
+                            datasets: [{
+                                label: 'Valor Aprovado',
+                                data: dataProdutos,
+                                backgroundColor: '#17a2b8',
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    });
+                    
+                    const ctxProductStatus = document.getElementById('productStatusChart').getContext('2d');
+                    new Chart(ctxProductStatus, {
+                        type: 'bar',
+                        data: {
+                            labels: Object.keys(contagemStatus),
+                            datasets: [{
+                                label: 'Quantidade',
+                                data: Object.values(contagemStatus),
+                                backgroundColor: ['#28a745', '#ffc107', '#dc3545'],
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    });
+                    break;
+                
+                case 'perfil-clientes':
+                    const clientesPorRegiao = clientesData.reduce((acc, row) => {
+                        const regiao = row.região;
+                        acc[regiao] = (acc[regiao] || 0) + 1;
+                        return acc;
+                    }, {});
+                    const labelsRegiao = Object.keys(clientesPorRegiao);
+                    const dataRegiao = labelsRegiao.map(regiao => clientesPorRegiao[regiao]);
+
+                    const canaisAquisicao = clientesData.reduce((acc, row) => {
+                        const canal = row.canal_aquisicao;
+                        acc[canal] = (acc[canal] || 0) + 1;
+                        return acc;
+                    }, {});
+
+                    content = `
+                        <div class="dashboard-content">
+                            <h2>Dashboard de Análise de Clientes</h2>
+                            <div class="kpis" style="display:flex; justify-content:space-around; text-align:center;">
+                                <div style="background-color:#f0f0f0; padding:20px; border-radius:8px;">
+                                    <strong>Total de Clientes:</strong><br> ${clientesData.length}
+                                </div>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Clientes por Região</h3>
+                            <div class="chart-container">
+                                <canvas id="clientesRegiaoChart"></canvas>
+                            </div>
+                            
+                            <h3 style="margin-top:20px;">Clientes por Canal de Aquisição</h3>
+                            <div class="chart-container">
+                                <canvas id="canaisAquisicaoChart"></canvas>
+                            </div>
+                        </div>
+                    `;
+                    dashboardDisplay.innerHTML = content;
+                    
+                    currentData = clientesData;
+
+                    const ctxClientesRegiao = document.getElementById('clientesRegiaoChart').getContext('2d');
+                    new Chart(ctxClientesRegiao, {
+                        type: 'bar',
+                        data: {
+                            labels: labelsRegiao,
+                            datasets: [{
+                                label: 'Quantidade de Clientes',
+                                data: dataRegiao,
+                                backgroundColor: '#ffc107',
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    });
+                    
+                    const ctxCanaisAquisicao = document.getElementById('canaisAquisicaoChart').getContext('2d');
+                    new Chart(ctxCanaisAquisicao, {
+                        type: 'bar',
+                        data: {
+                            labels: Object.keys(canaisAquisicao),
+                            datasets: [{
+                                label: 'Quantidade de Clientes',
+                                data: Object.values(canaisAquisicao),
+                                backgroundColor: ['#6c757d', '#17a2b8', '#28a745', '#dc3545'],
+                            }]
+                        },
+                        options: { responsive: true, scales: { y: { beginAtZero: true } } },
+                    });
+                    break;
+                default:
+                    dashboardDisplay.innerHTML = `<p>Dashboard não encontrado.</p>`;
+                    currentData = null;
+            }
+
+            if (currentData) {
+                showDataBtn.classList.add('visible');
+            } else {
+                showDataBtn.classList.remove('visible');
+            }
+        }, 500);
     }
 });
